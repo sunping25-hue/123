@@ -30,3 +30,7 @@
 @media(max-width:1000px){.shinox-visual-categories{grid-template-columns:repeat(2,minmax(0,1fr))}.shinox-category-visual:last-child{grid-column:span 2}.shinox-category-visual:last-child .shinox-category-image{max-height:280px}}
 @media(max-width:650px){.shinox-visual-categories{grid-template-columns:1fr}.shinox-category-visual:last-child{grid-column:auto}.shinox-category-visual{min-height:0}.shinox-category-image,.shinox-category-visual:last-child .shinox-category-image{max-height:none;aspect-ratio:1.75}.shinox-category-content{padding:21px}.shinox-category-content p{margin-bottom:15px}.product-item{min-height:140px;padding:18px}}
 @media(prefers-reduced-motion:reduce){.shinox-category-visual,.shinox-category-image img,.btn,.product-item,.head-contact{transition:none}.shinox-category-visual:hover,.product-item:hover,.btn:hover,.head-contact:hover{transform:none}}
+
+/* Owner category artwork: preserve whole equipment rather than clipping the top/bottom. */
+#products .shinox-category-image{aspect-ratio:8/5}
+#products .shinox-category-image img{object-fit:contain}
