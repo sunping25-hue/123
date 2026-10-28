@@ -1,0 +1,23 @@
+/* ShinoX business investment calculator links and entry gate */
+.calculator-section{margin-top:44px;padding:30px;background:linear-gradient(130deg,#ffffff0d,#0d39432b);border:1px solid #c8d7e633}
+.calculator-section h3{font-size:clamp(21px,2.2vw,29px);font-weight:550;margin:8px 0 12px}
+.calculator-section>p{color:var(--muted);font-size:14px;line-height:1.8}
+.calculator-buttons{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:22px}
+.calculator-link{display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;gap:12px;text-align:left;padding:24px 26px;min-height:152px;background:linear-gradient(145deg,#122b3b,#0a1a2b);border:1px solid #6e9aa177;color:var(--ink);transition:border-color .2s,transform .2s}
+.calculator-link:hover{border-color:var(--teal);transform:translateY(-2px)}
+.calculator-link small{font-size:11px;letter-spacing:.12em;color:var(--teal)}
+.calculator-link strong{font-size:clamp(17px,1.7vw,23px);font-weight:550}
+.calculator-link span{font-size:13px;color:#a1c5d1}
+.calculator-dialog{width:min(94vw,520px);padding:0;background:#0b2031;border:1px solid #2b7481;color:var(--ink);box-shadow:0 20px 80px #000b}
+.calculator-dialog::backdrop{background:#010912c9;backdrop-filter:blur(7px)}
+.calculator-dialog-panel{position:relative;padding:clamp(22px,4vw,38px);display:flex;flex-direction:column;gap:13px}
+.calculator-dialog h2{font-size:clamp(25px,3vw,34px);margin:0}
+.calculator-dialog-prompt{font-size:18px;color:#e8f4f7}
+.calculator-destination-label,.calculator-security-note{color:var(--muted);font-size:12px}
+.calculator-dialog label{font-size:13px}
+.calculator-dialog input{width:100%;background:#061424;color:white;padding:14px 16px;border:1px solid #739aa8;border-radius:2px}
+.calculator-dialog .calculator-error{color:#ffb6a4;font-size:13px;min-height:1em}
+.calculator-close{position:absolute;right:14px;top:10px;background:none;border:0;font-size:28px}
+.calculator-actions{display:flex;flex-wrap:wrap;gap:10px}
+.calculator-actions .btn{font-size:12px;padding:13px 16px}
+@media(max-width:650px){.calculator-buttons{grid-template-columns:1fr}}
