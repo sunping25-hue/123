@@ -12,3 +12,13 @@ body{padding-bottom:calc(148px + env(safe-area-inset-bottom,0px))}
 .video-control{bottom:calc(152px + env(safe-area-inset-bottom,0px))!important}
 @media(max-width:600px){.whatsapp-float,.line-float{right:calc(12px + env(safe-area-inset-right,0px));bottom:calc(12px + env(safe-area-inset-bottom,0px));width:172px;padding:11px 12px;min-height:54px;font-size:12px}.line-float{bottom:calc(74px + env(safe-area-inset-bottom,0px))}.video-control{left:7vw;right:auto;bottom:calc(88px + env(safe-area-inset-bottom,0px))!important;max-width:calc(100vw - 210px);white-space:normal}.scroll{bottom:32px}}
 @media(prefers-reduced-motion:reduce){.whatsapp-float,.line-float{transition:none}.whatsapp-float:hover,.line-float:hover,.whatsapp-float:active,.line-float:active{transform:none}}
+/* Green/silver icon prepared from the owner's WhatsApp reference; LINE remains independent. */
+.whatsapp-float{width:64px;height:64px;min-height:64px;padding:0;border:0;border-radius:50%;background:transparent;box-shadow:none;filter:drop-shadow(0 5px 7px #0009)}
+.whatsapp-float::after{display:none}
+.whatsapp-float .whatsapp-symbol{display:block;flex:0 0 64px;width:64px;height:64px;border:0;border-radius:0;background:none;box-shadow:none}
+.whatsapp-float .whatsapp-symbol::before{width:100%;height:100%;background:transparent url('lassets/contact/whatsapp-silver.png') center/contain no-repeat}
+.whatsapp-float>span:last-child{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.whatsapp-float:hover{box-shadow:none;filter:brightness(1.08) drop-shadow(0 7px 10px #000b)}
+.whatsapp-float:active{box-shadow:none}
+.line-float{bottom:calc(90px + env(safe-area-inset-bottom,0px))}
+@media(max-width:600px){.whatsapp-float{width:60px;height:60px;min-height:60px;padding:0}.whatsapp-float .whatsapp-symbol{flex-basis:60px;width:60px;height:60px}.line-float{bottom:calc(82px + env(safe-area-inset-bottom,0px))}}
