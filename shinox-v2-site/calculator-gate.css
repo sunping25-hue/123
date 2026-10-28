@@ -1,41 +1,4 @@
-/* ShinoX business investment calculator links and entry gate */
-.calculator-section{margin-top:44px;padding:30px;background:linear-gradient(130deg,#ffffff0d,#0d39432b);border:1px solid #c8d7e633}
-.calculator-section h3{font-size:clamp(21px,2.2vw,29px);font-weight:550;margin:8px 0 12px}
-.calculator-section>p{color:var(--muted);font-size:14px;line-height:1.8}
-.calculator-buttons{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:22px}
-.calculator-link{display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;gap:12px;text-align:left;padding:24px 26px;min-height:152px;background:linear-gradient(145deg,#122b3b,#0a1a2b);border:1px solid #6e9aa177;color:var(--ink);transition:border-color .2s,transform .2s}
-.calculator-link:hover{border-color:var(--teal);transform:translateY(-2px)}
-.calculator-link small{font-size:11px;letter-spacing:.12em;color:var(--teal)}
-.calculator-link strong{font-size:clamp(17px,1.7vw,23px);font-weight:550}
-.calculator-link span{font-size:13px;color:#a1c5d1}
-.calculator-dialog{width:min(94vw,520px);padding:0;background:#0b2031;border:1px solid #2b7481;color:var(--ink);box-shadow:0 20px 80px #000b}
-.calculator-dialog::backdrop{background:#010912c9;backdrop-filter:blur(7px)}
-.calculator-dialog-panel{position:relative;padding:clamp(22px,4vw,38px);display:flex;flex-direction:column;gap:13px}
-.calculator-dialog h2{font-size:clamp(25px,3vw,34px);margin:0}
-.calculator-dialog-prompt{font-size:18px;color:#e8f4f7}
-.calculator-destination-label,.calculator-security-note{color:var(--muted);font-size:12px}
-.calculator-dialog label{font-size:13px}
-.calculator-dialog input{width:100%;background:#061424;color:white;padding:14px 16px;border:1px solid #739aa8;border-radius:2px}
-.calculator-dialog .calculator-error{color:#ffb6a4;font-size:13px;min-height:1em}
-.calculator-close{position:absolute;right:14px;top:10px;background:none;border:0;font-size:28px}
-.calculator-actions{display:flex;flex-wrap:wrap;gap:10px}
-.calculator-actions .btn{font-size:12px;padding:13px 16px}
-@media(max-width:650px){.calculator-buttons{grid-template-columns:1fr}}
+.footer-calculators{display:flex;flex-direction:column;gap:12px;flex:1 0 100%;width:100%;padding-top:18px;margin-top:18px;border-top:1px solid #ffffff24;color:#d7e9ef}.footer-calculators-label{font-size:12px;letter-spacing:.09em;color:#90c2cb}.footer-calculators-buttons{display:flex;flex-wrap:wrap;gap:10px}.footer-calculators-buttons a{display:inline-flex;padding:12px 17px;border:1px solid #64a5ac;color:#d7f2ed;background:#0e2c3a;font-size:13px}.footer-calculators-buttons a:hover{background:#124c59;border-color:#17ddc7}
+.calculator-dialog{width:min(92vw,490px);max-height:90vh;overflow:auto;border:1px solid #438c95;background:#091d2d;color:#f3f8fa;padding:0;box-shadow:0 25px 85px #000c}.calculator-dialog::backdrop{background:#020812bf;backdrop-filter:blur(5px)}.calculator-dialog-panel{padding:clamp(22px,4vw,36px);display:flex;flex-direction:column;gap:12px;position:relative}.calculator-dialog-panel h2{font-size:clamp(21px,3vw,29px);line-height:1.5;margin:0;color:white}.calculator-eyebrow{font-size:11px;color:#17ddc7;letter-spacing:.15em}.calculator-destination-label{color:#b0c6cf;font-size:14px}.calculator-dialog-panel label{font-size:13px}.calculator-dialog-panel input{padding:13px 14px;color:white;background:#031322;border:1px solid #7298a4}.calculator-error{color:#ffb7ad;font-size:13px;min-height:16px}.calculator-submit{padding:14px 18px;background:#17ddc7;color:#062331;border:0;font-weight:bold}.calculator-close{position:absolute;right:14px;top:12px;border:0;background:transparent;font-size:28px;color:white}.calculator-contact{font-size:13px;color:#79e9dd}.calculator-dialog-panel small{font-size:11px;color:#819ca9}
 
-/* Entrance popup: two calculator shortcuts, visible only once per tab */
-.calculator-welcome{width:min(93vw,710px);max-height:min(88svh,850px);overflow:auto;padding:0;background:#091b2d;color:#f0f6fa;border:1px solid #5a91a0;box-shadow:0 25px 90px #000c}
-.calculator-welcome::backdrop{background:#010713c4;backdrop-filter:blur(6px)}
-.calculator-welcome-content{position:relative;padding:clamp(24px,4vw,42px)}
-.calculator-welcome h2{margin:10px 0 12px;font-size:clamp(25px,3.2vw,38px);line-height:1.35}
-.calculator-welcome-content>p:not(.eyebrow){font-size:14px;color:#bbd0db;line-height:1.8}
-.calculator-welcome-close{position:absolute;top:12px;right:18px;background:none;border:0;font-size:30px;line-height:1;color:#d7eaf1}
-.calculator-welcome-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:24px 0}
-.calculator-welcome-links a{min-height:136px;display:flex;flex-direction:column;justify-content:space-between;gap:18px;padding:24px;background:linear-gradient(125deg,#0d3045,#071827);border:1px solid #447482}
-.calculator-welcome-links a:hover{border-color:#17ddc7;background:#154153}
-.calculator-welcome-links small{letter-spacing:.08em;font-size:10px;color:#17ddc7}
-.calculator-welcome-links strong{font-size:18px;font-weight:550}
-.calculator-welcome-bottom{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}
-.calculator-welcome-bottom a{color:#86e9d8;font-size:14px}
-.calculator-welcome-later{border:1px solid #658695;padding:10px 17px;background:transparent;color:white;font-size:13px}
-.calculator-welcome-disclaimer{display:block;margin-top:25px;font-size:11px;color:#8aaab9}
-@media(max-width:610px){.calculator-welcome-links{grid-template-columns:1fr}.calculator-welcome-links a{min-height:95px;padding:17px}}
+.campaign-popup{padding:0;border:1px solid #72919b;background:#0a1e2b;color:#edf7f9;width:min(92vw,620px);max-height:90vh;overflow:auto;box-shadow:0 25px 85px #000b}.campaign-popup::backdrop{background:#020a16bf;backdrop-filter:blur(5px)}.campaign-popup-inner{padding:22px;position:relative;display:flex;flex-direction:column;gap:14px}.campaign-popup-close{position:absolute;right:8px;top:4px;border:0;background:#061827d9;border-radius:50%;width:39px;height:39px;font-size:26px;color:white}.campaign-popup img{display:block;width:100%;height:auto;max-height:48vh;object-fit:contain}.campaign-popup h2{font-size:clamp(22px,3vw,30px);margin:0}.campaign-popup p{font-size:14px;color:#c3d4dd}.campaign-popup-cta{align-self:flex-start;padding:13px 24px;background:#17ddc7;color:#062331;font-weight:bold;font-size:14px}
