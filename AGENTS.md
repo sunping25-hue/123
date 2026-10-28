@@ -91,3 +91,9 @@ Actual target:
 - The storyboards contain *fictional data*, e.g. stats, news dates, facilities, fake product renders; never render as actual company claims. The five-elements row depicted has WATER/METAL/WOOD/FIRE/EARTH; this is WRONG; approved ShinoX technological elements are METAL / ENERGY / AIR / WATER / FLUID.
 - Screenshot image attachments above have not necessarily been mounted in Codex runtime or pushed to GitHub. Do NOT pretend they were included as files if not accessible. Request/attach actual files through supported file-transfer workflow. Until present, implement based on this mapping but **do not claim visual-fidelity approval**.
 - Deliver actual desktop 1440px and mobile 390px screenshots side-by-side for each of seven pages; compare visible image regions, CTA styling, gaps and headings to owner-approved boards; revise based on comparison.
+
+
+## Asset-by-asset production handoff (owner-approved)
+Read `docs/SHINOX_VISUAL_ASSET_TRACKER.json` before selecting or adding any artwork. Each asset has an ID, page, section, exact destination filename, dimensions and status.
+Only use real image bytes after they are uploaded to the repository and marked approved. The first candidate `ELEM-01` is generated in the ChatGPT conversation as `SHINOX_ELEM_01_METAL_CONCEPT.webp`, but **not yet committed to GitHub**; never claim it is installed or published.
+Handoff sequence: generate ONE standalone CGI with no website UI/text -> inspect for correctness -> save with exact filename -> put image in prescribed `shinox-v2-site/lassets/` path -> update markup/CSS with true image path and alt -> check desktop/mobile -> record SHA/status in manifest -> next asset. Do not copy image boards as product pictures.
