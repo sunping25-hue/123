@@ -12,4 +12,4 @@ The owner supplied five MP4 clips, replacing the old five-element still illustra
 
 Web copies are H.264 720×720, 24fps, no audio, faststart; source hashes are saved in lassets/elements/USER_VIDEO_MANIFEST.json. Matching WebP posters replace the old images.
 
-Only the selected visible element automatically plays. Hidden, offscreen and background-tab clips pause. Each clip has a pause/play button; reduced-motion or data-saver users see the new poster without automatic video downloads and can explicitly play it.
+Only the selected visible element automatically plays. Hidden, offscreen and background-tab clips pause. By owner request the caption and pause/play buttons are removed. Reduced-motion or data-saver users see the new poster without automatic video downloads. A lighten blend removes the darker video matte into the section background (#0a1b2a).
