@@ -52,8 +52,12 @@
       "section": "大圖主視覺",
       "filename": "lassets/about/about-architecture.webp",
       "size": "1920x1080",
-      "status": "queued",
-      "notes": "Architectural CGI concept only, not fake office"
+      "status": "approved by owner in chat; original AI conceptual architecture image installed",
+      "notes": "Architectural CGI concept only, not fake office",
+      "sha256": "18d3b94f97288700b4acd0562c4ddd723083d46880f9eb8e34f3bca65bc8dc6c",
+      "bytes": 296060,
+      "source": "exec-01d4a084-4823-4d3f-93c5-04214a67d4d9.png",
+      "approved_at": "2026-10-29"
     },
     {
       "id": "HOME-01",
