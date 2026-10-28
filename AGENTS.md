@@ -14,3 +14,12 @@ Before any work, read `docs/SHINOX_V2_MASTER_PLAN.md` fully. That document is th
 Implementation order: verify assets and existing code; finish Hero; five-elements interactive display; product hub and details; company/entrepreneurship/news/cases/contact; real lead conversion and reservation backend; multilingual and SEO; QA and deployment.
 
 Planning Sheet: https://docs.google.com/spreadsheets/d/1OQnL9o2kBJB9Nz5WMijnB-LU818IIajJMCm401JlJ04/edit
+
+## Landing-page visual asset rules (new)
+- **All non-Hero landing-page gallery visuals, illustrations and other relevant visual assets belong in `lassets/`.** Read `lassets/README.md` before image creation or implementation.
+- Replace non-Hero imagery with original AI-generated illustrations matching each section's meaning and ShinoX's approved deep-navy / electric-blue / cyan / teal / titanium-silver cinematic CGI direction.
+- **Hero exclusion**: keep the user-approved Hero MP4, poster and official ShinoX logos intact; never replace or regenerate these under this asset task.
+- The current landing page has no existing non-Hero image gallery yet. Add deliberate section images as part of redesign; do not falsely claim replacement of images that never existed.
+- Product/device CGI must faithfully follow approved reference photos, not invented mechanical shapes. No synthetic project photos presented as real case studies.
+- Commit generated optimized assets and their actual usage together; verify all image paths resolve, add descriptive alt text and lazy loading for below-fold artwork.
+- If executing in Codex Plan mode, review the asset inventory and provide an implementation plan before making changes.
