@@ -23,3 +23,6 @@ header.addEventListener('focusout', event => {
   if (!header.contains(event.relatedTarget)) closeMenu();
 });
 matchMedia('(min-width: 1121px)').addEventListener('change', closeMenu);
+
+// Product details also include the same footer calculator shortcuts.
+(()=>{const style=document.createElement('link');style.rel='stylesheet';style.href='../calculator-gate.css';document.head.append(style);const script=document.createElement('script');script.src='../calculator-gate.js';script.defer=true;document.body.append(script)})();
