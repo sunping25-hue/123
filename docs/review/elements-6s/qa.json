@@ -1,0 +1,116 @@
+[
+  {
+    "width": 1440,
+    "sequence": [
+      "tab-energy",
+      "tab-air",
+      "tab-water",
+      "tab-fluid",
+      "tab-metal"
+    ],
+    "manualReset": true,
+    "offscreenPause": true,
+    "reducedMotionPause": true,
+    "keyboardPause": true,
+    "state": {
+      "selected": 1,
+      "visiblePanels": 1,
+      "media": [
+        {
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "selected": false,
+          "paused": true
+        },
+        {
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "selected": false,
+          "paused": true
+        },
+        {
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "selected": false,
+          "paused": true
+        },
+        {
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "selected": true,
+          "paused": false
+        },
+        {
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "selected": false,
+          "paused": true
+        }
+      ],
+      "overflow": false
+    },
+    "errors": []
+  },
+  {
+    "width": 390,
+    "sequence": [
+      "tab-energy",
+      "tab-air",
+      "tab-water",
+      "tab-fluid",
+      "tab-metal"
+    ],
+    "manualReset": true,
+    "offscreenPause": true,
+    "reducedMotionPause": true,
+    "keyboardPause": true,
+    "state": {
+      "selected": 1,
+      "visiblePanels": 1,
+      "media": [
+        {
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "selected": false,
+          "paused": true
+        },
+        {
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "selected": false,
+          "paused": true
+        },
+        {
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "selected": false,
+          "paused": true
+        },
+        {
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "selected": true,
+          "paused": false
+        },
+        {
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "selected": false,
+          "paused": true
+        }
+      ],
+      "overflow": false
+    },
+    "errors": []
+  }
+]
