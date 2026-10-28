@@ -1,14 +1,89 @@
 {
-  "purpose": "Original AI-generated conceptual CGI illustrations for ShinoX five-element display. These are not product photographs, equipment models or verified project imagery.",
-  "generated_at": "2026-10-28",
-  "source": "OpenAI image generation; original contact sheet retained in workspace generated_images",
+  "purpose": "User-uploaded five-element animations and their matching poster frames. Conceptual visuals, not actual equipment.",
+  "updated_at": "2026-10-29",
+  "source": "User-provided MP4 files, mapped by visual review. Source filenames and hashes recorded in elements/USER_VIDEO_MANIFEST.json.",
   "hero_modified": false,
   "assets": [
-    {"path": "elements/metal.webp", "width": 432, "height": 724, "alt": "鈦銀金屬摺帶交錯的抽象科技概念圖", "bytes": 29794},
-    {"path": "elements/energy.webp", "width": 432, "height": 724, "alt": "電光藍能量光束環繞玻璃球的抽象概念圖", "bytes": 45108},
-    {"path": "elements/air.webp", "width": 432, "height": 724, "alt": "冰藍霧化氣流盤旋上升的抽象概念圖", "bytes": 53004},
-    {"path": "elements/water.webp", "width": 432, "height": 724, "alt": "透明水流與水滴凝結成弧形的概念圖", "bytes": 59714},
-    {"path": "elements/fluid.webp", "width": 432, "height": 724, "alt": "青綠高黏度流體緞帶交疊的抽象概念圖", "bytes": 39816}
+    {
+      "path": "elements/metal.mp4",
+      "type": "video",
+      "element": "metal",
+      "width": 720,
+      "height": 720,
+      "bytes": 1326389
+    },
+    {
+      "path": "elements/metal.webp",
+      "type": "poster",
+      "element": "metal",
+      "width": 720,
+      "height": 720,
+      "bytes": 61294
+    },
+    {
+      "path": "elements/water.mp4",
+      "type": "video",
+      "element": "water",
+      "width": 720,
+      "height": 720,
+      "bytes": 3878283
+    },
+    {
+      "path": "elements/water.webp",
+      "type": "poster",
+      "element": "water",
+      "width": 720,
+      "height": 720,
+      "bytes": 94542
+    },
+    {
+      "path": "elements/fluid.mp4",
+      "type": "video",
+      "element": "fluid",
+      "width": 720,
+      "height": 720,
+      "bytes": 1326170
+    },
+    {
+      "path": "elements/fluid.webp",
+      "type": "poster",
+      "element": "fluid",
+      "width": 720,
+      "height": 720,
+      "bytes": 69866
+    },
+    {
+      "path": "elements/air.mp4",
+      "type": "video",
+      "element": "air",
+      "width": 720,
+      "height": 720,
+      "bytes": 990848
+    },
+    {
+      "path": "elements/air.webp",
+      "type": "poster",
+      "element": "air",
+      "width": 720,
+      "height": 720,
+      "bytes": 50638
+    },
+    {
+      "path": "elements/energy.mp4",
+      "type": "video",
+      "element": "energy",
+      "width": 720,
+      "height": 720,
+      "bytes": 1579580
+    },
+    {
+      "path": "elements/energy.webp",
+      "type": "poster",
+      "element": "energy",
+      "width": 720,
+      "height": 720,
+      "bytes": 81834
+    }
   ],
-  "display_guidance": "Use width and height attributes and loading=lazy below fold. Preserve portrait composition; no generated art replaces approved Hero MP4, poster, or logos. Label visuals as CGI concept illustrations, not real equipment or completed cases."
+  "display_guidance": "Square 720px clips. Load only selected visible clip; mute, loop and playsinline. Reduced-motion/data-saving use matching poster with manual play control."
 }

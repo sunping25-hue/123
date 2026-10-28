@@ -33,7 +33,7 @@ async def review(origin, output):
                 if language == 'zh':
                     for key in ['metal', 'energy', 'air', 'water', 'fluid']:
                         await page.locator('#tab-' + key).click()
-                        await page.wait_for_function('(key)=>{const i=document.querySelector("#panel-"+key+" img");return i.complete&&i.naturalWidth>0}', arg=key)
+                        await page.wait_for_function('(key)=>{const v=document.querySelector("#panel-"+key+" video");return v&&v.readyState>=2&&!v.error}', arg=key)
                     await page.locator('#tab-metal').click()
                     await page.locator('#tab-metal').press('End')
                     assert await page.locator('#panel-fluid').is_visible()
