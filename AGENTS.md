@@ -52,3 +52,12 @@ The user explicitly noted that earlier page mockups underused **teal-green and t
 - Maintain unified typography, spacing, geometry and brand identity **without** making every illustration look like the same CGI scene.
 - Before generating, write a shot list describing for each image: purpose, unique subject, dominant color/material, brightness, lighting, composition, amount of water (none/subtle/intense), and page placement. Check contact sheet for repetition; reject duplicate water-splash motifs.
 - Images are content assets, not finished website screenshots. Don't fabricate site metrics, news headlines, real-world case studies or exact brand/product shapes.
+
+
+## Approved seven-page visual reference (latest owner decision)
+The latest owner-approved board is the **seven-page dark-navy ShinoX storyboard** shown in the ChatGPT conversation (2026-10-29) with panels: Home, About ShinoX, News, Products, Business Solutions, Projects, Contact. The board uses deep navy/black base, rich electric-blue and teal accents, real-looking titanium hardware, crisp card grids, dark cinematic art direction and restrained water splashes. This board supersedes later off-white/light-themed redesigns. Use this as the **layout/art-direction target**, not as evidence of real buildings, product shapes, company metrics, news, launch dates or customer projects.
+- Home Hero: preserve latest user-approved real MP4 and official logo; no regeneration.
+- Other page artwork: produce separate authentic image assets, not screenshots cut from the collage. Place files in lassets; ensure appropriate variation in intensity so all images aren't splash-heavy.
+- Five elements must be Metal, Energy, Air, Water, Fluid (NOT classical Water/Metal/Wood/Fire/Earth as shown on the inspiration board).
+- All example performance statistics, projects, article dates, and equipment renders in the inspiration board are conceptual and require verified material before publication.
+- Implementation acceptance: real images loaded from lassets, desktop/mobile preview screenshots, no broken assets, deployment preview URL, successful QA. Never mark complete based on screenshot mockups or merely pushing docs.
