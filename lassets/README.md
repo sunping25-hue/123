@@ -34,4 +34,3 @@
 7. **Hero 首屏例外**：不替換 `media/shinox-hero.mp4`、`media/shinox-poster.jpg` 或品牌 LOGO；它們由使用者提供，另行整合。
 
 設計/功能依據：`docs/SHINOX_V2_MASTER_PLAN.md`。
-
