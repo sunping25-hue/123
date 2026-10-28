@@ -1,23 +1,26 @@
-'use strict';
+/* Monthly advertisements are independent of calculator login. */
 (()=>{
- const c=window.SHINOX_CAMPAIGN;
- if(!c?.enabled||!c.title||!c.image)return;
- const now=new Date();if(c.startDate&&now<new Date(c.startDate))return;
- if(c.endDate&&now>new Date(c.endDate))return;
+ const c=window.SHINOX_CAMPAIGN;if(!c?.enabled||!c.title||!c.image)return;
+ const today=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Taipei',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+ if(c.startDate&&today<c.startDate||c.endDate&&today>c.endDate)return;
  const key='shinox-campaign-seen-'+(c.id||'default');
- try{if(sessionStorage.getItem(key)==='1')return}catch(_){}
- const dialog=document.createElement('dialog');dialog.className='campaign-popup';dialog.setAttribute('aria-label',c.title);
+ try{if(c.frequency!=='always'&&sessionStorage.getItem(key)==='1')return}catch(_){}
+ function safeUrl(value){try{const u=new URL(value,location.href);return ['https:','http:'].includes(u.protocol)?u.href:null}catch(_){return null}}
+ const image=safeUrl(c.image);if(!image)return;
+ const dialog=document.createElement('dialog');dialog.className='campaign-popup';dialog.setAttribute('aria-labelledby','campaign-title');
  const inner=document.createElement('div');inner.className='campaign-popup-inner';
- const close=document.createElement('button');close.type='button';close.className='campaign-popup-close';close.setAttribute('aria-label','關閉本月活動');close.textContent='×';
- const heading=document.createElement('h2');heading.textContent=c.title;
+ const close=document.createElement('button');close.type='button';close.className='campaign-popup-close';close.setAttribute('aria-label','關閉活動視窗');close.textContent='×';
+ const heading=document.createElement('h2');heading.id='campaign-title';heading.textContent=c.title;
  const desc=document.createElement('p');desc.textContent=c.description||'';
- const img=document.createElement('img');img.src=c.image;img.alt=c.imageAlt||c.title;img.loading='eager';
+ const img=document.createElement('img');img.src=image;img.alt=c.imageAlt||c.title;img.width=1920;img.height=1094;
  inner.append(close,img,heading,desc);
- if(c.ctaUrl&&/^https?:\/\//i.test(c.ctaUrl)){const a=document.createElement('a');a.className='campaign-popup-cta';a.href=c.ctaUrl;a.textContent=c.ctaText||'了解活動';a.rel='noopener noreferrer';inner.append(a)}
- dialog.append(inner);document.body.append(dialog);
- function dismiss(){if(dialog.open)dialog.close();try{sessionStorage.setItem(key,'1')}catch(_){}}
- close.addEventListener('click',dismiss);
- dialog.addEventListener('cancel',()=>{try{sessionStorage.setItem(key,'1')}catch(_){}});
- dialog.addEventListener('click',e=>{if(e.target===dialog)dismiss()});
- window.addEventListener('load',()=>dialog.showModal(),{once:true});
+ const cta=safeUrl(c.ctaUrl);if(cta){const a=document.createElement('a');a.className='campaign-popup-cta';a.href=cta;a.textContent=c.ctaText||'了解活動';inner.append(a)}
+ const later=document.createElement('button');later.type='button';later.className='campaign-popup-later';later.textContent='稍後再看';inner.append(later);
+ dialog.append(inner);document.body.append(dialog);let previous=null;
+ function dismiss(){dialog.close();if(previous?.isConnected)previous.focus()}
+ close.addEventListener('click',dismiss);later.addEventListener('click',dismiss);dialog.addEventListener('click',e=>{if(e.target===dialog)dismiss()});
+ dialog.addEventListener('cancel',()=>{if(previous?.isConnected)setTimeout(()=>previous.focus(),0)});
+ function show(){if(document.hidden){document.addEventListener('visibilitychange',()=>{if(!document.hidden)show()},{once:true});return}if(dialog.open)return;previous=document.activeElement;dialog.showModal();close.focus();try{sessionStorage.setItem(key,'1')}catch(_){}}
+ // Do not wait for video downloads or window.load before showing the entrance ad.
+ requestAnimationFrame(show);
 })();

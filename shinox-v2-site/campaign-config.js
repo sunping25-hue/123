@@ -1,16 +1,14 @@
-/* 每月活動配置：沒有確認活動時請保持 enabled:false。
-   變更此檔的標題、圖檔與連結即可更新進站廣告，不影響頁尾試算工具。
-   圖片放在 lassets/campaigns/，請先確認授權、內容真實和頁面連結。 */
+/* Homepage brand introduction. Replace copy/art/date range only with approved campaigns. */
 window.SHINOX_CAMPAIGN={
- enabled:false,
- id:'monthly-campaign',
- title:'',
- description:'',
- image:'',
- imageAlt:'',
- ctaText:'',
- ctaUrl:'',
+ enabled:true,
+ id:'shinox-brand-introduction-v1',
+ title:'打造你的下一座洗車場',
+ description:'探索自助洗車設備、洗車設備與場地規劃。從你的需求開始，與 ShinoX 團隊討論合適方案。',
+ image:'media/shinox-poster.jpg',
+ imageAlt:'ShinoX 核准的渦輪水流品牌視覺',
+ ctaText:'聯絡專業團隊',
+ ctaUrl:'contact.html',
  startDate:'',
  endDate:'',
- frequency:'session' // session: 每個分頁工作階段只展示一次
+ frequency:'session'
 };
