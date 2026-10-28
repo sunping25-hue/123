@@ -50,14 +50,15 @@
       "id": "ABOUT-01",
       "page": "品牌介紹",
       "section": "大圖主視覺",
-      "filename": "lassets/about/about-architecture.webp",
-      "size": "1920x1080",
-      "status": "approved by owner in chat; original AI conceptual architecture image installed",
+      "filename": "lassets/about/hero-building.webp",
+      "size": "1920x1200",
+      "status": "owner-approved in conversation",
       "notes": "Architectural CGI concept only, not fake office",
-      "sha256": "18d3b94f97288700b4acd0562c4ddd723083d46880f9eb8e34f3bca65bc8dc6c",
+      "sha256": "b12576842db900df5075996b512e9fb9cfaf17c37fcaac35dadfc6c147397959",
       "bytes": 296060,
       "source": "exec-01d4a084-4823-4d3f-93c5-04214a67d4d9.png",
-      "approved_at": "2026-10-29"
+      "approved_at": "2026-10-29",
+      "production_map_id": "A01"
     },
     {
       "id": "HOME-01",
@@ -119,10 +120,12 @@
       "id": "BIZ-01",
       "page": "事業方案",
       "section": "洗車場規劃",
-      "filename": "lassets/business/carwash-architecture.webp",
+      "filename": "lassets/business/hero-carwash.webp",
       "size": "1920x1080",
-      "status": "queued",
-      "notes": "Concept, not actual client case"
+      "status": "owner-approved in conversation",
+      "notes": "Concept, not actual client case",
+      "production_map_id": "B01",
+      "sha256": "f31fefbfa425bb2992ad2e69f21cd99a2cc147c5df7d97083d73451e9ed4476a"
     },
     {
       "id": "NEWS-01",
