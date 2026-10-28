@@ -74,3 +74,20 @@ The owner clarified that **these are independent features**:
 1. **Investment calculators:** two persistent links in the **site footer** (across homepage, key pages and product detail pages). Only when a visitor clicks a calculator link does the password dialog appear with exactly 「請聯絡業務索取密碼登入」, then send authenticated visitors to the selected tool. NEVER auto-show a calculator-login modal upon site entry. URLs: https://shinox.ai.studio and https://service-carwasher-360.ai.studio. Front-end hash check is not secure access control; protect destination sites server-side if actual gating is needed.
 2. **Monthly campaign entrance popup:** a separately configurable advertisement dialog for actual promotional campaigns (e.g. current month's offer), NOT the calculator. Control from `shinox-v2-site/campaign-config.js`, with `enabled:false` by default to avoid inventing an offer. The site popup can show campaign image, copy, CTA, date range, and once-per-session dismissal. Only enable once a genuine approved campaign is entered.
 Implementation: shared footer links and password dialog in `shinox-v2-site/calculator-gate.js` and CSS; loaded by site.js and products/products.js. Monthly campaign popup logic: `campaign-popup.js` and `campaign-config.js` on homepage. Verify deployed site; commits alone are not production deployment.
+
+
+## FINAL OWNER-VISUAL APPROVAL — two uploaded storyboard images (2026-10-29)
+User has re-uploaded TWO real reference images in the ChatGPT discussion:
+1. `ShinoX 科技洗車品牌網站設計板(1).png` — seven independent 01–07 page mockups across top, plus technology/product/business/contact module thumbnails below. This is the section arrangement and art asset coverage reference.
+2. `ShinoX 科技洗車網站概念拼貼(1).png` — wide seven-page overview (Home / About ShinoX / News / Products / Business / Projects / Contact). This is the page proportions, graphical style, cards, button treatments and consistent brand atmosphere reference.
+**These two user-uploaded images supersede every other generated concept image, including the unrelated industrial water-jet/manufacturing storyboard. DO NOT use any new alternative storyboard as source.**
+
+Actual target:
+- Seven-page layout, deep navy (#061322), polished cyan-blue and teal accent, titanium silver equipment materials, cinematic premium dark website.
+- As pictured: strong opening Hero; About building composition; News hero + 3-card editorial grid; Products 2x2 equipment card layout with real image cards + horizontal mini cards; Business architectural canopy + process/features + 5–20 bay planning; Projects documented photo gallery; Contact split left contact icons and right sleek form with banner image.
+- Buttons MUST be designed, not plain text links: outline turquoise pill buttons, solid turquoise gradient primary CTA, tab chips, corner arrows, hover and focus states; show obvious CTA on each card.
+- Add strong PHOTO/CGI block to the product card areas. Existing product grid consists of too many text-only boxes and MUST be redesigned with actual image regions and respectful placeholders when product identity isn't approved.
+- Different visual intensities by page and section; no meaningless repeated water splashes. Hero remains user-provided MP4.
+- The storyboards contain *fictional data*, e.g. stats, news dates, facilities, fake product renders; never render as actual company claims. The five-elements row depicted has WATER/METAL/WOOD/FIRE/EARTH; this is WRONG; approved ShinoX technological elements are METAL / ENERGY / AIR / WATER / FLUID.
+- Screenshot image attachments above have not necessarily been mounted in Codex runtime or pushed to GitHub. Do NOT pretend they were included as files if not accessible. Request/attach actual files through supported file-transfer workflow. Until present, implement based on this mapping but **do not claim visual-fidelity approval**.
+- Deliver actual desktop 1440px and mobile 390px screenshots side-by-side for each of seven pages; compare visible image regions, CTA styling, gaps and headings to owner-approved boards; revise based on comparison.
