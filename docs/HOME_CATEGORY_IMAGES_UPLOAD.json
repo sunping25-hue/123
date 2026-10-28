@@ -1,0 +1,53 @@
+[
+  {
+    "id": "H06",
+    "production_map_id": "H06",
+    "page": "首頁",
+    "section": "三大產品分類卡片",
+    "filename": "lassets/home/category-self-service.webp",
+    "size": "1280x800",
+    "source": "export (1).zip / ShinoX 九合一控制箱 CGI 形象圖 修正版.jpg",
+    "sourceSize": [
+      1585,
+      992
+    ],
+    "sourceSha256": "3b9ea1949b909edbe1e0c243f4317c8036e7b5cab7d71d8e8aad06d11932aaf3",
+    "sha256": "fa016b451cba610b4ca9e1c7bd184b048a27338a4efdaf35a7b78e6076fb3269",
+    "bytes": 172698,
+    "status": "Owner supplied CGI and explicitly requested for homepage category cards; do not describe as actual equipment photographs or verified specifications."
+  },
+  {
+    "id": "H07",
+    "production_map_id": "H07",
+    "page": "首頁",
+    "section": "三大產品分類卡片",
+    "filename": "lassets/home/category-automatic.webp",
+    "size": "1280x800",
+    "source": "export (1).zip / ShinoX M9 自動水刀洗車機 CGI 形象圖.jpg",
+    "sourceSize": [
+      1280,
+      800
+    ],
+    "sourceSha256": "b434c5c73ff8469e13e2fa954c8e0c799370d437b91fe1e91e0dcf10ff9fe6a5",
+    "sha256": "452363db7fa2526675318831bd67b2e0d407646607d2ba864726c76d5578f874",
+    "bytes": 310092,
+    "status": "Owner supplied CGI and explicitly requested for homepage category cards; do not describe as actual equipment photographs or verified specifications."
+  },
+  {
+    "id": "H08",
+    "production_map_id": "H08",
+    "page": "首頁",
+    "section": "三大產品分類卡片",
+    "filename": "lassets/home/category-accessories.webp",
+    "size": "1280x800",
+    "source": "export (1).zip / category-accessories 英文字版.jpg",
+    "sourceSize": [
+      1586,
+      992
+    ],
+    "sourceSha256": "8f4fb5652509ca469d8f57e6659603e4620fa24f3fef738d6c39e03a07e579a8",
+    "sha256": "1182aff34c60df928b66d3e9fed6ffe7a2b63f3ea63c5982f0f3b6fba3656b6a",
+    "bytes": 157990,
+    "status": "Owner supplied CGI and explicitly requested for homepage category cards; do not describe as actual equipment photographs or verified specifications."
+  }
+]
