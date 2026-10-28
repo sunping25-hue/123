@@ -1,39 +1,49 @@
 'use strict';
-/**
- * ShinoX calculator link gate.
- * IMPORTANT: This is only a client-side convenience check, NOT access control.
- * The destination tools themselves must enforce server-side authentication if protected data exists.
- */
-(()=> {
- const links=[...document.querySelectorAll('[data-calculator-url]')];
- if(!links.length)return;
- const allowed=new Set(['https://shinox.ai.studio','https://service-carwasher-360.ai.studio']);
- const sha256='6f47ec7e8dc1ee807d732e52523f39809208d0997eb943fa9ac733e9cfa5693b';
- const modal=document.createElement('dialog');
- modal.className='calculator-dialog';
- modal.setAttribute('aria-labelledby','calculator-dialog-title');
- modal.innerHTML='<form method="dialog" class="calculator-dialog-panel"><button type="button" class="calculator-close" aria-label="關閉登入視窗">×</button><p class="eyebrow">SHINOX / INVESTMENT CALCULATOR</p><h2 id="calculator-dialog-title">試算工具登入</h2><p class="calculator-dialog-prompt">請聯絡業務索取密碼登入</p><p id="calculator-destination-label" class="calculator-destination-label"></p><label for="calculator-password">登入密碼</label><input id="calculator-password" type="password" required autocomplete="off" placeholder="請輸入密碼" /><p class="calculator-error" role="alert" aria-live="polite"></p><div class="calculator-actions"><button type="submit" class="btn primary">登入並開啟試算 ↗</button><a href="contact.html" class="btn">聯絡業務索取密碼</a></div><p class="calculator-security-note">此為網站入口驗證，試算資料的存取權限由試算網站本身管理。</p></form>';
- document.body.append(modal);
- const close=modal.querySelector('.calculator-close'),form=modal.querySelector('form'),password=modal.querySelector('input'),error=modal.querySelector('.calculator-error'),destination=modal.querySelector('.calculator-destination-label');
- let current='';
- function hide(){modal.close();password.value='';error.textContent=''}
- close.addEventListener('click',hide);
- modal.addEventListener('click',e=>{if(e.target===modal)hide()});
- links.forEach(link=>link.addEventListener('click',e=>{
-  e.preventDefault();const target=link.dataset.calculatorUrl;
-  if(!allowed.has(target))return;
-  current=target;destination.textContent=link.dataset.calculatorTitle||'投資獲利試算';
-  error.textContent='';password.value='';
-  modal.showModal();password.focus();
- }));
+/* Footer calculator links are visible sitewide. Client-side password prompt is a
+   marketing gate only; destination sites need their own server-side access control. */
+(()=>{
+ if(document.documentElement.dataset.shinoxCalcLoaded)return;
+ document.documentElement.dataset.shinoxCalcLoaded='1';
+ const base=location.pathname.includes('/products/')?'../':'';
+ const allowed=[
+  {name:'自助洗車場投資獲利試算',url:'https://shinox.ai.studio'},
+  {name:'水刀洗車店投資獲利試算',url:'https://service-carwasher-360.ai.studio'}
+ ];
+ const footer=document.querySelector('footer');
+ if(!footer)return;
+ const block=document.createElement('div');
+ block.className='footer-calculators';
+ block.innerHTML='<div class="footer-calculators-label">投資獲利試算工具</div><div class="footer-calculators-buttons"></div>';
+ const group=block.querySelector('.footer-calculators-buttons');
+ allowed.forEach(item=>{
+   const a=document.createElement('a');a.href=item.url;a.textContent=item.name+' ↗';
+   a.dataset.calculatorUrl=item.url;a.dataset.calculatorTitle=item.name;group.append(a);
+ });
+ footer.append(block);
+ const dialog=document.createElement('dialog');
+ dialog.className='calculator-dialog';
+ dialog.innerHTML='<form class="calculator-dialog-panel"><button type="button" class="calculator-close" aria-label="關閉">×</button><p class="calculator-eyebrow">SHINOX / INVESTMENT TOOLS</p><h2>請聯絡業務索取密碼登入</h2><p class="calculator-destination-label"></p><label for="calculator-password">登入密碼</label><input id="calculator-password" type="password" required autocomplete="off" placeholder="請輸入密碼"/><p role="alert" aria-live="polite" class="calculator-error"></p><button type="submit" class="calculator-submit">確認登入 ↗</button><a class="calculator-contact" href="'+base+'contact.html">聯絡業務索取密碼 ↗</a><small>此為網站入口驗證，無法取代試算網站本身的存取權限。</small></form>';
+ document.body.append(dialog);
+ const form=dialog.querySelector('form'),input=form.querySelector('input'),error=dialog.querySelector('.calculator-error');
+ let target='';
+ function close(){dialog.close();input.value='';error.textContent=''}
+ dialog.querySelector('.calculator-close').addEventListener('click',close);
+ dialog.addEventListener('click',e=>{if(e.target===dialog)close()});
+ document.addEventListener('click',e=>{
+  const a=e.target.closest('[data-calculator-url]');
+  if(!a||!allowed.some(v=>v.url===a.dataset.calculatorUrl))return;
+  e.preventDefault();target=a.dataset.calculatorUrl;dialog.querySelector('.calculator-destination-label').textContent=a.dataset.calculatorTitle;
+  error.textContent='';input.value='';if(!dialog.open)dialog.showModal();input.focus();
+ });
  form.addEventListener('submit',async e=>{
   e.preventDefault();
-  if(!window.crypto?.subtle){error.textContent='此瀏覽器不支援密碼驗證，請使用最新版瀏覽器。';return}
-  try{
-   const digest=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(password.value));
-   const hex=[...new Uint8Array(digest)].map(x=>x.toString(16).padStart(2,'0')).join('');
-   if(hex!==sha256){error.textContent='密碼不正確，請聯絡業務確認。';password.select();return}
-   const url=current;hide();window.location.assign(url);
-  }catch(err){error.textContent='驗證失敗，請重新嘗試。'}
+  if(!crypto?.subtle){error.textContent='請使用支援安全驗證的最新版瀏覽器';return}
+  const bytes=new TextEncoder().encode(input.value);
+  const d=await crypto.subtle.digest('SHA-256',bytes);
+  const hash=Array.from(new Uint8Array(d),b=>b.toString(16).padStart(2,'0')).join('');
+  if(hash!=='6f47ec7e8dc1ee807d732e52523f39809208d0997eb943fa9ac733e9cfa5693b'){
+    error.textContent='密碼不正確，請聯絡業務';input.select();return
+  }
+  const url=target;close();location.assign(url);
  });
 })();
