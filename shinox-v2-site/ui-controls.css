@@ -67,3 +67,8 @@ html[lang=en] .investment-premium .investment-tool strong{white-space:normal}
 html[lang=en] .element-tabs button{flex-wrap:wrap}
 html[lang=en] .element-tabs button span{white-space:nowrap}
 @media(max-width:600px){html[lang=en] .hero h1{font-size:clamp(35px,10.2vw,48px)}html[lang=en] .investment-premium .investment-tool strong{font-size:13px;line-height:1.35}html[lang=en] .investment-premium .investment-tool{padding-top:11px;padding-bottom:11px}html[lang=en] .investment-premium .investment-heading h2{font-size:27px}html[lang=en] .home-business-copy h2{font-size:28px}}
+
+/* Vector arrows avoid missing symbol glyphs in the English font fallback. */
+.ui-arrow>svg{display:block;width:1em;height:1em;min-width:12px;min-height:12px;overflow:visible}
+/* Reserve a separate action area so longer translated related-product titles wrap. */
+.related-grid>a{padding-right:80px}

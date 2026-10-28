@@ -44,3 +44,17 @@ Final browser checks: actual Hero video loop restart passed on desktop and mobil
 - User subsequently authorized publishing an independent private review Site. Existing production and main remain unchanged. Static publication excludes local database and Python runtime; inquiry submission remains unavailable on the hosted review, with direct phone/email/WhatsApp contact available.
 
 Independent owner-private review Site was successfully published after explicit authorization: https://shinox-v2-review.wld-wash.chatgpt.site . See docs/REVIEW_SITE.md for deployment provenance. This supersedes the earlier remote-preview blocker; original ShinoX production/main remain unchanged.
+
+## Shared bilingual UI, six-stage process and official YouTube — 2026-10-29
+
+This milestone supersedes the older English-layout and remote-preview blockers above; it does not declare the whole master plan finished.
+
+- Traditional Chinese is now the sole design master. All 24 English routes are generated from it with shared CSS, JavaScript, SVGs and media, professional display translations and corresponding-page language switches. Removed unused separate English theme files. Generation fails on missing translations or stale output.
+- Shared titanium/dark-glass controls establish primary, secondary, navigation, tab, card and functional levels, one-shot edge highlights, 2px hover lift, press/focus/disabled states and reduced-motion support. SVG arrows fix missing English symbol glyphs; related-product cards reserve space for longer titles.
+- Added actual six-stage HTML/SVG process before the business consultation CTA: detailed selectable tabs, previous/next, keyboard navigation, mobile horizontal scrolling, optional six-second auto display, visibility pause and motion preference handling. Heading is white.
+- Official YouTube is centralized at `https://www.youtube.com/@ShinoXwash`: one deduplicated footer button per page, a homepage brand video button and a business-process video button. Real anchors, red play SVG, dark-glass/silver material, focus, touch and external-tab semantics are shared in both languages.
+- No specific product video has been supplied/confirmed. Product video registry remains empty; machine-specific video CTAs are intentionally absent. Existing LINE, WhatsApp and calculator destinations/password logic are retained.
+- Acceptance: 96 browser page/viewport combinations (24 pairs at 1440/390), identical static body structure, resolved local assets/anchors, no broken images/horizontal overflow/JS errors, 44 paired main/product screenshots. Interaction matrix passed 1440/768/390/375 in both languages; normal hover is 2px up and arrow 3px up/right. Reduced-motion change stops auto presentation.
+- Evidence and repeatable checks: `docs/BILINGUAL_UI.md`, `docs/review/bilingual-ui/README.md`, browser QA JSON and scripts. Native publishing status and current source provenance are recorded in GitHub Issue #2 after publication.
+
+Still requires owner-provided/verified product imagery/specifications/DM, authorized news/cases and production email/booking integrations. The private static review has direct contact alternatives and does not send emails or confirm bookings. Existing ShinoX production and main remain untouched.

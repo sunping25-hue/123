@@ -18,6 +18,11 @@
    else if(node.nodeType===Node.ELEMENT_NODE&&!node.matches('svg,.ui-arrow,.whatsapp-symbol,.line-mark'))arrow(node);
   }
  }
+ function vectorArrow(el){
+  const direction=el.textContent.trim();if(el.querySelector('svg')||!['↗','→','↑','←'].includes(direction))return;
+  const paths={'↗':'M4 14 14 4M4 4h10v10','→':'M3 9h12M10 4l5 5-5 5','↑':'M9 15V3M4 8l5-5 5 5','←':'M15 9H3M8 4 3 9l5 5'};
+  el.innerHTML='<svg aria-hidden="true" focusable="false" viewBox="0 0 18 18" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="'+paths[direction]+'"/></svg>';
+ }
  function match(root,selector){return [...(root.matches?.(selector)?[root]:[]),...root.querySelectorAll(selector)]}
  function enhance(root){
   groups.forEach(([kind,selector])=>match(root,selector).forEach(el=>{
@@ -31,11 +36,12 @@
   match(root,'button:not(.line-float):not(.whatsapp-float)').forEach(el=>{if(!el.classList.contains('ui-control'))el.classList.add('ui-control','ui-functional')});
   match(root,cards).forEach(el=>el.classList.add('ui-card-hover'));
   match(root,cardActions).forEach(el=>{el.classList.add('ui-card-action');arrow(el)});
-  match(root,'.line-label').forEach(arrow);
+  match(root,'.ui-control,.line-label').forEach(arrow);
+  match(root,'.ui-arrow').forEach(vectorArrow);
  }
  enhance(document);
  new MutationObserver(entries=>entries.forEach(entry=>entry.addedNodes.forEach(node=>{if(node.nodeType===Node.ELEMENT_NODE)enhance(node)}))).observe(document.body,{childList:true,subtree:true});
- const back=document.createElement('button');back.type='button';back.className='ui-backtop ui-control ui-functional';back.setAttribute('aria-label',document.documentElement.lang.startsWith('en')?'Back to top':'返回頂部');back.innerHTML='<span aria-hidden="true">↑</span>';back.hidden=true;document.body.append(back);
+ const back=document.createElement('button');back.type='button';back.className='ui-backtop ui-control ui-functional';back.setAttribute('aria-label',document.documentElement.lang.startsWith('en')?'Back to top':'返回頂部');back.innerHTML='<span class="ui-arrow" aria-hidden="true">↑</span>';back.hidden=true;document.body.append(back);
  let scheduled=false;
  const update=()=>{back.hidden=scrollY<600;scheduled=false};
  window.addEventListener('scroll',()=>{if(!scheduled){scheduled=true;requestAnimationFrame(update)}},{passive:true});update();
