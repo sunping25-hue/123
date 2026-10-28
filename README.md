@@ -5,6 +5,9 @@ Read `AGENTS.md`, `docs/SHINOX_V2_MASTER_PLAN.md` and `docs/SHINOX_V2_PROGRESS.m
 
 ## See the site
 
+Independent private review: https://shinox-v2-review.wld-wash.chatgpt.site (owner sign-in required). See `docs/REVIEW_SITE.md`.
+
+
 For a static local review, open `shinox-v2-site/index.html` in a browser. All official media and visual assets are included. Static review does not send forms.
 
 For local form and media-range testing, run `python server.py --host 127.0.0.1 --port 3004` and open `http://127.0.0.1:3004` **on the same computer**. This is not an Internet preview URL.

@@ -42,3 +42,5 @@ Final browser checks: actual Hero video loop restart passed on desktop and mobil
 - Aligned form maxlength and server error messages; documented that 30-day local test retention is purged at server startup.
 - Browser acceptance checks are saved as tests/browser_review.py: six homepage language/viewport combinations, video source selection/loop, product links, plus both language motion/data-saver checks.
 - User subsequently authorized publishing an independent private review Site. Existing production and main remain unchanged. Static publication excludes local database and Python runtime; inquiry submission remains unavailable on the hosted review, with direct phone/email/WhatsApp contact available.
+
+Independent owner-private review Site was successfully published after explicit authorization: https://shinox-v2-review.wld-wash.chatgpt.site . See docs/REVIEW_SITE.md for deployment provenance. This supersedes the earlier remote-preview blocker; original ShinoX production/main remain unchanged.
