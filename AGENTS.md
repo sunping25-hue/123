@@ -61,3 +61,9 @@ The latest owner-approved board is the **seven-page dark-navy ShinoX storyboard*
 - Five elements must be Metal, Energy, Air, Water, Fluid (NOT classical Water/Metal/Wood/Fire/Earth as shown on the inspiration board).
 - All example performance statistics, projects, article dates, and equipment renders in the inspiration board are conceptual and require verified material before publication.
 - Implementation acceptance: real images loaded from lassets, desktop/mobile preview screenshots, no broken assets, deployment preview URL, successful QA. Never mark complete based on screenshot mockups or merely pushing docs.
+
+## Investment calculators and homepage entry popup (approved feature)
+- On **first entry to the ShinoX homepage in a browser tab**, show a dismissible promotional dialog with two options: 自助洗車場投資獲利試算 → https://shinox.ai.studio ; 水刀洗車店投資獲利試算 → https://service-carwasher-360.ai.studio. Do not force the whole official site behind a password.
+- On selecting a calculator, open a second dialog saying **「請聯絡業務索取密碼登入」**. Current preliminary default access code is set by owner, but **do not print it as page text**. It is a client-side convenience gate, NOT security; secure the actual calculator destinations with server-side authentication if private access is required.
+- Business page and homepage business section also contain the two calculator buttons; entry popup must be dismissible (close/ESC/outside/later) and shown once per browser tab via sessionStorage. Ensure keyboard and mobile support.
+- Static implementation: `shinox-v2-site/calculator-gate.js`, `calculator-gate.css`, `calculator-welcome.js`, plus markup in homepage/business pages. Check actual published deployment; GitHub commit alone does not prove public site update.
