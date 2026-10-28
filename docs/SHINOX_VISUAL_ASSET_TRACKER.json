@@ -142,6 +142,20 @@
       "filename": "lassets/contact/global.webp",
       "size": "1600x900",
       "status": "queued"
+    },
+    {
+      "id": "C01",
+      "page": "專案案例",
+      "section": "頁首Banner",
+      "filename": "lassets/projects/hero-project.webp",
+      "size": "1920x900",
+      "status": "user supplied and explicitly approved for Projects banner",
+      "source": "國際網絡 Banner 無文字版.png",
+      "sourceSize": "1920x912",
+      "sourceSha256": "57a0019e963d2d7a011b042c8d1b4edb61f3e2d3f850169b320b0b686301ab1f",
+      "sha256": "7198460dbc20517c2f59eef0ba2711c030e6762e926a2ec0d4d53597f1bbb75e",
+      "bytes": 381048,
+      "notes": "International network illustration; does not establish actual offices or customer sites."
     }
   ]
 }
