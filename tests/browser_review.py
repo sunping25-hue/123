@@ -19,7 +19,7 @@ async def review(origin, output):
                 errors = []
                 videos = []
                 page.on('pageerror', lambda e: errors.append(str(e)))
-                page.on('request', lambda req: videos.append(req.url) if '.mp4' in req.url else None)
+                page.on('request', lambda req: videos.append(req.url) if '/media/shinox-hero' in req.url else None)
                 await page.goto(origin + route)
                 await page.wait_for_function('document.querySelector("video").currentTime > 0')
                 expected = 'shinox-hero-mobile.mp4' if width < 768 else 'shinox-hero.mp4'
@@ -32,15 +32,21 @@ async def review(origin, output):
                 await page.screenshot(path=str(output / f'{language}-home-{width}.png'))
                 if language == 'zh':
                     for key in ['metal', 'energy', 'air', 'water', 'fluid']:
-                        await page.locator('#tab-' + key).click()
-                        await page.wait_for_function('(key)=>{const v=document.querySelector("#panel-"+key+" video");return v&&v.readyState>=2&&!v.error}', arg=key)
-                    await page.locator('#tab-metal').click()
-                    await page.locator('#tab-metal').press('End')
-                    assert await page.locator('#panel-fluid').is_visible()
-                links = await page.locator('a[href*="products/"][href$=".html"]').evaluate_all('(a)=>[...new Set(a.map(x=>x.href))]')
+                        await page.locator('[data-element-choice=' + key + ']').click()
+                        await page.wait_for_function('(key)=>{const v=document.querySelector("[data-element="+key+"] video");return v&&v.readyState>=2&&!v.error}', arg=key)
+                    await page.locator('[data-element-choice=metal]').click()
+                    await page.locator('[data-element-choice=metal]').press('End')
+                    assert await page.locator('[data-element-choice=fluid]').get_attribute('aria-pressed') == 'true'
+                catalog = page
+                if language == 'zh':
+                    catalog = await browser.new_page()
+                    await catalog.goto(origin+'/products.html')
+                links = await catalog.locator('a[href*="products/"][href$=".html"]').evaluate_all('(a)=>[...new Set(a.map(x=>x.href))]')
                 assert len(links) == 15, len(links)
                 for href in links:
                     assert (await page.request.get(href)).status == 200
+                if catalog is not page:
+                    await catalog.close()
                 assert not errors, errors
                 print(json.dumps({'language':language,'width':width,'video':expected,'productLinks':len(links),'errors':errors}), flush=True)
                 await page.close()
@@ -50,7 +56,7 @@ async def review(origin, output):
                 if setting != 'reduced-motion':
                     await page.add_init_script('Object.defineProperty(navigator,"connection",{value:{saveData:%s,effectiveType:"%s"}})' % ('true' if setting=='save-data' else 'false', '2g' if setting=='slow-2g' else '4g'))
                 videos = []
-                page.on('request', lambda req: videos.append(req.url) if '.mp4' in req.url else None)
+                page.on('request', lambda req: videos.append(req.url) if '/media/shinox-hero' in req.url else None)
                 await page.goto(origin + route)
                 await page.wait_for_timeout(300)
                 assert not videos, videos

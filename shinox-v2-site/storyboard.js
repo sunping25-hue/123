@@ -1,0 +1,1 @@
+(()=>{const buttons=[...document.querySelectorAll('[data-filter]')];buttons.forEach(button=>button.addEventListener('click',()=>{buttons.forEach(b=>b.setAttribute('aria-pressed',String(b===button)));document.querySelectorAll('[data-product-category]').forEach(card=>{card.hidden=button.dataset.filter!=='all'&&card.dataset.productCategory!==button.dataset.filter})}))})();
