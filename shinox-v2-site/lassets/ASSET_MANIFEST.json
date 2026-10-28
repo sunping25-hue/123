@@ -1,0 +1,14 @@
+{
+  "purpose": "Original AI-generated conceptual CGI illustrations for ShinoX five-element display. These are not product photographs, equipment models or verified project imagery.",
+  "generated_at": "2026-10-28",
+  "source": "OpenAI image generation; original contact sheet retained in workspace generated_images",
+  "hero_modified": false,
+  "assets": [
+    {"path": "elements/metal.webp", "width": 432, "height": 724, "alt": "鈦銀金屬摺帶交錯的抽象科技概念圖", "bytes": 29794},
+    {"path": "elements/energy.webp", "width": 432, "height": 724, "alt": "電光藍能量光束環繞玻璃球的抽象概念圖", "bytes": 45108},
+    {"path": "elements/air.webp", "width": 432, "height": 724, "alt": "冰藍霧化氣流盤旋上升的抽象概念圖", "bytes": 53004},
+    {"path": "elements/water.webp", "width": 432, "height": 724, "alt": "透明水流與水滴凝結成弧形的概念圖", "bytes": 59714},
+    {"path": "elements/fluid.webp", "width": 432, "height": 724, "alt": "青綠高黏度流體緞帶交疊的抽象概念圖", "bytes": 39816}
+  ],
+  "display_guidance": "Use width and height attributes and loading=lazy below fold. Preserve portrait composition; no generated art replaces approved Hero MP4, poster, or logos. Label visuals as CGI concept illustrations, not real equipment or completed cases."
+}
