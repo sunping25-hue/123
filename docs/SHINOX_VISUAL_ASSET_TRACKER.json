@@ -47,20 +47,6 @@
       "status": "queued"
     },
     {
-      "id": "ABOUT-01",
-      "page": "品牌介紹",
-      "section": "大圖主視覺",
-      "filename": "lassets/about/hero-building.webp",
-      "size": "1920x1200",
-      "status": "owner-approved in conversation",
-      "notes": "Architectural CGI concept only, not fake office",
-      "sha256": "b12576842db900df5075996b512e9fb9cfaf17c37fcaac35dadfc6c147397959",
-      "bytes": 296060,
-      "source": "exec-01d4a084-4823-4d3f-93c5-04214a67d4d9.png",
-      "approved_at": "2026-10-29",
-      "production_map_id": "A01"
-    },
-    {
       "id": "HOME-01",
       "page": "首頁",
       "section": "自助洗車設備分類",
@@ -117,25 +103,6 @@
       "status": "waiting for verified product reference"
     },
     {
-      "id": "BIZ-01",
-      "page": "事業方案",
-      "section": "洗車場規劃",
-      "filename": "lassets/business/hero-carwash.webp",
-      "size": "1920x1080",
-      "status": "owner-approved in conversation",
-      "notes": "Concept, not actual client case",
-      "production_map_id": "B01",
-      "sha256": "f31fefbfa425bb2992ad2e69f21cd99a2cc147c5df7d97083d73451e9ed4476a"
-    },
-    {
-      "id": "NEWS-01",
-      "page": "最新消息",
-      "section": "新聞主視覺",
-      "filename": "lassets/news/news-hero.webp",
-      "size": "1920x850",
-      "status": "queued"
-    },
-    {
       "id": "C01",
       "page": "專案案例",
       "section": "頁首Banner",
@@ -170,6 +137,66 @@
       "sourceSha256": "65c0224b67ac77ace46e9d0e4359bcff5f7adb683fabb357baebe4d48dce6ae2",
       "sha256": "262e9677a363422a8e76c4453f1e34f615ce6c67da7b229fbcfc557a7cb85993",
       "bytes": 212164
+    },
+    {
+      "id": "A01",
+      "production_map_id": "A01",
+      "filename": "lassets/about/hero-building.webp",
+      "size": "1920x1200",
+      "status": "user uploaded and explicitly requested as page banner",
+      "source": "國際頂級洗車科技品牌形象官網背景.png",
+      "sourceSize": [
+        1920,
+        1200
+      ],
+      "sourceSha256": "59ba3ea029a7f4cbef2c420516b6ba9686d9014c4748e58ad73c9aa8a043b3c3",
+      "sha256": "5deb7ead9588e36f684eaa18f097a91316701ef66a28227b579f1cc99e2833b1",
+      "bytes": 341200
+    },
+    {
+      "id": "N01",
+      "production_map_id": "N01",
+      "filename": "lassets/news/hero-car.webp",
+      "size": "1920x900",
+      "status": "user uploaded and explicitly requested as page banner",
+      "source": "頂級汽車科技品牌新聞主視覺.png",
+      "sourceSize": [
+        1920,
+        912
+      ],
+      "sourceSha256": "f1885102f2fe433248709ee5dce3c092f833a082c5a35ecf388440c25405901d",
+      "sha256": "abab8ec090f37beb95c786b53b1ad36d9cc5e0bb2dcaa09735362745c6170a09",
+      "bytes": 377050
+    },
+    {
+      "id": "P01",
+      "production_map_id": "P01",
+      "filename": "lassets/products/hero-flow.webp",
+      "size": "1920x760",
+      "status": "user uploaded and explicitly requested as page banner",
+      "source": "工業科技品牌產品展示主視覺.png",
+      "sourceSize": [
+        1920,
+        768
+      ],
+      "sourceSha256": "ce861fa29ec7ce4a8f5168045188bc909cbaf2a25af4aaed851aa065429eb8e3",
+      "sha256": "1d395d0764ae666f0b922c8873e0d50f2133e3ececafb9f970aa753c31b68b92",
+      "bytes": 162570
+    },
+    {
+      "id": "B01",
+      "production_map_id": "B01",
+      "filename": "lassets/business/hero-carwash.webp",
+      "size": "1920x1080",
+      "status": "user uploaded and explicitly requested as page banner",
+      "source": "未來式自助洗車場建築概念.png",
+      "sourceSize": [
+        1920,
+        1088
+      ],
+      "sourceSha256": "f0f7d28d5afbb39c6778c5d11ba529704209cb27433caaf375115b827b982b18",
+      "sha256": "6d9b92938544f607d1f7c8e20ffb63eda6828a8eb9b0c96fd860cd948f739b1a",
+      "bytes": 359364
     }
   ]
 }
