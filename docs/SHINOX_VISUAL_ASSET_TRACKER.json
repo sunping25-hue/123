@@ -1,0 +1,140 @@
+{
+  "version": "1.0",
+  "reference": "Two owner-approved ShinoX seven-page design boards uploaded in chat",
+  "rule": "Generate and approve each image separately; never use entire website collage as an asset.",
+  "assets": [
+    {
+      "id": "ELEM-01",
+      "page": "首頁",
+      "section": "五元素／金屬",
+      "filename": "lassets/elements/metal-sphere.webp",
+      "size": "1024x1024",
+      "status": "first concept created in conversation; binary NOT yet uploaded to GitHub",
+      "alt": "鈦銀機械結構與藍色能量核心構成的金屬元素球",
+      "source": "SHINOX_ELEM_01_METAL_CONCEPT.webp",
+      "notes": "User must approve before production use; candidate still has extra external light effects"
+    },
+    {
+      "id": "ELEM-02",
+      "page": "首頁",
+      "section": "五元素／電力",
+      "filename": "lassets/elements/energy-sphere.webp",
+      "size": "1024x1024",
+      "status": "queued"
+    },
+    {
+      "id": "ELEM-03",
+      "page": "首頁",
+      "section": "五元素／氣流",
+      "filename": "lassets/elements/air-sphere.webp",
+      "size": "1024x1024",
+      "status": "queued"
+    },
+    {
+      "id": "ELEM-04",
+      "page": "首頁",
+      "section": "五元素／水刀",
+      "filename": "lassets/elements/water-sphere.webp",
+      "size": "1024x1024",
+      "status": "queued"
+    },
+    {
+      "id": "ELEM-05",
+      "page": "首頁",
+      "section": "五元素／化學流體",
+      "filename": "lassets/elements/fluid-sphere.webp",
+      "size": "1024x1024",
+      "status": "queued"
+    },
+    {
+      "id": "ABOUT-01",
+      "page": "品牌介紹",
+      "section": "大圖主視覺",
+      "filename": "lassets/about/about-architecture.webp",
+      "size": "1920x1080",
+      "status": "queued",
+      "notes": "Architectural CGI concept only, not fake office"
+    },
+    {
+      "id": "HOME-01",
+      "page": "首頁",
+      "section": "自助洗車設備分類",
+      "filename": "lassets/home/self-service-card.webp",
+      "size": "1280x800",
+      "status": "queued"
+    },
+    {
+      "id": "HOME-02",
+      "page": "首頁",
+      "section": "自動洗車設備分類",
+      "filename": "lassets/home/automatic-card.webp",
+      "size": "1280x800",
+      "status": "queued"
+    },
+    {
+      "id": "HOME-03",
+      "page": "首頁",
+      "section": "周邊設備分類",
+      "filename": "lassets/home/accessories-card.webp",
+      "size": "1280x800",
+      "status": "queued"
+    },
+    {
+      "id": "PROD-01",
+      "page": "產品方案",
+      "section": "九合一控制箱",
+      "filename": "lassets/products/nine-in-one.webp",
+      "size": "1200x1200",
+      "status": "waiting for verified product reference"
+    },
+    {
+      "id": "PROD-02",
+      "page": "產品方案",
+      "section": "雲端儲值機",
+      "filename": "lassets/products/cloud-recharge.webp",
+      "size": "1200x1200",
+      "status": "waiting for verified product reference"
+    },
+    {
+      "id": "PROD-03",
+      "page": "產品方案",
+      "section": "B2 洗車機",
+      "filename": "lassets/products/b2.webp",
+      "size": "1400x1000",
+      "status": "waiting for verified product reference"
+    },
+    {
+      "id": "PROD-04",
+      "page": "產品方案",
+      "section": "M9 洗車機",
+      "filename": "lassets/products/m9.webp",
+      "size": "1400x1000",
+      "status": "waiting for verified product reference"
+    },
+    {
+      "id": "BIZ-01",
+      "page": "事業方案",
+      "section": "洗車場規劃",
+      "filename": "lassets/business/carwash-architecture.webp",
+      "size": "1920x1080",
+      "status": "queued",
+      "notes": "Concept, not actual client case"
+    },
+    {
+      "id": "NEWS-01",
+      "page": "最新消息",
+      "section": "新聞主視覺",
+      "filename": "lassets/news/news-hero.webp",
+      "size": "1920x850",
+      "status": "queued"
+    },
+    {
+      "id": "CONTACT-01",
+      "page": "聯絡我們",
+      "section": "全球服務背景",
+      "filename": "lassets/contact/global.webp",
+      "size": "1600x900",
+      "status": "queued"
+    }
+  ]
+}
