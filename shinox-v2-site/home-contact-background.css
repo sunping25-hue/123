@@ -1,0 +1,11 @@
+/* Owner-supplied 1029 artwork, scoped to the Chinese homepage contact section. */
+#contact.home-contact-photo{position:relative;isolation:isolate;overflow:hidden;background:#031222}
+.home-contact-photo .contact-background{position:absolute;inset:0;z-index:-2;display:block;pointer-events:none;overflow:hidden}
+.home-contact-photo .contact-background img{display:block;position:absolute;right:0;top:0;width:auto;max-width:none;height:100%;object-fit:contain;object-position:right bottom;mask-image:linear-gradient(90deg,transparent,#000 6%)}
+#contact.home-contact-photo::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(90deg,#031222e0 0%,#031222a6 38%,#0312221f 80%),linear-gradient(180deg,#0312221a,#03122222 70%,#03122288)}
+.home-contact-photo .section-intro,.home-contact-photo .contact-grid{position:relative}
+.home-contact-photo .form-panel{background:#071725ed;box-shadow:0 12px 45px #0005;border-color:#527387}
+.home-contact-photo .intro-desc,.home-contact-photo .muted,.home-contact-photo .contact-line p,.home-contact-photo .appointment-note p{color:#c2d4df}
+.home-contact-photo .contact-art-note{display:block;margin-top:28px;font-size:10px;color:#b9cad6;line-height:1.7}
+@media(max-width:950px){.home-contact-photo .contact-background{height:900px}.home-contact-photo .contact-background img{width:100%;max-width:100%;object-fit:cover;object-position:65% top;mask-image:none}#contact.home-contact-photo::before{background:linear-gradient(90deg,#031222db,#03122280),linear-gradient(180deg,transparent 0,#03122244 500px,#031222 900px)}}
+@media(max-width:600px){.home-contact-photo .contact-background{height:760px}.home-contact-photo .contact-background img{object-position:67% top}#contact.home-contact-photo::before{background:linear-gradient(90deg,#031222c9,#03122266),linear-gradient(180deg,#0312221a,transparent 350px,#031222 760px)}.home-contact-photo .form-panel{background:#071725f5}}
