@@ -1,0 +1,15 @@
+{
+  "id": "HOME-CONTACT-VIDEO",
+  "source": "grok-video-b713a4ac-edbf-404f-b5f3-3c2e2cf22d76.mp4",
+  "sourceSha256": "01f69a4816a0e2f626e0809c706f78925c3c862111b1b6f0e4cade42ed1b3851",
+  "sourceBytes": 9834510,
+  "filename": "lassets/home/contact-animation.mp4",
+  "size": "992x912",
+  "duration": 10.041667,
+  "sha256": "1e9c9c1231c25694f81aa81a9cd7aba0636b804bddba3aeea4af9eb4b3594df6",
+  "bytes": 4330675,
+  "poster": "lassets/home/contact-animation-poster.webp",
+  "posterSha256": "f4d841919859539c9e88516e3f2b6536f61cdf67e919bbb57181dc5c17ee4398",
+  "processing": "User-provided video, H.264 CRF22 web rendition, original dimensions and frames, audio removed, MP4 faststart; poster is its first frame.",
+  "status": "Owner explicitly requested to replace homepage contact still artwork; existing original homepage Hero remains unchanged."
+}
