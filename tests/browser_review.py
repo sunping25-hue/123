@@ -32,11 +32,11 @@ async def review(origin, output):
                 await page.screenshot(path=str(output / f'{language}-home-{width}.png'))
                 if language == 'zh':
                     for key in ['metal', 'energy', 'air', 'water', 'fluid']:
-                        await page.locator('[data-element-choice=' + key + ']').click()
-                        await page.wait_for_function('(key)=>{const v=document.querySelector("[data-element="+key+"] video");return v&&v.readyState>=2&&!v.error}', arg=key)
-                    await page.locator('[data-element-choice=metal]').click()
-                    await page.locator('[data-element-choice=metal]').press('End')
-                    assert await page.locator('[data-element-choice=fluid]').get_attribute('aria-pressed') == 'true'
+                        await page.locator('#tab-' + key).click()
+                        await page.wait_for_function('(key)=>{const v=document.querySelector("#panel-"+key+" video");return v&&v.readyState>=2&&!v.error}', arg=key)
+                    await page.locator('#tab-metal').click()
+                    await page.locator('#tab-metal').press('End')
+                    assert await page.locator('#tab-fluid').get_attribute('aria-selected') == 'true'
                 catalog = page
                 if language == 'zh':
                     catalog = await browser.new_page()
