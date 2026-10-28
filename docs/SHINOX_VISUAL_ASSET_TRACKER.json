@@ -136,14 +136,6 @@
       "status": "queued"
     },
     {
-      "id": "CONTACT-01",
-      "page": "聯絡我們",
-      "section": "全球服務背景",
-      "filename": "lassets/contact/global.webp",
-      "size": "1600x900",
-      "status": "queued"
-    },
-    {
       "id": "C01",
       "page": "專案案例",
       "section": "頁首Banner",
@@ -156,6 +148,28 @@
       "sha256": "7198460dbc20517c2f59eef0ba2711c030e6762e926a2ec0d4d53597f1bbb75e",
       "bytes": 381048,
       "notes": "International network illustration; does not establish actual offices or customer sites."
+    },
+    {
+      "id": "K01",
+      "page": "聯絡我們",
+      "filename": "lassets/contact/global-services.webp",
+      "size": "1600x900",
+      "source": "頂級國際科技品牌官網背景 (1).png",
+      "status": "user provided and approved for contact page",
+      "sourceSha256": "8ab3e3d8095617b283185d50b86ec5cd161bd8f96abec69538ce12c175740476",
+      "sha256": "efe4d5ddd81baf872481106d1663f1321db3446a4e16336908f6cbbf46a6ab44",
+      "bytes": 235498
+    },
+    {
+      "id": "K02",
+      "page": "聯絡我們",
+      "filename": "lassets/contact/showroom-concept.webp",
+      "size": "1920x650",
+      "source": "設備展示中心橫幅含發光 ShinoX Logo.png",
+      "status": "user provided and approved for contact page",
+      "sourceSha256": "65c0224b67ac77ace46e9d0e4359bcff5f7adb683fabb357baebe4d48dce6ae2",
+      "sha256": "262e9677a363422a8e76c4453f1e34f615ce6c67da7b229fbcfc557a7cb85993",
+      "bytes": 212164
     }
   ]
 }
