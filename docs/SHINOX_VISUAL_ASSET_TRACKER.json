@@ -276,6 +276,34 @@
       "sha256": "1182aff34c60df928b66d3e9fed6ffe7a2b63f3ea63c5982f0f3b6fba3656b6a",
       "bytes": 157990,
       "status": "Owner supplied CGI and explicitly requested for homepage category cards; do not describe as actual equipment photographs or verified specifications."
+    },
+    {
+      "id": "INVESTMENT-BG-DESKTOP",
+      "page": "首頁／事業方案",
+      "filename": "lassets/investment/investment-bg-desktop.webp",
+      "size": "1920x400",
+      "source": "Independently generated with imagegen using owner-provided 59769d3f-701a-4022-8c74-d2a0ccf20215.png as material reference; original output exec-8bba84b1-9cd1-4366-aee1-16a3368b0fb9.png",
+      "sourceSize": [
+        2172,
+        724
+      ],
+      "sha256": "e31238a19579862d1e03402b21f643edad19c5b877f8ca41c8a1b4bbd145ca41",
+      "bytes": 125058,
+      "status": "Created per explicit owner implementation brief; background only, no embedded text, UI or buttons. Desktop and mobile are independent generations."
+    },
+    {
+      "id": "INVESTMENT-BG-MOBILE",
+      "page": "首頁／事業方案",
+      "filename": "lassets/investment/investment-bg-mobile.webp",
+      "size": "1080x800",
+      "source": "Independently generated with imagegen using owner-provided 59769d3f-701a-4022-8c74-d2a0ccf20215.png as material reference; original output exec-ee4c6b9e-2515-43df-92eb-d3684c151837.png",
+      "sourceSize": [
+        1457,
+        1080
+      ],
+      "sha256": "35a47ca2a5e63dcd8e495d2d92a7316de0250038f0d0a239592203284d0d6ac8",
+      "bytes": 152690,
+      "status": "Created per explicit owner implementation brief; background only, no embedded text, UI or buttons. Desktop and mobile are independent generations."
     }
   ]
 }
