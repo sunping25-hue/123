@@ -197,6 +197,22 @@
       "sourceSha256": "f0f7d28d5afbb39c6778c5d11ba529704209cb27433caaf375115b827b982b18",
       "sha256": "6d9b92938544f607d1f7c8e20ffb63eda6828a8eb9b0c96fd860cd948f739b1a",
       "bytes": 359364
+    },
+    {
+      "id": "HOME-CONTACT-1029",
+      "page": "首頁",
+      "section": "一起打造／下一座洗車場",
+      "filename": "lassets/home/contact-background-1029.webp",
+      "size": "1920x1750",
+      "source": "1029.zip / 1029.png",
+      "sourceSize": [
+        2695,
+        2457
+      ],
+      "sourceSha256": "efe85814cb2b639f3fbd61c2dd7ae45b7308273e61953dc18a44e8b3b013dfdd",
+      "sha256": "ea78b5a17c0164fe7dbfd4f70595f39a1b79053a36653cad49b6977646b27be4",
+      "bytes": 379238,
+      "status": "User supplied and requested as homepage contact background; preserve combined globe/showroom composition; responsive CSS crop. Concept artwork, not an authenticated showroom photo."
     }
   ]
 }
