@@ -32,3 +32,23 @@ The user explicitly noted that earlier page mockups underused **teal-green and t
 - Make luminous teal streams clearly visible next to electric-blue water and energy ribbons. Avoid monochromatic cobalt-blue pages.
 - Implement a reusable token set for navy, electric blue, teal, silver, and surface/highlight gradients; check all non-Hero visuals for this palette.
 - The last user-provided Hero reference image is the **color/material benchmark**. Preserve its right-side crystalline turbine, visible teal streams, chrome surfaces, luminous flowing water.
+
+
+## Visual rhythm correction — approved design direction (2026-10-29)
+**Important: Do NOT render every image with splashing water, bright cyan/blue, equal contrast and equally dramatic effects.** The user explicitly rejected visual fatigue, monotonous palettes and constant maximum-intensity CGI. The previous 45/25/30 blue/teal/silver focal-color ratio is NOT a per-image requirement. It only describes the available brand palette across the experience.
+
+- Think like premium editorial/art direction: vary brightness, negative space, crop, subject scale, backgrounds, materials and visual density between sections. Establish a quiet → dramatic → quiet rhythm.
+- Reserve intense water vortex/splash and dynamic electric-blue + teal energy for **Hero** and select **Water/technology** demonstrations. No arbitrary splashes around control cabinets, brand offices, articles, contact forms or unrelated product cards.
+- Give individual sections their own dominant visual character:
+  - Hero: approved maximal cinematic electric-blue/teal water, crystalline metallic turbine; **do not change provided movie**.
+  - About: spacious architectural graphite/titanium silver, soft directional daylight, calm credible enterprise mood, minimal or no water.
+  - News: editorial grid, off-white/light steel-gray or charcoal breathing spaces, real product-related documentary composition, no synthetic fake article thumbnails.
+  - Product hub: neutral studio silver machinery, light/dark alternating cards, honest product forms, subtle teal highlight only; accurate device CGI needs user-provided reference.
+  - Business: natural architectural daylight/dusk, realistic concrete/steel/site-planning, warm practical lighting; CGI clearly illustrative, not claimed as built case.
+  - Projects: restrained documentary presentation of authenticated projects only; do not invent completed client sites.
+  - Contact: clean low-contrast, legible minimalist layout, cream/steel-gray or deep-charcoal alternating panel, almost no visual effects.
+  - Five elements: Metal=brushed chrome cool-neutral; Energy=limited amber/blue electric glow; Air=soft translucent pale neutral; Water=blue hydraulic fluid; Fluid=teal translucent chemical liquid. The element names remain **Metal, Energy, Air, Water, Fluid** (NOT classical wood/fire/earth).
+- Page should alternate **dark / midtone / light** sections when appropriate; most images must have 1 focal subject, lower visual complexity, ample text-safe negative space. Use color and contrast with purpose, not everywhere.
+- Maintain unified typography, spacing, geometry and brand identity **without** making every illustration look like the same CGI scene.
+- Before generating, write a shot list describing for each image: purpose, unique subject, dominant color/material, brightness, lighting, composition, amount of water (none/subtle/intense), and page placement. Check contact sheet for repetition; reject duplicate water-splash motifs.
+- Images are content assets, not finished website screenshots. Don't fabricate site metrics, news headlines, real-world case studies or exact brand/product shapes.
