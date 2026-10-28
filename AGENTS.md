@@ -23,3 +23,12 @@ Planning Sheet: https://docs.google.com/spreadsheets/d/1OQnL9o2kBJB9Nz5WMijnB-LU
 - Product/device CGI must faithfully follow approved reference photos, not invented mechanical shapes. No synthetic project photos presented as real case studies.
 - Commit generated optimized assets and their actual usage together; verify all image paths resolve, add descriptive alt text and lazy loading for below-fold artwork.
 - If executing in Codex Plan mode, review the asset inventory and provide an implementation plan before making changes.
+
+
+## Required color/material balance — approved visual reference
+The user explicitly noted that earlier page mockups underused **teal-green and titanium/silver metallic surfaces** relative to the approved Hero reference. Correct this across all below-Hero illustrations and UI, not by changing the approved Hero itself.
+- Visual-emphasis target **45% electric blue (#087CFF), 25% teal/turquoise (#17DDC7), 30% titanium silver/chrome (#C8D7E6 with metallic gradients)** among lit CGI subjects. This is a design guideline **for focal visual subjects**, NOT a whole-page pixel quota. Dark navy/near-black remains the dominant background.
+- Make titanium silver tangible and prominent on turbines, machined edges, product enclosures and mechanical structures; use physically plausible glossy gradients and highlights.
+- Make luminous teal streams clearly visible next to electric-blue water and energy ribbons. Avoid monochromatic cobalt-blue pages.
+- Implement a reusable token set for navy, electric blue, teal, silver, and surface/highlight gradients; check all non-Hero visuals for this palette.
+- The last user-provided Hero reference image is the **color/material benchmark**. Preserve its right-side crystalline turbine, visible teal streams, chrome surfaces, luminous flowing water.
