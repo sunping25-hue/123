@@ -33,3 +33,12 @@ Production site and main remain untouched. Review source is kept on shinox-v2-he
 Remote changes through 1229321 were merged without overwriting project instructions. The reusable navy / electric blue / teal / titanium-silver material tokens now follow the newly approved below-Hero palette. Original Hero files are unchanged.
 
 Final browser checks: actual Hero video loop restart passed on desktop and mobile (waited for playback after seek, not a fixed sleep); playback control and fixed LINE button do not overlap. Form browser submission with synthetic preview data persisted and displayed the explicit local-only / not-notified response. All five official media files compared byte-for-byte equal to the user's original ZIP. Review screenshots are in docs/review/.
+
+## Next milestone — 2026-10-29 (Taiwan)
+- Added all 15 English product detail pages with translated inquiry preparation and matching Chinese/English product switches. All 30 detail pages have paired language metadata and preview noindex.
+- Derived a 960×548 / 24fps H.264 mobile rendition (~2.7MB, ~79% smaller) from the approved original, whose binary is unchanged. Shared playback controller selects one rendition on initial load; no duplicate desktop download on mobile.
+- Chinese and English homepage both avoid video requests under reduced-motion, data saver or 2G; manual play remains available.
+- Fixed actual custom 404 rendering, HEAD/Range edge cases, cache policies and malformed origin validation. Local service now has 12 passing integration checks.
+- Aligned form maxlength and server error messages; documented that 30-day local test retention is purged at server startup.
+- Browser acceptance checks are saved as tests/browser_review.py: six homepage language/viewport combinations, video source selection/loop, product links, plus both language motion/data-saver checks.
+- User subsequently authorized publishing an independent private review Site. Existing production and main remain unchanged. Static publication excludes local database and Python runtime; inquiry submission remains unavailable on the hosted review, with direct phone/email/WhatsApp contact available.

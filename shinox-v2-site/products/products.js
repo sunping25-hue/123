@@ -1,5 +1,6 @@
 const menuButton = document.querySelector('.menu-toggle');
 const menu = document.querySelector('#main-nav');
+const header = document.querySelector('.site-header');
 function closeMenu() {
   menu.classList.remove('open');
   menuButton.setAttribute('aria-expanded', 'false');
@@ -18,4 +19,7 @@ document.addEventListener('keydown', event => {
 document.addEventListener('click', event => {
   if (!event.target.closest('.site-header')) closeMenu();
 });
-matchMedia('(min-width: 951px)').addEventListener('change', closeMenu);
+header.addEventListener('focusout', event => {
+  if (!header.contains(event.relatedTarget)) closeMenu();
+});
+matchMedia('(min-width: 1121px)').addEventListener('change', closeMenu);

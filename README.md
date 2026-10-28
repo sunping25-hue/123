@@ -16,3 +16,7 @@ Read `docs/PREVIEW_RUNTIME.md` before testing request storage. Use synthetic dat
 `python -m unittest discover -s tests -v`
 
 This is a review build, not a production release. Specifications, real product CGI, verified case studies, PDFs, email delivery, confirmed reservations and marketing automation remain pending. No production deployment or main-branch merge is authorized by this source push.
+
+## Browser acceptance review
+
+With Playwright Python + Chromium available, run `python tests/browser_review.py --origin http://127.0.0.1:3005 --output /tmp/shinox-review` against a running local server. This checks both languages at desktop/tablet/mobile widths, approved/compact video selection, loop restart, product routes, reduced-motion and data-saver behavior. It writes only screenshots; no contact data is submitted.

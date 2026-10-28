@@ -5,10 +5,8 @@ import argparse
 from collections import defaultdict, deque
 from datetime import date, datetime, timedelta, timezone
 from functools import partial
-from http import HTTPStatus
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 import json
-import mimetypes
 import os
 from pathlib import Path
 import re
@@ -51,6 +49,8 @@ def validate_request(payload, booking=False):
         raise ValueError('請檢查 Email 格式。')
     if booking and clean.get('preferredDate'):
         try:
+            if not re.fullmatch(r'\d{4}-\d{2}-\d{2}', clean['preferredDate']):
+                raise ValueError
             requested = date.fromisoformat(clean['preferredDate'])
         except ValueError:
             raise ValueError('請選擇有效日期。') from None
@@ -121,7 +121,29 @@ class Handler(SimpleHTTPRequestHandler):
         self.send_header('Referrer-Policy', 'strict-origin-when-cross-origin')
         self.send_header('X-Frame-Options', 'SAMEORIGIN')
         self.send_header('Permissions-Policy', 'camera=(), microphone=(), geolocation=()')
+        if not any(header.lower().startswith(b'cache-control:') for header in self._headers_buffer):
+            self.send_header('Cache-Control', getattr(self, '_static_cache', 'no-store'))
         super().end_headers()
+
+    def send_error(self, code, message=None, explain=None):
+        # Render the real public error page without exposing filesystem details.
+        if code == 404:
+            public = Path(self.directory).resolve()
+            page = (public / '404.html').resolve()
+            if page.is_relative_to(public) and page.is_file():
+                content = page.read_text(encoding='utf-8')
+                # Relative CSS, logos and links must resolve at nested missing routes too.
+                content = re.sub(r'<head\b[^>]*>', lambda match: match.group() + '<base href="/">', content, count=1, flags=re.I)
+                body = content.encode('utf-8')
+                self.send_response(404)
+                self.send_header('Content-Type', 'text/html; charset=utf-8')
+                self.send_header('Content-Length', str(len(body)))
+                self.send_header('Cache-Control', 'no-store')
+                self.end_headers()
+                if self.command != 'HEAD':
+                    self.wfile.write(body)
+                return
+        return super().send_error(code, message, explain)
 
     def json_response(self, code, body):
         content = json.dumps(body, ensure_ascii=False).encode()
@@ -138,21 +160,33 @@ class Handler(SimpleHTTPRequestHandler):
         if route == '/api/status':
             return self.json_response(200, {'mode': 'local-preview', 'persistence': True,
                 'emailConfigured': False, 'bookingConfirmation': False,
-                'retentionDays': RETENTION_DAYS})
+                'retentionDays': RETENTION_DAYS, 'retentionPurge': 'on_startup'})
         if route.startswith('/api/'):
             return self.json_response(404, {'ok': False, 'message': '找不到此服務。'})
         return super().do_GET()
+
+    def do_HEAD(self):
+        if urlsplit(self.path).path.startswith('/api/'):
+            return self.do_GET()
+        return super().do_HEAD()
 
     def do_POST(self):
         route = urlsplit(self.path).path
         if route not in ('/api/leads', '/api/booking-requests'):
             return self.json_response(404, {'ok': False, 'message': '找不到此服務。'})
         origin = self.headers.get('Origin', '')
-        parsed = urlsplit(origin)
+        try:
+            parsed = urlsplit(origin)
+            valid_origin = (parsed.scheme in ('http', 'https') and bool(parsed.netloc)
+                and not parsed.username and not parsed.password
+                and not parsed.path and not parsed.query and not parsed.fragment)
+        except ValueError:
+            valid_origin = False
+            parsed = urlsplit('')
         extras = {item.strip() for item in os.environ.get('SHINOX_ALLOWED_ORIGINS', '').split(',') if item.strip()}
         # Host is the browser-visible host; additional reverse proxy origins must be explicit.
-        same_origin = parsed.scheme in ('http', 'https') and parsed.netloc == self.headers.get('Host')
-        if not same_origin and origin not in extras:
+        same_origin = valid_origin and parsed.netloc == self.headers.get('Host')
+        if not valid_origin or (not same_origin and origin not in extras):
             return self.json_response(403, {'ok': False, 'message': '請從本站頁面送出表單。'})
         if not self.server.rate_allowed(self.client_address[0]):
             return self.json_response(429, {'ok': False, 'message': '送出次數過多，請稍後再試或電話聯絡。'})
@@ -189,13 +223,15 @@ class Handler(SimpleHTTPRequestHandler):
         resolved = Path(self.translate_path(self.path)).resolve()
         public = Path(self.directory).resolve()
         if not resolved.is_relative_to(public):
-            self.send_error(403)
+            self.send_error(404)
             return None
-        if not self.headers.get('Range') or not resolved.is_file():
+        self._static_cache = 'private, max-age=300' if resolved.suffix.lower() == '.mp4' else 'no-cache'
+        # Range has meaning only for GET; HEAD describes the full representation.
+        if self.command != 'GET' or not self.headers.get('Range') or not resolved.is_file():
             return super().send_head()
         size = resolved.stat().st_size
         match = re.fullmatch(r'bytes=(\d*)-(\d*)', self.headers['Range'].strip())
-        if not match or not any(match.groups()):
+        if not match or not any(match.groups()) or any(len(part) > 20 for part in match.groups()):
             return self.range_error(size)
         first, last = match.groups()
         if not first:

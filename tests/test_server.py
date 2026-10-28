@@ -1,6 +1,7 @@
 """Integration checks use a temporary database and synthetic contact data only."""
 import http.client
 import json
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 import sqlite3
 import sys
@@ -18,6 +19,10 @@ class PreviewTests(unittest.TestCase):
         cls.public = Path(cls.temp.name) / 'site'
         cls.public.mkdir()
         (cls.public / 'video.mp4').write_bytes(b'0123456789')
+        (cls.public / '404.html').write_text('<!doctype html><html><head><link rel="stylesheet" href="site.css"></head><body>CUSTOM 404</body></html>')
+        (cls.public / 'site.css').write_text('body{color:white}')
+        (Path(cls.temp.name) / 'private.txt').write_text('PRIVATE_CONTENT')
+        (cls.public / 'private-link.txt').symlink_to(Path(cls.temp.name) / 'private.txt')
         cls.store = RequestStore(Path(cls.temp.name) / 'requests.sqlite3')
         cls.server = PreviewServer(('127.0.0.1', 0), cls.store, cls.public)
         cls.thread = threading.Thread(target=cls.server.serve_forever, daemon=True)
@@ -70,6 +75,7 @@ class PreviewTests(unittest.TestCase):
         for payload in [{}, {**self.data(), 'consent': False}, {**self.data(), 'email': 'broken'}, {**self.data(), 'name': ['invalid']}, {**self.data(), 'website': 'bot'}]:
             self.assertEqual(self.post('/api/leads', payload)[0], 400)
         self.assertEqual(self.post('/api/booking-requests', {**self.data(), 'preferredDate': '2000-01-01'})[0], 400)
+        self.assertEqual(self.post('/api/booking-requests', {**self.data(), 'preferredDate': '20990101'})[0], 400)
 
     def test_cross_origin_and_missing_origin_blocked(self):
         self.assertEqual(self.post('/api/leads', self.data(), origin=False)[0], 403)
@@ -87,6 +93,60 @@ class PreviewTests(unittest.TestCase):
         self.assertEqual(self.request('GET', '/')[0], 404)
         self.assertEqual(self.request('GET', '/api/leads')[0], 404)
         self.assertEqual(json.loads(self.request('GET', '/api/status')[2])['bookingConfirmation'], False)
+
+    def test_custom_404_at_nested_route_and_head(self):
+        for route in ['/missing.html', '/nested/missing/path?x=1', '/private-link.txt']:
+            status, headers, body = self.request('GET', route)
+            self.assertEqual(status, 404)
+            self.assertIn(b'CUSTOM 404', body)
+            self.assertIn(b'<base href="/">', body)
+            self.assertNotIn(b'PRIVATE_CONTENT', body)
+            self.assertEqual(headers['Cache-Control'], 'no-store')
+        status, headers, body = self.request('HEAD', '/nested/missing')
+        self.assertEqual(status, 404)
+        self.assertEqual(body, b'')
+        self.assertGreater(int(headers['Content-Length']), 0)
+
+    def test_head_api_and_range_and_static_cache(self):
+        status, headers, body = self.request('HEAD', '/video.mp4?version=1', headers={'Range': 'bytes=2-5'})
+        self.assertEqual(status, 200)
+        self.assertEqual(body, b'')
+        self.assertEqual(headers['Content-Length'], '10')
+        self.assertNotIn('Content-Range', headers)
+        self.assertEqual(headers['Cache-Control'], 'private, max-age=300')
+        status, headers, body = self.request('HEAD', '/api/status?check=1')
+        self.assertEqual(status, 200)
+        self.assertEqual(body, b'')
+        self.assertEqual(headers['Cache-Control'], 'no-store')
+        self.assertEqual(self.request('GET', '/site.css')[1]['Cache-Control'], 'no-cache')
+        status, headers, body = self.request('GET', '/video.mp4?version=1', headers={'Range': 'bytes=2-5'})
+        self.assertEqual((status, body), (206, b'2345'))
+        self.assertEqual(headers['Cache-Control'], 'private, max-age=300')
+
+    def test_invalid_ranges_and_private_paths(self):
+        for value in ['bytes=-0', 'bytes=5-2', 'bytes=-', 'bytes=a-b', 'bytes=0-1,3-4', 'bytes=' + '9' * 5000 + '-']:
+            self.assertEqual(self.request('GET', '/video.mp4', headers={'Range': value})[0], 416)
+        status, headers, body = self.request('GET', '/private-link.txt', headers={'Range': 'bytes=0-2'})
+        self.assertEqual(status, 404)
+        self.assertNotIn('Content-Range', headers)
+        self.assertNotIn(b'PRIVATE_CONTENT', body)
+        self.assertEqual(self.request('GET', '/video.mp4', headers={'Range': 'bytes=-99'})[2], b'0123456789')
+
+    def test_malformed_origin_blocked(self):
+        for origin in ['http://[', f'http://127.0.0.1:{self.port}/path', f'http://127.0.0.1:{self.port}?x=1', 'null']:
+            self.assertEqual(self.request('POST', '/api/leads', json.dumps(self.data()),
+                {'Origin': origin, 'Content-Type': 'application/json'})[0], 403)
+
+    def test_startup_retention_purge(self):
+        store_path = Path(self.temp.name) / 'retention.sqlite3'
+        store = RequestStore(store_path)
+        identifier = store.add('lead', self.data())
+        with store.connect() as connection:
+            connection.execute('INSERT INTO requests VALUES (?, ?, ?, ?)', ('old-test', 'lead',
+                (datetime.now(timezone.utc) - timedelta(days=31)).isoformat(), '{}'))
+        store = RequestStore(store_path)
+        with store.connect() as connection:
+            self.assertEqual(connection.execute('SELECT id FROM requests').fetchall(), [(identifier,)])
 
     def test_rate_limit(self):
         for _ in range(10):

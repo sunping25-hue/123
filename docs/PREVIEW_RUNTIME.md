@@ -72,3 +72,28 @@ python -m unittest discover -s tests -v
 ```
 
 七項整合測試使用臨時檔案與虛構聯絡資料，涵蓋 SQLite 寫入、預約不誤報成功、驗證/同意、來源檢查、媒體 Range、私有資料不可查及限流。
+
+## 路由、快取與保留期限
+
+- 不存在的靜態頁面回傳真正 HTTP 404，並顯示網站的 `404.html`。本機伺服器會加入根路徑 `<base href="/">`，讓巢狀錯誤路徑上的 CSS、LOGO 和返回首頁連結仍能正常解析。API 404 維持 JSON。
+- HTML、CSS、JavaScript 與圖片使用 `Cache-Control: no-cache`，讓每次預覽重新驗證檔案。MP4 使用 `private, max-age=300`；API 與錯誤頁使用 `no-store`。
+- HEAD 與 GET 的 API 狀態一致，HEAD 不傳送內容；HEAD 媒體回應忽略 Range，描述整個檔案。GET 支援單一閉合、開放或後綴 byte range；無效範圍回傳 416。
+- 隱私資料只存在本機 SQLite。**30 天清除是在伺服器每次啟動時執行，不是持續運行中的排程，也不保證準時於第 30 天清除。** `GET /api/status` 因此另回傳 `retentionPurge: "on_startup"`。驗收後應主動清除測試資料。
+
+## 前端欄位長度上限
+
+| 欄位 | 最多字元 |
+|---|---:|
+| name | 80 |
+| phone | 30 |
+| email | 254 |
+| region | 100 |
+| subject | 160 |
+| message | 3000 |
+| location（展示洽詢） | 160 |
+| preferredDate（展示洽詢） | 10，必須為 YYYY-MM-DD |
+| preferredTime（展示洽詢） | 100 |
+
+姓名與個資同意必填；電話或 Email 至少提供一項。以上限制會在伺服器強制驗證，前端應使用相同上限。
+
+目前十二項整合測試另涵蓋巢狀自訂 404、HEAD、查詢字串、錯誤/過大 Range、外部符號連結隔離、無效 Origin、靜態快取及真實啟動清除行為。
