@@ -22,4 +22,4 @@ document.addEventListener('click', event => {
 header.addEventListener('focusout', event => {
   if (!header.contains(event.relatedTarget)) closeMenu();
 });
-matchMedia('(min-width: 1121px)').addEventListener('change', closeMenu);
+matchMedia('(min-width: 1201px)').addEventListener('change', closeMenu);
