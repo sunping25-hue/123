@@ -29,3 +29,5 @@ This report describes implemented source and verified behavior, not production c
 - User-accessible remote preview requires separately authorized hosting; localhost is not a delivered remote preview.
 
 Production site and main remain untouched. Review source is kept on shinox-v2-hero; no automatic production deployment configured.
+
+Remote changes through 1229321 were merged without overwriting project instructions. The reusable navy / electric blue / teal / titanium-silver material tokens now follow the newly approved below-Hero palette. Original Hero files are unchanged.
