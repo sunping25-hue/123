@@ -58,3 +58,5 @@ This milestone supersedes the older English-layout and remote-preview blockers a
 - Evidence and repeatable checks: `docs/BILINGUAL_UI.md`, `docs/review/bilingual-ui/README.md`, browser QA JSON and scripts. Native publishing status and current source provenance are recorded in GitHub Issue #2 after publication.
 
 Still requires owner-provided/verified product imagery/specifications/DM, authorized news/cases and production email/booking integrations. The private static review has direct contact alternatives and does not send emails or confirm bookings. Existing ShinoX production and main remain untouched.
+
+Follow-up synchronization: fast-forwarded owner commits through `20cdc4b`, consolidated the duplicate six-stage insertion into the existing accessible shared component, and preserved removal of the old three-step block. Regenerated English and refreshed the business-page comparison screenshots.

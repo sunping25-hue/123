@@ -4,9 +4,9 @@ from PIL import Image,ImageDraw
 from playwright.async_api import async_playwright
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'docs/review/bilingual-ui';OUT.mkdir(parents=True,exist_ok=True)
 pairs=json.loads((ROOT/'shinox-v2-site/locales/pages.json').read_text());results=[]
-parser=argparse.ArgumentParser();parser.add_argument('--base-url',default='http://127.0.0.1:3027/');parser.add_argument('--products-only',action='store_true');args=parser.parse_args();BASE=args.base_url.rstrip('/')+'/'
-if args.products_only:
- results[:]=[r for r in json.loads((OUT/'page-qa.json').read_text()) if '/products/' not in '/'+r['route']]
+parser=argparse.ArgumentParser();parser.add_argument('--base-url',default='http://127.0.0.1:3027/');parser.add_argument('--products-only',action='store_true');parser.add_argument('--page');args=parser.parse_args();BASE=args.base_url.rstrip('/')+'/'
+if args.products_only or args.page:
+ results[:]=[r for r in json.loads((OUT/'page-qa.json').read_text()) if ('/products/' not in '/'+r['route'] if args.products_only else r['route'] not in [args.page,'en/'+args.page])]
 async def main():
  async with async_playwright() as p:
   browser=await p.chromium.launch(executable_path=os.environ.get('CHROMIUM_EXECUTABLE','/usr/bin/chromium'),args=['--no-sandbox']);context=await browser.new_context(reduced_motion='reduce');await context.add_init_script("sessionStorage.setItem('shinox-campaign-seen','1')")
@@ -33,7 +33,7 @@ async def main():
      for i,im in enumerate(images):canvas.paste(im.resize((size,int(im.height*scale)),Image.Resampling.LANCZOS),(i*(size+12),36))
      canvas.save(OUT/(pair['zh'].replace('/','-').replace('.html','')+'-'+str(width)+'.webp'),quality=82)
     print('Captured',width,pair['zh'],flush=True)
-  await asyncio.gather(*(capture_pair(width,pair) for width in [1440,390] for pair in pairs if not args.products_only or pair['zh'].startswith('products/')))
+  await asyncio.gather(*(capture_pair(width,pair) for width in [1440,390] for pair in pairs if (not args.products_only or pair['zh'].startswith('products/')) and (not args.page or pair['zh']==args.page)))
   await browser.close()
  (OUT/'page-qa.json').write_text(json.dumps(results,ensure_ascii=False,indent=2))
  rows=['# 中英文實際網頁對照\n','Chromium 本機實測；左側繁體中文、右側英文。桌機原始寬度 1440px（對照縮至50%），手機390px。減少動畫模式保持畫面可比較；另行測試正常動畫與互動。\n','|頁面|桌機對照|手機對照|','|---|---|---|']
