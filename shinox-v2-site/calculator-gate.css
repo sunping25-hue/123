@@ -21,3 +21,21 @@
 .calculator-actions{display:flex;flex-wrap:wrap;gap:10px}
 .calculator-actions .btn{font-size:12px;padding:13px 16px}
 @media(max-width:650px){.calculator-buttons{grid-template-columns:1fr}}
+
+/* Entrance popup: two calculator shortcuts, visible only once per tab */
+.calculator-welcome{width:min(93vw,710px);max-height:min(88svh,850px);overflow:auto;padding:0;background:#091b2d;color:#f0f6fa;border:1px solid #5a91a0;box-shadow:0 25px 90px #000c}
+.calculator-welcome::backdrop{background:#010713c4;backdrop-filter:blur(6px)}
+.calculator-welcome-content{position:relative;padding:clamp(24px,4vw,42px)}
+.calculator-welcome h2{margin:10px 0 12px;font-size:clamp(25px,3.2vw,38px);line-height:1.35}
+.calculator-welcome-content>p:not(.eyebrow){font-size:14px;color:#bbd0db;line-height:1.8}
+.calculator-welcome-close{position:absolute;top:12px;right:18px;background:none;border:0;font-size:30px;line-height:1;color:#d7eaf1}
+.calculator-welcome-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:24px 0}
+.calculator-welcome-links a{min-height:136px;display:flex;flex-direction:column;justify-content:space-between;gap:18px;padding:24px;background:linear-gradient(125deg,#0d3045,#071827);border:1px solid #447482}
+.calculator-welcome-links a:hover{border-color:#17ddc7;background:#154153}
+.calculator-welcome-links small{letter-spacing:.08em;font-size:10px;color:#17ddc7}
+.calculator-welcome-links strong{font-size:18px;font-weight:550}
+.calculator-welcome-bottom{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}
+.calculator-welcome-bottom a{color:#86e9d8;font-size:14px}
+.calculator-welcome-later{border:1px solid #658695;padding:10px 17px;background:transparent;color:white;font-size:13px}
+.calculator-welcome-disclaimer{display:block;margin-top:25px;font-size:11px;color:#8aaab9}
+@media(max-width:610px){.calculator-welcome-links{grid-template-columns:1fr}.calculator-welcome-links a{min-height:95px;padding:17px}}
