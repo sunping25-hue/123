@@ -31,3 +31,5 @@ This report describes implemented source and verified behavior, not production c
 Production site and main remain untouched. Review source is kept on shinox-v2-hero; no automatic production deployment configured.
 
 Remote changes through 1229321 were merged without overwriting project instructions. The reusable navy / electric blue / teal / titanium-silver material tokens now follow the newly approved below-Hero palette. Original Hero files are unchanged.
+
+Final browser checks: actual Hero video loop restart passed on desktop and mobile (waited for playback after seek, not a fixed sleep); playback control and fixed LINE button do not overlap. Form browser submission with synthetic preview data persisted and displayed the explicit local-only / not-notified response. All five official media files compared byte-for-byte equal to the user's original ZIP. Review screenshots are in docs/review/.
