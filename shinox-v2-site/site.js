@@ -13,3 +13,6 @@ if(location.protocol==='http:'||location.protocol==='https:'){fetch('api/status'
 form.addEventListener('submit',async e=>{e.preventDefault();if(!available||!form.reportValidity())return;const data=Object.fromEntries(new FormData(form));data.consent=form.elements.consent.checked;if(formMode==='lead'){delete data.location;delete data.preferredDate;delete data.preferredTime}submit.disabled=true;result.textContent='正在儲存測試資料…';try{const r=await fetch(formMode==='booking'?'api/booking-requests':'api/leads',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});const body=await r.json();if(!r.ok||!body.ok)throw Error(body.message||'儲存失敗，請稍後再試或使用電話聯絡。');result.textContent=body.message+' 測試編號：'+body.requestId;form.reset()}catch(err){result.textContent=err.message||'連線失敗，尚未送出。請使用電話或 Email 聯絡。'}finally{submit.disabled=false}});
 
 }
+
+// Load shared footer investment calculator links and password dialog on all main pages.
+(()=>{const style=document.createElement('link');style.rel='stylesheet';style.href='calculator-gate.css';document.head.append(style);const script=document.createElement('script');script.src='calculator-gate.js';script.defer=true;document.body.append(script)})();
