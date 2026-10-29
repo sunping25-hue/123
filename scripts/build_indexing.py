@@ -26,6 +26,13 @@ def public_pages():
 
 def indexable_html(text):
     matches = list(ROBOTS_META.finditer(text))
+    if not matches:
+        # Newly added formal pages may omit robots (indexable by default).
+        # Add the explicit policy without serializing or changing their contents.
+        head = re.search(r'<head\b[^>]*>', text, re.I)
+        if not head:
+            raise ValueError('Expected a head element')
+        return text[:head.end()]+'<meta name="robots" content="index,follow,max-image-preview:large">'+text[head.end():]
     if len(matches) != 1:
         raise ValueError('Expected exactly one robots meta element')
     tag = matches[0].group()
