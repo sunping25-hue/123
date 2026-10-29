@@ -1,0 +1,38 @@
+# ShinoX production deployment template. Creating this file does NOT deploy or open forms.
+services:
+  - type: web
+    name: shinox-official-site
+    runtime: python
+    plan: starter
+    region: singapore
+    repo: https://github.com/sunping25-hue/123
+    branch: shinox-v2-hero
+    autoDeployTrigger: off
+    buildCommand: python -m compileall -q server.py production_api.py legal_policy.py
+    startCommand: python scripts/start_render.py
+    healthCheckPath: /api/status
+    disk:
+      name: shinox-private-leads
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: SHINOX_DB_PATH
+        value: /var/data/requests.sqlite3
+      - key: SHINOX_FORM_LIVE
+        value: "0"
+      - key: SHINOX_PUBLIC_ORIGIN
+        sync: false
+      - key: SHINOX_SMTP_HOST
+        sync: false
+      - key: SHINOX_SMTP_PORT
+        value: "465"
+      - key: SHINOX_SMTP_USER
+        sync: false
+      - key: SHINOX_SMTP_PASSWORD
+        sync: false
+      - key: SHINOX_SMTP_FROM
+        sync: false
+      - key: SHINOX_ADMIN_TOKEN
+        sync: false
