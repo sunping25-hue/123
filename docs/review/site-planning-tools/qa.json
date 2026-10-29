@@ -1,0 +1,46 @@
+[
+  {
+    "width": 1440,
+    "language": "zh",
+    "image": "owner supplied planning-tools picture",
+    "loads": true,
+    "textAndLinkRetained": true,
+    "originalProcessRetained": true,
+    "duplicateProcessAbsent": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "language": "en",
+    "image": "owner supplied planning-tools picture",
+    "loads": true,
+    "textAndLinkRetained": true,
+    "originalProcessRetained": true,
+    "duplicateProcessAbsent": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "language": "zh",
+    "image": "owner supplied planning-tools picture",
+    "loads": true,
+    "textAndLinkRetained": true,
+    "originalProcessRetained": true,
+    "duplicateProcessAbsent": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "language": "en",
+    "image": "owner supplied planning-tools picture",
+    "loads": true,
+    "textAndLinkRetained": true,
+    "originalProcessRetained": true,
+    "duplicateProcessAbsent": true,
+    "overflow": false,
+    "errors": []
+  }
+]
