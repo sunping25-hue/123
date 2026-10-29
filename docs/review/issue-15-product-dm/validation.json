@@ -135,60 +135,6 @@
       "screenshot": "products-wash-1-zh-1440.webp"
     },
     {
-      "route": "products/wash-2.html",
-      "width": 1440,
-      "links": [
-        {
-          "text": "M9高階洗車機DM ↓",
-          "href": "/downloads/dm/shinox-m9-dm-zh.pdf",
-          "download": "shinox-m9-dm-zh.pdf",
-          "x": 441.625,
-          "right": 615.015625,
-          "width": 173.390625,
-          "height": 45.5,
-          "overflow": false
-        }
-      ],
-      "allDownloadsMatchOriginal": true,
-      "overflow": false,
-      "preExistingBaseOverflow": false,
-      "dmButtonOverflow": false,
-      "jsErrors": [],
-      "screenshot": "products-wash-2-zh-1440.webp"
-    },
-    {
-      "route": "products/self-3.html",
-      "width": 1440,
-      "links": [
-        {
-          "text": "9合1控制箱（投幣款）DM ↓",
-          "href": "/downloads/dm/shinox-9in1-coin-dm-zh.pdf",
-          "download": "shinox-9in1-coin-dm-zh.pdf",
-          "x": 441.625,
-          "right": 664.453125,
-          "width": 222.828125,
-          "height": 45.5,
-          "overflow": false
-        },
-        {
-          "text": "9合1控制箱（觸控款）DM ↓",
-          "href": "/downloads/dm/shinox-9in1-touch-dm-zh.pdf",
-          "download": "shinox-9in1-touch-dm-zh.pdf",
-          "x": 120.796875,
-          "right": 343.625,
-          "width": 222.828125,
-          "height": 45.5,
-          "overflow": false
-        }
-      ],
-      "allDownloadsMatchOriginal": true,
-      "overflow": false,
-      "preExistingBaseOverflow": false,
-      "dmButtonOverflow": false,
-      "jsErrors": [],
-      "screenshot": "products-self-3-zh-1440.webp"
-    },
-    {
       "route": "en/index.html",
       "width": 1440,
       "links": [
@@ -261,60 +207,6 @@
       "dmButtonOverflow": false,
       "jsErrors": [],
       "screenshot": "products-wash-1-en-1440.webp"
-    },
-    {
-      "route": "en/products/wash-2.html",
-      "width": 1440,
-      "links": [
-        {
-          "text": "M9 premium car wash DM ↓",
-          "href": "/downloads/dm/shinox-m9-dm-en.pdf",
-          "download": "shinox-m9-dm-en.pdf",
-          "x": 120.796875,
-          "right": 353.953125,
-          "width": 233.15625,
-          "height": 45.5,
-          "overflow": false
-        }
-      ],
-      "allDownloadsMatchOriginal": true,
-      "overflow": false,
-      "preExistingBaseOverflow": false,
-      "dmButtonOverflow": false,
-      "jsErrors": [],
-      "screenshot": "products-wash-2-en-1440.webp"
-    },
-    {
-      "route": "en/products/self-3.html",
-      "width": 1440,
-      "links": [
-        {
-          "text": "9-in-1 coin-operated DM ↓",
-          "href": "/downloads/dm/shinox-9in1-coin-dm-en.pdf",
-          "download": "shinox-9in1-coin-dm-en.pdf",
-          "x": 120.796875,
-          "right": 342.609375,
-          "width": 221.8125,
-          "height": 45.5,
-          "overflow": false
-        },
-        {
-          "text": "9-in-1 touchscreen DM ↓",
-          "href": "/downloads/dm/shinox-9in1-touch-dm-en.pdf",
-          "download": "shinox-9in1-touch-dm-en.pdf",
-          "x": 367.609375,
-          "right": 580.25,
-          "width": 212.640625,
-          "height": 45.5,
-          "overflow": false
-        }
-      ],
-      "allDownloadsMatchOriginal": true,
-      "overflow": false,
-      "preExistingBaseOverflow": false,
-      "dmButtonOverflow": false,
-      "jsErrors": [],
-      "screenshot": "products-self-3-en-1440.webp"
     },
     {
       "route": "index.html",
@@ -391,60 +283,6 @@
       "screenshot": "products-wash-1-zh-390.webp"
     },
     {
-      "route": "products/wash-2.html",
-      "width": 390,
-      "links": [
-        {
-          "text": "M9高階洗車機DM ↓",
-          "href": "/downloads/dm/shinox-m9-dm-zh.pdf",
-          "download": "shinox-m9-dm-zh.pdf",
-          "x": 23.390625,
-          "right": 180.140625,
-          "width": 156.75,
-          "height": 44,
-          "overflow": false
-        }
-      ],
-      "allDownloadsMatchOriginal": true,
-      "overflow": false,
-      "preExistingBaseOverflow": false,
-      "dmButtonOverflow": false,
-      "jsErrors": [],
-      "screenshot": "products-wash-2-zh-390.webp"
-    },
-    {
-      "route": "products/self-3.html",
-      "width": 390,
-      "links": [
-        {
-          "text": "9合1控制箱（投幣款）DM ↓",
-          "href": "/downloads/dm/shinox-9in1-coin-dm-zh.pdf",
-          "download": "shinox-9in1-coin-dm-zh.pdf",
-          "x": 23.390625,
-          "right": 225.78125,
-          "width": 202.390625,
-          "height": 44,
-          "overflow": false
-        },
-        {
-          "text": "9合1控制箱（觸控款）DM ↓",
-          "href": "/downloads/dm/shinox-9in1-touch-dm-zh.pdf",
-          "download": "shinox-9in1-touch-dm-zh.pdf",
-          "x": 23.390625,
-          "right": 225.78125,
-          "width": 202.390625,
-          "height": 44,
-          "overflow": false
-        }
-      ],
-      "allDownloadsMatchOriginal": true,
-      "overflow": false,
-      "preExistingBaseOverflow": false,
-      "dmButtonOverflow": false,
-      "jsErrors": [],
-      "screenshot": "products-self-3-zh-390.webp"
-    },
-    {
       "route": "en/index.html",
       "width": 390,
       "links": [
@@ -519,6 +357,168 @@
       "screenshot": "products-wash-1-en-390.webp"
     },
     {
+      "route": "products/wash-2.html",
+      "width": 1440,
+      "links": [
+        {
+          "text": "M9高階洗車機DM ↓",
+          "href": "/downloads/dm/shinox-m9-dm-zh.pdf",
+          "download": "shinox-m9-dm-zh.pdf",
+          "x": 441.625,
+          "right": 615.015625,
+          "width": 173.390625,
+          "height": 45.5,
+          "overflow": false
+        }
+      ],
+      "allDownloadsMatchOriginal": true,
+      "overflow": false,
+      "preExistingBaseOverflow": false,
+      "dmButtonOverflow": false,
+      "jsErrors": [],
+      "screenshot": "products-wash-2-zh-1440.webp"
+    },
+    {
+      "route": "products/self-3.html",
+      "width": 1440,
+      "links": [
+        {
+          "text": "9合1控制箱（投幣款）DM ↓",
+          "href": "/downloads/dm/shinox-9in1-coin-dm-zh.pdf",
+          "download": "shinox-9in1-coin-dm-zh.pdf",
+          "x": 441.625,
+          "right": 664.453125,
+          "width": 222.828125,
+          "height": 45.5,
+          "overflow": false
+        },
+        {
+          "text": "9合1控制箱（觸控款）DM ↓",
+          "href": "/downloads/dm/shinox-9in1-touch-dm-zh.pdf",
+          "download": "shinox-9in1-touch-dm-zh.pdf",
+          "x": 120.796875,
+          "right": 343.625,
+          "width": 222.828125,
+          "height": 45.5,
+          "overflow": false
+        }
+      ],
+      "allDownloadsMatchOriginal": true,
+      "overflow": false,
+      "preExistingBaseOverflow": false,
+      "dmButtonOverflow": false,
+      "jsErrors": [],
+      "screenshot": "products-self-3-zh-1440.webp"
+    },
+    {
+      "route": "en/products/wash-2.html",
+      "width": 1440,
+      "links": [
+        {
+          "text": "M9 premium car wash DM ↓",
+          "href": "/downloads/dm/shinox-m9-dm-en.pdf",
+          "download": "shinox-m9-dm-en.pdf",
+          "x": 120.796875,
+          "right": 353.953125,
+          "width": 233.15625,
+          "height": 45.5,
+          "overflow": false
+        }
+      ],
+      "allDownloadsMatchOriginal": true,
+      "overflow": false,
+      "preExistingBaseOverflow": false,
+      "dmButtonOverflow": false,
+      "jsErrors": [],
+      "screenshot": "products-wash-2-en-1440.webp"
+    },
+    {
+      "route": "en/products/self-3.html",
+      "width": 1440,
+      "links": [
+        {
+          "text": "9-in-1 coin-operated DM ↓",
+          "href": "/downloads/dm/shinox-9in1-coin-dm-en.pdf",
+          "download": "shinox-9in1-coin-dm-en.pdf",
+          "x": 120.796875,
+          "right": 342.609375,
+          "width": 221.8125,
+          "height": 45.5,
+          "overflow": false
+        },
+        {
+          "text": "9-in-1 touchscreen DM ↓",
+          "href": "/downloads/dm/shinox-9in1-touch-dm-en.pdf",
+          "download": "shinox-9in1-touch-dm-en.pdf",
+          "x": 367.609375,
+          "right": 580.25,
+          "width": 212.640625,
+          "height": 45.5,
+          "overflow": false
+        }
+      ],
+      "allDownloadsMatchOriginal": true,
+      "overflow": false,
+      "preExistingBaseOverflow": false,
+      "dmButtonOverflow": false,
+      "jsErrors": [],
+      "screenshot": "products-self-3-en-1440.webp"
+    },
+    {
+      "route": "products/wash-2.html",
+      "width": 390,
+      "links": [
+        {
+          "text": "M9高階洗車機DM ↓",
+          "href": "/downloads/dm/shinox-m9-dm-zh.pdf",
+          "download": "shinox-m9-dm-zh.pdf",
+          "x": 23.390625,
+          "right": 180.140625,
+          "width": 156.75,
+          "height": 44,
+          "overflow": false
+        }
+      ],
+      "allDownloadsMatchOriginal": true,
+      "overflow": false,
+      "preExistingBaseOverflow": false,
+      "dmButtonOverflow": false,
+      "jsErrors": [],
+      "screenshot": "products-wash-2-zh-390.webp"
+    },
+    {
+      "route": "products/self-3.html",
+      "width": 390,
+      "links": [
+        {
+          "text": "9合1控制箱（投幣款）DM ↓",
+          "href": "/downloads/dm/shinox-9in1-coin-dm-zh.pdf",
+          "download": "shinox-9in1-coin-dm-zh.pdf",
+          "x": 23.390625,
+          "right": 225.78125,
+          "width": 202.390625,
+          "height": 44,
+          "overflow": false
+        },
+        {
+          "text": "9合1控制箱（觸控款）DM ↓",
+          "href": "/downloads/dm/shinox-9in1-touch-dm-zh.pdf",
+          "download": "shinox-9in1-touch-dm-zh.pdf",
+          "x": 23.390625,
+          "right": 225.78125,
+          "width": 202.390625,
+          "height": 44,
+          "overflow": false
+        }
+      ],
+      "allDownloadsMatchOriginal": true,
+      "overflow": false,
+      "preExistingBaseOverflow": false,
+      "dmButtonOverflow": false,
+      "jsErrors": [],
+      "screenshot": "products-self-3-zh-390.webp"
+    },
+    {
       "route": "en/products/wash-2.html",
       "width": 390,
       "links": [
@@ -573,5 +573,19 @@
       "screenshot": "products-self-3-en-390.webp"
     }
   ],
-  "startupGuideCardsByteIdentical": true
+  "startupGuideCardsByteIdentical": true,
+  "productBytePreservation": {
+    "result": "pass",
+    "permittedChanges": [
+      "DM download links in six product pages",
+      "DM availability row in Chinese/English self-3 and wash-2"
+    ],
+    "allOtherProductBytesMatchBase": true
+  },
+  "dmAvailabilityStatusRows": {
+    "shinox-v2-site/products/self-3.html": "已提供下載",
+    "shinox-v2-site/products/wash-2.html": "已提供下載",
+    "shinox-v2-site/en/products/self-3.html": "Available to download",
+    "shinox-v2-site/en/products/wash-2.html": "Available to download"
+  }
 }

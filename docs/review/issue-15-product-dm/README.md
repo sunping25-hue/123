@@ -7,7 +7,7 @@ Base: `84c2890`, isolated branch `codex/issue-15-product-dm`. This change is pre
 - Eight owner-specified original PDFs from Google Drive, copied unchanged into `shinox-v2-site/downloads/dm/` and served under `/downloads/dm/`.
 - Chinese and English homepage product DM cards now provide four language-matched downloads. Chinese copy: 「包含 M9、B2 洗車機，以及九合一控制箱（投幣款、觸控款）專題 DM。」
 - Matching download buttons added to B2 (`wash-1`), M9 (`wash-2`) and nine-in-one (`self-3`) product pages in both languages. The control-box pages offer both coin-operated and touchscreen PDFs.
-- Both startup-guide cards are byte-identical to the base commit. All other homepage content, product prose, images, navigation and unrelated pages are unchanged; no server or shared CSS changes.
+- Both startup-guide cards are byte-identical to the base commit. All other homepage content, product prose, images, navigation and unrelated pages are unchanged; no server or shared CSS changes. The existing DM status rows on the nine-in-one and M9 pages in both languages now say “已提供下載” / “Available to download”, matching the actual download links.
 
 ## Source and file checks
 
