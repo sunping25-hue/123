@@ -44,3 +44,6 @@
 @media(max-width:800px){.sx-experience .sx-grid{grid-template-columns:repeat(2,1fr)}.sx-experience .sx-process{grid-template-columns:repeat(2,1fr)}.sx-experience .sx-section{padding:48px 0}}
 @media(max-width:540px){.sx-experience .sx-grid,.sx-experience .sx-stats,.sx-experience .sx-variants,.sx-experience .sx-highlights{grid-template-columns:1fr 1fr}.sx-experience .sx-grid{grid-template-columns:1fr}.sx-experience .sx-stat{padding:16px 6px}.sx-experience .sx-specs th{width:39%}.sx-experience .sx-card{padding:20px}}
 @media(prefers-reduced-motion:reduce){.sx-experience *{scroll-behavior:auto!important;transition:none!important}}
+
+/* Avoid doubling the older feature / process panels once the enhanced page mounts. */
+body:has(.sx-experience[data-sx-product]) .showcase-panel{display:none}
