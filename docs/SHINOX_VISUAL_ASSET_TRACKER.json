@@ -319,6 +319,32 @@
       "posterSha256": "f4d841919859539c9e88516e3f2b6536f61cdf67e919bbb57181dc5c17ee4398",
       "processing": "User-provided video, H.264 CRF22 web rendition, original dimensions and frames, audio removed, MP4 faststart; poster is its first frame.",
       "status": "Owner explicitly requested to replace homepage contact still artwork; existing original homepage Hero remains unchanged."
+    },
+    {
+      "id": "HOME-NEWSROOM",
+      "page": "首頁",
+      "section": "首頁 05 / NEWSROOM",
+      "filename": "lassets/home/newsroom-visual.webp",
+      "size": "1600x754",
+      "status": "user supplied and explicitly approved for homepage; integrated with real HTML text and CTA",
+      "source": "202610299.zip / 202610299.png",
+      "sourceSha256": "5507438348680c5827e329f34663883a7061ac57c2cdd2165e85d6b69f11a2da",
+      "sha256": "d9f4711b5c62fb34d0cbf9893789727864d2738d70f13787c9ccae7466cc328c",
+      "bytes": 186432,
+      "notes": "Proportional crop of image A; image B used only as layout reference. No generated image, equipment substitution or invented project claim."
+    },
+    {
+      "id": "HOME-PROJECTS",
+      "page": "首頁",
+      "section": "首頁 06 / SELECTED PROJECTS",
+      "filename": "lassets/home/projects-visual.webp",
+      "size": "1600x889",
+      "status": "user supplied and explicitly approved for homepage; integrated with real HTML text and CTA",
+      "source": "202610299.zip / 202610299.png",
+      "sourceSha256": "5507438348680c5827e329f34663883a7061ac57c2cdd2165e85d6b69f11a2da",
+      "sha256": "d50a2eb37750d342d20051d2ebb85e0891fbe1d9110a0f980d52edea2a210f99",
+      "bytes": 149782,
+      "notes": "Proportional crop of image A; image B used only as layout reference. No generated image, equipment substitution or invented project claim."
     }
   ]
 }
