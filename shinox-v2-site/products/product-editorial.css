@@ -46,4 +46,66 @@
 @media(prefers-reduced-motion:reduce){.sx-experience *{scroll-behavior:auto!important;transition:none!important}}
 
 /* Avoid doubling the older feature / process panels once the enhanced page mounts. */
-body:has(.sx-experience[data-sx-product]) .showcase-panel{display:none}
+body:has(.sx-experience[data-sx-product][data-sx-editorial-ready="true"]) .showcase-panel{display:none}
+
+/* Issue 13 continuation: preserve the authored sections and refine their live layout. */
+.sx-experience{background:radial-gradient(ellipse at 95% 4%,#40316a24,transparent 32%),linear-gradient(180deg,#0a1128,#0d0b28 62%,#0a1228);border-top:1px solid #65609d35;border-radius:0 0 14px 14px}
+.sx-experience *{min-width:0}
+.sx-experience .sx-section{padding-top:76px;padding-bottom:76px;scroll-margin-top:28px}
+.sx-experience :is(h2,h3,p,strong,b,span,small,th,td){overflow-wrap:anywhere}
+.sx-experience h2{line-height:1.3;letter-spacing:-.025em;max-width:900px}
+.sx-experience h3{line-height:1.45;font-weight:550}
+.sx-experience .sx-eyebrow{line-height:1.7;font-size:10px;letter-spacing:.2em}
+.sx-experience .sx-stats{padding-top:30px;gap:14px}
+.sx-experience .sx-stat{padding:26px 18px;background:linear-gradient(135deg,#222045c9,#111934);border-color:#756baf55}
+.sx-experience .sx-stat strong{line-height:1.3;letter-spacing:-.02em;margin-bottom:10px;font-variant-numeric:tabular-nums}
+.sx-experience .sx-stat span{display:block;font-size:12px;color:#bdc2db;line-height:1.7}
+.sx-experience .sx-card{padding:29px 27px;background:linear-gradient(145deg,#1a2041,#11162f);border-color:#786d9a55;transition:border-color .2s,background .2s}
+.sx-experience .sx-card:hover{border-color:#9487d5;background:linear-gradient(145deg,#24274c,#171c39)}
+.sx-experience .sx-card p{font-size:14px;color:#b8bed5;line-height:1.8}
+.sx-experience .sx-icon{background:linear-gradient(135deg,#5d54a8,#293f79);box-shadow:inset 0 1px 0 #e9e6ff24,0 5px 18px #21284c55}
+/* The global button system uses inline flex: explicitly stack the editorial labels. */
+.sx-experience .sx-process button,.sx-experience .sx-variant{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;gap:0;height:100%;white-space:normal;font:inherit;text-align:left;line-height:1.5}
+.sx-experience .sx-process button{padding:25px 21px;min-height:174px}
+.sx-experience .sx-process .sx-n{font-size:21px;line-height:1.3;margin-bottom:17px;font-variant-numeric:tabular-nums}
+.sx-experience .sx-process strong{font-size:15px;line-height:1.6;font-weight:600;display:block}
+.sx-experience .sx-process small{font-size:12px;line-height:1.7;display:block;margin-top:10px}
+.sx-experience .sx-process button[aria-pressed=true]{background:linear-gradient(140deg,#302758,#16274b);border-color:#b1a6ff;box-shadow:inset 0 1px 0 #d7d0ff16,0 7px 22px #01061930}
+.sx-experience :is(.sx-process button,.sx-variant,.sx-action):focus-visible{outline:2px solid #bcb7ff;outline-offset:5px}
+.sx-experience .sx-process-detail{line-height:1.8;font-size:14px;min-height:74px;padding:22px 25px;color:#d5dbef;background:#151d3a}
+.sx-experience .sx-variant{padding:27px;background:linear-gradient(145deg,#181e3c,#10172d);min-height:140px}
+.sx-experience .sx-variant b{line-height:1.5;margin-bottom:12px;font-weight:600;font-size:21px}
+.sx-experience .sx-variant span{line-height:1.85;font-size:13px}
+.sx-experience .sx-variant[aria-pressed=true]{background:linear-gradient(140deg,#292349,#172442);box-shadow:inset 0 1px 0 #dbd3ff15,0 10px 30px #0002}
+.sx-experience .sx-notice{font-size:12px!important;line-height:1.9!important;color:#b1b5cd!important}
+.sx-experience>.sx-notice{padding:18px 20px!important;border-left:2px solid #7972aa;background:#171c32;margin:20px auto 0!important}
+.sx-experience .sx-table-caption{caption-side:top;text-align:left;font-size:12px;line-height:1.8;color:#a6adc9;padding:10px 0 20px}
+.sx-experience .sx-specs{table-layout:fixed;margin-top:24px}
+.sx-experience .sx-specs th,.sx-experience .sx-specs td{vertical-align:top;padding:20px 14px;line-height:1.8;overflow-wrap:anywhere}
+.sx-experience .sx-specs th{background:#c8d7e604;color:#b3bad5}
+.sx-experience .sx-highlight{line-height:1.8;padding:20px 22px;background:#191e3b}
+.sx-experience .sx-chip{line-height:1.7;padding:10px 17px;background:#171b32;color:#c6cbe2}
+.sx-experience .sx-contact{padding:85px 6%;background:radial-gradient(ellipse at 55% 0%,#51408b66,transparent 72%),#0d1029}
+.sx-experience .sx-contact h2{margin:0 auto 20px;max-width:850px}
+.sx-experience .sx-contact>p:not(.sx-eyebrow){max-width:650px;margin:auto}
+.sx-experience .sx-action{min-height:48px;max-width:100%;line-height:1.6;white-space:normal;gap:12px;box-shadow:inset 0 1px 0 #fff3}
+/* Match the existing Hero to the navy / blue-violet editorial. These selectors affect only B2/M9 pages with the authored mount. */
+body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero{grid-template-columns:minmax(0,1fr) minmax(0,1.08fr);gap:4.5vw;align-items:center;min-height:600px;padding-top:76px;padding-bottom:82px}
+body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero::before{background:radial-gradient(ellipse at 80% 25%,#49438429,transparent 64%),linear-gradient(120deg,#081526,#11122d 80%,#0c1630)}
+body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero h1{font-size:clamp(43px,5.2vw,78px);line-height:1.14;overflow-wrap:anywhere}
+body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero .hero-title{font-size:clamp(22px,2.2vw,31px);line-height:1.5}
+body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero .intro{font-size:15px;line-height:1.9}
+body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero .approved-product-media{border:1px solid #8b8caf66;border-radius:13px;background:#081221;box-shadow:0 20px 55px #0004}
+body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero .approved-product-media img{aspect-ratio:auto;object-fit:contain;object-position:center;width:100%;height:auto}
+body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero .approved-product-panel{border:1px solid #66678255;border-radius:13px;overflow:hidden;background:#10162b}
+body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero .approved-product-panel .approved-product-media{border:0;border-radius:0;box-shadow:none}
+body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero .product-record{padding:18px 21px;background:#101a2e}
+body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero .product-record .eyebrow{font-size:9px;margin-bottom:8px}
+body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero .product-record .record-name{font-size:17px;margin-bottom:13px}
+body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero .product-record dl div{font-size:11px;padding:10px 0}
+body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero .product-record>p:last-child{font-size:11px;line-height:1.8;margin-top:12px}
+@media(max-width:1050px){.sx-experience .sx-section{padding-top:62px;padding-bottom:62px}.sx-experience .sx-process button{padding:23px 16px;min-height:180px}.sx-experience .sx-card{padding:25px 22px}.sx-experience .sx-stats{gap:11px}.sx-experience .sx-stat{padding:23px 15px}body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero{gap:4vw;min-height:0;padding-top:60px;padding-bottom:65px}}
+@media(max-width:950px){body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero{grid-template-columns:1fr;gap:35px}body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero>div:first-child{padding-top:0}body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero .approved-product-media{max-width:none}body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero .product-record dl{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero .product-record dl div{font-size:11px;display:block}body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero .product-record dd{text-align:left;padding-top:8px}}
+@media(max-width:800px){.sx-experience .sx-process{gap:14px}.sx-experience .sx-process button{min-height:170px}.sx-experience .sx-variant{padding:24px}.sx-experience .sx-contact{padding:70px 7%}}
+@media(max-width:600px){.sx-experience .sx-wrap{width:88%}.sx-experience .sx-section{padding-top:50px;padding-bottom:50px}.sx-experience .sx-eyebrow{font-size:9px;letter-spacing:.16em}.sx-experience h2{font-size:28px;line-height:1.35}.sx-experience .sx-stats{padding-top:25px;gap:10px}.sx-experience .sx-stat{padding:20px 12px}.sx-experience .sx-stat strong{font-size:24px;margin-bottom:8px}.sx-experience .sx-stat span{font-size:11px}.sx-experience .sx-card{padding:25px 23px}.sx-experience .sx-card h3{font-size:19px}.sx-experience .sx-card p{font-size:14px}.sx-experience .sx-process,.sx-experience .sx-variants{width:calc(100% - 38px);gap:10px}.sx-experience .sx-process button{padding:20px 14px;min-height:210px}.sx-experience .sx-process .sx-n{font-size:20px;margin-bottom:15px}.sx-experience .sx-process strong{font-size:13px;line-height:1.6;hyphens:auto}.sx-experience .sx-process small{font-size:11px;line-height:1.75}.sx-experience .sx-process-detail{width:calc(100% - 38px);padding:20px 18px;font-size:13px;line-height:1.8;min-height:92px}.sx-experience .sx-variant{padding:22px 14px;min-height:190px}.sx-experience .sx-variant b{font-size:18px}.sx-experience .sx-variant span{font-size:12px;line-height:1.8}.sx-experience .sx-specs{font-size:12px;table-layout:fixed}.sx-experience .sx-specs th{width:36%}.sx-experience .sx-specs th,.sx-experience .sx-specs td{padding:17px 10px;line-height:1.85}.sx-experience .sx-table-caption{font-size:11px}.sx-experience .sx-highlights{grid-template-columns:1fr}.sx-experience .sx-highlight{padding:18px 20px;font-size:13px}.sx-experience .sx-chip{font-size:11px;padding:9px 13px}.sx-experience .sx-notice{font-size:11px!important;line-height:1.9!important}.sx-experience>.sx-notice{padding:15px 17px!important}.sx-experience .sx-contact{padding:62px 7%}.sx-experience .sx-contact h2{font-size:28px}.sx-experience .sx-contact>p:not(.sx-eyebrow){font-size:13px}.sx-experience .sx-action{max-width:calc(100% - 40px);font-size:13px;margin-right:20px}body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero{padding-top:46px;padding-bottom:52px;gap:30px}body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero h1{font-size:47px;line-height:1.15}body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero .hero-title{font-size:23px;line-height:1.55}body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero .intro{font-size:14px}body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero .actions{max-width:calc(100% - 54px)}body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero .approved-product-media figcaption{font-size:10px;padding:10px 12px}body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero .product-record{padding:17px}body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero .product-record dl{grid-template-columns:1fr;gap:0}body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero .product-record dl div{display:flex;padding:11px 0}body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero .product-record dd{text-align:right;padding-top:0}}
+@media(prefers-reduced-motion:reduce){.sx-experience *{transition:none!important;animation:none!important}body:has(.sx-experience[data-sx-product]) .product-showcase .product-hero *{transition:none!important}}
