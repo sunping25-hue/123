@@ -1,0 +1,68 @@
+[
+  {
+    "lang": "zh",
+    "width": 1440,
+    "height": 1000,
+    "copyAndCTA": "PASS",
+    "nativeModalKeyboardEsc": "PASS",
+    "sameSessionSuppression": "PASS",
+    "textOverflow": "NONE",
+    "actualAdImage": "BLOCKED: original PNG file not yet provided; no substitute used",
+    "pageErrors": []
+  },
+  {
+    "lang": "zh",
+    "width": 390,
+    "height": 844,
+    "copyAndCTA": "PASS",
+    "nativeModalKeyboardEsc": "PASS",
+    "sameSessionSuppression": "PASS",
+    "textOverflow": "NONE",
+    "actualAdImage": "BLOCKED: original PNG file not yet provided; no substitute used",
+    "pageErrors": []
+  },
+  {
+    "lang": "zh",
+    "width": 375,
+    "height": 667,
+    "copyAndCTA": "PASS",
+    "nativeModalKeyboardEsc": "PASS",
+    "sameSessionSuppression": "PASS",
+    "textOverflow": "NONE",
+    "actualAdImage": "BLOCKED: original PNG file not yet provided; no substitute used",
+    "pageErrors": []
+  },
+  {
+    "lang": "en",
+    "width": 1440,
+    "height": 1000,
+    "copyAndCTA": "PASS",
+    "nativeModalKeyboardEsc": "PASS",
+    "sameSessionSuppression": "PASS",
+    "textOverflow": "NONE",
+    "actualAdImage": "BLOCKED: original PNG file not yet provided; no substitute used",
+    "pageErrors": []
+  },
+  {
+    "lang": "en",
+    "width": 390,
+    "height": 844,
+    "copyAndCTA": "PASS",
+    "nativeModalKeyboardEsc": "PASS",
+    "sameSessionSuppression": "PASS",
+    "textOverflow": "NONE",
+    "actualAdImage": "BLOCKED: original PNG file not yet provided; no substitute used",
+    "pageErrors": []
+  },
+  {
+    "lang": "en",
+    "width": 375,
+    "height": 667,
+    "copyAndCTA": "PASS",
+    "nativeModalKeyboardEsc": "PASS",
+    "sameSessionSuppression": "PASS",
+    "textOverflow": "NONE",
+    "actualAdImage": "BLOCKED: original PNG file not yet provided; no substitute used",
+    "pageErrors": []
+  }
+]
