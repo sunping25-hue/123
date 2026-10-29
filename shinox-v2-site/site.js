@@ -1,5 +1,5 @@
 'use strict';
-const shinoxApiBase=new URL('.',document.currentScript.src);
+const APPS_SCRIPT_URL='https://script.google.com/macros/s/AKfycbyIHCL_KxWtDzHB02x0GkkPNAT-rOIi9NbXa6eNyrFvhrFdwITomHPNDqVSYoVbj2G5ow/exec';
 const menuButton=document.querySelector('.toggle'),nav=document.querySelector('#nav');
 function closeMenu(){nav.classList.remove('open');menuButton.setAttribute('aria-expanded','false');menuButton.setAttribute('aria-label','開啟導覽選單')}
 menuButton.addEventListener('click',()=>{const open=nav.classList.toggle('open');menuButton.setAttribute('aria-expanded',String(open));menuButton.setAttribute('aria-label',open?'關閉導覽選單':'開啟導覽選單')});
@@ -7,13 +7,64 @@ nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));
 document.addEventListener('keydown',event=>{if(event.key==='Escape'&&nav.classList.contains('open')){closeMenu();menuButton.focus()}});
 const tabs=[...document.querySelectorAll('[role="tab"]')];function selectTab(tab){tabs.forEach(t=>{const active=t===tab;t.setAttribute('aria-selected',String(active));t.tabIndex=active?0:-1;document.getElementById(t.getAttribute('aria-controls')).hidden=!active})}
 tabs.forEach((tab,i)=>{tab.addEventListener('click',()=>selectTab(tab));tab.addEventListener('keydown',e=>{let next;if(e.key==='ArrowRight')next=(i+1)%tabs.length;if(e.key==='ArrowLeft')next=(i+tabs.length-1)%tabs.length;if(e.key==='Home')next=0;if(e.key==='End')next=tabs.length-1;if(next!==undefined){e.preventDefault();selectTab(tabs[next]);tabs[next].focus()}})});
-const form=document.querySelector('#inquiry-form');if(form){const fields=document.querySelector('#inquiry-fields'),notice=document.querySelector('#form-runtime'),result=document.querySelector('#form-result'),submit=form.querySelector('.submit');let formMode='lead',available=false;
-const consent=form.elements.consent,confirmedAt=form.elements.consentConfirmedAt,policyVersion=form.elements.privacyPolicyVersion;
-consent.checked=false;confirmedAt.value='';
-consent.addEventListener('change',()=>{confirmedAt.value=consent.checked?new Date().toISOString():''});
-form.addEventListener('reset',()=>{confirmedAt.value=''});
-document.querySelectorAll('[data-form-mode]').forEach(b=>b.addEventListener('click',()=>{formMode=b.dataset.formMode;document.querySelectorAll('[data-form-mode]').forEach(t=>{const active=t===b;t.classList.toggle('active',active);t.setAttribute('aria-pressed',String(active))});document.querySelector('#booking-fields').hidden=formMode!=='booking';result.textContent=''}));
-if(location.protocol==='http:'||location.protocol==='https:'){fetch(new URL('api/status',shinoxApiBase),{headers:{Accept:'application/json'}}).then(r=>{if(!r.ok)throw Error();return r.json()}).then(status=>{if(status.mode!=='production'||!status.persistence||!status.emailConfigured||status.acceptingLeads!==true||status.legalReviewAccepted!==true||status.privacyPolicyVersion!==policyVersion.value)throw Error();available=true;fields.disabled=false;submit.textContent=document.documentElement.lang==='en'?'Send enquiry ↗':'送出洽詢 ↗';notice.textContent=document.documentElement.lang==='en'?'Secure enquiry form is available. Demonstration times require separate confirmation.':'正式洽詢表單已啟用。展示日期與時段仍需專人確認。'}).catch(()=>{notice.textContent=document.documentElement.lang==='en'?'Online form is not available. Please contact us by phone, email or WhatsApp.':'線上表單尚未開放。請使用電話、Email 或 WhatsApp 聯絡。';submit.textContent=document.documentElement.lang==='en'?'Form unavailable':'表單尚未開放'})}else{notice.textContent='目前為離線預覽，表單不會送出。正式需求請直接使用電話或 Email 聯絡。';submit.textContent='離線預覽 · 表單未啟用'}
-form.addEventListener('submit',async e=>{e.preventDefault();if(!available||!form.reportValidity())return;const data=Object.fromEntries(new FormData(form));data.consent=form.elements.consent.checked;if(formMode==='lead'){delete data.location;delete data.preferredDate;delete data.preferredTime}submit.disabled=true;result.textContent='正在安全送出資料…';try{const r=await fetch(new URL(formMode==='booking'?'api/booking-requests':'api/leads',shinoxApiBase),{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});const body=await r.json();if(!r.ok||!body.ok)throw Error(body.message||'儲存失敗，請稍後再試或使用電話聯絡。');result.textContent=body.message+' 案件編號：'+body.requestId;form.reset()}catch(err){result.textContent=err.message||'連線失敗，尚未送出。請使用電話或 Email 聯絡。'}finally{submit.disabled=false}});
+const form=document.querySelector('#inquiry-form');
+if(form){
+  const fields=form.querySelector('#inquiry-fields'),notice=document.querySelector('#form-runtime'),result=form.querySelector('#form-result'),submit=form.querySelector('.submit');
+  const english=document.documentElement.lang.startsWith('en');
+  const consent=form.elements.consent,confirmedAt=form.elements.consentConfirmedAt,policyVersion=form.elements.privacyPolicyVersion;
+  const modeButtons=[...document.querySelectorAll('[data-form-mode]')];
+  let formMode='lead',available=true,submitting=false;
+  const failure=english?'Submission failed. Please contact us via LINE @shinox or call +886 979-666-302.':'送出失敗，請改用 LINE @shinox 或來電 0979-666-302';
 
+  // Only this Google Sheets route is available independently of the local API.
+  fields.disabled=false;
+  submit.textContent=english?'Send enquiry ↗':'送出洽詢 ↗';
+  if(notice)notice.textContent=english?'Enquiries are sent to Google Sheets. Visit times require separate confirmation.':'洽詢資料將送至 Google 試算表，參觀時段仍需專人確認。';
+  consent.checked=false;
+  confirmedAt.value='';
+  consent.addEventListener('change',()=>{confirmedAt.value=consent.checked?new Date().toISOString():''});
+  form.addEventListener('reset',()=>{confirmedAt.value=''});
+  function selectMode(mode){
+    formMode=mode==='booking'?'booking':'lead';
+    modeButtons.forEach(button=>{const active=button.dataset.formMode===formMode;button.classList.toggle('active',active);button.setAttribute('aria-pressed',String(active))});
+    form.querySelector('#booking-fields').hidden=formMode!=='booking';
+    result.textContent='';
+  }
+  modeButtons.forEach(button=>button.addEventListener('click',()=>selectMode(button.dataset.formMode)));
+
+  form.addEventListener('submit',async event=>{
+    event.preventDefault();
+    if(!available||submitting||!form.reportValidity()||!consent.checked)return;
+    const values=new FormData(form),read=name=>String(values.get(name)||'').trim();
+    if(read('website')){result.textContent=failure;return;}
+    if(!confirmedAt.value)confirmedAt.value=new Date().toISOString();
+    const data={
+      name:read('name'),phone:read('phone'),email:read('email'),region:read('region'),
+      hasSite:read('hasSite'),model:read('subject'),message:read('message'),
+      description:read('description')||read('message'),
+      location:formMode==='booking'?read('location'):'',
+      preferredDate:formMode==='booking'?read('preferredDate'):'',
+      preferredTime:formMode==='booking'?read('preferredTime'):'',
+      consent:consent.checked,consentConfirmedAt:confirmedAt.value,
+      privacyPolicyVersion:policyVersion.value,website:read('website'),
+      formType:formMode,lang:document.documentElement.lang,page:location.pathname
+    };
+    submitting=true;
+    submit.disabled=true;
+    submit.setAttribute('aria-busy','true');
+    result.textContent=english?'Submitting…':'正在送出…';
+    try{
+      // A no-cors response is opaque: delivery cannot confirm a saved spreadsheet row.
+      await fetch(APPS_SCRIPT_URL,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(data)});
+      form.reset();
+      selectMode('lead');
+      result.textContent=english?'Thank you, we have received your enquiry and will contact you soon.':'已收到，我們會盡快與您聯繫';
+    }catch(error){
+      result.textContent=failure;
+    }finally{
+      submitting=false;
+      submit.disabled=false;
+      submit.removeAttribute('aria-busy');
+    }
+  });
 }
