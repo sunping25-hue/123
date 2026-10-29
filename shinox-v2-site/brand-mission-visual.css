@@ -1,0 +1,9 @@
+/* Only the requested brand vision section; no image crop or added frame. */
+#about.brand-story .brand-mission--with-image{display:grid;grid-template-columns:minmax(0,40fr) minmax(0,60fr);align-items:center;gap:0;padding:38px 0;border:0;border-radius:0;background:#061626;box-shadow:none}
+.brand-mission--with-image .brand-mission-text{min-width:0;padding:0 28px 0 0}.brand-mission--with-image .brand-copy{max-width:none;margin-top:24px}
+#about.brand-story .brand-mission-text h2{text-wrap:balance}
+.brand-mission--with-image .brand-mission-visual{min-width:0;align-self:center;margin:0;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none}
+.brand-mission--with-image .brand-mission-visual img{display:block;width:100%;max-width:100%;height:auto;object-fit:contain;object-position:center;border:0;border-radius:0}
+.brand-mission-image-link{display:block;border:0;border-radius:0;background:transparent}.brand-mission-image-link:focus-visible{outline:2px solid #9af4e7;outline-offset:4px}
+@media(max-width:800px){#about.brand-story .brand-mission--with-image{grid-template-columns:minmax(0,1fr);gap:28px;padding:28px 0}.brand-mission--with-image .brand-mission-text{padding:0}}
+@media(max-width:600px){.brand-mission--with-image .brand-mission-visual{width:calc(100% - 52px)}}

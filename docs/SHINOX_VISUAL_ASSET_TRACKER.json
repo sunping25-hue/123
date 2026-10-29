@@ -97,10 +97,14 @@
     {
       "id": "PROD-04",
       "page": "產品方案",
-      "section": "M9 洗車機",
+      "section": "products.html#product-m9",
       "filename": "lassets/products/m9.webp",
-      "size": "1400x1000",
-      "status": "waiting for verified product reference"
+      "size": "1672x941",
+      "status": "user-supplied exact original approved and integrated; no generation",
+      "source": "未來感純水洗車隧道.png",
+      "sourceSha256": "94f74f79c2480a54fee583e89b689ea6dd690412a9df572c9da75db8407a37e9",
+      "sha256": "60fc861a876d3d3006d95cfa32dc19cd53a78e11aa6926d0b9d85db68822e572",
+      "bytes": 311368
     },
     {
       "id": "C01",
@@ -345,6 +349,30 @@
       "sha256": "d50a2eb37750d342d20051d2ebb85e0891fbe1d9110a0f980d52edea2a210f99",
       "bytes": 149782,
       "notes": "Proportional crop of image A; image B used only as layout reference. No generated image, equipment substitution or invented project claim."
+    },
+    {
+      "id": "BRAND-MISSION",
+      "page": "品牌介紹",
+      "section": "about.html#brand-mission-title",
+      "filename": "lassets/about/equipment-integration-brands.webp",
+      "size": "1774x887",
+      "status": "user-supplied exact original approved and integrated; no generation",
+      "source": "設備整合品牌展示 英文版.png",
+      "sourceSha256": "be97d254e7ca178ae6f284787a1da4c4a79f794647b08b78b581558257eff9e7",
+      "sha256": "0ecb696fd3f44bd18dd44fe7e79815665a67818765358c9a3a9f2d5d47855ba2",
+      "bytes": 296724
+    },
+    {
+      "id": "PRODUCT-CHEMICALS-20L",
+      "page": "產品方案",
+      "section": "products.html#chemical-series",
+      "filename": "lassets/products/chemicals-20l.webp",
+      "size": "1672x941",
+      "status": "user-supplied exact original approved and integrated; no generation",
+      "source": "ShinoX未來感汽車美容化學品展示.png",
+      "sourceSha256": "d9093426d80a4a75347867e2c78308e02c770307361164c098e1ce49cbf0227a",
+      "sha256": "2e6fc0f9dcaa1c710a4a43292d5c92d8bd5e56c3a0f9cc5508930029c43e931e",
+      "bytes": 390374
     }
   ]
 }
