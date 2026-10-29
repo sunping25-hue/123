@@ -1,0 +1,17 @@
+{
+  "product": "九合一洗車控制箱",
+  "detail": "products/self-3.html",
+  "asset": "lassets/home/about/home-about-equipment.webp",
+  "source": "about-hero.webp.zip / about-equipment.webp.png",
+  "approval": "User explicitly supplied the matching image as 九合一洗車控制箱影像. Existing archive source was visually verified against the attachment; reused without regeneration.",
+  "uses": [
+    "index.html#about",
+    "products.html#category-self",
+    "products/self-3.html",
+    "English counterparts"
+  ],
+  "sha256": "ba79ceb32f4a9beae8285bc521c38dcff77c7f9c8f38d6faaea89be440db3c1f",
+  "pending": [
+    "New M9 inline image has no downloadable original file yet; existing category-automatic.webp is a different image."
+  ]
+}
