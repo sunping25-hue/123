@@ -2,6 +2,7 @@
 """ShinoX local review server. Persists requests locally; never confirms bookings."""
 from __future__ import annotations
 import argparse
+import secrets
 from collections import defaultdict, deque
 from datetime import date, datetime, timedelta, timezone
 from functools import partial
@@ -15,6 +16,8 @@ import threading
 import time
 from urllib.parse import urlsplit
 import uuid
+from production_api import (ProductionConfig, prepare_store, add_lead, deliver_pending,
+                            list_leads, export_csv)
 
 ROOT = Path(__file__).resolve().parent
 SITE = ROOT / 'shinox-v2-site'
@@ -87,8 +90,11 @@ class RequestStore:
 
 class PreviewServer(ThreadingHTTPServer):
     daemon_threads = True
-    def __init__(self, address, store, directory=SITE):
+    def __init__(self, address, store, directory=SITE, production=None):
         self.store = store
+        self.production = production
+        if production is not None:
+            prepare_store(store)
         self.attempts = defaultdict(deque)
         self.rate_lock = threading.Lock()
         super().__init__(address, partial(Handler, directory=str(directory)))
@@ -158,9 +164,37 @@ class Handler(SimpleHTTPRequestHandler):
     def do_GET(self):
         route = urlsplit(self.path).path
         if route == '/api/status':
+            config = self.server.production
+            if config:
+                return self.json_response(200, {'mode': 'production', 'persistence': True,
+                    'emailConfigured': True, 'acceptingLeads': config.live,
+                    'bookingConfirmation': False, 'retentionDays': RETENTION_DAYS,
+                    'retentionPurge': 'daily'})
             return self.json_response(200, {'mode': 'local-preview', 'persistence': True,
-                'emailConfigured': False, 'bookingConfirmation': False,
+                'emailConfigured': False, 'acceptingLeads': False, 'bookingConfirmation': False,
                 'retentionDays': RETENTION_DAYS, 'retentionPurge': 'on_startup'})
+        if route in ('/api/admin/leads', '/api/admin/export.csv'):
+            config = self.server.production
+            if not config or not config.authorized(self.headers.get('Authorization', '')):
+                self.send_response(401)
+                self.send_header('WWW-Authenticate', 'Bearer realm="ShinoX admin"')
+                self.send_header('Content-Length', '0')
+                self.send_header('Cache-Control', 'no-store')
+                self.end_headers()
+                return
+            records = list_leads(self.server.store, 200)
+            if route == '/api/admin/leads':
+                return self.json_response(200, {'ok': True, 'records': records})
+            data = export_csv(records)
+            self.send_response(200)
+            self.send_header('Content-Type', 'text/csv; charset=utf-8')
+            self.send_header('Content-Disposition', 'attachment; filename="shinox-leads.csv"')
+            self.send_header('Content-Length', str(len(data)))
+            self.send_header('Cache-Control', 'no-store')
+            self.end_headers()
+            if self.command != 'HEAD':
+                self.wfile.write(data)
+            return
         if route.startswith('/api/'):
             return self.json_response(404, {'ok': False, 'message': '找不到此服務。'})
         return super().do_GET()
@@ -174,6 +208,9 @@ class Handler(SimpleHTTPRequestHandler):
         route = urlsplit(self.path).path
         if route not in ('/api/leads', '/api/booking-requests'):
             return self.json_response(404, {'ok': False, 'message': '找不到此服務。'})
+        config = self.server.production
+        if config is not None and not config.live:
+            return self.json_response(503, {'ok': False, 'message': '表單尚未正式開放，請先使用電話或 Email。'})
         origin = self.headers.get('Origin', '')
         try:
             parsed = urlsplit(origin)
@@ -186,7 +223,11 @@ class Handler(SimpleHTTPRequestHandler):
         extras = {item.strip() for item in os.environ.get('SHINOX_ALLOWED_ORIGINS', '').split(',') if item.strip()}
         # Host is the browser-visible host; additional reverse proxy origins must be explicit.
         same_origin = valid_origin and parsed.netloc == self.headers.get('Host')
-        if not valid_origin or (not same_origin and origin not in extras):
+        if config is not None:
+            origin_allowed = valid_origin and origin == config.origin
+        else:
+            origin_allowed = valid_origin and (same_origin or origin in extras)
+        if not origin_allowed:
             return self.json_response(403, {'ok': False, 'message': '請從本站頁面送出表單。'})
         if not self.server.rate_allowed(self.client_address[0]):
             return self.json_response(429, {'ok': False, 'message': '送出次數過多，請稍後再試或電話聯絡。'})
@@ -206,9 +247,18 @@ class Handler(SimpleHTTPRequestHandler):
             message = str(error) if not isinstance(error, (json.JSONDecodeError, UnicodeError)) else '表單資料格式不正確。'
             return self.json_response(400, {'ok': False, 'message': message})
         try:
-            identifier = self.server.store.add('booking-request' if booking else 'lead', clean)
+            kind = 'booking-request' if booking else 'lead'
+            identifier = (add_lead(self.server.store, kind, clean) if config is not None
+                          else self.server.store.add(kind, clean))
         except sqlite3.Error:
             return self.json_response(503, {'ok': False, 'message': '暫時無法儲存，請改用電話或 Email 聯絡。'})
+        if config is not None:
+            emailed = deliver_pending(self.server.store, config, identifier)
+            message = ('展示洽詢已收到，展示地點與時段仍須專人確認。' if booking
+                       else '您的設備與建場洽詢已收到，我們會盡快與您聯絡。')
+            return self.json_response(201, {'ok': True, 'requestId': identifier,
+                'status': 'received', 'emailSent': emailed, 'bookingConfirmed': False,
+                'message': message})
         message = ('展示洽詢已儲存於本機預覽；尚未確認地點、日期或時段，也未通知業務。請電話聯絡完成安排。'
                    if booking else '詢問已儲存於本機預覽；尚未寄送或通知業務。請使用電話或 Email 完成聯絡。')
         return self.json_response(201, {'ok': True, 'requestId': identifier,
@@ -281,9 +331,33 @@ def main():
     parser.add_argument('--host', default='127.0.0.1')
     parser.add_argument('--port', type=int, default=3003)
     parser.add_argument('--db', default=str(ROOT.parent / 'work' / 'shinox-runtime' / 'requests.sqlite3'))
+    parser.add_argument('--production', action='store_true',
+                        help='Require HTTPS reverse proxy, durable private DB and SMTP secrets')
     args = parser.parse_args()
-    server = PreviewServer((args.host, args.port), RequestStore(args.db))
-    print(f'ShinoX local review: http://{args.host}:{args.port}; requests stay local; no email or booking confirmation.', flush=True)
+    config = ProductionConfig() if args.production else None
+    db_path = Path(args.db).resolve()
+    if config is not None:
+        if db_path.is_relative_to(SITE.resolve()) or db_path.is_relative_to(ROOT.resolve()):
+            parser.error('Production DB must live outside the repository and public site')
+        if not os.environ.get('SHINOX_DB_PATH') or db_path != Path(os.environ['SHINOX_DB_PATH']).resolve():
+            parser.error('Set SHINOX_DB_PATH to an explicit persistent-volume path and pass it as --db')
+    store = RequestStore(db_path)
+    server = PreviewServer((args.host, args.port), store, production=config)
+    if config:
+        def notification_worker():
+            while True:
+                try:
+                    deliver_pending(store, config)
+                    cutoff = (datetime.now(timezone.utc) - timedelta(days=RETENTION_DAYS)).isoformat()
+                    with store.connect() as db:
+                        db.execute('DELETE FROM requests WHERE created_at < ?', (cutoff,))
+                        db.execute('DELETE FROM notifications WHERE request_id NOT IN (SELECT id FROM requests)')
+                except (OSError, sqlite3.Error):
+                    pass  # Never log contact data or SMTP secrets.
+                time.sleep(60)
+        threading.Thread(target=notification_worker, daemon=True).start()
+    print(('ShinoX production service: live=' + str(config.live) if config
+           else 'ShinoX local review: no email or booking confirmation'), flush=True)
     try:
         server.serve_forever()
     except KeyboardInterrupt:
