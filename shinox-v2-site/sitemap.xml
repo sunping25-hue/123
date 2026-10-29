@@ -13,6 +13,18 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinox-wash.com/index.html"/>
   </url>
   <url>
+    <loc>https://www.shinox-wash.com/products.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.shinox-wash.com/products.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shinox-wash.com/en/products.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinox-wash.com/products.html"/>
+  </url>
+  <url>
+    <loc>https://www.shinox-wash.com/en/products.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.shinox-wash.com/products.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shinox-wash.com/en/products.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinox-wash.com/products.html"/>
+  </url>
+  <url>
     <loc>https://www.shinox-wash.com/business.html</loc>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.shinox-wash.com/business.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.shinox-wash.com/en/business.html"/>
@@ -25,16 +37,52 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinox-wash.com/business.html"/>
   </url>
   <url>
-    <loc>https://www.shinox-wash.com/products.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.shinox-wash.com/products.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.shinox-wash.com/en/products.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinox-wash.com/products.html"/>
+    <loc>https://www.shinox-wash.com/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.shinox-wash.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shinox-wash.com/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinox-wash.com/about.html"/>
   </url>
   <url>
-    <loc>https://www.shinox-wash.com/en/products.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.shinox-wash.com/products.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.shinox-wash.com/en/products.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinox-wash.com/products.html"/>
+    <loc>https://www.shinox-wash.com/en/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.shinox-wash.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shinox-wash.com/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinox-wash.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://www.shinox-wash.com/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.shinox-wash.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shinox-wash.com/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinox-wash.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://www.shinox-wash.com/en/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.shinox-wash.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shinox-wash.com/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinox-wash.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://www.shinox-wash.com/projects.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.shinox-wash.com/projects.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shinox-wash.com/en/projects.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinox-wash.com/projects.html"/>
+  </url>
+  <url>
+    <loc>https://www.shinox-wash.com/en/projects.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.shinox-wash.com/projects.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shinox-wash.com/en/projects.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinox-wash.com/projects.html"/>
+  </url>
+  <url>
+    <loc>https://www.shinox-wash.com/news.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.shinox-wash.com/news.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shinox-wash.com/en/news.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinox-wash.com/news.html"/>
+  </url>
+  <url>
+    <loc>https://www.shinox-wash.com/en/news.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.shinox-wash.com/news.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shinox-wash.com/en/news.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinox-wash.com/news.html"/>
   </url>
   <url>
     <loc>https://www.shinox-wash.com/products/wash-1.html</loc>
