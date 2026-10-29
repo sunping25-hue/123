@@ -9,31 +9,24 @@
   const connection = navigator.connection;
   const limited = () => Boolean(connection && (connection.saveData || ['slow-2g', '2g'].includes(connection.effectiveType)));
   let visible = false;
-  let userPaused = false;
-  let automaticPause = false;
   let failed = false;
+  video.controls = false;
   video.muted = true;
   video.defaultMuted = true;
 
   function pauseForEnvironment() {
     if (!video.paused) {
-      automaticPause = true;
       video.pause();
     }
   }
   function sync() {
     if (!visible || document.hidden || motion.matches || limited()) {
       pauseForEnvironment();
-    } else if (!userPaused && !failed) {
-      video.play().catch(() => { /* Native controls remain available when autoplay is blocked. */ });
+    } else if (!failed) {
+      video.play().catch(() => { /* Retain the supplied poster if the browser blocks playback. */ });
     }
   }
-  video.addEventListener('pause', () => {
-    if (automaticPause) automaticPause = false;
-    else userPaused = true;
-  });
   video.addEventListener('play', () => {
-    userPaused = false;
     if (!visible || document.hidden) pauseForEnvironment();
   });
   video.addEventListener('error', () => {

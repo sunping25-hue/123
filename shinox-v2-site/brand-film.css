@@ -1,8 +1,7 @@
 /* Brand-page logo film: a compact companion to the existing opening copy. */
 #about .brand-film{width:100%;max-width:440px;min-width:0;margin:28px 0 0;scroll-margin-top:110px}
-#about .brand-film video{display:block;width:100%;height:auto;aspect-ratio:1472/624;object-fit:contain;background:#0b1723;border:1px solid #7692a43d;border-radius:14px;box-shadow:0 12px 32px #0003}
-#about .brand-film video:focus-visible{outline:2px solid #17ddc7;outline-offset:5px}
+#about .brand-film video{display:block;width:100%;height:auto;aspect-ratio:1472/624;object-fit:contain;background:transparent;border:0;border-radius:0;box-shadow:none;filter:contrast(1.12);mix-blend-mode:lighten;pointer-events:none}
 #about .brand-film-fallback{display:inline-flex;align-items:center;min-height:44px;margin-top:8px;color:#c0eee9;font-size:14px;text-decoration:underline;text-underline-offset:4px}
 #about .brand-film-fallback[hidden]{display:none}
 #about .brand-film-fallback:focus-visible{outline:2px solid #17ddc7;outline-offset:4px}
-@media(max-width:600px){#about .brand-film{margin-top:24px;max-width:100%}#about .brand-film video{border-radius:10px}}
+@media(max-width:600px){#about .brand-film{margin-top:24px;max-width:100%}}
