@@ -31,7 +31,8 @@ def json_translate(v):
  if isinstance(v,list):return [json_translate(x) for x in v]
  if isinstance(v,dict):return {k:json_translate(x) for k,x in v.items()}
  return v
-sources=sorted(ROOT.glob('*.html'))+sorted((ROOT/'products').glob('*.html'))
+# Internal lead administration is separate from the bilingual marketing pages.
+sources=sorted(p for p in ROOT.glob('*.html') if p.name!='admin.html')+sorted((ROOT/'products').glob('*.html'))
 outputs={};manifest=[]
 for path in sources:
  source=path.relative_to(ROOT).as_posix();target='en/'+source;soup=BeautifulSoup(path.read_text(),'html.parser');soup.html['lang']='en'
