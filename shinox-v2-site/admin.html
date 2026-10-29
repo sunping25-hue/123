@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="referrer" content="no-referrer">
+<title>ShinoX｜客戶洽詢管理</title>
+<style>
+:root{font-family:system-ui,"Noto Sans TC",sans-serif;color-scheme:dark}
+body{margin:0;background:#061322;color:#f0f8fc;padding:24px}
+main{max-width:1120px;margin:auto}h1{font-size:clamp(24px,4vw,34px)}
+p{color:#b8cedb;line-height:1.7}label{display:block;margin:16px 0}
+input{width:min(500px,100%);box-sizing:border-box;padding:13px;border:1px solid #52798b;background:#0c273b;color:white;border-radius:8px}
+button{background:#17ddc7;color:#061322;border:0;padding:12px 18px;border-radius:8px;cursor:pointer;margin:4px 8px 4px 0;font-weight:700}
+button:disabled{opacity:.5}.list{display:grid;gap:14px;margin-top:25px}
+article{background:#0b2033;border:1px solid #244b60;padding:18px;border-radius:12px;overflow-wrap:anywhere}
+article p{white-space:pre-wrap;margin:8px 0}small{color:#9eb7c8}
+</style>
+</head>
+<body><main>
+<h1>ShinoX 客戶洽詢管理</h1>
+<p>僅供授權管理人員使用。管理金鑰只保留於目前頁面的記憶體，不會儲存到瀏覽器或網址。請在私人裝置及 HTTPS 環境使用，離開時關閉頁面。</p>
+<label for="token">管理金鑰</label><input id="token" type="password" autocomplete="off" spellcheck="false">
+<div><button id="load" type="button">查詢最新客戶資料</button><button id="export" type="button">匯出 CSV</button><button id="clear" type="button">清除金鑰</button></div>
+<p id="status" role="status" aria-live="polite">尚未查詢。</p>
+<section id="list" class="list" aria-label="客戶洽詢紀錄"></section>
+</main>
+<script>
+"use strict";
+const token=document.getElementById("token");
+const status=document.getElementById("status");
+const list=document.getElementById("list");
+const fieldNames={name:"姓名",phone:"電話",email:"Email",region:"地區",subject:"主題",message:"需求",location:"展示地點",preferredDate:"偏好日期",preferredTime:"偏好時段"};
+async function getData(path){
+  if(!token.value){throw Error("請先輸入管理金鑰。")}
+  const response=await fetch(path,{headers:{Authorization:"Bearer "+token.value},cache:"no-store"});
+  if(!response.ok)throw Error(response.status===401?"管理金鑰無效或尚未啟用正式後端。":"讀取失敗（HTTP "+response.status+"）。");
+  return response;
+}
+document.getElementById("load").addEventListener("click",async()=>{
+  list.replaceChildren();status.textContent="正在讀取…";
+  try{
+    const result=await (await getData("api/admin/leads")).json();
+    status.textContent="已讀取 "+result.records.length+" 筆（最多 200 筆最新資料）。";
+    for(const record of result.records){
+      const article=document.createElement("article");
+      const heading=document.createElement("strong");
+      heading.textContent=(record.kind==="booking-request"?"展示洽詢":"設備／建場諮詢")+"｜"+record.createdAt;
+      article.append(heading);
+      const info=document.createElement("small");
+      info.textContent="案件編號："+record.id+"｜Email 通知："+(record.emailSent?"已送出":"待寄送／需處理");
+      article.append(info);
+      for(const [key,label] of Object.entries(fieldNames)){
+        if(!record.data[key])continue;
+        const p=document.createElement("p");p.textContent=label+"："+record.data[key];article.append(p);
+      }
+      list.append(article);
+    }
+  }catch(error){status.textContent=error.message;}
+});
+document.getElementById("export").addEventListener("click",async()=>{
+  status.textContent="準備匯出…";
+  try{
+    const blob=await (await getData("api/admin/export.csv")).blob();
+    const url=URL.createObjectURL(blob);const a=document.createElement("a");
+    a.href=url;a.download="shinox-leads.csv";document.body.append(a);a.click();a.remove();
+    setTimeout(()=>URL.revokeObjectURL(url),1000);status.textContent="CSV 已產生（最新 200 筆）。";
+  }catch(error){status.textContent=error.message;}
+});
+document.getElementById("clear").addEventListener("click",()=>{token.value="";list.replaceChildren();status.textContent="已清除目前頁面的金鑰及資料。";});
+</script></body></html>
