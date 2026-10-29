@@ -72,3 +72,9 @@ Follow-up synchronization: fast-forwarded owner commits through `20cdc4b`, conso
 - 25組中英結構／資源檢查、24項Python合成測試與60筆瀏覽器驗收通過，另補驗雙流程控制鈕及最終截圖。證據：docs/review/legal-resources-shared-process/README.md。
 
 尚未開放正式個資收件、真實寄信或即時預約。私人靜態驗收站發布結果另記Issue #2；未變更main、舊站或正式ShinoX網站。
+
+## 2026-10-29｜最新首頁品牌圖與規劃區調整
+
+依使用者最新修正，刪除「正在規劃5–20格」旁新增的3×2流程，保留原文案／按鈕與下方原六階段流程；規劃旁圖片替換為使用者提供的夜間工作室模型。
+
+首頁02區塊使用新上傳的四張正式CGI，保留原文案與事業／YouTube CTA。45/55雙欄、三張圖片卡、手機指定順序、淡入／微視差／卡片互動與減少動畫完成；新增WebP響應式尺寸及英文srcset路徑支援。其他九個首頁main區塊DOM與表單開放設定完全不變。12組中英RWD及正常動態／點擊檢查通過；截圖與檔案清單在docs/review/home-about-approved-cgi/README.md。

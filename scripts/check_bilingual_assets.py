@@ -19,6 +19,15 @@ for pair in pairs:
     dest=root/target
     if not dest.exists():errors.append([file,v,'not found']);continue
     if u.fragment and target.endswith('.html') and not BeautifulSoup(dest.read_text(),'html.parser').find(id=u.fragment):errors.append([file,v,'missing anchor'])
+for pair in pairs:
+ for file in [pair['zh'],pair['en']]:
+  soup=BeautifulSoup((root/file).read_text(),'html.parser')
+  for tag in soup.select('[srcset]'):
+   for candidate in tag['srcset'].split(','):
+    value=candidate.strip().split()[0];u=urlsplit(value)
+    if u.scheme or u.netloc:continue
+    target=u.path.lstrip('/') if u.path.startswith('/') else posixpath.normpath(posixpath.join(posixpath.dirname(file),u.path))
+    if not (root/target).is_file():errors.append([file,value,'srcset not found'])
 print('Pairs with identical body structure:',len(pairs));print(json.dumps(errors,ensure_ascii=False,indent=2))
 (root.parent/'docs/review/bilingual-ui/static-qa.json').write_text(json.dumps({'pairs':len(pairs),'identicalStructure':True,'errors':errors},ensure_ascii=False,indent=2))
 assert not errors

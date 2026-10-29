@@ -48,6 +48,12 @@ for path in sources:
   if tag.name=='input' and isinstance(tag.get('value'),str):tag['value']=tr(tag['value'])
   for attr in ['src','poster','data-element-src','data-contact-src']:
    if tag.has_attr(attr):tag[attr]=route(tag[attr],source,target,asset=True)
+  if tag.has_attr('srcset'):
+   candidates=[]
+   for candidate in tag['srcset'].split(','):
+    parts=candidate.strip().split()
+    if parts:candidates.append(' '.join([route(parts[0],source,target,asset=True),*parts[1:]]))
+   tag['srcset']=', '.join(candidates)
   if tag.has_attr('href'):
    is_asset=tag.name=='link' and tag.get('rel') not in [['alternate'],['canonical']]
    tag['href']=route(tag['href'],source,target,asset=is_asset)
