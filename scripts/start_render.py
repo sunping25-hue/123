@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Start ShinoX behind Render's HTTPS reverse proxy; forms stay disabled by default."""
+"""Render entrypoint: website-only by default, forms strictly disabled."""
 from __future__ import annotations
 import os
 from pathlib import Path
@@ -12,6 +12,14 @@ if not db or not Path(db).is_absolute():
 port = int(os.environ.get("PORT", "10000"))
 if not 1 <= port <= 65535:
     raise SystemExit("Invalid PORT")
-os.execv(sys.executable, [sys.executable, str(ROOT / "server.py"),
-                          "--production", "--host", "0.0.0.0",
-                          "--port", str(port), "--db", db])
+stage = os.environ.get("SHINOX_DEPLOY_STAGE", "preview")
+if stage not in ("preview", "production"):
+    raise SystemExit("SHINOX_DEPLOY_STAGE must be preview or production")
+args = [sys.executable, str(ROOT / "server.py"), "--host", "0.0.0.0",
+        "--port", str(port), "--db", db]
+if stage == "production":
+    args.insert(2, "--production")
+else:
+    if os.environ.get("SHINOX_FORM_LIVE", "0") != "0":
+        raise SystemExit("Preview stage requires SHINOX_FORM_LIVE=0")
+os.execv(sys.executable, args)
