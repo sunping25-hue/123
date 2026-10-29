@@ -1,6 +1,9 @@
-"""GoatCounter scope, failure handling and footer integration checks.
+"""Manual GoatCounter snapshot QA, deliberately outside automatic CI discovery.
 
-Run: python -m unittest discover -s tests -p test_goatcounter.py -v
+Run: python scripts/check_goatcounter.py -v
+Prerequisites: Python Playwright and Chromium at /usr/bin/chromium; the full Git
+history must contain base 84c2890364405673468d2f28f2d3f2b8f781daad.
+The 59-page/base comparison verifies this feature snapshot, not future page counts.
 Browser checks mock third-party requests; they do not send real statistics.
 """
 import asyncio
