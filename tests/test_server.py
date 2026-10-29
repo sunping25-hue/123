@@ -24,7 +24,7 @@ class PreviewTests(unittest.TestCase):
         (Path(cls.temp.name) / 'private.txt').write_text('PRIVATE_CONTENT')
         (cls.public / 'private-link.txt').symlink_to(Path(cls.temp.name) / 'private.txt')
         cls.store = RequestStore(Path(cls.temp.name) / 'requests.sqlite3')
-        cls.server = PreviewServer(('127.0.0.1', 0), cls.store, cls.public)
+        cls.server = PreviewServer(('127.0.0.1', 0), cls.store, cls.public, allow_test_submissions=True)
         cls.thread = threading.Thread(target=cls.server.serve_forever, daemon=True)
         cls.thread.start()
         cls.port = cls.server.server_port
@@ -54,7 +54,7 @@ class PreviewTests(unittest.TestCase):
         return self.request('POST', route, json.dumps(payload), headers)
 
     def data(self):
-        return {'name': 'Preview Test', 'email': 'preview@example.test', 'consent': True, 'message': 'Synthetic test only'}
+        return {'name': 'Preview Test', 'email': 'preview@example.test', 'consent': True, 'privacyPolicyVersion':'2026-10-29.1', 'consentConfirmedAt':'2026-10-29T00:00:00+00:00', 'message': 'Synthetic test only'}
 
     def test_request_persists_and_does_not_claim_delivery(self):
         status, _, body = self.post('/api/leads', self.data())

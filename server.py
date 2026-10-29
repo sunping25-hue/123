@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""ShinoX local review server. Persists requests locally; never confirms bookings."""
+"""ShinoX review/production service. Intake is closed until policy acceptance."""
 from __future__ import annotations
 import argparse
 import secrets
@@ -16,6 +16,7 @@ import threading
 import time
 from urllib.parse import urlsplit
 import uuid
+from legal_policy import PRIVACY_POLICY_VERSION, load_policy_state
 from production_api import (ProductionConfig, prepare_store, add_lead, deliver_pending,
                             list_leads, export_csv)
 
@@ -32,6 +33,14 @@ def validate_request(payload, booking=False):
         raise ValueError('無法接受此申請，請改用電話聯絡。')
     if payload.get('consent') is not True:
         raise ValueError('請閱讀並同意個資使用說明。')
+    if payload.get('privacyPolicyVersion') != PRIVACY_POLICY_VERSION:
+        raise ValueError('隱私權政策版本已更新，請重新載入頁面並確認。')
+    try:
+        confirmed = datetime.fromisoformat(payload.get('consentConfirmedAt', ''))
+        if confirmed.tzinfo is None:
+            raise ValueError
+    except (ValueError, TypeError):
+        raise ValueError('請重新確認本次諮詢的資料使用同意。') from None
     limits = {'name': 80, 'phone': 30, 'email': 254, 'region': 100,
               'subject': 160, 'message': 3000}
     if booking:
@@ -62,7 +71,10 @@ def validate_request(payload, booking=False):
         if requested < taiwan_today:
             raise ValueError('希望日期不得早於今天。')
     clean['consent'] = True
-    clean['consentVersion'] = 'preview-v1'
+    clean['consentVersion'] = PRIVACY_POLICY_VERSION
+    clean['privacyPolicyVersion'] = PRIVACY_POLICY_VERSION
+    clean['consentConfirmedAt'] = confirmed.astimezone(timezone.utc).isoformat()
+    clean['consentRecordedAt'] = datetime.now(timezone.utc).isoformat()
     return clean
 
 
@@ -90,9 +102,11 @@ class RequestStore:
 
 class PreviewServer(ThreadingHTTPServer):
     daemon_threads = True
-    def __init__(self, address, store, directory=SITE, production=None):
+    def __init__(self, address, store, directory=SITE, production=None, *, allow_test_submissions=False):
         self.store = store
         self.production = production
+        self.legal = load_policy_state(RETENTION_DAYS)
+        self.allow_test_submissions = allow_test_submissions
         if production is not None:
             prepare_store(store)
         self.attempts = defaultdict(deque)
@@ -167,11 +181,14 @@ class Handler(SimpleHTTPRequestHandler):
             config = self.server.production
             if config:
                 return self.json_response(200, {'mode': 'production', 'persistence': True,
-                    'emailConfigured': True, 'acceptingLeads': config.live,
+                    'emailConfigured': True, 'acceptingLeads': config.live and self.server.legal['ready'],
+                    'legalReviewAccepted': self.server.legal['ready'],
+                    'privacyPolicyVersion': PRIVACY_POLICY_VERSION,
                     'bookingConfirmation': False, 'retentionDays': RETENTION_DAYS,
-                    'retentionPurge': 'daily'})
+                    'retentionPurge': 'every_60_seconds'})
             return self.json_response(200, {'mode': 'local-preview', 'persistence': True,
                 'emailConfigured': False, 'acceptingLeads': False, 'bookingConfirmation': False,
+                'legalReviewAccepted': False, 'privacyPolicyVersion': PRIVACY_POLICY_VERSION,
                 'retentionDays': RETENTION_DAYS, 'retentionPurge': 'on_startup'})
         if route in ('/api/admin/leads', '/api/admin/export.csv'):
             config = self.server.production
@@ -209,7 +226,8 @@ class Handler(SimpleHTTPRequestHandler):
         if route not in ('/api/leads', '/api/booking-requests'):
             return self.json_response(404, {'ok': False, 'message': '找不到此服務。'})
         config = self.server.production
-        if config is not None and not config.live:
+        if ((config is not None and not (config.live and self.server.legal['ready']))
+                or (config is None and not self.server.allow_test_submissions)):
             return self.json_response(503, {'ok': False, 'message': '表單尚未正式開放，請先使用電話或 Email。'})
         origin = self.headers.get('Origin', '')
         try:
@@ -347,7 +365,8 @@ def main():
         def notification_worker():
             while True:
                 try:
-                    deliver_pending(store, config)
+                    if config.live and server.legal['ready']:
+                        deliver_pending(store, config)
                     cutoff = (datetime.now(timezone.utc) - timedelta(days=RETENTION_DAYS)).isoformat()
                     with store.connect() as db:
                         db.execute('DELETE FROM requests WHERE created_at < ?', (cutoff,))

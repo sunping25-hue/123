@@ -26,7 +26,7 @@ async def main():
      assert r['footerYoutube']==1 and r['productVideos']==0,r
      assert all(a['href']=='https://www.youtube.com/@ShinoXwash' and a['target']=='_blank' and set(a['rel'].split())>={'noopener','noreferrer'} for a in r['youtube']),r
      if lang=='en':assert not r['chinese'],r
-     if pair['zh'] not in ['404.html','privacy.html']:images.append(Image.open(io.BytesIO(await page.screenshot(full_page=True,type='png'))).convert('RGB'))
+     if pair['zh'] not in ['404.html','privacy.html','terms.html']:images.append(Image.open(io.BytesIO(await page.screenshot(full_page=True,type='png'))).convert('RGB'))
      await page.close()
     if images:
      scale=.5 if width==1440 else 1;size=int(width*scale);height=max(int(i.height*scale) for i in images);canvas=Image.new('RGB',(size*2+12,height+36),'#061322');draw=ImageDraw.Draw(canvas);draw.text((12,12),'Traditional Chinese / '+str(width)+'px',fill='white');draw.text((size+24,12),'English / '+str(width)+'px',fill='white')
@@ -38,7 +38,7 @@ async def main():
  (OUT/'page-qa.json').write_text(json.dumps(results,ensure_ascii=False,indent=2))
  rows=['# 中英文實際網頁對照\n','Chromium 本機實測；左側繁體中文、右側英文。桌機原始寬度 1440px（對照縮至50%），手機390px。減少動畫模式保持畫面可比較；另行測試正常動畫與互動。\n','|頁面|桌機對照|手機對照|','|---|---|---|']
  for pair in pairs:
-  if pair['zh'] in ['404.html','privacy.html']:continue
+  if pair['zh'] in ['404.html','privacy.html','terms.html']:continue
   slug=pair['zh'].replace('/','-').replace('.html','');rows.append(f"|{pair['zh']}|[1440px]({slug}-1440.webp)|[390px]({slug}-390.webp)|")
  (OUT/'README.md').write_text('\n'.join(rows)+'\n');print('ALL PASS',len(results),flush=True)
 asyncio.run(main())

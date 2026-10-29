@@ -60,3 +60,15 @@ This milestone supersedes the older English-layout and remote-preview blockers a
 Still requires owner-provided/verified product imagery/specifications/DM, authorized news/cases and production email/booking integrations. The private static review has direct contact alternatives and does not send emails or confirm bookings. Existing ShinoX production and main remain untouched.
 
 Follow-up synchronization: fast-forwarded owner commits through `20cdc4b`, consolidated the duplicate six-stage insertion into the existing accessible shared component, and preserved removal of the old three-step block. Regenerated English and refreshed the business-page comparison screenshots.
+
+## 2026-10-29｜共用雙流程、政策及資源封面
+
+- 品牌／事業完整原文與產品／案例導言已更新，英文同步；前批提交8f76f89。
+- 保留原本六階段橫向流程，並在「正在規劃5–20格」旁新增同一元件的3×2排版。桌機左文案右流程；手機上下排列。HTML內容只維護一份，複製元件自動分配獨立ID與ARIA，兩處互動狀態獨立。深色純底、亮青藍漸層、800／700／500字重及柔光，沒有水花背景。手機／平板控制鈕預留右側，避免浮動聯絡鈕遮住操作。
+- 兩張使用者上傳的創業指南／產品DM封面已上架首頁與聯絡頁資源區，中文英文同檔。沒有提供PDF，文件仍顯示編製狀態。
+- 建立真正獨立的/privacy、/terms及英文頁，保留.html入口；全站法律頁尾、可閱讀的長文與目錄。
+- 依實際程式說明SQLite、SMTP、sessionStorage與外部服務；公司／營運者、權利窗口、正式資料庫／Email／備份保留規則仍待確認，未假造資料或認證。
+- 政策及表單未驗收，legal-config reviewAccepted=false。正式與一般預覽API預設拒絕收件；只有合成資料單元測試明確開放測試模式。表單不預勾選、不含行銷訂閱，驗收後的程式會記錄政策版本及瀏覽器／伺服器確認時間。
+- 25組中英結構／資源檢查、24項Python合成測試與60筆瀏覽器驗收通過，另補驗雙流程控制鈕及最終截圖。證據：docs/review/legal-resources-shared-process/README.md。
+
+尚未開放正式個資收件、真實寄信或即時預約。私人靜態驗收站發布結果另記Issue #2；未變更main、舊站或正式ShinoX網站。

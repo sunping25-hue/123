@@ -1,6 +1,24 @@
-/* The same six-stage interaction serves both language versions. Auto presentation is opt-in. */
+/* One accessible process component, shared content and independent instance state. */
 (()=>{
- const section=document.querySelector('#biz-process-demo');if(!section)return;
+ const original=document.querySelector('#biz-process-demo');if(!original)return;
+ document.querySelectorAll('[data-biz-process-mount]').forEach(target=>{
+  const clone=original.cloneNode(true),prefix=target.dataset.bizProcessMount+'-';
+  clone.id='biz-process-'+target.dataset.bizProcessMount;clone.classList.add('biz-process-compact');
+  clone.querySelectorAll('.biz-process-intro,.biz-process-videos').forEach(el=>el.remove());
+  clone.querySelectorAll('[id]').forEach(el=>el.id=prefix+el.id);
+  [clone,...clone.querySelectorAll('*')].forEach(el=>{
+   ['aria-controls','aria-labelledby','aria-describedby'].forEach(attr=>{
+    if(el.hasAttribute(attr))el.setAttribute(attr,el.getAttribute(attr).split(/\s+/).map(id=>prefix+id).join(' '));
+   });
+  });
+  const oldTitle=clone.querySelector('h2'),title=document.createElement('h3');
+  for(const attr of oldTitle.attributes)title.setAttribute(attr.name,attr.value);
+  title.classList.add('biz-process-title');title.textContent=oldTitle.textContent;oldTitle.replaceWith(title);
+  const hint='點選階段查看介紹，依 01–06 順序了解建場流程。';
+  clone.querySelector('.biz-process-status').textContent=window.ShinoXLocale?.t(hint)||hint;
+  target.replaceChildren(clone);
+ });
+ function mount(section){
  const tabs=[...section.querySelectorAll('[role=tab]')],panels=[...section.querySelectorAll('[role=tabpanel]')],track=section.querySelector('.biz-process-scroller');
  const previous=section.querySelector('[data-biz-previous]'),next=section.querySelector('[data-biz-next]'),auto=section.querySelector('[data-biz-auto]'),live=section.querySelector('.biz-process-panels');
  const motion=matchMedia('(prefers-reduced-motion: reduce)');let current=0,playing=false,visible=false,timer=null;
@@ -21,4 +39,6 @@
  document.addEventListener('visibilitychange',schedule);
  motion.addEventListener('change',()=>{if(motion.matches&&playing)auto.click();schedule()});
  select(0);
+ }
+ [original,...document.querySelectorAll('.biz-process-compact')].forEach(mount);
 })();

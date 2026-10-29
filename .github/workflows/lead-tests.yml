@@ -5,12 +5,16 @@ on:
     paths:
       - 'server.py'
       - 'production_api.py'
+      - 'legal_policy.py'
+      - 'shinox-v2-site/legal-config.json'
       - 'tests/**'
       - '.github/workflows/lead-tests.yml'
   pull_request:
     paths:
       - 'server.py'
       - 'production_api.py'
+      - 'legal_policy.py'
+      - 'shinox-v2-site/legal-config.json'
       - 'tests/**'
   workflow_dispatch:
 jobs:

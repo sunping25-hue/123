@@ -72,3 +72,4 @@ html[lang=en] .element-tabs button span{white-space:nowrap}
 .ui-arrow>svg{display:block;width:1em;height:1em;min-width:12px;min-height:12px;overflow:visible}
 /* Reserve a separate action area so longer translated related-product titles wrap. */
 .related-grid>a{padding-right:80px}
+.footer-legal{flex:0 0 100%;display:flex;align-items:center;gap:10px;flex-wrap:wrap;min-width:0}.footer-legal a{display:inline-flex;align-items:center;min-height:44px;font-size:12px;color:#d2e5ef;text-decoration:underline;text-underline-offset:4px}.footer-legal>span{color:#7b9bac}.footer{flex-wrap:wrap}

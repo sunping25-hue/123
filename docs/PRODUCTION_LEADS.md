@@ -4,7 +4,7 @@
 
 此分支提供正式表單後端程式，但**尚未部署至正式 HTTPS 伺服器**。私人靜態驗收站的 `/api/status` 仍為 `static-review`、`persistence:false`，不接收任何真實個資。不得將「程式已提交」當作「已上線」。
 
-既有 `server.py` 本機模式保留測試用途。正式模式必須明確加 `--production` 並滿足所有環境設定；`SHINOX_FORM_LIVE` 預設為 0。前端僅在 `mode=production`、`persistence=true`、`emailConfigured=true`、`acceptingLeads=true` 同時成立時開放送出。
+既有 `server.py` 本機模式保留測試用途。正式模式必須明確加 `--production` 並滿足所有環境設定；`SHINOX_FORM_LIVE` 預設為 0。前端還必須確認 `legalReviewAccepted=true` 且 `privacyPolicyVersion` 與頁面一致。`legal-config.json` 目前未通過政策驗收，單獨設定 live 不會開放收件。
 
 ## 收件、儲存、通知
 
@@ -12,7 +12,7 @@
 - `POST /api/booking-requests`：展示洽詢，不保證場地、日期或時段。
 - SQLite 必須存放在主機的**持久化私有磁碟**，不得位於 Git 專案或網站靜態根目錄；申請和通知待辦在單一交易寫入。
 - 兩個固定通知信箱：`shinox.car.washer@gmail.com`、`sunping25@gmail.com`。SMTP 連線失敗時仍保留已儲存的案件，背景每 60 秒重試，指數退避，最多 12 次。管理頁可查看未寄送狀態；超過重試上限必須人工處理。
-- 資料保留 30 天，正式模式每 60 秒清除逾期資料；**已寄出的 Email 副本與備份必須另外管理其保留及刪除**。上線前應取得業主對保留政策、個資告知和管理權限的確認。
+- 程式的資料庫清除設定暫為30天，尚未取得正式保存政策核准；正式模式每60秒檢查逾期資料；**已寄出的 Email 副本與備份必須另外管理其保留及刪除**。上線前應取得業主對保留政策、個資告知和管理權限的確認。
 - `GET /api/admin/leads`：Bearer 金鑰驗證後取得最新 200 筆；`GET /api/admin/export.csv`：同樣驗證並匯出最新 200 筆。管理介面：`/admin.html`。CSV 防公式注入。請不要將管理金鑰放在網址、前端程式、Git 或分享訊息。
 - 每 IP 10 分鐘最多 10 次、同來源檢查、蜜罐、內容大小限制、伺服器驗證；正式站仍應加上反向代理/WAF、監控與 HTTPS。
 - 備份：`SHINOX_DB_PATH=... SHINOX_BACKUP_DIR=... python scripts/backup_leads.py`，備份檔案也包含個資；需配置定時執行、加密儲存、備份輪替與還原演練。
@@ -59,3 +59,7 @@ python server.py --production --host 127.0.0.1 --port 3003 --db "$SHINOX_DB_PATH
 - staging 真實寄信端到端測試證據，以及正式開放收件的最終核准。
 
 未完成以上條件前，表單維持關閉。原本的電話、Email、WhatsApp 和 LINE 聯絡方式保持可用。
+
+## 政策驗收新增限制
+
+見 `docs/PRIVACY_DATA_FLOW.md`。政策及表單尚未驗收，`legal-config.json` 的 reviewAccepted=false。營運者、權利窗口、資料庫／Email／備份保存均待確認；一般預覽也不接受收件。正式模式只設 SHINOX_FORM_LIVE=1 仍會被政策閘門拒絕。不得將本次靜態頁面發布視為開放真實個資收集。

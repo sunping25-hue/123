@@ -1,0 +1,822 @@
+[
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy",
+      "http://127.0.0.1:3031/terms"
+    ],
+    "sharedContentAndIndependentInteractions": "PASS",
+    "route": "business.html",
+    "width": 768,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy",
+      "http://127.0.0.1:3031/terms"
+    ],
+    "sharedContentAndIndependentInteractions": "PASS",
+    "route": "business.html",
+    "width": 390,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy",
+      "http://127.0.0.1:3031/terms"
+    ],
+    "sharedContentAndIndependentInteractions": "PASS",
+    "route": "business.html",
+    "width": 1440,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy",
+      "http://127.0.0.1:3031/terms"
+    ],
+    "sharedContentAndIndependentInteractions": "PASS",
+    "route": "business.html",
+    "width": 375,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy",
+      "http://127.0.0.1:3031/en/terms"
+    ],
+    "sharedContentAndIndependentInteractions": "PASS",
+    "route": "en/business.html",
+    "width": 768,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy",
+      "http://127.0.0.1:3031/en/terms"
+    ],
+    "sharedContentAndIndependentInteractions": "PASS",
+    "route": "en/business.html",
+    "width": 1440,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy",
+      "http://127.0.0.1:3031/terms"
+    ],
+    "route": "index.html",
+    "width": 1440,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy",
+      "http://127.0.0.1:3031/en/terms"
+    ],
+    "sharedContentAndIndependentInteractions": "PASS",
+    "route": "en/business.html",
+    "width": 375,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy",
+      "http://127.0.0.1:3031/en/terms"
+    ],
+    "sharedContentAndIndependentInteractions": "PASS",
+    "route": "en/business.html",
+    "width": 390,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy",
+      "http://127.0.0.1:3031/terms"
+    ],
+    "route": "index.html",
+    "width": 768,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy",
+      "http://127.0.0.1:3031/terms"
+    ],
+    "route": "index.html",
+    "width": 375,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy",
+      "http://127.0.0.1:3031/terms"
+    ],
+    "route": "index.html",
+    "width": 390,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy",
+      "http://127.0.0.1:3031/terms"
+    ],
+    "route": "contact.html",
+    "width": 1440,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy",
+      "http://127.0.0.1:3031/terms"
+    ],
+    "route": "contact.html",
+    "width": 768,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy",
+      "http://127.0.0.1:3031/terms"
+    ],
+    "route": "contact.html",
+    "width": 375,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy",
+      "http://127.0.0.1:3031/terms"
+    ],
+    "route": "contact.html",
+    "width": 390,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy",
+      "http://127.0.0.1:3031/en/terms"
+    ],
+    "route": "en/index.html",
+    "width": 1440,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy",
+      "http://127.0.0.1:3031/en/terms"
+    ],
+    "route": "en/index.html",
+    "width": 768,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy",
+      "http://127.0.0.1:3031/en/terms"
+    ],
+    "route": "en/index.html",
+    "width": 390,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy",
+      "http://127.0.0.1:3031/en/terms"
+    ],
+    "route": "en/index.html",
+    "width": 375,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy",
+      "http://127.0.0.1:3031/en/terms"
+    ],
+    "route": "en/contact.html",
+    "width": 1440,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy",
+      "http://127.0.0.1:3031/en/terms"
+    ],
+    "route": "en/contact.html",
+    "width": 768,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy",
+      "http://127.0.0.1:3031/en/terms"
+    ],
+    "route": "en/contact.html",
+    "width": 375,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy",
+      "http://127.0.0.1:3031/en/terms"
+    ],
+    "route": "en/contact.html",
+    "width": 390,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy/",
+      "http://127.0.0.1:3031/terms"
+    ],
+    "route": "privacy",
+    "width": 768,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy/",
+      "http://127.0.0.1:3031/terms"
+    ],
+    "route": "privacy",
+    "width": 1440,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy/",
+      "http://127.0.0.1:3031/terms"
+    ],
+    "route": "privacy",
+    "width": 375,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy/",
+      "http://127.0.0.1:3031/terms"
+    ],
+    "route": "privacy",
+    "width": 390,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy",
+      "http://127.0.0.1:3031/terms/"
+    ],
+    "route": "terms",
+    "width": 768,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy",
+      "http://127.0.0.1:3031/terms/"
+    ],
+    "route": "terms",
+    "width": 1440,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy",
+      "http://127.0.0.1:3031/terms/"
+    ],
+    "route": "terms",
+    "width": 375,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy",
+      "http://127.0.0.1:3031/terms/"
+    ],
+    "route": "terms",
+    "width": 390,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy",
+      "http://127.0.0.1:3031/terms"
+    ],
+    "route": "privacy.html",
+    "width": 1440,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy",
+      "http://127.0.0.1:3031/terms"
+    ],
+    "route": "privacy.html",
+    "width": 390,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy",
+      "http://127.0.0.1:3031/terms"
+    ],
+    "route": "privacy.html",
+    "width": 768,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy",
+      "http://127.0.0.1:3031/terms"
+    ],
+    "route": "privacy.html",
+    "width": 375,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy",
+      "http://127.0.0.1:3031/terms"
+    ],
+    "route": "terms.html",
+    "width": 1440,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy",
+      "http://127.0.0.1:3031/terms"
+    ],
+    "route": "terms.html",
+    "width": 768,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy",
+      "http://127.0.0.1:3031/terms"
+    ],
+    "route": "terms.html",
+    "width": 390,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy",
+      "http://127.0.0.1:3031/terms"
+    ],
+    "route": "terms.html",
+    "width": 375,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy/",
+      "http://127.0.0.1:3031/en/terms"
+    ],
+    "route": "en/privacy",
+    "width": 768,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy/",
+      "http://127.0.0.1:3031/en/terms"
+    ],
+    "route": "en/privacy",
+    "width": 1440,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy/",
+      "http://127.0.0.1:3031/en/terms"
+    ],
+    "route": "en/privacy",
+    "width": 375,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy/",
+      "http://127.0.0.1:3031/en/terms"
+    ],
+    "route": "en/privacy",
+    "width": 390,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy",
+      "http://127.0.0.1:3031/en/terms/"
+    ],
+    "route": "en/terms",
+    "width": 768,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy",
+      "http://127.0.0.1:3031/en/terms/"
+    ],
+    "route": "en/terms",
+    "width": 1440,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy",
+      "http://127.0.0.1:3031/en/terms/"
+    ],
+    "route": "en/terms",
+    "width": 375,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy",
+      "http://127.0.0.1:3031/en/terms/"
+    ],
+    "route": "en/terms",
+    "width": 390,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy",
+      "http://127.0.0.1:3031/en/terms"
+    ],
+    "route": "en/privacy.html",
+    "width": 1440,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy",
+      "http://127.0.0.1:3031/en/terms"
+    ],
+    "route": "en/privacy.html",
+    "width": 768,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy",
+      "http://127.0.0.1:3031/en/terms"
+    ],
+    "route": "en/privacy.html",
+    "width": 390,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy",
+      "http://127.0.0.1:3031/en/terms"
+    ],
+    "route": "en/privacy.html",
+    "width": 375,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy",
+      "http://127.0.0.1:3031/en/terms"
+    ],
+    "route": "en/terms.html",
+    "width": 1440,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy",
+      "http://127.0.0.1:3031/en/terms"
+    ],
+    "route": "en/terms.html",
+    "width": 768,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy",
+      "http://127.0.0.1:3031/en/terms"
+    ],
+    "route": "en/terms.html",
+    "width": 390,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy",
+      "http://127.0.0.1:3031/en/terms"
+    ],
+    "route": "en/terms.html",
+    "width": 375,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "policyGateMock": {
+      "accepted": false,
+      "version": "2026-10-29.1",
+      "formEnabled": false
+    },
+    "syntheticInterceptOnly": true
+  },
+  {
+    "policyGateMock": {
+      "accepted": true,
+      "version": "old",
+      "formEnabled": false
+    },
+    "syntheticInterceptOnly": true
+  },
+  {
+    "policyGateMock": {
+      "accepted": true,
+      "version": "2026-10-29.1",
+      "formEnabled": true
+    },
+    "syntheticInterceptOnly": true
+  },
+  {
+    "compactSixSecondAuto": "PASS",
+    "reducedMotionStopsAuto": "PASS"
+  }
+]

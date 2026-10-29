@@ -1,6 +1,6 @@
 # Shared ShinoX design and English publishing
 
-Traditional Chinese HTML in `shinox-v2-site/` and `products/` is the sole design master. The 24 English pages (seven main pages, 15 product details, privacy and 404) are generated; do not maintain separate English HTML/CSS/JS layouts.
+Traditional Chinese HTML in `shinox-v2-site/` and `products/` is the sole design master. The 25 English pages (seven main pages, 15 product details, privacy, terms and 404) are generated; do not maintain separate English HTML/CSS/JS layouts.
 
 1. Edit Chinese master HTML and shared CSS/JS/assets.
 2. Add or revise the corresponding exact translations in `shinox-v2-site/locales/en.json`. Preserve brands, model IDs and confirmed specifications.

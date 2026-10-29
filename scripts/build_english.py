@@ -4,7 +4,7 @@ Edit Chinese templates + locales/en.json, then run this script. --check detects 
 """
 from pathlib import Path
 from bs4 import BeautifulSoup, NavigableString
-import argparse,json,posixpath,re,sys
+import argparse,json,posixpath,re,sys,subprocess
 from urllib.parse import urlsplit,urlunsplit
 ROOT=Path(__file__).resolve().parents[1]/'shinox-v2-site'
 DICT=json.loads((ROOT/'locales/en.json').read_text())
@@ -23,7 +23,7 @@ def route(value,source,target,asset=False):
  if normalized.startswith('../'):raise ValueError('Path leaves site root: '+source+' '+value)
  if not asset:
   if normalized.startswith('en/'):normalized=source
-  elif normalized.endswith('.html'):normalized='en/'+normalized
+  elif normalized.endswith('.html') or normalized in ['privacy','terms']:normalized='en/'+normalized
  path=relative(normalized,posixpath.dirname(target))
  return urlunsplit(('','',path,u.query,u.fragment))
 def json_translate(v):
@@ -49,7 +49,7 @@ for path in sources:
   for attr in ['src','poster','data-element-src','data-contact-src']:
    if tag.has_attr(attr):tag[attr]=route(tag[attr],source,target,asset=True)
   if tag.has_attr('href'):
-   is_asset=tag.name=='link' and tag.get('rel')!=['alternate']
+   is_asset=tag.name=='link' and tag.get('rel') not in [['alternate'],['canonical']]
    tag['href']=route(tag['href'],source,target,asset=is_asset)
   if tag.has_attr('style'):
    tag['style']=re.sub(r"url\((['\"]?)(.*?)\1\)",lambda m:"url('"+route(m[2],source,target,asset=True)+"')",tag['style'])
@@ -82,3 +82,5 @@ for dest,content in outputs.items():
   if not args.check:dest.parent.mkdir(parents=True,exist_ok=True);dest.write_text(content)
 if args.check and changed:print('Regenerate English pages: python scripts/build_english.py\n'+json.dumps(changed,indent=2));sys.exit(1)
 print(('Checked' if args.check else 'Generated')+' '+str(len(manifest))+' English pages from the Chinese master; '+str(len(changed))+' files '+('differ' if args.check else 'updated')+'.')
+
+subprocess.run([sys.executable,str(Path(__file__).with_name("build_legal_routes.py"))]+(["--check"] if args.check else []),check=True)

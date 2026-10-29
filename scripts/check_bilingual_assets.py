@@ -15,7 +15,7 @@ for pair in pairs:
     u=urlsplit(v)
     if u.scheme or u.netloc:continue
     if not u.path:target=file
-    else:target=posixpath.normpath(posixpath.join(posixpath.dirname(file),unquote(u.path)))
+    else:target=unquote(u.path).lstrip('/') if u.path.startswith('/') else posixpath.normpath(posixpath.join(posixpath.dirname(file),unquote(u.path)))
     dest=root/target
     if not dest.exists():errors.append([file,v,'not found']);continue
     if u.fragment and target.endswith('.html') and not BeautifulSoup(dest.read_text(),'html.parser').find(id=u.fragment):errors.append([file,v,'missing anchor'])

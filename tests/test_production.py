@@ -33,7 +33,8 @@ class ProductionTests(unittest.TestCase):
             "SHINOX_ADMIN_TOKEN": "synthetic-token-012345678901234567890123456789",
             "SHINOX_FORM_LIVE": "1",
         })
-        cls.server = PreviewServer(("127.0.0.1", 0), cls.store, cls.site, production=cls.config)
+        with patch("server.load_policy_state", return_value={"ready": True, "privacyVersion": "2026-10-29.1"}):
+            cls.server = PreviewServer(("127.0.0.1", 0), cls.store, cls.site, production=cls.config)
         cls.thread = threading.Thread(target=cls.server.serve_forever, daemon=True)
         cls.thread.start()
 
@@ -53,7 +54,7 @@ class ProductionTests(unittest.TestCase):
 
     def data(self):
         return {"name": "Synthetic Lead", "email": "lead@example.test",
-                "phone": "0912345678", "region": "Test", "consent": True, "website": "",
+                "phone": "0912345678", "region": "Test", "consent": True, "privacyPolicyVersion":"2026-10-29.1", "consentConfirmedAt":"2026-10-29T00:00:00+00:00", "website": "",
                 "message": "Synthetic request"}
 
     def post(self, origin="https://shinox.example.test"):
@@ -76,6 +77,29 @@ class ProductionTests(unittest.TestCase):
         finally:
             self.config.live = True
 
+    def test_policy_not_accepted_blocks_before_storage_and_mail(self):
+        original = self.server.legal
+        self.server.legal = {"ready": False, "privacyVersion": "2026-10-29.1"}
+        try:
+            with self.store.connect() as db:
+                count = db.execute("SELECT COUNT(*) FROM requests").fetchone()[0]
+            with patch("production_api.send_notification") as mail:
+                self.assertEqual(self.post()[0], 503)
+                mail.assert_not_called()
+            self.assertFalse(json.loads(self.request("GET", "/api/status")[2])["acceptingLeads"])
+            with self.store.connect() as db:
+                self.assertEqual(db.execute("SELECT COUNT(*) FROM requests").fetchone()[0], count)
+        finally:
+            self.server.legal = original
+
+    def test_outdated_policy_and_missing_confirmation_time_are_rejected(self):
+        for override in [{"privacyPolicyVersion":"outdated"},{"consentConfirmedAt":""},{"consent":False}]:
+            data = {**self.data(), **override}
+            with patch("production_api.send_notification") as mail:
+                self.assertEqual(self.request("POST", "/api/leads", json.dumps(data),
+                    {"Origin":"https://shinox.example.test","Content-Type":"application/json"})[0],400)
+                mail.assert_not_called()
+
     def test_lead_end_to_end_storage_and_email_outbox(self):
         with patch("production_api.send_notification") as mail:
             status, _, body = self.post()
@@ -89,6 +113,9 @@ class ProductionTests(unittest.TestCase):
         matching = [r for r in records if r["id"] == result["requestId"]]
         self.assertEqual(len(matching), 1)
         self.assertTrue(matching[0]["emailSent"])
+        self.assertEqual(matching[0]["data"]["privacyPolicyVersion"],"2026-10-29.1")
+        self.assertTrue(matching[0]["data"]["consentConfirmedAt"])
+        self.assertTrue(matching[0]["data"]["consentRecordedAt"])
 
     def test_email_failure_does_not_lose_request(self):
         with patch("production_api.send_notification", side_effect=OSError("SMTP offline")):
