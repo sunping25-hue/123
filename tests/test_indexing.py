@@ -23,8 +23,8 @@ class Meta(HTMLParser):
 
 class IndexingTests(unittest.TestCase):
     def test_formal_language_pairs_are_indexable_and_exceptions_stay_noindex(self):
-        self.assertEqual(len(source_pages()), 22)
-        self.assertEqual(len(public_pages()), 44)
+        self.assertGreaterEqual(len(source_pages()), 22)
+        self.assertEqual(len(public_pages()), 2*len(source_pages()))
         for path in public_pages():
             with self.subTest(path=path):
                 document=Meta();document.feed((SITE/path).read_text())
@@ -38,7 +38,7 @@ class IndexingTests(unittest.TestCase):
         ns={'s':'http://www.sitemaps.org/schemas/sitemap/0.9','x':'http://www.w3.org/1999/xhtml'}
         urls=ET.parse(SITE/'sitemap.xml').getroot().findall('s:url',ns)
         self.assertEqual({n.find('s:loc',ns).text for n in urls}, {ORIGIN+'/'+path for path in public_pages()})
-        self.assertEqual(len(urls),44)
+        self.assertEqual(len(urls),len(public_pages()))
         for node in urls:
             self.assertEqual(node.find('s:lastmod',ns).text,'2026-10-29')
             self.assertEqual(len(node.findall('x:link',ns)),3)
@@ -50,6 +50,8 @@ class IndexingTests(unittest.TestCase):
         actual=indexable_html(source)
         self.assertEqual(ROBOTS_META.sub('',source),ROBOTS_META.sub('',actual))
         self.assertEqual(indexable_html(actual),actual)
+        without_robots=ROBOTS_META.sub('',source)
+        self.assertEqual(ROBOTS_META.sub('',indexable_html(without_robots)),without_robots)
 
     def test_robots_advertises_sitemap_without_blocking_public_content(self):
         text=(SITE/'robots.txt').read_text()

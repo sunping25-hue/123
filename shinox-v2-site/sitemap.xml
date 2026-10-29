@@ -57,6 +57,20 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinox-wash.com/index.html" />
   </url>
   <url>
+    <loc>https://www.shinox-wash.com/news-smart-wash.html</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.shinox-wash.com/news-smart-wash.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shinox-wash.com/en/news-smart-wash.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinox-wash.com/news-smart-wash.html" />
+  </url>
+  <url>
+    <loc>https://www.shinox-wash.com/en/news-smart-wash.html</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.shinox-wash.com/news-smart-wash.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shinox-wash.com/en/news-smart-wash.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinox-wash.com/news-smart-wash.html" />
+  </url>
+  <url>
     <loc>https://www.shinox-wash.com/news.html</loc>
     <lastmod>2026-10-29</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.shinox-wash.com/news.html" />
