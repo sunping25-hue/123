@@ -47,4 +47,6 @@
 
 Hero、兩個首頁 HTML、表單頁、`site.js`、投資密碼流程 JS 與 `render.yaml`，均逐檔與權威基底 `84c2890364405673468d2f28f2d3f2b8f781daad` 比較 bytes 完全一致；詳見 `protected-files.json`。本次不改寫其他產品頁或既有實作。
 
-**尚未部署。** 本批僅建立本機提交，沒有遠端推送、GitHub／PR 修改、私人站發布、Render 發布或合併。後續由主代理審閱及執行已授權的預覽發布；本文件不宣稱任何正式網站已更新。
+**私人驗收站已發布成功。** 原生 Sites 發布回應為 `succeeded`，網址 https://shinox-v2-review.wld-wash.chatgpt.site 。Sites source commit：`904d269e0c41a68f17332beb5a022a9c70394f0d`；deployment：`appgdep_6ae37c5e87648191a02399796b3f8363`；發布時間：`2026-10-29T17:03:41.999005+00:00`。實作來源為 GitHub `12400fee67f398acd4b0b6f8f7257e3d731dc5fc`，此後只補記此發布結果，網站程式未再改動。
+
+正式 `www.shinox-wash.com` 使用 Render，目前沒有可用的 Render 部署連線，且正式網址讀取受本執行環境代理限制；未宣稱 Render 已部署。私人 Sites 發布與 GitHub 合併不等同正式站已更新。
