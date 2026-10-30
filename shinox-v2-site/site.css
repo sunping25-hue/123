@@ -12,6 +12,6 @@
 
 .footer{position:relative}
 .footer-install{position:absolute;right:8vw;bottom:90px;margin:0;width:240px;text-align:center;pointer-events:none;background:none;border:0;box-shadow:none}
-.footer-install-video{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain;background:transparent;-webkit-mask-image:linear-gradient(to right,transparent,#000 9%,#000 91%,transparent),linear-gradient(to bottom,transparent,#000 9%,#000 91%,transparent);-webkit-mask-composite:source-in;mask-image:linear-gradient(to right,transparent,#000 9%,#000 91%,transparent),linear-gradient(to bottom,transparent,#000 9%,#000 91%,transparent);mask-composite:intersect}
+.footer-install-video{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain;background:transparent}.footer-install-mask{display:block;-webkit-mask-image:linear-gradient(to right,transparent,#000 9%,#000 91%,transparent),linear-gradient(to bottom,transparent,#000 9%,#000 91%,transparent);-webkit-mask-composite:source-in;mask-image:linear-gradient(to right,transparent,#000 9%,#000 91%,transparent),linear-gradient(to bottom,transparent,#000 9%,#000 91%,transparent);mask-composite:intersect}
 .footer-install figcaption{margin-top:4px;font-size:11px;line-height:1.5;color:#a0b9c8;letter-spacing:.02em}
 @media (max-width:760px){.footer-install{position:static;width:150px;margin:24px 0 0 auto}.footer-install figcaption{font-size:10px;margin-top:2px}}
