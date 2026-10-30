@@ -1,0 +1,11 @@
+{
+  "base": "05e17d865e3dcb04697bc385cbd786a26247afd0",
+  "files": {
+    "products/self-3.html": "b8cc1979a641ce698079b948be60932a4abe2d4380de9976e6b8948d7b391704",
+    "en/products/self-3.html": "a773f45ce6cfa960a8533be7e6884171bf74b1e3beebbc2552eb05d920bb2212",
+    "products/nine-control.css": "fe160709a182c9866f262c4df1c9cd5cf1e92958ad835f525a7183b614652f00",
+    "products/nine-control.js": "e7d3c349360dddd849867c08ecbcb54f389266c06dd4990c2b08d2d30d4e76b1"
+  },
+  "imagesModified": false,
+  "postMergeMainExact": true
+}
