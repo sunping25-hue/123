@@ -1,0 +1,47 @@
+{
+  "shinox-v2-site/index.html": {
+    "unchangedFrom": "84c2890364405673468d2f28f2d3f2b8f781daad",
+    "unchanged": true,
+    "sha256": "770fe529263033987c354177b5da70c3979ceea268ebe7d4413fb4f16698c52d"
+  },
+  "shinox-v2-site/en/index.html": {
+    "unchangedFrom": "84c2890364405673468d2f28f2d3f2b8f781daad",
+    "unchanged": true,
+    "sha256": "d4c34772c73980280233e3e4e592ce4a9c5878e6dcd84a63f48c1018a2a19091"
+  },
+  "shinox-v2-site/media/shinox-hero.mp4": {
+    "unchangedFrom": "84c2890364405673468d2f28f2d3f2b8f781daad",
+    "unchanged": true,
+    "sha256": "12f67ec61ac0d928b0b3f1d717b2e073030432b246eca89adb9e42e295867e6d"
+  },
+  "shinox-v2-site/media/shinox-poster.jpg": {
+    "unchangedFrom": "84c2890364405673468d2f28f2d3f2b8f781daad",
+    "unchanged": true,
+    "sha256": "9c829ede0be819ddf8063c7153947f69a83a337169358d2101235006ab083da1"
+  },
+  "shinox-v2-site/site.js": {
+    "unchangedFrom": "84c2890364405673468d2f28f2d3f2b8f781daad",
+    "unchanged": true,
+    "sha256": "2c6325920bebae0afd4c642ba2ba224edfb80ebb9ae842df9299f3399c018627"
+  },
+  "shinox-v2-site/contact.html": {
+    "unchangedFrom": "84c2890364405673468d2f28f2d3f2b8f781daad",
+    "unchanged": true,
+    "sha256": "caee5de136495d04b8be850e8f083332c32e9ceba8c28007c885f8adedb723df"
+  },
+  "shinox-v2-site/en/contact.html": {
+    "unchangedFrom": "84c2890364405673468d2f28f2d3f2b8f781daad",
+    "unchanged": true,
+    "sha256": "c0fc33072c753d25b9d55f1eec69fdf631aefddb788342ccaf2d461ddf0f9bff"
+  },
+  "shinox-v2-site/calculator-gate.js": {
+    "unchangedFrom": "84c2890364405673468d2f28f2d3f2b8f781daad",
+    "unchanged": true,
+    "sha256": "9ae3a9b4489116b73cec28385a3c7c7ebab9032cee998ed7a090960a9d1dc0ec"
+  },
+  "render.yaml": {
+    "unchangedFrom": "84c2890364405673468d2f28f2d3f2b8f781daad",
+    "unchanged": true,
+    "sha256": "04a7b1474b82a9af81bb045fb99ac4f01e12c428d12a4272834e8177f731eb70"
+  }
+}
