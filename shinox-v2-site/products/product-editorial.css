@@ -155,3 +155,19 @@
 #wash-process .sx-foam-figure img{display:block;width:100%;height:auto;object-fit:contain;border-radius:16px;box-shadow:0 18px 40px rgba(6,19,34,.18)}
 #wash-process .sx-foam-figure figcaption{margin-top:8px;font-size:.85rem;color:#4a5b70;text-align:center}
 @media (max-width:950px){#wash-process .sx-foam-feature{grid-template-columns:1fr}#wash-process .sx-foam-figure{max-width:480px;margin:0 auto}}
+
+/* B2 / M9 hero band: navy text block left, uncropped image right, gradient joins them; stacks under 900px */
+body:has(.sx-hero--fullbleed){overflow-x:clip}
+.product-hero.sx-hero--fullbleed{display:grid!important;grid-template-columns:minmax(0,42fr) minmax(0,58fr);align-items:center;gap:0;width:100vw;max-width:none;margin:0 calc(50% - 50vw);padding:0!important;min-height:0;background:#0a2647}
+.product-hero.sx-hero--fullbleed>div{order:1;box-sizing:border-box;padding:clamp(40px,5vw,80px) clamp(24px,3vw,48px) clamp(40px,5vw,80px) max(24px,calc((100vw - 1180px)/2));color:#fff;position:relative;z-index:1}
+.product-hero.sx-hero--fullbleed>figure{order:2;position:relative;margin:0!important;border:0!important;border-radius:0!important;box-shadow:none!important;background:transparent;line-height:0;overflow:visible!important}
+.product-hero.sx-hero--fullbleed>figure img{display:block;width:100%!important;height:auto!important;aspect-ratio:auto!important;object-fit:contain!important;max-width:none}
+@media(max-width:900px){
+.product-hero.sx-hero--fullbleed{grid-template-columns:1fr}
+.product-hero.sx-hero--fullbleed>figure{order:0}
+.product-hero.sx-hero--fullbleed>div{padding:20px 22px 44px}
+}
+
+.product-hero.sx-hero--fullbleed>figure::before,.product-hero.sx-hero--fullbleed>figure::after{content:none!important;display:none!important}
+.product-hero.sx-hero--fullbleed>figure img{-webkit-mask-image:linear-gradient(to right,transparent 0%,rgba(0,0,0,.06) 3%,rgba(0,0,0,.2) 6%,rgba(0,0,0,.42) 9.5%,rgba(0,0,0,.66) 13%,rgba(0,0,0,.85) 16.5%,rgba(0,0,0,.96) 19%,#000 21%),linear-gradient(to bottom,transparent 0%,rgba(0,0,0,.35) 2.5%,rgba(0,0,0,.8) 5%,#000 7%,#000 93%,rgba(0,0,0,.8) 95%,rgba(0,0,0,.35) 97.5%,transparent 100%);-webkit-mask-composite:source-in;mask-image:linear-gradient(to right,transparent 0%,rgba(0,0,0,.06) 3%,rgba(0,0,0,.2) 6%,rgba(0,0,0,.42) 9.5%,rgba(0,0,0,.66) 13%,rgba(0,0,0,.85) 16.5%,rgba(0,0,0,.96) 19%,#000 21%),linear-gradient(to bottom,transparent 0%,rgba(0,0,0,.35) 2.5%,rgba(0,0,0,.8) 5%,#000 7%,#000 93%,rgba(0,0,0,.8) 95%,rgba(0,0,0,.35) 97.5%,transparent 100%);mask-composite:intersect}
+@media(max-width:900px){.product-hero.sx-hero--fullbleed>figure img{-webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 80%,rgba(0,0,0,.9) 84%,rgba(0,0,0,.7) 88%,rgba(0,0,0,.45) 92%,rgba(0,0,0,.2) 96%,transparent 100%);mask-image:linear-gradient(to bottom,#000 0%,#000 80%,rgba(0,0,0,.9) 84%,rgba(0,0,0,.7) 88%,rgba(0,0,0,.45) 92%,rgba(0,0,0,.2) 96%,transparent 100%);-webkit-mask-composite:source-over;mask-composite:add}}
