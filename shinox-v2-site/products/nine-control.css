@@ -108,3 +108,4 @@ box-shadow:inset 0 -13px 0 #9fb0c6,inset 0 -15px 3px #5d6f88,inset 0 2px 3px #ff
 .n9v-cloud-shot img{-webkit-mask-image:none!important;mask-image:none!important;border-radius:14px}
 .n9v-function-list .n9v-hp-note{margin-top:6px;display:inline-block;padding:3px 10px;border:1px solid #3aa0ff80;border-radius:999px;font-size:13px;color:#8fd6ff}
 .n9v-hp-note{margin-top:8px;display:inline-block;padding:3px 10px;border:1px solid #3aa0ff80;border-radius:999px;font-size:13px;color:#8fd6ff}
+.n9v-front-img{margin:12px 0 16px;line-height:0}.n9v-front-img img{display:block;width:100%;height:auto;border-radius:10px;box-shadow:0 10px 28px rgba(0,0,0,.35)}
