@@ -47,4 +47,47 @@
 @media(prefers-reduced-motion:reduce){.sx-experience *{scroll-behavior:auto!important;transition:none!important}}
 
 /* Avoid doubling the older feature / process panels once the enhanced page mounts. */
-body:has(.sx-experience[data-sx-product]) .showcase-panel{display:none}
+
+
+/* 2026-10-30 static B2/M9 detail layout */
+.sx-experience.sx-wrap-outer{padding:0 0 30px}
+.sx-experience .sx-section{width:100%;padding:56px 0;scroll-margin-top:90px}
+.sx-experience .sx-lead{margin:0 0 22px!important;max-width:780px}
+.sx-experience .sx-section>p+p{margin-top:14px}
+.sx-experience .sx-h3{margin:34px 0 4px;font-size:17px;color:var(--cyan,#7ce8db)}
+.sx-experience .sx-stats{padding-top:8px}
+.sx-experience .sx-toc{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 0;padding:14px 0;border-top:1px solid rgba(200,215,230,.13);border-bottom:1px solid rgba(200,215,230,.13)}
+.sx-experience .sx-toc a{font-size:13px;color:var(--silver,#c8d7e6);text-decoration:none;padding:6px 12px;border:1px solid #28546c;border-radius:20px}
+.sx-experience .sx-toc a:hover,.sx-experience .sx-toc a:focus-visible{border-color:var(--teal,#17ddc7);color:#fff}
+.sx-experience .sx-card .sx-n{color:var(--cyan,#7ce8db);font-weight:700;font-size:13px;letter-spacing:.1em}
+.sx-experience .sx-card .sx-sub{font-size:12px!important;color:var(--teal,#17ddc7)!important;margin:-4px 0 8px!important}
+.sx-experience .sx-grid{margin-top:18px}
+.sx-experience .sx-modes{display:grid;gap:14px}
+.sx-experience .sx-mode{background:linear-gradient(145deg,#0e2b40,var(--panel,#0a1d2d));border:1px solid #28546c;border-radius:12px;padding:20px 22px}
+.sx-experience .sx-mode h3{margin:0 0 14px}
+.sx-experience .sx-flow{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.sx-experience .sx-flow li{display:flex;align-items:center;gap:6px;background:#12415a;border-radius:20px;padding:7px 12px;font-size:14px;color:#fff}
+.sx-experience .sx-flow li span{font-size:11px;color:var(--cyan,#7ce8db);font-weight:700}
+.sx-experience .sx-flow li+li::before{content:"›";color:var(--teal,#17ddc7);margin-right:6px;margin-left:-14px;transform:translateX(-6px)}
+.sx-experience .sx-steps9{list-style:none;padding:0;margin:16px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.sx-experience .sx-steps9 li{background:linear-gradient(145deg,#0e2b40,var(--panel,#0a1d2d));border:1px solid #28546c;border-radius:12px;padding:16px 14px}
+.sx-experience .sx-steps9 .sx-n{display:block;color:var(--cyan,#7ce8db);font-weight:700;font-size:18px}
+.sx-experience .sx-steps9 strong{display:block;color:#fff;margin:4px 0}
+.sx-experience .sx-steps9 small{display:block;color:var(--muted,#9db4c4);font-size:12px;line-height:1.5}
+.sx-experience .sx-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.sx-experience .sx-specs thead th{background:#0e3350;color:#fff;font-weight:700;border-bottom:2px solid var(--teal,#17ddc7)}
+.sx-experience .sx-specs thead th+th,.sx-experience .sx-specs td{min-width:120px}
+.sx-experience .sx-specs tbody th{color:var(--silver,#c8d7e6)}
+.sx-experience .sx-specs tbody tr:nth-child(odd){background:rgba(16,44,66,.45)}
+.sx-experience .sx-list{columns:2;column-gap:32px;padding-left:20px;margin:6px 0 0;color:var(--silver,#c8d7e6);line-height:1.9;font-size:15px}
+.sx-experience .sx-variant{cursor:default}
+.sx-experience .sx-warranty{display:flex;gap:24px;align-items:center;background:linear-gradient(120deg,#0e3350,#0a1d2d);border:1px solid #28546c;border-radius:12px;padding:24px}
+.sx-experience .sx-warranty strong{font-size:26px;color:var(--cyan,#7ce8db);white-space:nowrap}
+.sx-experience .sx-demo{display:grid;grid-template-columns:1.4fr 1fr;gap:20px;align-items:start}
+.sx-experience .sx-demo h3{margin-top:0}
+.sx-experience .sx-demo .sx-list{columns:1}
+.sx-experience .sx-demo-cta{display:grid;gap:10px}
+.sx-experience .sx-demo-cta .sx-action{margin-top:0}
+.sx-experience .sx-ghost{display:inline-flex;justify-content:center;align-items:center;min-height:44px;border:1px solid #31546a;border-radius:25px;color:var(--silver,#c8d7e6)!important;text-decoration:none;font-size:14px}
+@media(max-width:800px){.sx-experience .sx-list{columns:1}.sx-experience .sx-demo{grid-template-columns:1fr}.sx-experience .sx-warranty{flex-direction:column;align-items:flex-start}}
+.sx-experience .sx-specs:has(thead th:nth-child(4)){table-layout:fixed;min-width:720px}.sx-experience .sx-specs:has(thead th:nth-child(4)) th{width:auto}
