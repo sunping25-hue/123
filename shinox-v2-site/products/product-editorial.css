@@ -216,3 +216,13 @@ body:has(.sx-hero--fullbleed){overflow-x:clip}
 .sx-fcard-opt .sx-b2-tile{background:radial-gradient(circle at 50% 40%,#6b4e1c 0%,#2c2a4a 55%,#0b1a38 100%);color:#ffd98a}
 .sx-opt-badge{position:absolute;top:12px;right:12px;z-index:1;padding:5px 12px;border-radius:999px;background:linear-gradient(135deg,#ffd98a,#f0a93a);color:#2a1a00;font-size:13px;font-weight:800;letter-spacing:.06em;box-shadow:0 4px 12px rgba(0,0,0,.3)}
 .sx-experience #functions .sx-fcard-opt .sx-n,.sx-experience #functions .sx-fcard-opt .sx-sub{color:#ffd98a}
+.sx-abc-k{--abc:#7cc4ff}.sx-abc-n{--abc:#9be15d}
+.sx-zone{margin:32px 0 8px}
+.sx-zone .sx-h3{margin:0 0 14px}
+.sx-zone-coat .sx-h3{padding-top:22px;border-top:1px solid #c9d8ea}
+.sx-abc.sx-abc-2{grid-template-columns:repeat(2,minmax(0,300px));margin:0;gap:18px}
+.sx-abc-art .sx-opt-badge{top:10px;right:10px}
+.sx-experience #wash-process .sx-zone .sx-abc-body p{color:#d8ecff!important}
+.sx-experience #wash-process .sx-zone .sx-abc-body p.sx-sub{color:var(--abc)!important}
+@media (max-width:760px){.sx-abc.sx-abc-2{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.sx-zone .sx-abc-body{padding:10px}.sx-zone .sx-abc-body h4{font-size:15px}.sx-experience #wash-process .sx-zone .sx-abc-body p:not(.sx-sub){font-size:13px}}
+.sx-abc-art .sx-opt-badge{line-height:1.2;white-space:nowrap;display:inline-block}
