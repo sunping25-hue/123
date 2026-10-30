@@ -31,3 +31,8 @@
 .revcalc-result:first-child{background:#17ddc7;color:#04121f}.revcalc-result:last-child{background:linear-gradient(120deg,#0a5bd6,#087cff 55%,#3aa0ff);color:#fff}
 .revcalc-inner{padding:32px 36px;border:3px solid #17ddc7;border-radius:16px;box-shadow:0 0 22px #17ddc766,0 0 4px #7ce8db99 inset}@media (max-width:760px){.revcalc-inner{padding:22px 16px;border-width:2px;border-radius:14px}}
 @media (max-width:760px){.revcalc-box{padding:14px 12px}.revcalc-box select,.revcalc-box input,.revcalc-val b{font-size:21px}.revcalc-box select{padding-right:18px;background-position:right 7px center,right 1px center}}
+.revcalc{max-width:790px}.revcalc-inner{padding:22px 24px;border-radius:12px}.revcalc h2,.revcalc h3{font-size:clamp(20px,2vw,26px);margin-bottom:6px}.revcalc-lead{font-size:13px;margin-bottom:18px}
+.revcalc-row{gap:8px}.revcalc-box{padding:11px 12px;gap:5px;border-radius:5px}.revcalc-label{font-size:11px}.revcalc-val small{font-size:11px}.revcalc-x{font-size:18px}
+.revcalc-val b,.revcalc-box input,.revcalc-box select{font-size:clamp(16px,1.5vw,20px)}.revcalc-box select{padding-right:16px;background-size:5px 5px;background-position:right 6px center,right 1px center}
+.revcalc-results{gap:8px;margin-top:14px}.revcalc-result{padding:13px 15px;border-radius:5px}.revcalc-result span{font-size:12px}.revcalc-result output{font-size:clamp(20px,2.3vw,30px)}.revcalc-note{font-size:11px;margin-top:10px}
+@media (max-width:760px){.revcalc{max-width:calc(100% - 40px)}.revcalc-inner{padding:16px 12px}.revcalc-box{padding:10px 9px}.revcalc-val b,.revcalc-box input,.revcalc-box select{font-size:17px}.revcalc-result output{font-size:24px}.revcalc-lead{font-size:13px}}
