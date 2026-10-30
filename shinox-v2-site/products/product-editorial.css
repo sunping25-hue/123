@@ -196,3 +196,5 @@ body:has(.sx-hero--fullbleed){overflow-x:clip}
 .sx-experience #wash-process .sx-abc-body h4{color:#fff}
 .sx-experience #wash-process .sx-abc-body p{color:#d8ecff!important}
 .sx-experience #wash-process .sx-abc-body p.sx-sub{color:var(--abc)!important}
+.sx-abc-art{display:grid;place-items:center;background:radial-gradient(circle at 50% 45%,color-mix(in srgb,var(--abc) 34%,#0b2a5c) 0,#0a1f44 72%)}
+.sx-abc-emblem{width:62%;height:62%;filter:drop-shadow(0 10px 24px color-mix(in srgb,var(--abc) 45%,transparent))}
