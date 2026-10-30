@@ -19,8 +19,19 @@
 | 繁中 | [整頁](zh-1440-full.webp) | [整頁](zh-390-full.webp) |
 | English | [Full page](en-1440-full.webp) | [Full page](en-390-full.webp) |
 
-截圖亦保留首屏與規格區版本。完整報告見report.json及post-merge-qa.json。此紀錄先為程式驗收，私人站發布結果由主代理補記；未宣稱Render正式站已部署。
+截圖亦保留首屏與規格區版本。完整報告見report.json及post-merge-qa.json。
 
 Product結構化資料的image已靜態核對為實際首屏主圖絕對網址，檔案存在、JSON解析與兩語對應通過；未變更畫面、CSS或JS。
 
 同步最新首頁title提交1f09bd0；其兩個九合一頁面與先前通過合併後驗證的05e17d8完全相同，因此沒有重跑不變的版面情境。
+
+## 發布紀錄
+
+2026-10-30 12:24（Asia/Taipei），既有owner-only私人驗收站發布成功。Sites來源提交f2786b4b76f705df78894443a815de722ab11097，deployment appgdep_6ae41be5c8348191b6f27a46f0cf335b；網站程式對應GitHub 508687ad407623d8aeff4cf7356e9a95529b698f。私人站兩語HTML僅另設noindex，其他三個產品頁資產與已驗收來源相同。
+
+- 繁中：https://shinox-v2-review.wld-wash.chatgpt.site/products/self-3.html
+- English：https://shinox-v2-review.wld-wash.chatgpt.site/en/products/self-3.html
+
+接著正常合併最新目標ee08da721d6d84a239e95f4967688732ed420d9e，完整保留PR #28的M9、B2、共用產品樣式與首頁更新。四個九合一來源檔與508687a逐位元相同；對最新目標的差異仍僅四個九合一檔及本驗收目錄。不需重跑未變更的版面情境。
+
+未執行或驗證www.shinox-wash.com的Render正式部署；私人驗收站成功不代表Render狀態已更新。
