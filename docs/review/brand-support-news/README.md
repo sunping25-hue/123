@@ -53,3 +53,8 @@
 | English full article | [1440](en-article-1440.webp) | [390](en-article-390.webp) |
 
 本代理未暫存、提交、推送或發布。交由主代理審閱及處理後續 PR／私人預覽；沒有宣稱 Render 正式網站已更新。
+
+
+## 主代理發布紀錄
+
+私人驗收站已發布成功（原生 Sites 狀態 succeeded）：https://shinox-v2-review.wld-wash.chatgpt.site/news-beyond-the-machine.html ，英文 https://shinox-v2-review.wld-wash.chatgpt.site/en/news-beyond-the-machine.html 。Sites source `cb69399359f968968748ebd73c93087c71c6d822`，deployment `appgdep_6ae4091dd2e881918c4ba9bdb8c0d064`，2026-10-30T03:04:14.448178+00:00。網站程式仍為已驗證的 GitHub b3dc8ba，後續僅補記發布收據。Render 正式站未由此環境部署或驗證。
