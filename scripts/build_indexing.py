@@ -8,7 +8,7 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'shinox-v2-site'
 ORIGIN = 'https://www.shinox-wash.com'
-UPDATED = '2026-10-29'
+UPDATED = '2026-10-30'
 EXCLUDED = {'404.html', 'admin.html', 'privacy.html', 'terms.html'}
 ROBOTS_META = re.compile(r'<meta\b(?=[^>]*\bname\s*=\s*[\'\"]robots[\'\"])[^>]*>', re.I)
 CONTENT = re.compile(r'(\bcontent\s*=\s*)([\'\"])(.*?)\2', re.I | re.S)
