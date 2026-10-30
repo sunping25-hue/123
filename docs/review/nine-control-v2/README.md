@@ -20,3 +20,5 @@
 | English | [Full page](en-1440-full.webp) | [Full page](en-390-full.webp) |
 
 截圖亦保留首屏與規格區版本。完整報告見report.json及post-merge-qa.json。此紀錄先為程式驗收，私人站發布結果由主代理補記；未宣稱Render正式站已部署。
+
+Product結構化資料的image已靜態核對為實際首屏主圖絕對網址，檔案存在、JSON解析與兩語對應通過；未變更畫面、CSS或JS。
