@@ -1,5 +1,5 @@
 {
-  "base": "05e17d865e3dcb04697bc385cbd786a26247afd0",
+  "base": "1f09bd062dd51926a3f4e06190bd65194379881a",
   "files": {
     "products/self-3.html": "870a74e16c3ef67051a4581b775d03fa0225cc4c5bf28558bc73463e2552160f",
     "en/products/self-3.html": "20f2323b892d1007bc959a785b480901794c23126e4f78584a37d0ffa6551c62",
@@ -8,5 +8,6 @@
   },
   "imagesModified": false,
   "postMergeMainExact": true,
-  "productImagesMatchActualHero": true
+  "productImagesMatchActualHero": true,
+  "productPagesUnchangedBetweenValidatedBaseAndLatest": true
 }
