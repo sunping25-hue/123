@@ -56,7 +56,7 @@ def outputs():
             entry = ET.SubElement(root, '{'+SITEMAP_NS+'}url')
             ET.SubElement(entry, '{'+SITEMAP_NS+'}loc').text = ORIGIN+'/'+path
             ET.SubElement(entry, '{'+SITEMAP_NS+'}lastmod').text = UPDATED
-            for language, target in [('zh-Hant', source), ('en', 'en/'+source), ('x-default', source)]:
+            for language, target in [('zh-Hant', source), ('en', 'en/'+source), ('x-default', 'en/'+source)]:
                 ET.SubElement(entry, '{'+XHTML_NS+'}link', {'rel':'alternate', 'hreflang':language, 'href':ORIGIN+'/'+target})
     ET.indent(root, space='  ')
     result[SITE/'sitemap.xml'] = '<?xml version="1.0" encoding="UTF-8"?>\n'+ET.tostring(root, encoding='unicode')+'\n'
