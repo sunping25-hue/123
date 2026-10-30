@@ -1,7 +1,7 @@
 /* Keep decorative looping videos (no controls) playing, incl. iOS. */
 (() => {
   'use strict';
-  const vids = [...document.querySelectorAll('video.footer-install-video, video.sx-abc-video, video.sci-mascot-video, video.contact-anim-video')];
+  const vids = [...document.querySelectorAll('video.footer-install-video, video.sx-abc-video, video.sci-mascot-video')];
   if (!vids.length) return;
   const kick = v => { v.muted = true; v.defaultMuted = true; v.playsInline = true; v.setAttribute('playsinline', ''); if (v.paused) { const p = v.play(); if (p && p.catch) p.catch(() => {}); } };
   vids.forEach(v => { kick(v); v.addEventListener('pause', () => { if (!document.hidden) setTimeout(() => kick(v), 300); }); });
