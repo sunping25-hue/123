@@ -73,7 +73,7 @@
 .n9v-fmt{text-align:center;color:#fff}
 .n9v-fmt-stage{position:relative;margin:0 auto;height:clamp(300px,32vw,440px);display:flex;align-items:flex-end;justify-content:center;padding-bottom:42px}
 .n9v-fmt-stage img{position:relative;z-index:2;display:block;width:auto;height:auto;max-width:100%;max-height:100%;filter:drop-shadow(0 22px 18px #020c2299)}
-.n9v-fmt--wall .n9v-fmt-stage img{max-height:72%;margin-bottom:9%;animation:none}
+.n9v-fmt--wall .n9v-fmt-stage img{max-height:76%;margin-bottom:7%;animation:none}
 .n9v-fmt-disc{position:absolute;z-index:1;left:50%;bottom:0;transform:translateX(-50%);width:min(92%,330px);height:74px;border-radius:50%;
 background:radial-gradient(ellipse 62% 40% at 50% 36%,#ffffff 0%,#f3f7fc 30%,#d3deea 55%,#a9b8cb 78%,#7f90a8 100%);
 box-shadow:inset 0 -13px 0 #9fb0c6,inset 0 -15px 3px #5d6f88,inset 0 2px 3px #fff,0 0 0 1px #cfe6ff88,0 24px 30px -8px #010a1fcc,0 0 46px #7cc8ff55}
