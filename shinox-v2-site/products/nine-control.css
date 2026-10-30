@@ -52,3 +52,14 @@
 .n9v-full-img{grid-column:1!important;grid-row:1!important}.n9v-full-img img{-webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 82%,rgba(0,0,0,.92) 85%,rgba(0,0,0,.75) 88.5%,rgba(0,0,0,.52) 92%,rgba(0,0,0,.28) 95.5%,rgba(0,0,0,.1) 98%,transparent 100%)!important;mask-image:linear-gradient(to bottom,#000 0%,#000 82%,rgba(0,0,0,.92) 85%,rgba(0,0,0,.75) 88.5%,rgba(0,0,0,.52) 92%,rgba(0,0,0,.28) 95.5%,rgba(0,0,0,.1) 98%,transparent 100%)!important;-webkit-mask-composite:source-over!important;mask-composite:add!important}
 .n9v-hero--fullbleed .n9v-hero-copy{grid-column:1!important;grid-row:2!important;width:min(1180px,calc(100% - 44px));margin:0 auto;padding:clamp(8px,1.5vw,20px) 0 clamp(44px,6vw,84px)!important}
 .n9v-hero--fullbleed .n9v-stats{max-width:720px}
+/* 4 colour options with real photos + side/back + guns banner */
+.n9v-finish .n9v-finish-img{display:block;width:auto;max-width:100%;height:clamp(220px,24vw,340px);object-fit:contain;margin:6px auto 0;filter:drop-shadow(0 14px 18px #0527552e)}
+.n9v-sideback{margin-top:48px}
+.n9v-sideback h3{color:#fff;font-size:clamp(22px,2vw,28px);margin:0}
+.n9v-sideback .n9v-kicker{color:#8eeaf2!important}
+.n9v-sideback figure{margin:18px 0 0;background:#fff;border-radius:16px;padding:clamp(12px,2vw,28px);box-shadow:0 18px 40px #0005}
+.n9v-sideback img{display:block;width:100%;height:auto;max-width:900px;margin:0 auto}
+.n9v-guns{padding-bottom:0!important;background:linear-gradient(#081b37,#0a2647)}
+.n9v-guns-img{margin:0;line-height:0}
+.n9v-guns-img img{display:block;width:100%;height:auto}
+@media(max-width:700px){.n9v-finishes{grid-template-columns:repeat(2,1fr)!important}.n9v-finish .n9v-finish-img{height:200px}}
