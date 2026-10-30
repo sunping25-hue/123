@@ -63,3 +63,7 @@
 .n9v-guns-img{margin:0;line-height:0}
 .n9v-guns-img img{display:block;width:100%;height:auto}
 @media(max-width:700px){.n9v-finishes{grid-template-columns:repeat(2,1fr)!important}.n9v-finish .n9v-finish-img{height:200px}}
+.n9v-cloudshot{background:#ebe9e6!important;color:#0a2647;padding-bottom:clamp(24px,4vw,56px)!important}
+.n9v-cloudshot h2{color:#0a2647!important}.n9v-cloudshot .n9v-kicker{color:#2a6fb8!important}
+.n9v-cloudshot-img{margin:clamp(8px,2vw,24px) auto 0;max-width:1400px;line-height:0;border:0;box-shadow:none;border-radius:0;background:none}
+.n9v-cloudshot-img img{display:block;width:100%;height:auto;-webkit-mask-image:linear-gradient(to right,transparent,#000 12%,#000 88%,transparent),linear-gradient(to bottom,transparent,#000 12%,#000 88%,transparent);-webkit-mask-composite:source-in;mask-image:linear-gradient(to right,transparent,#000 12%,#000 88%,transparent),linear-gradient(to bottom,transparent,#000 12%,#000 88%,transparent);mask-composite:intersect}
