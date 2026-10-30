@@ -92,3 +92,39 @@
 @media(max-width:800px){.sx-experience .sx-list{columns:1}.sx-experience .sx-demo{grid-template-columns:1fr}.sx-experience .sx-warranty{flex-direction:column;align-items:flex-start}}
 .sx-experience .sx-specs:has(thead th:nth-child(4)){table-layout:fixed;min-width:720px}.sx-experience .sx-specs:has(thead th:nth-child(4)) th{width:auto}
 .sx-experience .sx-stats{grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}
+/* Layered palette (product pages only): dark navy / blue gradient band / light, after the 9-in-1 DM */
+.sx-experience .sx-section{position:relative;border-bottom:0;box-shadow:0 0 0 100vmax var(--sx-bg,#061322);clip-path:inset(0 -100vmax);background:var(--sx-bg,#061322)}
+.sx-experience #overview,.sx-experience #specifications,.sx-experience #configuration{--sx-bg:#061322;background-image:radial-gradient(60% 80% at 100% 0,#0a3a6e55,transparent 70%)}
+.sx-experience #functions,.sx-experience #standard-equipment,.sx-experience #consumption,.sx-experience #warranty{--sx-bg:#0a3f8c;background:linear-gradient(135deg,#0b2f6b 0%,#0a4fb0 55%,#0b6fd0 100%);box-shadow:0 0 0 100vmax #0a4596}
+.sx-experience #wash-process,.sx-experience #options,.sx-experience #visit-and-survey{--sx-bg:#eef3f8}
+/* blue band */
+.sx-experience #functions .sx-card,.sx-experience #standard-equipment .sx-card,.sx-experience #consumption .sx-stat,.sx-experience #consumption .sx-card,.sx-experience #warranty .sx-warranty{background:linear-gradient(150deg,rgba(255,255,255,.16),rgba(255,255,255,.04));border:1px solid rgba(160,220,255,.45);box-shadow:0 8px 26px rgba(0,20,60,.35)}
+.sx-experience #functions p,.sx-experience #standard-equipment p,.sx-experience #standard-equipment li,.sx-experience #consumption p,.sx-experience #warranty p,.sx-experience #consumption td,.sx-experience #consumption th{color:#d9ecff}
+.sx-experience #functions .sx-eyebrow,.sx-experience #standard-equipment .sx-eyebrow,.sx-experience #consumption .sx-eyebrow,.sx-experience #warranty .sx-eyebrow{color:#7ff3ff}
+.sx-experience #functions .sx-n,.sx-experience #standard-equipment .sx-n{color:#7ff3ff;text-shadow:0 0 12px #3fe6ff99}
+/* light sections */
+.sx-experience #wash-process h2,.sx-experience #options h2,.sx-experience #visit-and-survey h2,.sx-experience #wash-process h3,.sx-experience #options h3,.sx-experience #visit-and-survey h3{color:#0a2240}
+.sx-experience #wash-process p,.sx-experience #options p,.sx-experience #visit-and-survey p,.sx-experience #visit-and-survey li{color:#3d5670!important}
+.sx-experience #wash-process .sx-eyebrow,.sx-experience #options .sx-eyebrow,.sx-experience #visit-and-survey .sx-eyebrow{color:#0a6fd6!important}
+.sx-experience #wash-process .sx-h3{color:#0a6fd6}
+.sx-experience #wash-process .sx-steps9 li{background:linear-gradient(150deg,#0b3f8f,#0a74d6);border:0;box-shadow:0 6px 18px rgba(10,60,140,.25)}
+.sx-experience #wash-process .sx-steps9 li strong{color:#fff}
+.sx-experience #wash-process .sx-steps9 .sx-n{color:#8ff5ff}
+.sx-experience #wash-process .sx-steps9 small,.sx-experience #wash-process .sx-process small{color:#cfe6ff}
+.sx-experience #wash-process .sx-process button{background:#fff;border:1px solid #c5d6e8;color:#0a2240}
+.sx-experience #wash-process .sx-process button[aria-pressed=true]{background:linear-gradient(150deg,#0b3f8f,#0a74d6);color:#fff}
+.sx-experience #wash-process .sx-process-detail{background:#fff;color:#0a2240}
+.sx-experience #options .sx-card,.sx-experience #visit-and-survey .sx-demo>div:first-child{background:#fff;border:1px solid #d3e0ee;box-shadow:0 8px 22px rgba(10,40,90,.09);border-top:3px solid #0a74d6}
+.sx-experience #options .sx-card .sx-n{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:9px;background:linear-gradient(140deg,#0a74d6,#17c8d8);color:#fff;letter-spacing:0;box-shadow:0 0 14px #17c8d866}
+.sx-experience #visit-and-survey .sx-demo>div:first-child{padding:22px;border-radius:12px}
+.sx-experience #visit-and-survey .sx-ghost{color:#0a2240!important;border-color:#9fb6cc}
+.sx-experience #visit-and-survey a:not(.sx-action):not(.sx-ghost){color:#0a6fd6}
+.sx-experience .sx-warranty{border-radius:12px}
+/* dark: accent cards and highlight boxes */
+.sx-experience #overview .sx-card{border-top:2px solid #17ddc7}
+.sx-experience #overview .sx-warranty,.sx-experience #wash-process .sx-warranty{background:linear-gradient(120deg,#0a4fb0,#0b8fd0);border:0;padding:20px 24px;box-shadow:0 0 28px #0a8fd055}
+.sx-experience #overview .sx-warranty p,.sx-experience #wash-process .sx-warranty p{color:#e8f6ff!important}
+.sx-experience #overview .sx-warranty strong,.sx-experience #wash-process .sx-warranty strong{color:#fff}
+.sx-experience #specifications .sx-specs tbody tr:nth-child(even){background:rgba(23,221,199,.05)}
+.sx-hero-sub{margin:6px 0 14px;font-size:clamp(18px,2vw,26px);font-weight:700;letter-spacing:.02em;background:linear-gradient(90deg,#7ff3ff,#3aa0ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.product-hero.sx-hero h1{font-size:clamp(34px,4.6vw,64px);line-height:1.08;word-break:keep-all;overflow-wrap:normal}
