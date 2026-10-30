@@ -236,3 +236,13 @@ body:has(.sx-hero--fullbleed){overflow-x:clip}
 @media (max-width:760px){.sx-zones-row{grid-template-columns:1fr;gap:24px}.sx-zones-row .sx-zone-coat .sx-h3{padding:18px 0 0;border-left:0;border-top:1px solid #c9d8ea}}
 #wash-process .sx-coat-feature{margin:0}
 .sx-zones-row .sx-zone{display:flex;flex-direction:column}.sx-zones-row .sx-zone>.sx-abc{flex:1}
+
+.sx-acc-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin-top:8px}
+.sx-acc-card{background:#011641;border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.sx-acc-fig{margin:0}
+.sx-acc-fig img{display:block;width:100%;height:auto;object-fit:contain;-webkit-mask-image:linear-gradient(to right,transparent,#000 10%,#000 90%,transparent),linear-gradient(to bottom,transparent,#000 8%,#000 82%,transparent);-webkit-mask-composite:source-in;mask-image:linear-gradient(to right,transparent,#000 10%,#000 90%,transparent),linear-gradient(to bottom,transparent,#000 8%,#000 82%,transparent);mask-composite:intersect}
+.sx-acc-fig figcaption{font-size:11px;color:#8eaab9;text-align:right;padding:0 12px;margin-top:-18px;position:relative}
+.sx-acc-body{padding:10px 14px 16px}
+.sx-acc-body h3{margin:0 0 6px;font-size:17px;color:#fff}
+.sx-experience .sx-acc-body p,.sx-acc-body p{margin:0;font-size:13.5px;line-height:1.55;color:#d8ecff!important}
+@media (max-width:760px){.sx-acc-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.sx-acc-body{padding:8px 10px 12px}.sx-acc-body h3{font-size:15px}}
