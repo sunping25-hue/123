@@ -148,3 +148,10 @@
 
 .sx-paylogos{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
 .sx-paylogos img{background:#fff;border-radius:10px;padding:5px 8px;height:30px;width:auto;max-width:100%;object-fit:contain;box-sizing:content-box}
+
+#wash-process .sx-foam-feature{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,420px);gap:28px;align-items:center;margin:0 0 24px}
+#wash-process .sx-foam-feature .sx-warranty{margin:0}
+#wash-process .sx-foam-figure{margin:0;min-width:0}
+#wash-process .sx-foam-figure img{display:block;width:100%;height:auto;object-fit:contain;border-radius:16px;box-shadow:0 18px 40px rgba(6,19,34,.18)}
+#wash-process .sx-foam-figure figcaption{margin-top:8px;font-size:.85rem;color:#4a5b70;text-align:center}
+@media (max-width:950px){#wash-process .sx-foam-feature{grid-template-columns:1fr}#wash-process .sx-foam-figure{max-width:480px;margin:0 auto}}
