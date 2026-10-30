@@ -128,3 +128,23 @@
 .sx-experience #specifications .sx-specs tbody tr:nth-child(even){background:rgba(23,221,199,.05)}
 .sx-hero-sub{margin:6px 0 14px;font-size:clamp(18px,2vw,26px);font-weight:700;letter-spacing:.02em;background:linear-gradient(90deg,#7ff3ff,#3aa0ff);-webkit-background-clip:text;background-clip:text;color:transparent}
 .product-hero.sx-hero h1{font-size:clamp(34px,4.6vw,64px);line-height:1.08;word-break:keep-all;overflow-wrap:normal}
+/* Cloud top-up kiosk (self-5) */
+.sx-hero-chips{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 6px}
+.sx-hero-chips .sx-chip{border:1px solid #2d7fd0;background:linear-gradient(120deg,#0a3a7a66,#0b6fd033);padding:8px 13px;border-radius:22px;font-size:13px;color:#dff3ff}
+.sx-experience .sx-badges{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin-top:10px}
+.sx-experience .sx-badges .sx-stat{padding:20px 18px}
+.sx-experience .sx-badges .sx-stat strong{font-size:20px;color:#fff}
+.sx-experience #consumption .sx-badges .sx-stat span{color:#d9ecff}
+.sx-experience .sx-badges .sx-24h{background:linear-gradient(140deg,#17c8d8,#0a74d6)!important;border:0!important;box-shadow:0 0 26px #17c8d877!important}
+.sx-experience .sx-badges .sx-24h strong{font-size:34px}
+.sx-experience .sx-tagline{margin-top:26px!important;text-align:center;font-size:17px!important;letter-spacing:.18em;color:#fff!important;font-weight:700}
+.sx-experience #functions .sx-grid{grid-template-columns:repeat(5,minmax(0,1fr))}
+.sx-experience #functions .sx-card h3{font-size:17px}
+.sx-experience #configuration .sx-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.sx-experience #configuration .sx-card .sx-n{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:9px;background:linear-gradient(140deg,#0a74d6,#17c8d8);color:#fff;letter-spacing:0}
+.sx-experience #visit-and-survey .sx-demo-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
+.sx-experience #visit-and-survey .sx-demo-cta a{padding:12px 22px;margin-top:0}
+@media(max-width:800px){.sx-experience .sx-badges,.sx-experience #functions .sx-grid{grid-template-columns:repeat(2,1fr)}}
+
+.sx-paylogos{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.sx-paylogos img{background:#fff;border-radius:10px;padding:5px 8px;height:30px;width:auto;max-width:100%;object-fit:contain;box-sizing:content-box}
