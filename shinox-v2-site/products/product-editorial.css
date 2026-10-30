@@ -145,3 +145,6 @@
 .sx-experience #visit-and-survey .sx-demo-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
 .sx-experience #visit-and-survey .sx-demo-cta a{padding:12px 22px;margin-top:0}
 @media(max-width:800px){.sx-experience .sx-badges,.sx-experience #functions .sx-grid{grid-template-columns:repeat(2,1fr)}}
+
+.sx-paylogos{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.sx-paylogos img{background:#fff;border-radius:10px;padding:5px 8px;height:30px;width:auto;max-width:100%;object-fit:contain;box-sizing:content-box}
