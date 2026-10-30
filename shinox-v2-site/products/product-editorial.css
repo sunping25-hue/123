@@ -171,3 +171,12 @@ body:has(.sx-hero--fullbleed){overflow-x:clip}
 .product-hero.sx-hero--fullbleed>figure::before,.product-hero.sx-hero--fullbleed>figure::after{content:none!important;display:none!important}
 .product-hero.sx-hero--fullbleed>figure img{-webkit-mask-image:linear-gradient(to right,transparent 0%,rgba(0,0,0,.06) 3%,rgba(0,0,0,.2) 6%,rgba(0,0,0,.42) 9.5%,rgba(0,0,0,.66) 13%,rgba(0,0,0,.85) 16.5%,rgba(0,0,0,.96) 19%,#000 21%),linear-gradient(to bottom,transparent 0%,rgba(0,0,0,.35) 2.5%,rgba(0,0,0,.8) 5%,#000 7%,#000 93%,rgba(0,0,0,.8) 95%,rgba(0,0,0,.35) 97.5%,transparent 100%);-webkit-mask-composite:source-in;mask-image:linear-gradient(to right,transparent 0%,rgba(0,0,0,.06) 3%,rgba(0,0,0,.2) 6%,rgba(0,0,0,.42) 9.5%,rgba(0,0,0,.66) 13%,rgba(0,0,0,.85) 16.5%,rgba(0,0,0,.96) 19%,#000 21%),linear-gradient(to bottom,transparent 0%,rgba(0,0,0,.35) 2.5%,rgba(0,0,0,.8) 5%,#000 7%,#000 93%,rgba(0,0,0,.8) 95%,rgba(0,0,0,.35) 97.5%,transparent 100%);mask-composite:intersect}
 @media(max-width:900px){.product-hero.sx-hero--fullbleed>figure img{-webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 80%,rgba(0,0,0,.9) 84%,rgba(0,0,0,.7) 88%,rgba(0,0,0,.45) 92%,rgba(0,0,0,.2) 96%,transparent 100%);mask-image:linear-gradient(to bottom,#000 0%,#000 80%,rgba(0,0,0,.9) 84%,rgba(0,0,0,.7) 88%,rgba(0,0,0,.45) 92%,rgba(0,0,0,.2) 96%,transparent 100%);-webkit-mask-composite:source-over;mask-composite:add}}
+.sx-b2-fgrid{grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:16px}
+.sx-b2-fcard{padding:0!important;overflow:hidden;display:flex;flex-direction:column;border-radius:12px}
+.sx-b2-media{margin:0;aspect-ratio:1/1;line-height:0;background:#0a1830}
+.sx-b2-media img{display:block;width:100%;height:100%;object-fit:contain}
+.sx-b2-tile{display:flex;align-items:center;justify-content:center;background:radial-gradient(circle at 50% 40%,#1b5fae 0%,#0d2f62 55%,#081a38 100%);color:#9fe9ff}
+.sx-b2-tile svg{width:34%;height:34%}
+.sx-b2-body{padding:18px 20px 22px;flex:1}
+@media(max-width:1000px){.sx-b2-fgrid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:420px){.sx-b2-body{padding:14px 14px 18px}}
