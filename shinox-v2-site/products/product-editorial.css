@@ -181,3 +181,4 @@ body:has(.sx-hero--fullbleed){overflow-x:clip}
 @media(max-width:1000px){.sx-b2-fgrid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
 @media(max-width:420px){.sx-b2-body{padding:14px 14px 18px}}
 .sx-length-banner{margin:28px 0 0;line-height:0;border-radius:14px;overflow:hidden;box-shadow:0 18px 44px rgba(0,0,0,.32)}.sx-length-banner img{display:block;width:100%;height:auto}
+.sx-length-note{margin:14px 0 0;padding:12px 16px;border-left:3px solid #17ddc7;background:rgba(8,26,56,.55);border-radius:6px;font-size:14px;line-height:1.7;color:#d8ecff}
