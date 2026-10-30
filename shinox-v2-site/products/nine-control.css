@@ -63,10 +63,6 @@
 .n9v-guns-img{margin:0;line-height:0}
 .n9v-guns-img img{display:block;width:100%;height:auto}
 @media(max-width:700px){.n9v-finishes{grid-template-columns:repeat(2,1fr)!important}.n9v-finish .n9v-finish-img{height:200px}}
-.n9v-cloudshot{background:#ebe9e6!important;color:#0a2647;padding-bottom:clamp(24px,4vw,56px)!important}
-.n9v-cloudshot h2{color:#0a2647!important}.n9v-cloudshot .n9v-kicker{color:#2a6fb8!important}
-.n9v-cloudshot-img{margin:clamp(8px,2vw,24px) auto 0;max-width:1400px;line-height:0;border:0;box-shadow:none;border-radius:0;background:none}
-.n9v-cloudshot-img img{display:block;width:100%;height:auto;-webkit-mask-image:linear-gradient(to right,transparent,#000 12%,#000 88%,transparent),linear-gradient(to bottom,transparent,#000 12%,#000 88%,transparent);-webkit-mask-composite:source-in;mask-image:linear-gradient(to right,transparent,#000 12%,#000 88%,transparent),linear-gradient(to bottom,transparent,#000 12%,#000 88%,transparent);mask-composite:intersect}
 .n9v-dry-visual img[src*="nine-dry-vacuum"]{width:100%;max-width:none;aspect-ratio:auto;height:auto;object-fit:contain;border-radius:0;-webkit-mask-image:linear-gradient(to right,transparent,#000 8%,#000 92%,transparent),linear-gradient(to bottom,transparent,#000 8%,#000 92%,transparent);-webkit-mask-composite:source-in;mask-image:linear-gradient(to right,transparent,#000 8%,#000 92%,transparent),linear-gradient(to bottom,transparent,#000 8%,#000 92%,transparent);mask-composite:intersect}
 @media(max-width:700px){.n9v-dry-grid{grid-template-columns:1fr!important}.n9v-dry-visual{min-height:0!important}}
 .n9v-fmt-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,6vw,96px);max-width:920px;margin:0 auto;align-items:end}
@@ -84,3 +80,9 @@ box-shadow:inset 0 -13px 0 #9fb0c6,inset 0 -15px 3px #5d6f88,inset 0 2px 3px #ff
 @media(max-width:700px){.n9v-fmt-grid{grid-template-columns:1fr;gap:56px;margin-top:24px}.n9v-fmt-stage{height:340px}}
 .n9v-blue-field.n9v-formats2{background:radial-gradient(ellipse 46% 40% at 50% 52%,#3d8ff0cc 0%,#2a6fd699 35%,transparent 72%),radial-gradient(ellipse 80% 70% at 50% 45%,#1b5cc4 0%,#123f8f 45%,transparent 80%),radial-gradient(circle at 0 0,#030c24 0%,transparent 40%),radial-gradient(circle at 100% 0,#030c24 0%,transparent 40%),radial-gradient(circle at 0 100%,#030c24 0%,transparent 40%),radial-gradient(circle at 100% 100%,#030c24 0%,transparent 40%),linear-gradient(90deg,#061638,#0c2a66 30%,#0c2a66 70%,#061638)!important}
 .n9v-formats2 .n9v-fmt-disc{background:radial-gradient(ellipse 64% 42% at 50% 36%,#ffffff 0%,#ffffff 28%,#eaf2fb 52%,#c4d3e5 78%,#93a7c2 100%)!important;box-shadow:inset 0 -12px 0 #b9cadf,inset 0 -14px 3px #6e83a3,inset 0 2px 3px #fff,0 0 0 2px #8fe6ffaa,0 0 18px 4px #5fd6ff88,0 0 48px 10px #3fb4ff55,0 26px 30px -8px #010a1fcc!important}
+.n9v-section.n9v-cloud{background:radial-gradient(ellipse 45% 60% at 70% 50%,#2f78d0aa,transparent 70%),radial-gradient(ellipse 90% 80% at 60% 50%,#123f86,transparent 80%),linear-gradient(120deg,#04122b,#0a2a5e 50%,#061838)!important}
+.n9v-cloud .n9v-cloud-grid{grid-template-columns:.75fr 1.25fr!important;gap:4vw!important;align-items:center}
+.n9v-cloud-shot{margin:0;line-height:0;border:0;box-shadow:none;border-radius:0;background:none}
+.n9v-cloud-shot img{display:block;width:100%;height:auto;-webkit-mask-image:radial-gradient(ellipse 50% 50% at 50% 50%,#000 55%,transparent 100%);mask-image:radial-gradient(ellipse 50% 50% at 50% 50%,#000 55%,transparent 100%);}
+@media(max-width:800px){.n9v-cloud .n9v-cloud-grid{grid-template-columns:1fr!important;gap:28px!important}}
+.n9v-cloud .n9v-cloud-features+.n9v-small{margin-top:26px}
