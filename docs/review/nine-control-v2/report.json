@@ -1,0 +1,608 @@
+{
+  "static": {
+    "changedFiles": [
+      "shinox-v2-site/en/products/self-3.html",
+      "shinox-v2-site/products/nine-control.css",
+      "shinox-v2-site/products/nine-control.js",
+      "shinox-v2-site/products/self-3.html"
+    ],
+    "base": "41e0d98f6e3c6c2787b824f8d81923ac420446a5",
+    "pages": [
+      {
+        "route": "products/self-3.html",
+        "h1": "ShinoX 9合1 洗車控制箱",
+        "sections": [
+          "ShinoX 9合1 洗車控制箱",
+          "產品介紹",
+          "兩種款式",
+          "產品優勢",
+          "濕區功能",
+          "乾區功能",
+          "多元支付＋功能設定",
+          "兩個機械前道",
+          "雲端後台",
+          "直立式規格",
+          "外觀款式",
+          "產品特色",
+          "選配",
+          "洗諾克斯洗車系統 ShinoX"
+        ],
+        "imagePaths": [
+          "../lassets/campaign/9-in-1-new-product-launch.jpg",
+          "../lassets/campaign/9-in-1-new-product-launch.jpg",
+          "../lassets/home/about/home-about-equipment.webp",
+          "../lassets/home/category-self-service.webp",
+          "../lassets/business/hero-carwash.webp",
+          "../lassets/business/five-tools-owner.webp",
+          "../lassets/campaign/9-in-1-new-product-launch.jpg",
+          "../lassets/campaign/9-in-1-new-product-launch.jpg",
+          "../lassets/campaign/9-in-1-new-product-launch.jpg",
+          "../lassets/campaign/9-in-1-new-product-launch.jpg",
+          "../lassets/campaign/9-in-1-new-product-launch.jpg"
+        ]
+      },
+      {
+        "route": "en/products/self-3.html",
+        "h1": "ShinoX 9-in-1 Car Wash Control Box",
+        "sections": [
+          "ShinoX 9-in-1 Car Wash Control Box",
+          "Product overview",
+          "Two formats",
+          "Product advantages",
+          "Wet-zone functions",
+          "Dry-zone functions",
+          "Payments + function settings",
+          "Two mechanical front channels",
+          "Cloud backend",
+          "Upright specifications",
+          "Appearance & finishes",
+          "Product features",
+          "Options",
+          "ShinoX Car Wash Systems"
+        ],
+        "imagePaths": [
+          "../../lassets/campaign/9-in-1-new-product-launch.jpg",
+          "../../lassets/campaign/9-in-1-new-product-launch.jpg",
+          "../../lassets/home/about/home-about-equipment.webp",
+          "../../lassets/home/category-self-service.webp",
+          "../../lassets/business/hero-carwash.webp",
+          "../../lassets/business/five-tools-owner.webp",
+          "../../lassets/campaign/9-in-1-new-product-launch.jpg",
+          "../../lassets/campaign/9-in-1-new-product-launch.jpg",
+          "../../lassets/campaign/9-in-1-new-product-launch.jpg",
+          "../../lassets/campaign/9-in-1-new-product-launch.jpg",
+          "../../lassets/campaign/9-in-1-new-product-launch.jpg"
+        ]
+      }
+    ]
+  },
+  "browser": [
+    {
+      "route": "products/self-3.html",
+      "language": "zh",
+      "width": 1440,
+      "imagesDecoded": true,
+      "sections": 14,
+      "overflow": {
+        "width": 1440,
+        "scroll": 1440
+      },
+      "javascriptErrors": [],
+      "unexpectedPosts": [],
+      "specStyles": {
+        "background": "rgb(220, 229, 242)",
+        "heading": "rgb(11, 34, 68)"
+      },
+      "contrastComputedStyles": {
+        "primary": {
+          "color": "rgb(5, 43, 56)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(110deg, rgb(80, 213, 246), rgb(23, 221, 199))"
+        },
+        "settingsText": {
+          "color": "rgb(212, 234, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none"
+        },
+        "settingsPanel": {
+          "color": "rgb(245, 249, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(120deg, rgb(7, 83, 154), rgb(11, 100, 172) 55%, rgb(7, 68, 119))"
+        },
+        "viewCaption": {
+          "color": "rgb(86, 110, 138)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none"
+        },
+        "viewCard": {
+          "color": "rgb(6, 23, 47)",
+          "backgroundColor": "rgb(247, 251, 255)",
+          "backgroundImage": "none"
+        },
+        "pendingText": {
+          "color": "rgb(76, 102, 130)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none"
+        },
+        "pendingPanel": {
+          "color": "rgb(76, 102, 130)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(145deg, rgb(242, 247, 253), rgb(231, 238, 247))"
+        },
+        "specNote": {
+          "color": "rgb(75, 102, 132)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none"
+        },
+        "specSection": {
+          "color": "rgb(6, 23, 47)",
+          "backgroundColor": "rgb(220, 229, 242)",
+          "backgroundImage": "none"
+        },
+        "finishCaption": {
+          "color": "rgb(80, 105, 135)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none"
+        },
+        "finishCard": {
+          "color": "rgb(19, 46, 83)",
+          "backgroundColor": "rgb(248, 251, 255)",
+          "backgroundImage": "none"
+        }
+      }
+    },
+    {
+      "route": "products/self-3.html",
+      "language": "zh",
+      "width": 390,
+      "imagesDecoded": true,
+      "sections": 14,
+      "overflow": {
+        "width": 390,
+        "scroll": 390
+      },
+      "javascriptErrors": [],
+      "unexpectedPosts": [],
+      "specStyles": {
+        "background": "rgb(220, 229, 242)",
+        "heading": "rgb(11, 34, 68)"
+      },
+      "contrastComputedStyles": {
+        "primary": {
+          "color": "rgb(5, 43, 56)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(110deg, rgb(80, 213, 246), rgb(23, 221, 199))"
+        },
+        "settingsText": {
+          "color": "rgb(212, 234, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none"
+        },
+        "settingsPanel": {
+          "color": "rgb(245, 249, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(120deg, rgb(7, 83, 154), rgb(11, 100, 172) 55%, rgb(7, 68, 119))"
+        },
+        "viewCaption": {
+          "color": "rgb(86, 110, 138)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none"
+        },
+        "viewCard": {
+          "color": "rgb(6, 23, 47)",
+          "backgroundColor": "rgb(247, 251, 255)",
+          "backgroundImage": "none"
+        },
+        "pendingText": {
+          "color": "rgb(76, 102, 130)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none"
+        },
+        "pendingPanel": {
+          "color": "rgb(76, 102, 130)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(145deg, rgb(242, 247, 253), rgb(231, 238, 247))"
+        },
+        "specNote": {
+          "color": "rgb(75, 102, 132)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none"
+        },
+        "specSection": {
+          "color": "rgb(6, 23, 47)",
+          "backgroundColor": "rgb(220, 229, 242)",
+          "backgroundImage": "none"
+        },
+        "finishCaption": {
+          "color": "rgb(80, 105, 135)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none"
+        },
+        "finishCard": {
+          "color": "rgb(19, 46, 83)",
+          "backgroundColor": "rgb(248, 251, 255)",
+          "backgroundImage": "none"
+        }
+      }
+    },
+    {
+      "route": "en/products/self-3.html",
+      "language": "en",
+      "width": 1440,
+      "imagesDecoded": true,
+      "sections": 14,
+      "overflow": {
+        "width": 1440,
+        "scroll": 1440
+      },
+      "javascriptErrors": [],
+      "unexpectedPosts": [],
+      "specStyles": {
+        "background": "rgb(220, 229, 242)",
+        "heading": "rgb(11, 34, 68)"
+      },
+      "contrastComputedStyles": {
+        "primary": {
+          "color": "rgb(5, 43, 56)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(110deg, rgb(80, 213, 246), rgb(23, 221, 199))"
+        },
+        "settingsText": {
+          "color": "rgb(212, 234, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none"
+        },
+        "settingsPanel": {
+          "color": "rgb(245, 249, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(120deg, rgb(7, 83, 154), rgb(11, 100, 172) 55%, rgb(7, 68, 119))"
+        },
+        "viewCaption": {
+          "color": "rgb(86, 110, 138)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none"
+        },
+        "viewCard": {
+          "color": "rgb(6, 23, 47)",
+          "backgroundColor": "rgb(247, 251, 255)",
+          "backgroundImage": "none"
+        },
+        "pendingText": {
+          "color": "rgb(76, 102, 130)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none"
+        },
+        "pendingPanel": {
+          "color": "rgb(76, 102, 130)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(145deg, rgb(242, 247, 253), rgb(231, 238, 247))"
+        },
+        "specNote": {
+          "color": "rgb(75, 102, 132)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none"
+        },
+        "specSection": {
+          "color": "rgb(6, 23, 47)",
+          "backgroundColor": "rgb(220, 229, 242)",
+          "backgroundImage": "none"
+        },
+        "finishCaption": {
+          "color": "rgb(80, 105, 135)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none"
+        },
+        "finishCard": {
+          "color": "rgb(19, 46, 83)",
+          "backgroundColor": "rgb(248, 251, 255)",
+          "backgroundImage": "none"
+        }
+      }
+    },
+    {
+      "route": "en/products/self-3.html",
+      "language": "en",
+      "width": 390,
+      "imagesDecoded": true,
+      "sections": 14,
+      "overflow": {
+        "width": 390,
+        "scroll": 390
+      },
+      "javascriptErrors": [],
+      "unexpectedPosts": [],
+      "specStyles": {
+        "background": "rgb(220, 229, 242)",
+        "heading": "rgb(11, 34, 68)"
+      },
+      "contrastComputedStyles": {
+        "primary": {
+          "color": "rgb(5, 43, 56)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(110deg, rgb(80, 213, 246), rgb(23, 221, 199))"
+        },
+        "settingsText": {
+          "color": "rgb(212, 234, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none"
+        },
+        "settingsPanel": {
+          "color": "rgb(245, 249, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(120deg, rgb(7, 83, 154), rgb(11, 100, 172) 55%, rgb(7, 68, 119))"
+        },
+        "viewCaption": {
+          "color": "rgb(86, 110, 138)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none"
+        },
+        "viewCard": {
+          "color": "rgb(6, 23, 47)",
+          "backgroundColor": "rgb(247, 251, 255)",
+          "backgroundImage": "none"
+        },
+        "pendingText": {
+          "color": "rgb(76, 102, 130)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none"
+        },
+        "pendingPanel": {
+          "color": "rgb(76, 102, 130)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(145deg, rgb(242, 247, 253), rgb(231, 238, 247))"
+        },
+        "specNote": {
+          "color": "rgb(75, 102, 132)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none"
+        },
+        "specSection": {
+          "color": "rgb(6, 23, 47)",
+          "backgroundColor": "rgb(220, 229, 242)",
+          "backgroundImage": "none"
+        },
+        "finishCaption": {
+          "color": "rgb(80, 105, 135)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none"
+        },
+        "finishCard": {
+          "color": "rgb(19, 46, 83)",
+          "backgroundColor": "rgb(248, 251, 255)",
+          "backgroundImage": "none"
+        }
+      }
+    }
+  ],
+  "status": "pass",
+  "coreTextContrast": {
+    "primary CTA / cyan": {
+      "foreground": "#052b38",
+      "background": "#50d5f6",
+      "ratio": 8.651,
+      "required": 4.5
+    },
+    "primary CTA / teal": {
+      "foreground": "#052b38",
+      "background": "#17ddc7",
+      "ratio": 8.661,
+      "required": 4.5
+    },
+    "primary CTA / hover blue": {
+      "foreground": "#052b38",
+      "background": "#1595ff",
+      "ratio": 4.808,
+      "required": 4.5
+    },
+    "settings paragraph / blue start": {
+      "foreground": "#d4eaff",
+      "background": "#07539a",
+      "ratio": 6.271,
+      "required": 4.5
+    },
+    "settings paragraph / brightest blue": {
+      "foreground": "#d4eaff",
+      "background": "#0b64ac",
+      "ratio": 4.956,
+      "required": 4.5
+    },
+    "settings paragraph / blue end": {
+      "foreground": "#d4eaff",
+      "background": "#074477",
+      "ratio": 8.092,
+      "required": 4.5
+    },
+    "view caption / actual figure card": {
+      "foreground": "#566e8a",
+      "background": "#f7fbff",
+      "ratio": 5.058,
+      "required": 4.5
+    },
+    "pending view / gradient start": {
+      "foreground": "#4c6682",
+      "background": "#f2f7fd",
+      "ratio": 5.523,
+      "required": 4.5
+    },
+    "pending view / gradient end": {
+      "foreground": "#4c6682",
+      "background": "#e7eef7",
+      "ratio": 5.091,
+      "required": 4.5
+    },
+    "specification note / titanium section": {
+      "foreground": "#4b6684",
+      "background": "#dce5f2",
+      "ratio": 4.68,
+      "required": 4.5
+    },
+    "finish photo caption / actual card": {
+      "foreground": "#506987",
+      "background": "#f8fbff",
+      "ratio": 5.452,
+      "required": 4.5
+    }
+  },
+  "functionalBrowser": [
+    {
+      "route": "products/self-3.html",
+      "language": "zh",
+      "width": 1440,
+      "imagesDecoded": true,
+      "sections": 14,
+      "overflow": {
+        "width": 1440,
+        "scroll": 1440
+      },
+      "javascriptErrors": [],
+      "unexpectedPosts": [],
+      "interactions": {
+        "twoModels": "pass",
+        "fourColors": "pass",
+        "nativeKeyboardActivation": "pass",
+        "cloudViewToggle": "pass",
+        "settingsValidationApplyReset": "pass",
+        "amountModeBlankRequiredUserValueAndHideReset": "pass",
+        "noBackendPosts": "pass",
+        "fourHeroStats": [
+          "9合1",
+          "2",
+          "4",
+          "4"
+        ],
+        "allAnchorsResolve": "pass",
+        "eightOptionalChips": "pass"
+      },
+      "specStyles": {
+        "background": "rgb(220, 229, 242)",
+        "heading": "rgb(11, 34, 68)"
+      }
+    },
+    {
+      "route": "products/self-3.html",
+      "language": "zh",
+      "width": 390,
+      "imagesDecoded": true,
+      "sections": 14,
+      "overflow": {
+        "width": 390,
+        "scroll": 390
+      },
+      "javascriptErrors": [],
+      "unexpectedPosts": [],
+      "interactions": {
+        "twoModels": "pass",
+        "fourColors": "pass",
+        "nativeKeyboardActivation": "pass",
+        "cloudViewToggle": "pass",
+        "settingsValidationApplyReset": "pass",
+        "amountModeBlankRequiredUserValueAndHideReset": "pass",
+        "noBackendPosts": "pass",
+        "fourHeroStats": [
+          "9合1",
+          "2",
+          "4",
+          "4"
+        ],
+        "allAnchorsResolve": "pass",
+        "eightOptionalChips": "pass"
+      },
+      "specStyles": {
+        "background": "rgb(220, 229, 242)",
+        "heading": "rgb(11, 34, 68)"
+      }
+    },
+    {
+      "route": "en/products/self-3.html",
+      "language": "en",
+      "width": 1440,
+      "imagesDecoded": true,
+      "sections": 14,
+      "overflow": {
+        "width": 1440,
+        "scroll": 1440
+      },
+      "javascriptErrors": [],
+      "unexpectedPosts": [],
+      "interactions": {
+        "twoModels": "pass",
+        "fourColors": "pass",
+        "nativeKeyboardActivation": "pass",
+        "cloudViewToggle": "pass",
+        "settingsValidationApplyReset": "pass",
+        "amountModeBlankRequiredUserValueAndHideReset": "pass",
+        "noBackendPosts": "pass",
+        "fourHeroStats": [
+          "9in1",
+          "2",
+          "4",
+          "4"
+        ],
+        "allAnchorsResolve": "pass",
+        "eightOptionalChips": "pass"
+      },
+      "specStyles": {
+        "background": "rgb(220, 229, 242)",
+        "heading": "rgb(11, 34, 68)"
+      }
+    },
+    {
+      "route": "en/products/self-3.html",
+      "language": "en",
+      "width": 390,
+      "imagesDecoded": true,
+      "sections": 14,
+      "overflow": {
+        "width": 390,
+        "scroll": 390
+      },
+      "javascriptErrors": [],
+      "unexpectedPosts": [],
+      "interactions": {
+        "twoModels": "pass",
+        "fourColors": "pass",
+        "nativeKeyboardActivation": "pass",
+        "cloudViewToggle": "pass",
+        "settingsValidationApplyReset": "pass",
+        "amountModeBlankRequiredUserValueAndHideReset": "pass",
+        "noBackendPosts": "pass",
+        "fourHeroStats": [
+          "9in1",
+          "2",
+          "4",
+          "4"
+        ],
+        "allAnchorsResolve": "pass",
+        "eightOptionalChips": "pass"
+      },
+      "specStyles": {
+        "background": "rgb(220, 229, 242)",
+        "heading": "rgb(11, 34, 68)"
+      }
+    }
+  ],
+  "contrastOnlyVisualRefresh": true,
+  "finalSourceHashes": {
+    "products/nine-control.js": "e7d3c349360dddd849867c08ecbcb54f389266c06dd4990c2b08d2d30d4e76b1",
+    "products/nine-control.css": "fe160709a182c9866f262c4df1c9cd5cf1e92958ad835f525a7183b614652f00"
+  },
+  "finalContactCtaNavigation": [
+    {
+      "source": "products/self-3.html",
+      "actualPath": "/contact.html",
+      "expectedPath": "/contact.html",
+      "httpStatus": 200,
+      "postRequests": [],
+      "status": "pass"
+    },
+    {
+      "source": "en/products/self-3.html",
+      "actualPath": "/en/contact.html",
+      "expectedPath": "/en/contact.html",
+      "httpStatus": 200,
+      "postRequests": [],
+      "status": "pass"
+    }
+  ],
+  "note": "Final refresh reran scope, DOM, metadata, images, overflow, actual visual captures and core text contrast only. All interactions passed in four cases before final caption/link and tonal CSS edits; JavaScript is unchanged. Actual bilingual Contact click navigation evidence is preserved."
+}
