@@ -336,4 +336,18 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.shinox-wash.com/en/products/wash-2.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinox-wash.com/products/wash-2.html" />
   </url>
+  <url>
+    <loc>https://www.shinox-wash.com/news-beyond-the-machine.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.shinox-wash.com/news-beyond-the-machine.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shinox-wash.com/en/news-beyond-the-machine.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinox-wash.com/news-beyond-the-machine.html" />
+  </url>
+  <url>
+    <loc>https://www.shinox-wash.com/en/news-beyond-the-machine.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.shinox-wash.com/news-beyond-the-machine.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shinox-wash.com/en/news-beyond-the-machine.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shinox-wash.com/news-beyond-the-machine.html" />
+  </url>
 </urlset>
