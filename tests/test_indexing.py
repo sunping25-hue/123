@@ -40,7 +40,7 @@ class IndexingTests(unittest.TestCase):
         self.assertEqual({n.find('s:loc',ns).text for n in urls}, {ORIGIN+'/'+path for path in public_pages()})
         self.assertEqual(len(urls),len(public_pages()))
         for node in urls:
-            self.assertEqual(node.find('s:lastmod',ns).text,'2026-10-29')
+            self.assertEqual(node.find('s:lastmod',ns).text,'2026-10-30')
             self.assertEqual(len(node.findall('x:link',ns)),3)
             for link in node.findall('x:link',ns):self.assertIn(link.get('href'),{ORIGIN+'/'+path for path in public_pages()})
 
