@@ -47,10 +47,7 @@
     silver: text('不鏽鋼銀', 'Stainless silver'),
     blue: text('藍色', 'Blue'),
     black: text('黑色', 'Black'),
-    red: text('紅色', 'Red'),
-    orange: text('橘色', 'Orange'),
-    yellow: text('黃色', 'Yellow'),
-    green: text('綠色', 'Green')
+    red: text('紅色', 'Red')
   }, (_key, label) => write('#n9v-color-status', text('目前選擇：', 'Selected finish: ') + label));
 
   const cloud = root.querySelector('#n9v-cloud');
