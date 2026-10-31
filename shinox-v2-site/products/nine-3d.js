@@ -11,6 +11,6 @@ btns.forEach(function(b){b.addEventListener('click',function(){cur=b.dataset.c;b
 mv.addEventListener('load',apply);
 var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches,sway=!reduce,t0=0;
 mv.addEventListener('camera-change',function(e){if(e.detail&&e.detail.source==='user-interaction')sway=false});
-function tick(t){if(!t0)t0=t;if(sway&&mv.loaded&&!window.__noSway){mv.cameraOrbit=(30+35*Math.sin((t-t0)/2600)).toFixed(2)+'deg 78deg auto'}requestAnimationFrame(tick)}
+function tick(t){if(!t0)t0=t;if(sway&&mv.loaded&&!window.__noSway){mv.cameraOrbit=(30+35*Math.sin((t-t0)/2600)).toFixed(2)+'deg 78deg '+mv.getCameraOrbit().radius+'m'}requestAnimationFrame(tick)}
 if(sway)requestAnimationFrame(tick);
 })();
