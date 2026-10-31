@@ -1,0 +1,96 @@
+{
+  "zh": {
+    "title": "ShinoX 車輛長度自動感測技術",
+    "kicker": "VEHICLE LENGTH DETECTION TECHNOLOGY",
+    "tagline": "自動偵測車身長度，精準控制沖洗範圍。",
+    "intro": [
+      "每台車的車身長度不同，從小型轎車、一般房車到 SUV、大型休旅車，所需的沖洗範圍也有所差異。",
+      "ShinoX 自動洗車系統透過車輛長度感測裝置，偵測車身長度，並將感測資訊傳送至控制系統，讓洗車設備依照車身長度執行沖洗作業。"
+    ],
+    "principleTitle": "運作原理",
+    "steps": [
+      {
+        "title": "車輛進入洗車區",
+        "body": "車輛依照指示駛入洗車區域，進行定位。"
+      },
+      {
+        "title": "自動偵測車輛長度",
+        "body": "感測裝置偵測車身長度，提供設備控制所需的資訊。"
+      },
+      {
+        "title": "依照車長執行沖洗",
+        "body": "洗車機根據偵測結果，控制對應的沖洗行程，完成車身清洗。"
+      }
+    ],
+    "featuresTitle": "技術特色",
+    "features": [
+      {
+        "title": "自動偵測",
+        "body": "不需要人工輸入車輛長度。"
+      },
+      {
+        "title": "依車長沖洗",
+        "body": "針對不同車身長度執行對應的沖洗行程。"
+      },
+      {
+        "title": "減少多餘沖洗",
+        "body": "降低超出車身範圍的不必要沖洗作業。"
+      },
+      {
+        "title": "適用多種車型",
+        "body": "可處理設備允許尺寸內的不同車輛。"
+      }
+    ],
+    "systemTitle": "ShinoX 智慧自動洗車系統",
+    "closing": "透過車長感測與自動化控制的搭配，讓洗車機能依不同車輛長度執行沖洗，提升操作便利性與洗程效率。",
+    "signature": "ShinoX｜讓自動洗車更簡單、更有效率。",
+    "disclaimer": "實際感測方式、沖洗範圍及支援車型，依洗車設備規格與控制程式設定為準。"
+  },
+  "en": {
+    "title": "ShinoX Automatic Vehicle Length Detection Technology",
+    "kicker": "VEHICLE LENGTH DETECTION TECHNOLOGY",
+    "tagline": "Automatically detect vehicle length to control the wash range precisely.",
+    "intro": [
+      "Vehicle lengths vary. From compact cars and standard sedans to SUVs and larger sport utility vehicles, each requires a different wash range.",
+      "The ShinoX automatic car wash system uses a vehicle length sensor to detect the length of the vehicle and send that information to the control system, allowing the equipment to carry out the wash according to the vehicle’s length."
+    ],
+    "principleTitle": "How it works",
+    "steps": [
+      {
+        "title": "The vehicle enters the wash area",
+        "body": "The driver follows the instructions to enter the wash area and position the vehicle."
+      },
+      {
+        "title": "The system detects the vehicle’s length",
+        "body": "The sensor detects the vehicle’s length and supplies the information needed to control the equipment."
+      },
+      {
+        "title": "The wash follows the vehicle’s length",
+        "body": "Based on the detection results, the car wash controls the corresponding wash travel to clean the vehicle’s body."
+      }
+    ],
+    "featuresTitle": "Technology features",
+    "features": [
+      {
+        "title": "Automatic detection",
+        "body": "There is no need to enter the vehicle’s length manually."
+      },
+      {
+        "title": "Washing based on vehicle length",
+        "body": "The wash travel is adjusted to suit different vehicle lengths."
+      },
+      {
+        "title": "Less unnecessary washing",
+        "body": "Reduces unnecessary washing beyond the vehicle’s body."
+      },
+      {
+        "title": "Supports different vehicle types",
+        "body": "Accommodates different vehicles within the equipment’s permitted dimensions."
+      }
+    ],
+    "systemTitle": "ShinoX Intelligent Automatic Car Wash System",
+    "closing": "By combining vehicle length detection with automated control, the car wash can carry out washing according to each vehicle’s length, improving ease of operation and wash-cycle efficiency.",
+    "signature": "ShinoX | Making automatic car washing simpler and more efficient.",
+    "disclaimer": "The actual detection method, wash range and supported vehicle types depend on the car wash equipment specifications and control program settings."
+  }
+}

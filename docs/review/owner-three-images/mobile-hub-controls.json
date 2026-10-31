@@ -1,0 +1,30 @@
+[
+  {
+    "width": 390,
+    "language": "zh",
+    "ctaHeight": 44,
+    "contactFloatClearance": true,
+    "detailNavigation": "http://127.0.0.1:3033/products/wash-2.html"
+  },
+  {
+    "width": 390,
+    "language": "en",
+    "ctaHeight": 55,
+    "contactFloatClearance": true,
+    "detailNavigation": "http://127.0.0.1:3033/en/products/wash-2.html"
+  },
+  {
+    "width": 375,
+    "language": "zh",
+    "ctaHeight": 44,
+    "contactFloatClearance": true,
+    "detailNavigation": "http://127.0.0.1:3033/products/wash-2.html"
+  },
+  {
+    "width": 375,
+    "language": "en",
+    "ctaHeight": 55,
+    "contactFloatClearance": true,
+    "detailNavigation": "http://127.0.0.1:3033/en/products/wash-2.html"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "width": 1440,
+    "language": "zh",
+    "planningProcessRemoved": true,
+    "originalSixStageInteractions": "PASS",
+    "planningLinksPreserved": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "language": "en",
+    "planningProcessRemoved": true,
+    "originalSixStageInteractions": "PASS",
+    "planningLinksPreserved": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 768,
+    "language": "zh",
+    "planningProcessRemoved": true,
+    "originalSixStageInteractions": "PASS",
+    "planningLinksPreserved": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 768,
+    "language": "en",
+    "planningProcessRemoved": true,
+    "originalSixStageInteractions": "PASS",
+    "planningLinksPreserved": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "language": "zh",
+    "planningProcessRemoved": true,
+    "originalSixStageInteractions": "PASS",
+    "planningLinksPreserved": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "language": "en",
+    "planningProcessRemoved": true,
+    "originalSixStageInteractions": "PASS",
+    "planningLinksPreserved": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 375,
+    "language": "zh",
+    "planningProcessRemoved": true,
+    "originalSixStageInteractions": "PASS",
+    "planningLinksPreserved": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 375,
+    "language": "en",
+    "planningProcessRemoved": true,
+    "originalSixStageInteractions": "PASS",
+    "planningLinksPreserved": true,
+    "overflow": false,
+    "errors": []
+  }
+]

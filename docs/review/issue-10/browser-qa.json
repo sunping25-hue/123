@@ -1,0 +1,538 @@
+[
+  {
+    "language": "zh",
+    "width": 1440,
+    "sections": [
+      {
+        "id": "sx9-hero",
+        "number": "1",
+        "height": 719.84375
+      },
+      {
+        "id": "sx9-advantages",
+        "number": "2",
+        "height": 865.59375
+      },
+      {
+        "id": "sx9-finishes",
+        "number": "3",
+        "height": 817.125
+      },
+      {
+        "id": "sx9-interface",
+        "number": "4",
+        "height": 893.78125
+      },
+      {
+        "id": "sx9-wet",
+        "number": "5",
+        "height": 867.046875
+      },
+      {
+        "id": "sx9-dry",
+        "number": "6",
+        "height": 528.734375
+      },
+      {
+        "id": "sx9-payments",
+        "number": "7",
+        "height": 591.53125
+      },
+      {
+        "id": "sx9-settings",
+        "number": "8",
+        "height": 926.84375
+      },
+      {
+        "id": "sx9-expansion",
+        "number": "9",
+        "height": 624.046875
+      },
+      {
+        "id": "sx9-cloud",
+        "number": "10",
+        "height": 1322.21875
+      }
+    ],
+    "approvedPhotoUnchanged": true,
+    "allFourSwatches": "PASS",
+    "allNineFunctionButtons": "PASS",
+    "keyboard": "PASS",
+    "settingsApplyValidationReset": "PASS",
+    "allYouCanUseRetainsDuration": true,
+    "cloudPeriodAndAria": "PASS",
+    "pageErrors": [],
+    "httpFailures": [],
+    "postRequests": [],
+    "overflow": "NONE"
+  },
+  {
+    "language": "zh",
+    "width": 1024,
+    "sections": [
+      {
+        "id": "sx9-hero",
+        "number": "1",
+        "height": 699.484375
+      },
+      {
+        "id": "sx9-advantages",
+        "number": "2",
+        "height": 741.5
+      },
+      {
+        "id": "sx9-finishes",
+        "number": "3",
+        "height": 646.265625
+      },
+      {
+        "id": "sx9-interface",
+        "number": "4",
+        "height": 822.21875
+      },
+      {
+        "id": "sx9-wet",
+        "number": "5",
+        "height": 711.46875
+      },
+      {
+        "id": "sx9-dry",
+        "number": "6",
+        "height": 659.84375
+      },
+      {
+        "id": "sx9-payments",
+        "number": "7",
+        "height": 548.34375
+      },
+      {
+        "id": "sx9-settings",
+        "number": "8",
+        "height": 856.265625
+      },
+      {
+        "id": "sx9-expansion",
+        "number": "9",
+        "height": 567.46875
+      },
+      {
+        "id": "sx9-cloud",
+        "number": "10",
+        "height": 1232.484375
+      }
+    ],
+    "approvedPhotoUnchanged": true,
+    "allFourSwatches": "PASS",
+    "allNineFunctionButtons": "PASS",
+    "keyboard": "PASS",
+    "settingsApplyValidationReset": "PASS",
+    "allYouCanUseRetainsDuration": true,
+    "cloudPeriodAndAria": "PASS",
+    "pageErrors": [],
+    "httpFailures": [],
+    "postRequests": [],
+    "overflow": "NONE"
+  },
+  {
+    "language": "zh",
+    "width": 768,
+    "sections": [
+      {
+        "id": "sx9-hero",
+        "number": "1",
+        "height": 1114.328125
+      },
+      {
+        "id": "sx9-advantages",
+        "number": "2",
+        "height": 1139.96875
+      },
+      {
+        "id": "sx9-finishes",
+        "number": "3",
+        "height": 1182.28125
+      },
+      {
+        "id": "sx9-interface",
+        "number": "4",
+        "height": 1174.875
+      },
+      {
+        "id": "sx9-wet",
+        "number": "5",
+        "height": 1167.390625
+      },
+      {
+        "id": "sx9-dry",
+        "number": "6",
+        "height": 715.359375
+      },
+      {
+        "id": "sx9-payments",
+        "number": "7",
+        "height": 798.359375
+      },
+      {
+        "id": "sx9-settings",
+        "number": "8",
+        "height": 1175.96875
+      },
+      {
+        "id": "sx9-expansion",
+        "number": "9",
+        "height": 837.984375
+      },
+      {
+        "id": "sx9-cloud",
+        "number": "10",
+        "height": 1332.0625
+      }
+    ],
+    "approvedPhotoUnchanged": true,
+    "allFourSwatches": "PASS",
+    "allNineFunctionButtons": "PASS",
+    "keyboard": "PASS",
+    "settingsApplyValidationReset": "PASS",
+    "allYouCanUseRetainsDuration": true,
+    "cloudPeriodAndAria": "PASS",
+    "pageErrors": [],
+    "httpFailures": [],
+    "postRequests": [],
+    "overflow": "NONE"
+  },
+  {
+    "language": "zh",
+    "width": 390,
+    "sections": [
+      {
+        "id": "sx9-hero",
+        "number": "1",
+        "height": 891.484375
+      },
+      {
+        "id": "sx9-advantages",
+        "number": "2",
+        "height": 1042.09375
+      },
+      {
+        "id": "sx9-finishes",
+        "number": "3",
+        "height": 938.484375
+      },
+      {
+        "id": "sx9-interface",
+        "number": "4",
+        "height": 1188.921875
+      },
+      {
+        "id": "sx9-wet",
+        "number": "5",
+        "height": 1012.90625
+      },
+      {
+        "id": "sx9-dry",
+        "number": "6",
+        "height": 890.90625
+      },
+      {
+        "id": "sx9-payments",
+        "number": "7",
+        "height": 812.125
+      },
+      {
+        "id": "sx9-settings",
+        "number": "8",
+        "height": 1295.203125
+      },
+      {
+        "id": "sx9-expansion",
+        "number": "9",
+        "height": 1060.75
+      },
+      {
+        "id": "sx9-cloud",
+        "number": "10",
+        "height": 1374.109375
+      }
+    ],
+    "approvedPhotoUnchanged": true,
+    "allFourSwatches": "PASS",
+    "allNineFunctionButtons": "PASS",
+    "keyboard": "PASS",
+    "settingsApplyValidationReset": "PASS",
+    "allYouCanUseRetainsDuration": true,
+    "cloudPeriodAndAria": "PASS",
+    "pageErrors": [],
+    "httpFailures": [],
+    "postRequests": [],
+    "overflow": "NONE"
+  },
+  {
+    "language": "en",
+    "width": 1440,
+    "sections": [
+      {
+        "id": "sx9-hero",
+        "number": "1",
+        "height": 761.375
+      },
+      {
+        "id": "sx9-advantages",
+        "number": "2",
+        "height": 865.59375
+      },
+      {
+        "id": "sx9-finishes",
+        "number": "3",
+        "height": 817.125
+      },
+      {
+        "id": "sx9-interface",
+        "number": "4",
+        "height": 890.78125
+      },
+      {
+        "id": "sx9-wet",
+        "number": "5",
+        "height": 867.046875
+      },
+      {
+        "id": "sx9-dry",
+        "number": "6",
+        "height": 608.375
+      },
+      {
+        "id": "sx9-payments",
+        "number": "7",
+        "height": 614.921875
+      },
+      {
+        "id": "sx9-settings",
+        "number": "8",
+        "height": 915.84375
+      },
+      {
+        "id": "sx9-expansion",
+        "number": "9",
+        "height": 682.09375
+      },
+      {
+        "id": "sx9-cloud",
+        "number": "10",
+        "height": 1318.21875
+      }
+    ],
+    "approvedPhotoUnchanged": true,
+    "allFourSwatches": "PASS",
+    "allNineFunctionButtons": "PASS",
+    "keyboard": "PASS",
+    "settingsApplyValidationReset": "PASS",
+    "allYouCanUseRetainsDuration": true,
+    "cloudPeriodAndAria": "PASS",
+    "pageErrors": [],
+    "httpFailures": [],
+    "postRequests": [],
+    "overflow": "NONE"
+  },
+  {
+    "language": "en",
+    "width": 1024,
+    "sections": [
+      {
+        "id": "sx9-hero",
+        "number": "1",
+        "height": 764.28125
+      },
+      {
+        "id": "sx9-advantages",
+        "number": "2",
+        "height": 788.28125
+      },
+      {
+        "id": "sx9-finishes",
+        "number": "3",
+        "height": 654.65625
+      },
+      {
+        "id": "sx9-interface",
+        "number": "4",
+        "height": 858.21875
+      },
+      {
+        "id": "sx9-wet",
+        "number": "5",
+        "height": 711.46875
+      },
+      {
+        "id": "sx9-dry",
+        "number": "6",
+        "height": 744.5
+      },
+      {
+        "id": "sx9-payments",
+        "number": "7",
+        "height": 600.234375
+      },
+      {
+        "id": "sx9-settings",
+        "number": "8",
+        "height": 845.265625
+      },
+      {
+        "id": "sx9-expansion",
+        "number": "9",
+        "height": 608.9375
+      },
+      {
+        "id": "sx9-cloud",
+        "number": "10",
+        "height": 1255.078125
+      }
+    ],
+    "approvedPhotoUnchanged": true,
+    "allFourSwatches": "PASS",
+    "allNineFunctionButtons": "PASS",
+    "keyboard": "PASS",
+    "settingsApplyValidationReset": "PASS",
+    "allYouCanUseRetainsDuration": true,
+    "cloudPeriodAndAria": "PASS",
+    "pageErrors": [],
+    "httpFailures": [],
+    "postRequests": [],
+    "overflow": "NONE"
+  },
+  {
+    "language": "en",
+    "width": 768,
+    "sections": [
+      {
+        "id": "sx9-hero",
+        "number": "1",
+        "height": 1190.671875
+      },
+      {
+        "id": "sx9-advantages",
+        "number": "2",
+        "height": 1213.34375
+      },
+      {
+        "id": "sx9-finishes",
+        "number": "3",
+        "height": 1204.875
+      },
+      {
+        "id": "sx9-interface",
+        "number": "4",
+        "height": 1245.765625
+      },
+      {
+        "id": "sx9-wet",
+        "number": "5",
+        "height": 1193.984375
+      },
+      {
+        "id": "sx9-dry",
+        "number": "6",
+        "height": 763.546875
+      },
+      {
+        "id": "sx9-payments",
+        "number": "7",
+        "height": 871.734375
+      },
+      {
+        "id": "sx9-settings",
+        "number": "8",
+        "height": 1187.5625
+      },
+      {
+        "id": "sx9-expansion",
+        "number": "9",
+        "height": 888.46875
+      },
+      {
+        "id": "sx9-cloud",
+        "number": "10",
+        "height": 1375.546875
+      }
+    ],
+    "approvedPhotoUnchanged": true,
+    "allFourSwatches": "PASS",
+    "allNineFunctionButtons": "PASS",
+    "keyboard": "PASS",
+    "settingsApplyValidationReset": "PASS",
+    "allYouCanUseRetainsDuration": true,
+    "cloudPeriodAndAria": "PASS",
+    "pageErrors": [],
+    "httpFailures": [],
+    "postRequests": [],
+    "overflow": "NONE"
+  },
+  {
+    "language": "en",
+    "width": 390,
+    "sections": [
+      {
+        "id": "sx9-hero",
+        "number": "1",
+        "height": 1029.171875
+      },
+      {
+        "id": "sx9-advantages",
+        "number": "2",
+        "height": 1182.5625
+      },
+      {
+        "id": "sx9-finishes",
+        "number": "3",
+        "height": 1055.765625
+      },
+      {
+        "id": "sx9-interface",
+        "number": "4",
+        "height": 1343.984375
+      },
+      {
+        "id": "sx9-wet",
+        "number": "5",
+        "height": 1096.390625
+      },
+      {
+        "id": "sx9-dry",
+        "number": "6",
+        "height": 1138.171875
+      },
+      {
+        "id": "sx9-payments",
+        "number": "7",
+        "height": 931
+      },
+      {
+        "id": "sx9-settings",
+        "number": "8",
+        "height": 1397.546875
+      },
+      {
+        "id": "sx9-expansion",
+        "number": "9",
+        "height": 1131.03125
+      },
+      {
+        "id": "sx9-cloud",
+        "number": "10",
+        "height": 1498.46875
+      }
+    ],
+    "approvedPhotoUnchanged": true,
+    "allFourSwatches": "PASS",
+    "allNineFunctionButtons": "PASS",
+    "keyboard": "PASS",
+    "settingsApplyValidationReset": "PASS",
+    "allYouCanUseRetainsDuration": true,
+    "cloudPeriodAndAria": "PASS",
+    "pageErrors": [],
+    "httpFailures": [],
+    "postRequests": [],
+    "overflow": "NONE"
+  }
+]

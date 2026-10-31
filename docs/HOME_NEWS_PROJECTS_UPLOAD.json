@@ -1,0 +1,77 @@
+{
+  "source": "202610299.zip / 202610299.png",
+  "sourceSize": [
+    8820,
+    3749
+  ],
+  "sourceSha256": "5507438348680c5827e329f34663883a7061ac57c2cdd2165e85d6b69f11a2da",
+  "approval": "Latest user explicitly instructs use of image A for homepage sections 05 and 06. Image B is layout reference only; no generation or alternative equipment.",
+  "splitY": 1720,
+  "horizontalCrop": "Only excessive outer negative space removed; all three display frames and lower wash-bay subjects retained.",
+  "assets": [
+    {
+      "filename": "lassets/home/newsroom-visual.webp",
+      "size": [
+        1600,
+        754
+      ],
+      "bytes": 186432,
+      "sha256": "d9f4711b5c62fb34d0cbf9893789727864d2738d70f13787c9ccae7466cc328c",
+      "cropBox": [
+        1400,
+        0,
+        5050,
+        1720
+      ],
+      "resampling": "proportional Lanczos; original alpha retained"
+    },
+    {
+      "filename": "lassets/home/newsroom-visual-small.webp",
+      "size": [
+        800,
+        377
+      ],
+      "bytes": 66006,
+      "sha256": "221c2442e5a7b6fbe2971ba4bf71a8b0c400d1c2171fd20638429931cf10a78a",
+      "cropBox": [
+        1400,
+        0,
+        5050,
+        1720
+      ],
+      "resampling": "proportional Lanczos; original alpha retained"
+    },
+    {
+      "filename": "lassets/home/projects-visual.webp",
+      "size": [
+        1600,
+        889
+      ],
+      "bytes": 149782,
+      "sha256": "d50a2eb37750d342d20051d2ebb85e0891fbe1d9110a0f980d52edea2a210f99",
+      "cropBox": [
+        1400,
+        1720,
+        5050,
+        3749
+      ],
+      "resampling": "proportional Lanczos; original alpha retained"
+    },
+    {
+      "filename": "lassets/home/projects-visual-small.webp",
+      "size": [
+        800,
+        445
+      ],
+      "bytes": 53398,
+      "sha256": "1922d56765f50dc820392ccc4ed8e9ff2fc45d3c545eeb510ac4e4fe4e11f6a8",
+      "cropBox": [
+        1400,
+        1720,
+        5050,
+        3749
+      ],
+      "resampling": "proportional Lanczos; original alpha retained"
+    }
+  ]
+}

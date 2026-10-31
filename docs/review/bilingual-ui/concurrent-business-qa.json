@@ -1,0 +1,14 @@
+[
+  {
+    "route": "business.html",
+    "singleSixStageProcess": true,
+    "detailsAndYoutube": "PASS",
+    "immediatelyBeforeConsultationCTA": true
+  },
+  {
+    "route": "en/business.html",
+    "singleSixStageProcess": true,
+    "detailsAndYoutube": "PASS",
+    "immediatelyBeforeConsultationCTA": true
+  }
+]
