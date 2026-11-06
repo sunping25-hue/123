@@ -10,3 +10,20 @@ body{background:#061322}.section{padding:55px 7vw}.head{padding:19px 4vw;backgro
 .mini-product>span.mini-media{display:flex;flex-direction:column;align-items:center;gap:2px;width:100%;font-size:inherit}
 .mini-media img{display:block;width:100%;max-width:150px;height:auto;object-fit:contain;-webkit-mask-image:linear-gradient(to right,transparent,#000 14%,#000 86%,transparent),linear-gradient(to bottom,transparent,#000 12%,#000 88%,transparent);-webkit-mask-composite:source-in;mask-image:linear-gradient(to right,transparent,#000 14%,#000 86%,transparent),linear-gradient(to bottom,transparent,#000 12%,#000 88%,transparent);mask-composite:intersect}
 .mini-media small{font-size:10px;color:#8eaab9;letter-spacing:.04em}
+
+/* Planning notes for the 2026-11-06 copy pass. Uses the existing navy / silver / teal surfaces. */
+.preopen-list{margin:22px 0 0;padding:0;list-style:none;display:grid;gap:12px;max-width:920px}
+.preopen-list li{margin:0;padding:16px 18px;border:1px solid #c8d7e638;background:#0b1c2c;color:#d5e3ee;line-height:1.75;overflow-wrap:anywhere}
+.preopen-list strong{display:block;margin:0 0 4px;color:#f4f8fb;font-weight:700}
+.preopen-links,.preopen-lead,.preopen-note p{max-width:920px;color:#c8d8e3;line-height:1.85}
+.preopen-links{margin-top:18px}
+.preopen-lead{margin:14px 0 18px}
+.preopen-note{padding:28px 7vw 0}
+.preopen-note p{margin:0}
+.preopen-links a,.preopen-lead a,.preopen-note a{color:#9ff3ea;text-decoration:underline;text-underline-offset:3px}
+.preopen-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+@media(max-width:600px){
+.preopen-note{padding:20px 6vw 0}
+.preopen-list li{padding:14px}
+.preopen-actions .board-pill{width:100%;justify-content:space-between}
+}
