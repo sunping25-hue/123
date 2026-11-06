@@ -1,0 +1,10 @@
+{
+  "source": "shinox-hero.mp4",
+  "sourceSha256": "12f67ec61ac0d928b0b3f1d717b2e073030432b246eca89adb9e42e295867e6d",
+  "mobile": "shinox-hero-mobile.mp4",
+  "mobileSha256": "7b15b65e0cf1c1a4b182e9d9dfd097bfb7c9fc9406c37847c751ed3fb428787e",
+  "sourceBytes": 13344955,
+  "mobileBytes": 2825408,
+  "encoding": "H.264 Main, 960x548, 24fps, CRF28, no audio, faststart",
+  "originalModified": false
+}

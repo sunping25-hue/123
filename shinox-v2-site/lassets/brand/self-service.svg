@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="自助洗車設備金屬控制系統 CGI 概念示意">
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#071B2A"/><stop offset=".52" stop-color="#11384B"/><stop offset="1" stop-color="#030B15"/></linearGradient>
+<linearGradient id="metal" x1="0" x2="1"><stop stop-color="#3E5D70"/><stop offset=".2" stop-color="#E7F5FC"/><stop offset=".39" stop-color="#8EA8BA"/><stop offset=".65" stop-color="#F9FFFF"/><stop offset="1" stop-color="#35546B"/></linearGradient>
+<linearGradient id="screen" x1="0" x2="1" y1="1" y2="0"><stop stop-color="#041321"/><stop offset=".56" stop-color="#064C71"/><stop offset="1" stop-color="#1BE7DA"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#19EFDD" stop-opacity=".48"/><stop offset="1" stop-color="#087CFF" stop-opacity="0"/></radialGradient>
+<filter id="blur"><feGaussianBlur stdDeviation="15"/></filter>
+<filter id="shadow"><feDropShadow dx="0" dy="17" stdDeviation="22" flood-color="#00050D" flood-opacity=".78"/></filter>
+<pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse"><path d="M54 0H0V54" fill="none" stroke="#7FD8E8" stroke-opacity=".07"/></pattern>
+</defs><rect width="1200" height="760" fill="url(#bg)"/><rect width="1200" height="760" fill="url(#grid)"/><ellipse cx="675" cy="530" rx="520" ry="290" fill="url(#glow)"/>
+<path d="M0 655L1200 560V760H0Z" fill="#051420"/><g opacity=".2" stroke="#57BAED" fill="none"><path d="M0 655L1200 560M100 760L500 595M400 760L670 585M720 760L820 580M1100 760L1000 575"/></g>
+<g filter="url(#shadow)" transform="translate(320 66)">
+<path d="M183 90L545 68L668 130L302 150Z" fill="#9FBBCA" opacity=".9"/>
+<path d="M302 150L668 130V613L302 635Z" fill="url(#metal)"/>
+<path d="M183 90L302 150V635L183 557Z" fill="#3B6075"/>
+<rect x="342" y="191" width="281" height="326" rx="16" fill="#061523" stroke="#A8E2ED" stroke-width="7"/>
+<rect x="359" y="208" width="248" height="156" rx="8" fill="url(#screen)"/>
+<circle cx="483" cy="282" r="57" fill="none" stroke="#9CFFFF" stroke-width="5" opacity=".75"/>
+<path d="M435 290L464 266L490 291L535 244" stroke="#C6FFFD" stroke-width="7" fill="none" stroke-linecap="round"/>
+<g fill="#C6EAF2"><circle cx="404" cy="421" r="15"/><circle cx="484" cy="421" r="15"/><circle cx="563" cy="421" r="15"/><circle cx="404" cy="467" r="15"/><circle cx="484" cy="467" r="15"/><circle cx="563" cy="467" r="15"/></g>
+<path d="M331 155L331 608M637 147V589" stroke="#FFFFFF" opacity=".45" stroke-width="7"/>
+<circle cx="485" cy="572" r="26" fill="#05222C" stroke="#D7F4F6" stroke-width="8"/><circle cx="485" cy="572" r="8" fill="#19DCCC"/>
+</g>
+<g transform="translate(898 295)" fill="none" stroke="#6CD8ED" opacity=".62"><circle r="151" stroke-width="2"/><circle r="120" stroke-width="2" stroke-dasharray="8 14"/><path d="M-174 0H174M0-173V173" stroke-width="2"/></g>
+<circle cx="898" cy="295" r="66" fill="#2BD7CC" opacity=".16" filter="url(#blur)"/><path d="M0 758H1200" stroke="#20DCCB" stroke-opacity=".44" stroke-width="3"/></svg>

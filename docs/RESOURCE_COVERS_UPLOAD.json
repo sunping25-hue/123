@@ -1,0 +1,24 @@
+{
+  "upload": "產品與專題 DM 網站封面.zip",
+  "status": "owner-supplied covers integrated; no PDF supplied",
+  "assets": [
+    {
+      "source": "自助洗車創業指南網站封面.png",
+      "sourceSha256": "62da9dc860d2bfa4e7c4371614e2658b330b7ab049036d844960780321d1c14c",
+      "path": "lassets/resources/startup-guide-cover.webp",
+      "width": 1600,
+      "height": 1073,
+      "bytes": 153732,
+      "sha256": "3f93f3a3cb63bc326ac1c7640ed48a462adc0bd707cc75a44f6da1135da63584"
+    },
+    {
+      "source": "產品與專題 DM 網站封面.png",
+      "sourceSha256": "bdbdf94f740098641e202d93a05d44a92e9f8b15f2c00e98cbaa7cdc2cacb69c",
+      "path": "lassets/resources/product-dm-cover.webp",
+      "width": 1600,
+      "height": 1073,
+      "bytes": 73288,
+      "sha256": "4bf5ea7f7493fb9b380686d6d76df1a72bc8063062c98c9711f4727d21056b6d"
+    }
+  ]
+}

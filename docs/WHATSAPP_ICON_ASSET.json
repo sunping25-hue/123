@@ -1,0 +1,6 @@
+{
+  "asset": "shinox-v2-site/lassets/contact/whatsapp-silver.png",
+  "source": "Prepared transparent green/silver icon with imagegen using the owner-provided WhatsApp reference in conversation. Original inline attachment bytes were not mounted.",
+  "sha256": "ac31aadc2ba0392d632be371fff0aeb7d2bdc6a5a429cef001dc5fc4c5c29956",
+  "scope": "Global WhatsApp floating button only; retains LINE and existing destination."
+}

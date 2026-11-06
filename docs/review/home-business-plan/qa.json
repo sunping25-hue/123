@@ -1,0 +1,54 @@
+[
+  {
+    "width": 1920,
+    "image": [
+      1920,
+      1088
+    ],
+    "overflow": false,
+    "steps": 3,
+    "cta": "contact.html",
+    "imageBelowCopy": false,
+    "unchangedContact": true,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "image": [
+      1920,
+      1088
+    ],
+    "overflow": false,
+    "steps": 3,
+    "cta": "contact.html",
+    "imageBelowCopy": false,
+    "unchangedContact": true,
+    "errors": []
+  },
+  {
+    "width": 768,
+    "image": [
+      1920,
+      1088
+    ],
+    "overflow": false,
+    "steps": 3,
+    "cta": "contact.html",
+    "imageBelowCopy": false,
+    "unchangedContact": true,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "image": [
+      1920,
+      1088
+    ],
+    "overflow": false,
+    "steps": 3,
+    "cta": "contact.html",
+    "imageBelowCopy": true,
+    "unchangedContact": true,
+    "errors": []
+  }
+]

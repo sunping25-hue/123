@@ -1,0 +1,395 @@
+{
+  "baseCommit": "32c8f18",
+  "scenarios": [
+    {
+      "lang": "zh",
+      "width": 1440,
+      "listOverflow": false,
+      "cardMetrics": [
+        {
+          "category": "brand",
+          "height": 463.25,
+          "width": 399.46875,
+          "imageWidth": 397.46875,
+          "imageHeight": 223.5625,
+          "source": "http://127.0.0.1:3066/lassets/news/brand-support/thumb-support.webp"
+        },
+        {
+          "category": "equipment",
+          "height": 463.25,
+          "width": 399.46875,
+          "imageWidth": 397.46875,
+          "imageHeight": 223.5625,
+          "source": "http://127.0.0.1:3066/lassets/news/shinox-vehicle-length-detection.webp"
+        },
+        {
+          "category": "tech",
+          "height": 463.25,
+          "width": 399.46875,
+          "imageWidth": 397.46875,
+          "imageHeight": 223.5625,
+          "source": "http://127.0.0.1:3066/lassets/news/shinox-anpr-entrance.webp"
+        }
+      ],
+      "filters": {
+        "brand": [
+          "brand"
+        ],
+        "equipment": [
+          "equipment"
+        ],
+        "tech": [
+          "tech"
+        ]
+      },
+      "keyboardBrandCardNavigation": true,
+      "approvedFullCopy": "PASS",
+      "guideCards": 8,
+      "communityPoints": 5,
+      "serviceIcons": 4,
+      "images": [
+        {
+          "url": "http://127.0.0.1:3066/lassets/news/brand-support/technical-community.webp",
+          "width": 1672,
+          "height": 941,
+          "objectFit": "contain",
+          "alt": "原廠技術團隊遠端協作支援設備業者的品牌形象圖",
+          "loading": "lazy",
+          "httpStatus": 200
+        },
+        {
+          "url": "http://127.0.0.1:3066/lassets/news/brand-support/business-guide.webp",
+          "width": 1672,
+          "height": 941,
+          "objectFit": "contain",
+          "alt": "ShinoX 洗車設備、手機支援與開店輔導手冊形象圖",
+          "loading": "lazy",
+          "httpStatus": 200
+        },
+        {
+          "url": "http://127.0.0.1:3066/lassets/news/brand-support/service-ecosystem.webp",
+          "width": 1672,
+          "height": 941,
+          "objectFit": "contain",
+          "alt": "洗車場開店與營運輔導主題、手冊及場地規劃形象圖",
+          "loading": "lazy",
+          "httpStatus": 200
+        }
+      ],
+      "articleOverflow": false,
+      "textOverflow": [],
+      "canonical": "https://www.shinox-wash.com/news-beyond-the-machine.html",
+      "sameArticleLanguageLink": "PASS",
+      "contactCTA": "PASS",
+      "jsErrors": [],
+      "articleImageOrder": [
+        "technical-community.webp",
+        "business-guide.webp",
+        "service-ecosystem.webp"
+      ],
+      "articleRecheck": "PASS: exactly3uniqueimages; thumb remains only in unchanged listing card"
+    },
+    {
+      "lang": "zh",
+      "width": 390,
+      "listOverflow": false,
+      "cardMetrics": [
+        {
+          "category": "brand",
+          "height": 457.609375,
+          "width": 343.21875,
+          "imageWidth": 341.21875,
+          "imageHeight": 191.921875,
+          "source": "http://127.0.0.1:3066/lassets/news/brand-support/thumb-support.webp"
+        },
+        {
+          "category": "equipment",
+          "height": 393.609375,
+          "width": 343.21875,
+          "imageWidth": 341.21875,
+          "imageHeight": 191.921875,
+          "source": "http://127.0.0.1:3066/lassets/news/shinox-vehicle-length-detection.webp"
+        },
+        {
+          "category": "tech",
+          "height": 397.609375,
+          "width": 343.21875,
+          "imageWidth": 341.21875,
+          "imageHeight": 191.921875,
+          "source": "http://127.0.0.1:3066/lassets/news/shinox-anpr-entrance.webp"
+        }
+      ],
+      "filters": {
+        "brand": [
+          "brand"
+        ],
+        "equipment": [
+          "equipment"
+        ],
+        "tech": [
+          "tech"
+        ]
+      },
+      "keyboardBrandCardNavigation": true,
+      "approvedFullCopy": "PASS",
+      "guideCards": 8,
+      "communityPoints": 5,
+      "serviceIcons": 4,
+      "images": [
+        {
+          "url": "http://127.0.0.1:3066/lassets/news/brand-support/technical-community.webp",
+          "width": 1672,
+          "height": 941,
+          "objectFit": "contain",
+          "alt": "原廠技術團隊遠端協作支援設備業者的品牌形象圖",
+          "loading": "lazy",
+          "httpStatus": 200
+        },
+        {
+          "url": "http://127.0.0.1:3066/lassets/news/brand-support/business-guide.webp",
+          "width": 1672,
+          "height": 941,
+          "objectFit": "contain",
+          "alt": "ShinoX 洗車設備、手機支援與開店輔導手冊形象圖",
+          "loading": "lazy",
+          "httpStatus": 200
+        },
+        {
+          "url": "http://127.0.0.1:3066/lassets/news/brand-support/service-ecosystem.webp",
+          "width": 1672,
+          "height": 941,
+          "objectFit": "contain",
+          "alt": "洗車場開店與營運輔導主題、手冊及場地規劃形象圖",
+          "loading": "lazy",
+          "httpStatus": 200
+        }
+      ],
+      "articleOverflow": false,
+      "textOverflow": [],
+      "canonical": "https://www.shinox-wash.com/news-beyond-the-machine.html",
+      "sameArticleLanguageLink": "PASS",
+      "contactCTA": "PASS",
+      "jsErrors": [],
+      "articleImageOrder": [
+        "technical-community.webp",
+        "business-guide.webp",
+        "service-ecosystem.webp"
+      ],
+      "articleRecheck": "PASS: exactly3uniqueimages; thumb remains only in unchanged listing card"
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "listOverflow": false,
+      "cardMetrics": [
+        {
+          "category": "brand",
+          "height": 513.296875,
+          "width": 399.46875,
+          "imageWidth": 397.46875,
+          "imageHeight": 223.5625,
+          "source": "http://127.0.0.1:3066/lassets/news/brand-support/thumb-support.webp"
+        },
+        {
+          "category": "equipment",
+          "height": 513.296875,
+          "width": 399.46875,
+          "imageWidth": 397.46875,
+          "imageHeight": 223.5625,
+          "source": "http://127.0.0.1:3066/lassets/news/shinox-vehicle-length-detection.webp"
+        },
+        {
+          "category": "tech",
+          "height": 513.296875,
+          "width": 399.46875,
+          "imageWidth": 397.46875,
+          "imageHeight": 223.5625,
+          "source": "http://127.0.0.1:3066/lassets/news/shinox-anpr-entrance.webp"
+        }
+      ],
+      "filters": {
+        "brand": [
+          "brand"
+        ],
+        "equipment": [
+          "equipment"
+        ],
+        "tech": [
+          "tech"
+        ]
+      },
+      "keyboardBrandCardNavigation": true,
+      "approvedFullCopy": "PASS",
+      "guideCards": 8,
+      "communityPoints": 5,
+      "serviceIcons": 4,
+      "images": [
+        {
+          "url": "http://127.0.0.1:3066/lassets/news/brand-support/technical-community.webp",
+          "width": 1672,
+          "height": 941,
+          "objectFit": "contain",
+          "alt": "Brand illustration of the ShinoX technical team collaborating remotely to support equipment operators",
+          "loading": "lazy",
+          "httpStatus": 200
+        },
+        {
+          "url": "http://127.0.0.1:3066/lassets/news/brand-support/business-guide.webp",
+          "width": 1672,
+          "height": 941,
+          "objectFit": "contain",
+          "alt": "ShinoX car wash equipment, mobile support and business guide illustration",
+          "loading": "lazy",
+          "httpStatus": 200
+        },
+        {
+          "url": "http://127.0.0.1:3066/lassets/news/brand-support/service-ecosystem.webp",
+          "width": 1672,
+          "height": 941,
+          "objectFit": "contain",
+          "alt": "Car wash business guidance illustration featuring a handbook, operating topics and site planning",
+          "loading": "lazy",
+          "httpStatus": 200
+        }
+      ],
+      "articleOverflow": false,
+      "textOverflow": [],
+      "canonical": "https://www.shinox-wash.com/en/news-beyond-the-machine.html",
+      "sameArticleLanguageLink": "PASS",
+      "contactCTA": "PASS",
+      "jsErrors": [],
+      "articleImageOrder": [
+        "technical-community.webp",
+        "business-guide.webp",
+        "service-ecosystem.webp"
+      ],
+      "articleRecheck": "PASS: exactly3uniqueimages; thumb remains only in unchanged listing card"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "listOverflow": false,
+      "cardMetrics": [
+        {
+          "category": "brand",
+          "height": 477.65625,
+          "width": 343.21875,
+          "imageWidth": 341.21875,
+          "imageHeight": 191.921875,
+          "source": "http://127.0.0.1:3066/lassets/news/brand-support/thumb-support.webp"
+        },
+        {
+          "category": "equipment",
+          "height": 443.65625,
+          "width": 343.21875,
+          "imageWidth": 341.21875,
+          "imageHeight": 191.921875,
+          "source": "http://127.0.0.1:3066/lassets/news/shinox-vehicle-length-detection.webp"
+        },
+        {
+          "category": "tech",
+          "height": 447.65625,
+          "width": 343.21875,
+          "imageWidth": 341.21875,
+          "imageHeight": 191.921875,
+          "source": "http://127.0.0.1:3066/lassets/news/shinox-anpr-entrance.webp"
+        }
+      ],
+      "filters": {
+        "brand": [
+          "brand"
+        ],
+        "equipment": [
+          "equipment"
+        ],
+        "tech": [
+          "tech"
+        ]
+      },
+      "keyboardBrandCardNavigation": true,
+      "approvedFullCopy": "PASS",
+      "guideCards": 8,
+      "communityPoints": 5,
+      "serviceIcons": 4,
+      "images": [
+        {
+          "url": "http://127.0.0.1:3066/lassets/news/brand-support/technical-community.webp",
+          "width": 1672,
+          "height": 941,
+          "objectFit": "contain",
+          "alt": "Brand illustration of the ShinoX technical team collaborating remotely to support equipment operators",
+          "loading": "lazy",
+          "httpStatus": 200
+        },
+        {
+          "url": "http://127.0.0.1:3066/lassets/news/brand-support/business-guide.webp",
+          "width": 1672,
+          "height": 941,
+          "objectFit": "contain",
+          "alt": "ShinoX car wash equipment, mobile support and business guide illustration",
+          "loading": "lazy",
+          "httpStatus": 200
+        },
+        {
+          "url": "http://127.0.0.1:3066/lassets/news/brand-support/service-ecosystem.webp",
+          "width": 1672,
+          "height": 941,
+          "objectFit": "contain",
+          "alt": "Car wash business guidance illustration featuring a handbook, operating topics and site planning",
+          "loading": "lazy",
+          "httpStatus": 200
+        }
+      ],
+      "articleOverflow": false,
+      "textOverflow": [],
+      "canonical": "https://www.shinox-wash.com/en/news-beyond-the-machine.html",
+      "sameArticleLanguageLink": "PASS",
+      "contactCTA": "PASS",
+      "jsErrors": [],
+      "articleImageOrder": [
+        "technical-community.webp",
+        "business-guide.webp",
+        "service-ecosystem.webp"
+      ],
+      "articleRecheck": "PASS: exactly3uniqueimages; thumb remains only in unchanged listing card"
+    }
+  ],
+  "defects": [],
+  "screenshots": [
+    "zh-cards-1440.webp",
+    "zh-article-1440.webp",
+    "zh-cards-390.webp",
+    "zh-article-390.webp",
+    "en-cards-1440.webp",
+    "en-article-1440.webp",
+    "en-cards-390.webp",
+    "en-article-390.webp"
+  ],
+  "preservation": {
+    "zh-equipment": true,
+    "zh-tech": true,
+    "en-equipment": true,
+    "en-tech": true,
+    "shinox-v2-site/news-smart-wash.html": true,
+    "shinox-v2-site/en/news-smart-wash.html": true,
+    "shinox-v2-site/news-vehicle-length.html": true,
+    "shinox-v2-site/en/news-vehicle-length.html": true,
+    "shinox-v2-site/lassets/news/shinox-anpr-entrance.webp": true,
+    "shinox-v2-site/lassets/news/shinox-vehicle-length-detection.webp": true,
+    "shinox-v2-site/index.html": true,
+    "shinox-v2-site/en/index.html": true,
+    "shinox-v2-site/contact.html": true,
+    "shinox-v2-site/en/contact.html": true,
+    "shinox-v2-site/media/shinox-hero.mp4": true
+  },
+  "passed": true,
+  "articleAssetMap": {
+    "thumbnailOnly": "thumb-support.webp",
+    "articleImages": [
+      "technical-community.webp",
+      "business-guide.webp",
+      "service-ecosystem.webp"
+    ]
+  },
+  "articleRecheckScope": "Only articles rechecked after removing extra thumbnail and replacing manufacturer identity wording in English; previous card filters and preservation proof remain valid and unchanged."
+}

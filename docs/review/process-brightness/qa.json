@@ -1,0 +1,746 @@
+[
+  {
+    "width": 1440,
+    "language": "zh",
+    "stepStyles": [
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      }
+    ],
+    "panelText": {
+      "color": "rgb(226, 234, 241)",
+      "weight": "500",
+      "fits": true
+    },
+    "sixSelectionsKeyboardAndPreviousNext": "PASS",
+    "horizontalLayoutNoClipping": "PASS",
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "language": "en",
+    "stepStyles": [
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      }
+    ],
+    "panelText": {
+      "color": "rgb(226, 234, 241)",
+      "weight": "500",
+      "fits": true
+    },
+    "sixSelectionsKeyboardAndPreviousNext": "PASS",
+    "horizontalLayoutNoClipping": "PASS",
+    "errors": []
+  },
+  {
+    "width": 768,
+    "language": "zh",
+    "stepStyles": [
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      }
+    ],
+    "panelText": {
+      "color": "rgb(226, 234, 241)",
+      "weight": "500",
+      "fits": true
+    },
+    "sixSelectionsKeyboardAndPreviousNext": "PASS",
+    "horizontalLayoutNoClipping": "PASS",
+    "errors": []
+  },
+  {
+    "width": 768,
+    "language": "en",
+    "stepStyles": [
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      }
+    ],
+    "panelText": {
+      "color": "rgb(226, 234, 241)",
+      "weight": "500",
+      "fits": true
+    },
+    "sixSelectionsKeyboardAndPreviousNext": "PASS",
+    "horizontalLayoutNoClipping": "PASS",
+    "errors": []
+  },
+  {
+    "width": 390,
+    "language": "zh",
+    "stepStyles": [
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      }
+    ],
+    "panelText": {
+      "color": "rgb(226, 234, 241)",
+      "weight": "500",
+      "fits": true
+    },
+    "sixSelectionsKeyboardAndPreviousNext": "PASS",
+    "horizontalLayoutNoClipping": "PASS",
+    "errors": []
+  },
+  {
+    "width": 390,
+    "language": "en",
+    "stepStyles": [
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      }
+    ],
+    "panelText": {
+      "color": "rgb(226, 234, 241)",
+      "weight": "500",
+      "fits": true
+    },
+    "sixSelectionsKeyboardAndPreviousNext": "PASS",
+    "horizontalLayoutNoClipping": "PASS",
+    "errors": []
+  },
+  {
+    "width": 375,
+    "language": "zh",
+    "stepStyles": [
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      }
+    ],
+    "panelText": {
+      "color": "rgb(226, 234, 241)",
+      "weight": "500",
+      "fits": true
+    },
+    "sixSelectionsKeyboardAndPreviousNext": "PASS",
+    "horizontalLayoutNoClipping": "PASS",
+    "errors": []
+  },
+  {
+    "width": 375,
+    "language": "en",
+    "stepStyles": [
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      },
+      {
+        "gradient": "linear-gradient(145deg, rgb(39, 223, 255), rgb(7, 141, 219))",
+        "numberColor": "rgb(255, 255, 255)",
+        "numberWeight": "800",
+        "titleColor": "rgb(255, 255, 255)",
+        "titleWeight": "700",
+        "titleFits": true,
+        "numberFits": true,
+        "dimensions": [
+          84,
+          84
+        ]
+      }
+    ],
+    "panelText": {
+      "color": "rgb(226, 234, 241)",
+      "weight": "500",
+      "fits": true
+    },
+    "sixSelectionsKeyboardAndPreviousNext": "PASS",
+    "horizontalLayoutNoClipping": "PASS",
+    "errors": []
+  },
+  {
+    "hover": {
+      "brightness": "brightness(1.14)",
+      "transform": "matrix(1.04, 0, 0, 1.04, 0, -2)"
+    },
+    "sixSecondAuto": "PASS",
+    "reducedMotionStopsAuto": "PASS"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "originalFile": "grok-video-af8a6f1d-98d6-4904-852d-2a3f1996b954.mp4",
+  "file": "lassets/about/shinox-brand-film.mp4",
+  "bytes": 1543266,
+  "sha256": "69cb661171e01160fd56544ee5532ce291c17d4a4928d50e446fbe55cf31a4ff",
+  "durationSeconds": 6.041667,
+  "dimensions": [
+    1472,
+    624
+  ],
+  "videoCodec": "h264",
+  "audioCodec": "aac",
+  "originalUnmodified": true,
+  "poster": "lassets/about/shinox-brand-film-poster.webp",
+  "posterFromVideoAtSeconds": 3,
+  "baseCommit": "06405d03f01e8d0f20942c879ef09d85b0e39c6b",
+  "existingCopyLinksHeroLogosAndFormState": "unchanged"
+}

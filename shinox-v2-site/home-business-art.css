@@ -1,0 +1,15 @@
+/* User-supplied site-planning concept: a dedicated homepage business visual. */
+#business{--business-gutter:8vw;--business-top:100px}
+.home-business-visual{position:relative;isolation:isolate;display:flex;align-items:center;min-height:clamp(540px,48vw,780px);margin:calc(-1 * var(--business-top)) calc(-1 * var(--business-gutter)) 0;padding:75px var(--business-gutter);background:#031222;overflow:hidden}
+.home-business-image{position:absolute;inset:0;z-index:-2;display:block}
+.home-business-image img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+.home-business-visual::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(90deg,#03122288,transparent 60%),linear-gradient(0deg,#061322,transparent 18%)}
+.home-business-copy{display:flex;flex-direction:column;max-width:600px}
+.home-business-copy .section-intro{display:contents}
+.home-business-copy .section-intro>div{order:0}
+.home-business-copy .business-lead{order:1;max-width:440px;font-size:16px;line-height:1.9;margin-top:26px;color:#c0d2de}
+.home-business-copy .section-intro>.btn{order:2;align-self:flex-start;margin-top:28px}
+.home-business-art-note{position:absolute;right:var(--business-gutter);bottom:20px;font-size:10px;color:#c2d3df;background:#031222b0;padding:6px 10px}
+@media(min-width:1700px){#business{--business-gutter:max(8vw,calc((100vw - 1440px)/2))}}
+@media(max-width:950px){#business{--business-gutter:6vw;--business-top:75px}.home-business-copy{max-width:520px}.home-business-copy h2{font-size:37px}.home-business-image img{object-position:65% center}.home-business-visual::before{background:linear-gradient(90deg,#031222e0,#03122288 55%,#03122222),linear-gradient(0deg,#061322,transparent 25%)}}
+@media(max-width:600px){#business{--business-gutter:7vw;--business-top:60px}.home-business-visual{display:flex;flex-direction:column;align-items:stretch;min-height:0;padding:48px 0 0}.home-business-copy{padding:0 var(--business-gutter) 30px}.home-business-copy h2{font-size:31px}.home-business-copy .business-lead{font-size:14px;margin-top:22px}.home-business-image{position:relative;inset:auto;order:2;z-index:0}.home-business-image img{height:auto;aspect-ratio:1920/1088;object-fit:contain;object-position:center}.home-business-art-note{position:static;order:3;align-self:flex-end;margin:8px var(--business-gutter) 0;background:none;padding:0;font-size:9px}.home-business-visual::before{display:none}}

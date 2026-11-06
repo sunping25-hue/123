@@ -1,0 +1,38 @@
+/* Persistent contact controls: silver rim, glass highlight and raised green face. */
+body{padding-bottom:calc(148px + env(safe-area-inset-bottom,0px))}
+.whatsapp-float,.line-float{--contact-top:#128b5d;--contact-base:#06452f;position:fixed;right:calc(16px + env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:50;isolation:isolate;display:inline-flex;align-items:center;justify-content:center;gap:10px;width:188px;min-height:54px;max-width:calc(100vw - 32px);box-sizing:border-box;padding:11px 14px;border:1px solid transparent;border-radius:17px;background:linear-gradient(155deg,#ffffff1e,transparent 43%) padding-box,linear-gradient(160deg,var(--contact-top),var(--contact-base)) padding-box,linear-gradient(140deg,#d5fff0bf,#40e4ae70 38%,#164333 72%,#a6ffe799) border-box;color:#fff!important;box-shadow:inset 0 1px 0 #ffffff3d,inset 0 -2px 0 #001f1777,0 4px 0 #022f23,0 8px 18px #0009,0 0 16px #17ddc718;font:600 13px/1.4 Arial,"Microsoft JhengHei",sans-serif;letter-spacing:.015em;text-decoration:none;white-space:nowrap;touch-action:manipulation;-webkit-tap-highlight-color:transparent;transition:transform .16s,filter .16s,box-shadow .16s}
+.whatsapp-float::after,.line-float::after{content:"";position:absolute;inset:3px 12px auto;height:1px;background:linear-gradient(90deg,transparent,#e0fff4a6,transparent);pointer-events:none}
+.whatsapp-float:hover,.line-float:hover{filter:brightness(1.12);transform:translateY(-2px);box-shadow:inset 0 1px 0 #ffffff55,inset 0 -2px 0 #001f1777,0 6px 0 #022f23,0 12px 24px #0009,0 0 22px #17ddc730}
+.whatsapp-float:active,.line-float:active{transform:translateY(2px);box-shadow:inset 0 1px 0 #ffffff2e,0 2px 0 #022f23,0 4px 12px #0008}
+.whatsapp-float:focus-visible,.line-float:focus-visible{outline:2px solid #c9fff1;outline-offset:5px}
+.whatsapp-symbol,.line-float::before{flex:0 0 28px;display:inline-grid;place-items:center;width:28px;height:28px;border:1px solid #baf6db66;border-radius:9px;background:#e2fff411;box-shadow:inset 0 1px 0 #ffffff30,0 2px 5px #001b2855;color:white;font-size:0}
+.whatsapp-symbol::before,.line-float::before{content:"";background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M21 11.5a8.5 8.5 0 0 1-12.4 7.6L3 21l1.9-5.6A8.5 8.5 0 1 1 21 11.5Z'/%3E%3Cpath d='M8.5 8h7M8.5 12h5'/%3E%3C/svg%3E");background-position:center;background-repeat:no-repeat;background-size:18px}
+.whatsapp-symbol::before{display:block;width:20px;height:20px}
+.line-float{--contact-top:#167e58;--contact-base:#064734;bottom:calc(78px + env(safe-area-inset-bottom,0px))}
+.video-control{bottom:calc(152px + env(safe-area-inset-bottom,0px))!important}
+@media(max-width:600px){.whatsapp-float,.line-float{right:calc(12px + env(safe-area-inset-right,0px));bottom:calc(12px + env(safe-area-inset-bottom,0px));width:172px;padding:11px 12px;min-height:54px;font-size:12px}.line-float{bottom:calc(74px + env(safe-area-inset-bottom,0px))}.video-control{left:7vw;right:auto;bottom:calc(88px + env(safe-area-inset-bottom,0px))!important;max-width:calc(100vw - 210px);white-space:normal}.scroll{bottom:32px}}
+@media(prefers-reduced-motion:reduce){.whatsapp-float,.line-float{transition:none}.whatsapp-float:hover,.line-float:hover,.whatsapp-float:active,.line-float:active{transform:none}}
+/* Green/silver icon prepared from the owner's WhatsApp reference; LINE remains independent. */
+.whatsapp-float{width:64px;height:64px;min-height:64px;padding:0;border:0;border-radius:50%;background:transparent;box-shadow:none;filter:drop-shadow(0 5px 7px #0009)}
+.whatsapp-float::after{display:none}
+.whatsapp-float .whatsapp-symbol{display:block;flex:0 0 64px;width:64px;height:64px;border:0;border-radius:0;background:none;box-shadow:none}
+.whatsapp-float .whatsapp-symbol::before{width:100%;height:100%;background:transparent url('lassets/contact/whatsapp-silver.png') center/contain no-repeat}
+.whatsapp-float>span:last-child{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.whatsapp-float:hover{box-shadow:none;filter:brightness(1.08) drop-shadow(0 7px 10px #000b)}
+.whatsapp-float:active{box-shadow:none}
+.line-float{bottom:calc(90px + env(safe-area-inset-bottom,0px))}
+@media(max-width:600px){.whatsapp-float{width:60px;height:60px;min-height:60px;padding:0}.whatsapp-float .whatsapp-symbol{flex-basis:60px;width:60px;height:60px}.line-float{bottom:calc(82px + env(safe-area-inset-bottom,0px))}}
+/* Option 3: a restrained, edge-docked LINE control with a real brand mark. */
+.line-float{top:50%;right:0;bottom:auto;width:58px;height:60px;min-height:60px;max-width:calc(100vw - 24px);padding:11px;gap:0;display:flex;flex-direction:row-reverse;justify-content:flex-start;overflow:hidden;transform:translateY(-50%);border:1px solid #bdcbd67d;border-right:0;border-radius:17px 0 0 17px;background:linear-gradient(145deg,#e5f0f321,transparent 40%) padding-box,linear-gradient(120deg,#102d3be8,#061322ed) padding-box;box-shadow:inset 0 1px 0 #d5ecf23d,inset 1px 0 0 #17ddc74d,0 6px 22px #0006,0 0 13px #17ddc71c;backdrop-filter:blur(14px);transition:width .28s cubic-bezier(.2,.8,.2,1),border-color .2s,box-shadow .2s,background .2s}
+.line-float::before,.line-float::after{display:none}
+.line-float .line-mark{display:grid;place-items:center;flex:0 0 34px;width:34px;height:34px;border-radius:50%;background:#06c755;box-shadow:0 1px 7px #0004}
+.line-float .line-mark img{display:block;width:27px;height:27px;max-width:none;object-fit:contain}
+.line-float .line-label{display:block;max-width:0;overflow:hidden;opacity:0;white-space:nowrap;font-size:13px;line-height:1.5;transition:opacity .18s ease,max-width .28s ease,margin .28s ease}
+.line-float:hover,.line-float:focus-visible{width:218px;transform:translateY(-50%);filter:none;border-color:#a3d5d3;box-shadow:inset 0 1px 0 #efffff3d,inset 1px 0 0 #17ddc77d,0 8px 25px #0007,0 0 16px #17ddc72b}
+.line-float:hover .line-label,.line-float:focus-visible .line-label{max-width:155px;margin-right:12px;opacity:1}
+.line-float:focus-visible{outline:2px solid #d1fff3;outline-offset:4px}
+.line-float:active{transform:translateY(calc(-50% + 1px));box-shadow:inset 0 2px 7px #0008,0 3px 12px #0005}
+@media(min-width:601px) and (max-height:400px){.line-float{top:auto;bottom:90px;transform:none}.line-float:hover,.line-float:focus-visible{transform:none}.line-float:active{transform:translateY(1px)}}
+@media(max-width:600px){.line-float,.line-float:hover,.line-float:focus-visible{top:auto;right:calc(16px + env(safe-area-inset-right,0px));bottom:calc(82px + env(safe-area-inset-bottom,0px));width:52px;height:52px;min-height:52px;padding:8px;gap:0;justify-content:center;transform:none;border:1px solid #c0d2dd8f;border-radius:50%;box-shadow:inset 0 1px 0 #e8ffff40,0 5px 17px #0006,0 0 10px #17ddc721}.line-float .line-mark{width:34px;height:34px;flex-basis:34px}.line-float .line-label{display:none}.line-float:active{transform:scale(.95);box-shadow:inset 0 2px 6px #0007,0 2px 8px #0005}}
+@media(prefers-reduced-motion:reduce){.line-float,.line-float .line-label{transition:none}.line-float:active{transform:translateY(-50%)}}
+@media(prefers-reduced-motion:reduce) and (max-width:600px){.line-float:active{transform:none}}

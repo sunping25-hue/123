@@ -1,0 +1,142 @@
+[
+  {
+    "width": 1920,
+    "bg": "http://127.0.0.1:3024/lassets/investment/investment-bg-desktop.webp",
+    "bgSize": [
+      1920,
+      400
+    ],
+    "buttons": [
+      {
+        "size": [
+          611,
+          82
+        ],
+        "href": "https://shinox.ai.studio",
+        "icon": true,
+        "label": "自助洗車場投資獲利試算"
+      },
+      {
+        "size": [
+          611,
+          82
+        ],
+        "href": "https://service-carwasher-360.ai.studio",
+        "icon": true,
+        "label": "水刀洗車店投資獲利試算"
+      }
+    ],
+    "overflow": false,
+    "lineSize": [
+      58,
+      60
+    ],
+    "lineWhatsAppOverlap": false,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "bg": "http://127.0.0.1:3024/lassets/investment/investment-bg-desktop.webp",
+    "bgSize": [
+      1920,
+      400
+    ],
+    "buttons": [
+      {
+        "size": [
+          611,
+          82
+        ],
+        "href": "https://shinox.ai.studio",
+        "icon": true,
+        "label": "自助洗車場投資獲利試算"
+      },
+      {
+        "size": [
+          611,
+          82
+        ],
+        "href": "https://service-carwasher-360.ai.studio",
+        "icon": true,
+        "label": "水刀洗車店投資獲利試算"
+      }
+    ],
+    "overflow": false,
+    "lineSize": [
+      58,
+      60
+    ],
+    "lineWhatsAppOverlap": false,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "bg": "http://127.0.0.1:3024/lassets/investment/investment-bg-mobile.webp",
+    "bgSize": [
+      1080,
+      800
+    ],
+    "buttons": [
+      {
+        "size": [
+          343,
+          68
+        ],
+        "href": "https://shinox.ai.studio",
+        "icon": true,
+        "label": "自助洗車場投資獲利試算"
+      },
+      {
+        "size": [
+          343,
+          68
+        ],
+        "href": "https://service-carwasher-360.ai.studio",
+        "icon": true,
+        "label": "水刀洗車店投資獲利試算"
+      }
+    ],
+    "overflow": false,
+    "lineSize": [
+      52,
+      52
+    ],
+    "lineWhatsAppOverlap": false,
+    "errors": []
+  },
+  {
+    "width": 375,
+    "bg": "http://127.0.0.1:3024/lassets/investment/investment-bg-mobile.webp",
+    "bgSize": [
+      1080,
+      800
+    ],
+    "buttons": [
+      {
+        "size": [
+          343,
+          68
+        ],
+        "href": "https://shinox.ai.studio",
+        "icon": true,
+        "label": "自助洗車場投資獲利試算"
+      },
+      {
+        "size": [
+          343,
+          68
+        ],
+        "href": "https://service-carwasher-360.ai.studio",
+        "icon": true,
+        "label": "水刀洗車店投資獲利試算"
+      }
+    ],
+    "overflow": false,
+    "lineSize": [
+      52,
+      52
+    ],
+    "lineWhatsAppOverlap": false,
+    "errors": []
+  }
+]

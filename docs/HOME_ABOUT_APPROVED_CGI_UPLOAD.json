@@ -1,0 +1,96 @@
+{
+  "upload": "about-hero.webp.zip",
+  "status": "owner supplied; no image generation or replacement assets used",
+  "mapping": [
+    "brand main visual",
+    "EQUIPMENT",
+    "INTEGRATION",
+    "CONVERSATION (about-global source)"
+  ],
+  "assets": [
+    {
+      "source": "about-hero.webp.png",
+      "sourceSha256": "3f014002ca3c6a7613f9cb42bb9a4abbe81cd7c8d7b2404f79e9d30582a65b2b",
+      "variants": [
+        {
+          "path": "lassets/home/about/home-about-hero.webp",
+          "width": 1376,
+          "height": 768,
+          "bytes": 160032,
+          "sha256": "6a96d437f706ab2527dad2f062807092c4ed56cddd7204726efdd01ce3ebf7b2"
+        },
+        {
+          "path": "lassets/home/about/home-about-hero-small.webp",
+          "width": 768,
+          "height": 429,
+          "bytes": 73278,
+          "sha256": "667604fe74afcf8133ec1082419fcae7197bdc123624c776bcf0af40d45b6f27"
+        }
+      ],
+      "alt": "ShinoX 洗車場建築主視覺，呈現藍光棚架與設備配置概念"
+    },
+    {
+      "source": "about-equipment.webp.png",
+      "sourceSha256": "3fba06024b1bbdc4797a9a5bb908ddd2cce1b74b9eeacb9a3e28cd61dcb3816c",
+      "variants": [
+        {
+          "path": "lassets/home/about/home-about-equipment.webp",
+          "width": 1264,
+          "height": 848,
+          "bytes": 95220,
+          "sha256": "ba79ceb32f4a9beae8285bc521c38dcff77c7f9c8f38d6faaea89be440db3c1f"
+        },
+        {
+          "path": "lassets/home/about/home-about-equipment-small.webp",
+          "width": 640,
+          "height": 429,
+          "bytes": 28128,
+          "sha256": "1b83b14c9a5287890a7c32043cd960befb360a839f298024250dede182d2a42a"
+        }
+      ],
+      "alt": "自助洗車控制設備的鈦銀機身與操作面板"
+    },
+    {
+      "source": "about-integration.webp.png",
+      "sourceSha256": "336a2233225d1a3559fa1327897aa4df09b61d9c00ecfc5fbdc5c28243f8ebab",
+      "variants": [
+        {
+          "path": "lassets/home/about/home-about-integration.webp",
+          "width": 1280,
+          "height": 714,
+          "bytes": 129234,
+          "sha256": "58cc212645de451166765a6ef95e0c20a19009d566bf2207318efc66a971c4d8"
+        },
+        {
+          "path": "lassets/home/about/home-about-integration-small.webp",
+          "width": 640,
+          "height": 357,
+          "bytes": 38476,
+          "sha256": "c7108ea727f10b164fcfd9584d1c2e649dcc1bafadf8ff192c3e9d25afc88906"
+        }
+      ],
+      "alt": "洗車場鳥瞰 CGI，呈現棚架、車道與設備配置整合"
+    },
+    {
+      "source": "about-global.webp.png",
+      "sourceSha256": "57a0019e963d2d7a011b042c8d1b4edb61f3e2d3f850169b320b0b686301ab1f",
+      "variants": [
+        {
+          "path": "lassets/home/about/home-about-conversation.webp",
+          "width": 1280,
+          "height": 608,
+          "bytes": 180974,
+          "sha256": "85f6bf0ae06de2959e285a28d6cdf7938c5cf7e5f55f065bd6d9e7f2b9f7ab11"
+        },
+        {
+          "path": "lassets/home/about/home-about-conversation-small.webp",
+          "width": 640,
+          "height": 304,
+          "bytes": 57494,
+          "sha256": "b1fb2ba5528e32e1a6709cfb7ea885797fbd3fcaf6e7b2ec245de1b535c0885a"
+        }
+      ],
+      "alt": "國際網絡地球與光流，象徵台灣與海外需求交流"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "page": "about",
+    "width": 1440,
+    "image": "http://127.0.0.1:3018/lassets/about/hero-building.webp?v=5deb7ead95",
+    "size": [
+      1920,
+      1200
+    ],
+    "overflow": false,
+    "h1": 1,
+    "errors": []
+  },
+  {
+    "page": "news",
+    "width": 1440,
+    "image": "http://127.0.0.1:3018/lassets/news/hero-car.webp?v=abab8ec090",
+    "size": [
+      1920,
+      900
+    ],
+    "overflow": false,
+    "h1": 1,
+    "errors": []
+  },
+  {
+    "page": "products",
+    "width": 1440,
+    "image": "http://127.0.0.1:3018/lassets/products/hero-flow.webp?v=1d395d0764",
+    "size": [
+      1920,
+      760
+    ],
+    "overflow": false,
+    "h1": 1,
+    "errors": []
+  },
+  {
+    "page": "business",
+    "width": 1440,
+    "image": "http://127.0.0.1:3018/lassets/business/hero-carwash.webp?v=6d9b929385",
+    "size": [
+      1920,
+      1080
+    ],
+    "overflow": false,
+    "h1": 1,
+    "errors": []
+  },
+  {
+    "page": "about",
+    "width": 768,
+    "image": "http://127.0.0.1:3018/lassets/about/hero-building.webp?v=5deb7ead95",
+    "size": [
+      1920,
+      1200
+    ],
+    "overflow": false,
+    "h1": 1,
+    "errors": []
+  },
+  {
+    "page": "news",
+    "width": 768,
+    "image": "http://127.0.0.1:3018/lassets/news/hero-car.webp?v=abab8ec090",
+    "size": [
+      1920,
+      900
+    ],
+    "overflow": false,
+    "h1": 1,
+    "errors": []
+  },
+  {
+    "page": "products",
+    "width": 768,
+    "image": "http://127.0.0.1:3018/lassets/products/hero-flow.webp?v=1d395d0764",
+    "size": [
+      1920,
+      760
+    ],
+    "overflow": false,
+    "h1": 1,
+    "errors": []
+  },
+  {
+    "page": "business",
+    "width": 768,
+    "image": "http://127.0.0.1:3018/lassets/business/hero-carwash.webp?v=6d9b929385",
+    "size": [
+      1920,
+      1080
+    ],
+    "overflow": false,
+    "h1": 1,
+    "errors": []
+  },
+  {
+    "page": "about",
+    "width": 390,
+    "image": "http://127.0.0.1:3018/lassets/about/hero-building.webp?v=5deb7ead95",
+    "size": [
+      1920,
+      1200
+    ],
+    "overflow": false,
+    "h1": 1,
+    "errors": []
+  },
+  {
+    "page": "news",
+    "width": 390,
+    "image": "http://127.0.0.1:3018/lassets/news/hero-car.webp?v=abab8ec090",
+    "size": [
+      1920,
+      900
+    ],
+    "overflow": false,
+    "h1": 1,
+    "errors": []
+  },
+  {
+    "page": "products",
+    "width": 390,
+    "image": "http://127.0.0.1:3018/lassets/products/hero-flow.webp?v=1d395d0764",
+    "size": [
+      1920,
+      760
+    ],
+    "overflow": false,
+    "h1": 1,
+    "errors": []
+  },
+  {
+    "page": "business",
+    "width": 390,
+    "image": "http://127.0.0.1:3018/lassets/business/hero-carwash.webp?v=6d9b929385",
+    "size": [
+      1920,
+      1080
+    ],
+    "overflow": false,
+    "h1": 1,
+    "errors": []
+  }
+]

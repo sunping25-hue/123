@@ -1,0 +1,229 @@
+{
+  "deploymentStatus": "not yet deployed",
+  "assetSource": {
+    "driveId": "1bJGOTXChcD6kvXbvP3eH1_qu4qft9p3C",
+    "localSource": "/workspace/123-favicon/shinox-v2-site/og-image.jpg",
+    "sha256": "96cce1e2686435ee12f9f56d800188233fbaaed0ad1d265e6a778e45fa94644b",
+    "width": 1200,
+    "height": 630
+  },
+  "scenarios": [
+    {
+      "lang": "zh",
+      "width": 1440,
+      "height": 1000,
+      "copyAndMatchingLanguageCTA": "PASS",
+      "actualAdImage": "PASS: owner JPEG HTTP200, decoded1200x630,byte-identical SHA",
+      "image": {
+        "url": "http://127.0.0.1:3062/lassets/campaign/9-in-1-new-product-launch.jpg",
+        "width": 1200,
+        "height": 630,
+        "objectFit": "contain",
+        "display": "block",
+        "rect": {
+          "x": 335,
+          "y": 168.875,
+          "width": 770,
+          "height": 404.25,
+          "top": 168.875,
+          "right": 1105,
+          "bottom": 573.125,
+          "left": 335
+        }
+      },
+      "nativeModalTabBothDirections": "PASS",
+      "escapeAndSessionSuppression": "PASS",
+      "closeButton": "PASS",
+      "laterButton": "PASS",
+      "backdropClick": "PASS",
+      "actualCTANavigation": "PASS",
+      "textOverflow": "NONE",
+      "screenshots": [
+        "zh-1440.webp",
+        "zh-1440-actions.webp"
+      ],
+      "pageErrors": []
+    },
+    {
+      "lang": "zh",
+      "width": 390,
+      "height": 844,
+      "copyAndMatchingLanguageCTA": "PASS",
+      "actualAdImage": "PASS: owner JPEG HTTP200, decoded1200x630,byte-identical SHA",
+      "image": {
+        "url": "http://127.0.0.1:3062/lassets/campaign/9-in-1-new-product-launch.jpg",
+        "width": 1200,
+        "height": 630,
+        "objectFit": "contain",
+        "display": "block",
+        "rect": {
+          "x": 36,
+          "y": 193.734375,
+          "width": 318,
+          "height": 166.9375,
+          "top": 193.734375,
+          "right": 354,
+          "bottom": 360.671875,
+          "left": 36
+        }
+      },
+      "nativeModalTabBothDirections": "PASS",
+      "escapeAndSessionSuppression": "PASS",
+      "closeButton": "PASS",
+      "laterButton": "PASS",
+      "backdropClick": "PASS",
+      "actualCTANavigation": "PASS",
+      "textOverflow": "NONE",
+      "screenshots": [
+        "zh-390.webp",
+        "zh-390-actions.webp"
+      ],
+      "pageErrors": []
+    },
+    {
+      "lang": "zh",
+      "width": 375,
+      "height": 667,
+      "copyAndMatchingLanguageCTA": "PASS",
+      "actualAdImage": "PASS: owner JPEG HTTP200, decoded1200x630,byte-identical SHA",
+      "image": {
+        "url": "http://127.0.0.1:3062/lassets/campaign/9-in-1-new-product-launch.jpg",
+        "width": 1200,
+        "height": 630,
+        "objectFit": "contain",
+        "display": "block",
+        "rect": {
+          "x": 36,
+          "y": 109.171875,
+          "width": 303,
+          "height": 159.0625,
+          "top": 109.171875,
+          "right": 339,
+          "bottom": 268.234375,
+          "left": 36
+        }
+      },
+      "nativeModalTabBothDirections": "PASS",
+      "escapeAndSessionSuppression": "PASS",
+      "closeButton": "PASS",
+      "laterButton": "PASS",
+      "backdropClick": "PASS",
+      "actualCTANavigation": "PASS",
+      "textOverflow": "NONE",
+      "screenshots": [
+        "zh-375.webp",
+        "zh-375-actions.webp"
+      ],
+      "pageErrors": []
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "height": 1000,
+      "copyAndMatchingLanguageCTA": "PASS",
+      "actualAdImage": "PASS: owner JPEG HTTP200, decoded1200x630,byte-identical SHA",
+      "image": {
+        "url": "http://127.0.0.1:3062/lassets/campaign/9-in-1-new-product-launch.jpg",
+        "width": 1200,
+        "height": 630,
+        "objectFit": "contain",
+        "display": "block",
+        "rect": {
+          "x": 335,
+          "y": 154.875,
+          "width": 770,
+          "height": 404.25,
+          "top": 154.875,
+          "right": 1105,
+          "bottom": 559.125,
+          "left": 335
+        }
+      },
+      "nativeModalTabBothDirections": "PASS",
+      "escapeAndSessionSuppression": "PASS",
+      "closeButton": "PASS",
+      "laterButton": "PASS",
+      "backdropClick": "PASS",
+      "actualCTANavigation": "PASS",
+      "textOverflow": "NONE",
+      "screenshots": [
+        "en-1440.webp",
+        "en-1440-actions.webp"
+      ],
+      "pageErrors": []
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "height": 844,
+      "copyAndMatchingLanguageCTA": "PASS",
+      "actualAdImage": "PASS: owner JPEG HTTP200, decoded1200x630,byte-identical SHA",
+      "image": {
+        "url": "http://127.0.0.1:3062/lassets/campaign/9-in-1-new-product-launch.jpg",
+        "width": 1200,
+        "height": 630,
+        "objectFit": "contain",
+        "display": "block",
+        "rect": {
+          "x": 36,
+          "y": 148.9375,
+          "width": 318,
+          "height": 166.9375,
+          "top": 148.9375,
+          "right": 354,
+          "bottom": 315.875,
+          "left": 36
+        }
+      },
+      "nativeModalTabBothDirections": "PASS",
+      "escapeAndSessionSuppression": "PASS",
+      "closeButton": "PASS",
+      "laterButton": "PASS",
+      "backdropClick": "PASS",
+      "actualCTANavigation": "PASS",
+      "textOverflow": "NONE",
+      "screenshots": [
+        "en-390.webp",
+        "en-390-actions.webp"
+      ],
+      "pageErrors": []
+    },
+    {
+      "lang": "en",
+      "width": 375,
+      "height": 667,
+      "copyAndMatchingLanguageCTA": "PASS",
+      "actualAdImage": "PASS: owner JPEG HTTP200, decoded1200x630,byte-identical SHA",
+      "image": {
+        "url": "http://127.0.0.1:3062/lassets/campaign/9-in-1-new-product-launch.jpg",
+        "width": 1200,
+        "height": 630,
+        "objectFit": "contain",
+        "display": "block",
+        "rect": {
+          "x": 36,
+          "y": 50.375,
+          "width": 303,
+          "height": 159.0625,
+          "top": 50.375,
+          "right": 339,
+          "bottom": 209.4375,
+          "left": 36
+        }
+      },
+      "nativeModalTabBothDirections": "PASS",
+      "escapeAndSessionSuppression": "PASS",
+      "closeButton": "PASS",
+      "laterButton": "PASS",
+      "backdropClick": "PASS",
+      "actualCTANavigation": "PASS",
+      "textOverflow": "NONE",
+      "screenshots": [
+        "en-375.webp",
+        "en-375-actions.webp"
+      ],
+      "pageErrors": []
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,19 @@
+{
+  "onlyRequestedHomepageSectionsChanged": true,
+  "formAndProtectedFileHashes": {
+    "about.html": "5e67c5403acf658e0757ed0d0eaee49cd2a2ddad092300cd0ba8ffab682e77dd",
+    "en/about.html": "839f7abdca64adeef24dd48365c0b9c6de126755bc99e6e2e5b54ed23e1b38a2",
+    "site.js": "34b993ff25d47918b300959d1948222814de3d6517012f76571da8cdb4d637b4",
+    "legal-config.json": "9a20b0bb6c5d80ba0d624eecbb649bf23f5ec6bc51f2465241eb790f22baa95c",
+    "api/status": "2d256794e2eb82970b9608bfb8aea4afc930a4defca6424a8372815afc52b520",
+    "calculator-gate.js": "9ae3a9b4489116b73cec28385a3c7c7ebab9032cee998ed7a090960a9d1dc0ec",
+    "business-process.js": "ffe1a6d57e986c9f4542fd507be0d0e6b331e130dce5b862d2d5e7ce062f4e33",
+    "home-about.css": "36b0cea50944983ea1aaf8da6b6c2410bbe2be07805151fa9a790196346dddf4",
+    "home-about.js": "da75034183d2e1316396e695d944a0e8945bae00a6f8bae674f94ed6d57dec65",
+    "media/shinox-hero.mp4": "12f67ec61ac0d928b0b3f1d717b2e073030432b246eca89adb9e42e295867e6d",
+    "media/shinox-poster.jpg": "9c829ede0be819ddf8063c7153947f69a83a337169358d2101235006ab083da1",
+    "media/LOGO-01.png": "cb72a722a360636d35dc138e662b5f5f93ea85bc6d03e6ab1e0daa9856733758",
+    "media/LOGO-02.png": "95db2f2caece1fbe27cac437b23aa62bbc38d5ac364d9059413d936e39221dcb",
+    "media/LOGO-03.png": "f8e54ac01de5e49e3796942316f077fedcabf7e127057aef62bd04a43da54458"
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "source": "Owner RAR uploads; no generated or stock substitutions",
+  "items": {
+    "b2": {
+      "source": "lassets/products/source/b2-owner-20261029.png",
+      "stem": "b2-wash-action",
+      "max": 1672,
+      "page": "products/wash-1.html",
+      "zh": "ShinoX B2 雙臂洗車機泡沫清洗展示",
+      "en": "ShinoX B2 dual-arm car wash machine washing a vehicle with foam",
+      "originalSize": [
+        1672,
+        941
+      ],
+      "full": {
+        "path": "lassets/products/b2-wash-action.webp",
+        "width": 1672,
+        "height": 941
+      },
+      "small": {
+        "path": "lassets/products/b2-wash-action-small.webp",
+        "width": 768,
+        "height": 432
+      },
+      "share": "lassets/products/b2-wash-action-share.webp",
+      "archive": {
+        "name": "霓虹藍光下的泡沫洗車艙.rar",
+        "sha256": "2ec7ac9e5d2d4981f4b40c4978c4101c754c573ad8a238b8abed74f812b4f73e"
+      }
+    },
+    "m9": {
+      "source": "lassets/products/source/m9-owner-20261029.png",
+      "stem": "m9-owner-showcase",
+      "max": 1280,
+      "page": "products/wash-2.html",
+      "zh": "ShinoX M9 自動洗車機水幕清洗展示",
+      "en": "ShinoX M9 automatic car wash machine with a water curtain",
+      "originalSize": [
+        1280,
+        800
+      ],
+      "full": {
+        "path": "lassets/products/m9-owner-showcase.webp",
+        "width": 1280,
+        "height": 800
+      },
+      "small": {
+        "path": "lassets/products/m9-owner-showcase-small.webp",
+        "width": 768,
+        "height": 480
+      },
+      "share": "lassets/products/m9-owner-showcase-share.webp",
+      "archive": {
+        "name": "ShinoX M9 自動水刀洗車機 CGI 形象圖.rar",
+        "sha256": "bbcdf3f34ecb184d8e2cdc47bfac25870cfd6889d90f39417dbdea67ada87bae"
+      }
+    },
+    "cloud": {
+      "source": "lassets/products/source/cloud-recharge-owner-20261029.png",
+      "stem": "cloud-recharge-owner",
+      "max": 1200,
+      "page": "products/self-5.html",
+      "zh": "雲端儲值機產品形象圖",
+      "en": "Cloud recharge terminal product visualization",
+      "originalSize": [
+        1333,
+        1180
+      ],
+      "full": {
+        "path": "lassets/products/cloud-recharge-owner.webp",
+        "width": 1200,
+        "height": 1062
+      },
+      "small": {
+        "path": "lassets/products/cloud-recharge-owner-small.webp",
+        "width": 768,
+        "height": 680
+      },
+      "share": "lassets/products/cloud-recharge-owner-share.webp",
+      "archive": {
+        "name": "未來感 Cloud Pay 行動錢包終端機.rar",
+        "sha256": "2b568545ed3ad574ec46dd28cc831b8cd67690a7883ea8b3a2f5d64cfd01a4be"
+      }
+    },
+    "tools": {
+      "source": "lassets/business/source/five-tools-owner-20261029.png",
+      "stem": "five-tools-owner",
+      "max": 2048,
+      "page": "business.html",
+      "zh": "五款自助洗車工具展示，高壓槍、泡沫槍與周邊配件",
+      "en": "Five self-service car wash tools, including pressure and foam guns and accessories",
+      "originalSize": [
+        2048,
+        768
+      ],
+      "full": {
+        "path": "lassets/business/five-tools-owner.webp",
+        "width": 2048,
+        "height": 768
+      },
+      "small": {
+        "path": "lassets/business/five-tools-owner-small.webp",
+        "width": 768,
+        "height": 288
+      },
+      "archive": {
+        "name": "五款高科技洗車工具展示站.rar",
+        "sha256": "7d57666b88196b5a7d4fd63e834540d192e0056eec441e8bcaba510e7e68176a"
+      }
+    }
+  },
+  "records": [
+    {
+      "source": "lassets/products/source/b2-owner-20261029.png",
+      "sourceSha256": "e7495f3c4f25c30e6104061fffd1df00e7e01f36e7da67c5fb9f5c91b07b1c17",
+      "originalSize": [
+        1672,
+        941
+      ],
+      "output": "lassets/products/b2-wash-action.webp",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "b5137c733aacfc797ee9452b74b392a634f9c195023a9f2d7890ed251e23f542",
+      "bytes": 294196,
+      "crop": false
+    },
+    {
+      "source": "lassets/products/source/b2-owner-20261029.png",
+      "sourceSha256": "e7495f3c4f25c30e6104061fffd1df00e7e01f36e7da67c5fb9f5c91b07b1c17",
+      "originalSize": [
+        1672,
+        941
+      ],
+      "output": "lassets/products/b2-wash-action-small.webp",
+      "size": [
+        768,
+        432
+      ],
+      "sha256": "fc74c9558f2b86937c8a66cb4b0158cfadb8091da5a474b80e6e0594ec1d2dfc",
+      "bytes": 85858,
+      "crop": false
+    },
+    {
+      "source": "lassets/products/source/b2-owner-20261029.png",
+      "sourceSha256": "e7495f3c4f25c30e6104061fffd1df00e7e01f36e7da67c5fb9f5c91b07b1c17",
+      "output": "lassets/products/b2-wash-action-share.webp",
+      "size": [
+        1200,
+        630
+      ],
+      "sha256": "c08526ed59438a25c1396315df7afff9d9d8bc930407d609c0ccfc205b1754cc",
+      "bytes": 161800,
+      "crop": false
+    },
+    {
+      "source": "lassets/products/source/m9-owner-20261029.png",
+      "sourceSha256": "d668616d8d7e5f5357b433d898a89fffcbf4041a41dddd0373997d929d863cb9",
+      "originalSize": [
+        1280,
+        800
+      ],
+      "output": "lassets/products/m9-owner-showcase.webp",
+      "size": [
+        1280,
+        800
+      ],
+      "sha256": "95c60be633e5e469173c15d6ba5ee53255c718d489c7bf68dc8fed44bef24693",
+      "bytes": 208774,
+      "crop": false
+    },
+    {
+      "source": "lassets/products/source/m9-owner-20261029.png",
+      "sourceSha256": "d668616d8d7e5f5357b433d898a89fffcbf4041a41dddd0373997d929d863cb9",
+      "originalSize": [
+        1280,
+        800
+      ],
+      "output": "lassets/products/m9-owner-showcase-small.webp",
+      "size": [
+        768,
+        480
+      ],
+      "sha256": "eab42a287112cfd101834abbaf2891669806bab058ac36bff5137d0448689895",
+      "bytes": 91136,
+      "crop": false
+    },
+    {
+      "source": "lassets/products/source/m9-owner-20261029.png",
+      "sourceSha256": "d668616d8d7e5f5357b433d898a89fffcbf4041a41dddd0373997d929d863cb9",
+      "output": "lassets/products/m9-owner-showcase-share.webp",
+      "size": [
+        1200,
+        630
+      ],
+      "sha256": "c6181237a01c5748828b16599452c3e3be206b27481487b9c04864f1b0ce7ec1",
+      "bytes": 140710,
+      "crop": false
+    },
+    {
+      "source": "lassets/products/source/cloud-recharge-owner-20261029.png",
+      "sourceSha256": "b57f2acc1c78feb2f647dfcae4e329a015a992ba2ef55d8a26d36efb751e7b94",
+      "originalSize": [
+        1333,
+        1180
+      ],
+      "output": "lassets/products/cloud-recharge-owner.webp",
+      "size": [
+        1200,
+        1062
+      ],
+      "sha256": "e29605a6527c55593cccbb0fca6844d1e31dcf8e308f346af68da97ec466dbf5",
+      "bytes": 109106,
+      "crop": false
+    },
+    {
+      "source": "lassets/products/source/cloud-recharge-owner-20261029.png",
+      "sourceSha256": "b57f2acc1c78feb2f647dfcae4e329a015a992ba2ef55d8a26d36efb751e7b94",
+      "originalSize": [
+        1333,
+        1180
+      ],
+      "output": "lassets/products/cloud-recharge-owner-small.webp",
+      "size": [
+        768,
+        680
+      ],
+      "sha256": "1b75b8fd48ef6ec86b3e83983a693d9c352192a0edccb88883368e4198bed4a0",
+      "bytes": 56952,
+      "crop": false
+    },
+    {
+      "source": "lassets/products/source/cloud-recharge-owner-20261029.png",
+      "sourceSha256": "b57f2acc1c78feb2f647dfcae4e329a015a992ba2ef55d8a26d36efb751e7b94",
+      "output": "lassets/products/cloud-recharge-owner-share.webp",
+      "size": [
+        1200,
+        630
+      ],
+      "sha256": "edfef4ddeb06139441bc929d5363ed91ad62823d7a84b44e8c51ca75bf34f9e5",
+      "bytes": 51134,
+      "crop": false
+    },
+    {
+      "source": "lassets/business/source/five-tools-owner-20261029.png",
+      "sourceSha256": "3d738fe3c64e25aeaeb563b2a26b7ce8d0f844ea75ee23502c02a142c7317ffe",
+      "originalSize": [
+        2048,
+        768
+      ],
+      "output": "lassets/business/five-tools-owner.webp",
+      "size": [
+        2048,
+        768
+      ],
+      "sha256": "9a0c76a775904dbd5d9b385274630bcb44dba5efb5f14edbfe80b7f70fa23066",
+      "bytes": 181824,
+      "crop": false
+    },
+    {
+      "source": "lassets/business/source/five-tools-owner-20261029.png",
+      "sourceSha256": "3d738fe3c64e25aeaeb563b2a26b7ce8d0f844ea75ee23502c02a142c7317ffe",
+      "originalSize": [
+        2048,
+        768
+      ],
+      "output": "lassets/business/five-tools-owner-small.webp",
+      "size": [
+        768,
+        288
+      ],
+      "sha256": "5f8f4b9fca49e739d8db28cc4bdcf4e1cb1d496b2ab9e184efd9dba119361653",
+      "bytes": 47530,
+      "crop": false
+    }
+  ]
+}

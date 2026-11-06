@@ -1,0 +1,378 @@
+{
+  "version": "1.0",
+  "reference": "Two owner-approved ShinoX seven-page design boards uploaded in chat",
+  "rule": "Generate and approve each image separately; never use entire website collage as an asset.",
+  "assets": [
+    {
+      "id": "ELEM-01",
+      "page": "首頁",
+      "section": "五元素／金屬",
+      "filename": "lassets/elements/metal-sphere.webp",
+      "size": "1024x1024",
+      "status": "first concept created in conversation; binary NOT yet uploaded to GitHub",
+      "alt": "鈦銀機械結構與藍色能量核心構成的金屬元素球",
+      "source": "SHINOX_ELEM_01_METAL_CONCEPT.webp",
+      "notes": "User must approve before production use; candidate still has extra external light effects"
+    },
+    {
+      "id": "ELEM-02",
+      "page": "首頁",
+      "section": "五元素／電力",
+      "filename": "lassets/elements/energy-sphere.webp",
+      "size": "1024x1024",
+      "status": "queued"
+    },
+    {
+      "id": "ELEM-03",
+      "page": "首頁",
+      "section": "五元素／氣流",
+      "filename": "lassets/elements/air-sphere.webp",
+      "size": "1024x1024",
+      "status": "queued"
+    },
+    {
+      "id": "ELEM-04",
+      "page": "首頁",
+      "section": "五元素／水刀",
+      "filename": "lassets/elements/water-sphere.webp",
+      "size": "1024x1024",
+      "status": "queued"
+    },
+    {
+      "id": "ELEM-05",
+      "page": "首頁",
+      "section": "五元素／化學流體",
+      "filename": "lassets/elements/fluid-sphere.webp",
+      "size": "1024x1024",
+      "status": "queued"
+    },
+    {
+      "id": "HOME-01",
+      "page": "首頁",
+      "section": "自助洗車設備分類",
+      "filename": "lassets/home/self-service-card.webp",
+      "size": "1280x800",
+      "status": "queued"
+    },
+    {
+      "id": "HOME-02",
+      "page": "首頁",
+      "section": "自動洗車設備分類",
+      "filename": "lassets/home/automatic-card.webp",
+      "size": "1280x800",
+      "status": "queued"
+    },
+    {
+      "id": "HOME-03",
+      "page": "首頁",
+      "section": "周邊設備分類",
+      "filename": "lassets/home/accessories-card.webp",
+      "size": "1280x800",
+      "status": "queued"
+    },
+    {
+      "id": "PROD-01",
+      "page": "產品方案",
+      "section": "九合一控制箱",
+      "filename": "lassets/products/nine-in-one.webp",
+      "size": "1200x1200",
+      "status": "waiting for verified product reference"
+    },
+    {
+      "id": "PROD-02",
+      "page": "產品方案",
+      "section": "雲端儲值機",
+      "filename": "lassets/products/cloud-recharge.webp",
+      "size": "1200x1200",
+      "status": "waiting for verified product reference"
+    },
+    {
+      "id": "PROD-03",
+      "page": "產品方案",
+      "section": "B2 洗車機",
+      "filename": "lassets/products/b2.webp",
+      "size": "1400x1000",
+      "status": "waiting for verified product reference"
+    },
+    {
+      "id": "PROD-04",
+      "page": "產品方案",
+      "section": "products.html#product-m9",
+      "filename": "lassets/products/m9.webp",
+      "size": "1672x941",
+      "status": "user-supplied exact original approved and integrated; no generation",
+      "source": "未來感純水洗車隧道.png",
+      "sourceSha256": "94f74f79c2480a54fee583e89b689ea6dd690412a9df572c9da75db8407a37e9",
+      "sha256": "60fc861a876d3d3006d95cfa32dc19cd53a78e11aa6926d0b9d85db68822e572",
+      "bytes": 311368
+    },
+    {
+      "id": "C01",
+      "page": "專案案例",
+      "section": "頁首Banner",
+      "filename": "lassets/projects/hero-project.webp",
+      "size": "1920x900",
+      "status": "user supplied and explicitly approved for Projects banner",
+      "source": "國際網絡 Banner 無文字版.png",
+      "sourceSize": "1920x912",
+      "sourceSha256": "57a0019e963d2d7a011b042c8d1b4edb61f3e2d3f850169b320b0b686301ab1f",
+      "sha256": "7198460dbc20517c2f59eef0ba2711c030e6762e926a2ec0d4d53597f1bbb75e",
+      "bytes": 381048,
+      "notes": "International network illustration; does not establish actual offices or customer sites."
+    },
+    {
+      "id": "K01",
+      "page": "聯絡我們",
+      "filename": "lassets/contact/global-services.webp",
+      "size": "1600x900",
+      "source": "頂級國際科技品牌官網背景 (1).png",
+      "status": "user provided and approved for contact page",
+      "sourceSha256": "8ab3e3d8095617b283185d50b86ec5cd161bd8f96abec69538ce12c175740476",
+      "sha256": "efe4d5ddd81baf872481106d1663f1321db3446a4e16336908f6cbbf46a6ab44",
+      "bytes": 235498
+    },
+    {
+      "id": "K02",
+      "page": "聯絡我們",
+      "filename": "lassets/contact/showroom-concept.webp",
+      "size": "1920x650",
+      "source": "設備展示中心橫幅含發光 ShinoX Logo.png",
+      "status": "user provided and approved for contact page",
+      "sourceSha256": "65c0224b67ac77ace46e9d0e4359bcff5f7adb683fabb357baebe4d48dce6ae2",
+      "sha256": "262e9677a363422a8e76c4453f1e34f615ce6c67da7b229fbcfc557a7cb85993",
+      "bytes": 212164
+    },
+    {
+      "id": "A01",
+      "production_map_id": "A01",
+      "filename": "lassets/about/hero-building.webp",
+      "size": "1920x1200",
+      "status": "user uploaded and explicitly requested as page banner",
+      "source": "國際頂級洗車科技品牌形象官網背景.png",
+      "sourceSize": [
+        1920,
+        1200
+      ],
+      "sourceSha256": "59ba3ea029a7f4cbef2c420516b6ba9686d9014c4748e58ad73c9aa8a043b3c3",
+      "sha256": "5deb7ead9588e36f684eaa18f097a91316701ef66a28227b579f1cc99e2833b1",
+      "bytes": 341200
+    },
+    {
+      "id": "N01",
+      "production_map_id": "N01",
+      "filename": "lassets/news/hero-car.webp",
+      "size": "1920x900",
+      "status": "user uploaded and explicitly requested as page banner",
+      "source": "頂級汽車科技品牌新聞主視覺.png",
+      "sourceSize": [
+        1920,
+        912
+      ],
+      "sourceSha256": "f1885102f2fe433248709ee5dce3c092f833a082c5a35ecf388440c25405901d",
+      "sha256": "abab8ec090f37beb95c786b53b1ad36d9cc5e0bb2dcaa09735362745c6170a09",
+      "bytes": 377050
+    },
+    {
+      "id": "P01",
+      "production_map_id": "P01",
+      "filename": "lassets/products/hero-flow.webp",
+      "size": "1920x760",
+      "status": "user uploaded and explicitly requested as page banner",
+      "source": "工業科技品牌產品展示主視覺.png",
+      "sourceSize": [
+        1920,
+        768
+      ],
+      "sourceSha256": "ce861fa29ec7ce4a8f5168045188bc909cbaf2a25af4aaed851aa065429eb8e3",
+      "sha256": "1d395d0764ae666f0b922c8873e0d50f2133e3ececafb9f970aa753c31b68b92",
+      "bytes": 162570
+    },
+    {
+      "id": "B01",
+      "production_map_id": "B01",
+      "filename": "lassets/business/hero-carwash.webp",
+      "size": "1920x1080",
+      "status": "user uploaded and explicitly requested as page banner",
+      "source": "未來式自助洗車場建築概念.png",
+      "sourceSize": [
+        1920,
+        1088
+      ],
+      "sourceSha256": "f0f7d28d5afbb39c6778c5d11ba529704209cb27433caaf375115b827b982b18",
+      "sha256": "6d9b92938544f607d1f7c8e20ffb63eda6828a8eb9b0c96fd860cd948f739b1a",
+      "bytes": 359364
+    },
+    {
+      "id": "HOME-CONTACT-1029",
+      "page": "首頁",
+      "section": "一起打造／下一座洗車場",
+      "filename": "lassets/home/contact-background-1029.webp",
+      "size": "1920x1750",
+      "source": "1029.zip / 1029.png",
+      "sourceSize": [
+        2695,
+        2457
+      ],
+      "sourceSha256": "efe85814cb2b639f3fbd61c2dd7ae45b7308273e61953dc18a44e8b3b013dfdd",
+      "sha256": "ea78b5a17c0164fe7dbfd4f70595f39a1b79053a36653cad49b6977646b27be4",
+      "bytes": 379238,
+      "status": "User supplied and requested as homepage contact background; preserve combined globe/showroom composition; responsive CSS crop. Concept artwork, not an authenticated showroom photo."
+    },
+    {
+      "id": "HOME-BUSINESS-PLAN",
+      "page": "首頁",
+      "section": "下一座洗車場，從一張配置圖開始",
+      "filename": "lassets/home/business-site-plan.webp",
+      "size": "1920x1088",
+      "source": "自助洗車場整體規劃概念圖.zip / 自助洗車場整體規劃概念圖.png",
+      "sourceSha256": "9ee01c1f5057df30448128cb689108d86432587d6daf0c975346c42627664209",
+      "sha256": "7377f8b9ed7c2599f528d8e32285f1b8449c51f8f151c58d6065e797f72225e3",
+      "bytes": 280090,
+      "status": "Owner supplied and requested for homepage business section; planning concept, not a completed customer project."
+    },
+    {
+      "id": "H06",
+      "production_map_id": "H06",
+      "page": "首頁",
+      "section": "三大產品分類卡片",
+      "filename": "lassets/home/category-self-service.webp",
+      "size": "1280x800",
+      "source": "export (1).zip / ShinoX 九合一控制箱 CGI 形象圖 修正版.jpg",
+      "sourceSize": [
+        1585,
+        992
+      ],
+      "sourceSha256": "3b9ea1949b909edbe1e0c243f4317c8036e7b5cab7d71d8e8aad06d11932aaf3",
+      "sha256": "fa016b451cba610b4ca9e1c7bd184b048a27338a4efdaf35a7b78e6076fb3269",
+      "bytes": 172698,
+      "status": "Owner supplied CGI and explicitly requested for homepage category cards; do not describe as actual equipment photographs or verified specifications."
+    },
+    {
+      "id": "H07",
+      "production_map_id": "H07",
+      "page": "首頁",
+      "section": "三大產品分類卡片",
+      "filename": "lassets/home/category-automatic.webp",
+      "size": "1280x800",
+      "source": "export (1).zip / ShinoX M9 自動水刀洗車機 CGI 形象圖.jpg",
+      "sourceSize": [
+        1280,
+        800
+      ],
+      "sourceSha256": "b434c5c73ff8469e13e2fa954c8e0c799370d437b91fe1e91e0dcf10ff9fe6a5",
+      "sha256": "452363db7fa2526675318831bd67b2e0d407646607d2ba864726c76d5578f874",
+      "bytes": 310092,
+      "status": "Owner supplied CGI and explicitly requested for homepage category cards; do not describe as actual equipment photographs or verified specifications."
+    },
+    {
+      "id": "H08",
+      "production_map_id": "H08",
+      "page": "首頁",
+      "section": "三大產品分類卡片",
+      "filename": "lassets/home/category-accessories.webp",
+      "size": "1280x800",
+      "source": "export (1).zip / category-accessories 英文字版.jpg",
+      "sourceSize": [
+        1586,
+        992
+      ],
+      "sourceSha256": "8f4fb5652509ca469d8f57e6659603e4620fa24f3fef738d6c39e03a07e579a8",
+      "sha256": "1182aff34c60df928b66d3e9fed6ffe7a2b63f3ea63c5982f0f3b6fba3656b6a",
+      "bytes": 157990,
+      "status": "Owner supplied CGI and explicitly requested for homepage category cards; do not describe as actual equipment photographs or verified specifications."
+    },
+    {
+      "id": "INVESTMENT-BG-DESKTOP",
+      "page": "首頁／事業方案",
+      "filename": "lassets/investment/investment-bg-desktop.webp",
+      "size": "1920x400",
+      "source": "Independently generated with imagegen using owner-provided 59769d3f-701a-4022-8c74-d2a0ccf20215.png as material reference; original output exec-8bba84b1-9cd1-4366-aee1-16a3368b0fb9.png",
+      "sourceSize": [
+        2172,
+        724
+      ],
+      "sha256": "e31238a19579862d1e03402b21f643edad19c5b877f8ca41c8a1b4bbd145ca41",
+      "bytes": 125058,
+      "status": "Created per explicit owner implementation brief; background only, no embedded text, UI or buttons. Desktop and mobile are independent generations."
+    },
+    {
+      "id": "INVESTMENT-BG-MOBILE",
+      "page": "首頁／事業方案",
+      "filename": "lassets/investment/investment-bg-mobile.webp",
+      "size": "1080x800",
+      "source": "Independently generated with imagegen using owner-provided 59769d3f-701a-4022-8c74-d2a0ccf20215.png as material reference; original output exec-ee4c6b9e-2515-43df-92eb-d3684c151837.png",
+      "sourceSize": [
+        1457,
+        1080
+      ],
+      "sha256": "35a47ca2a5e63dcd8e495d2d92a7316de0250038f0d0a239592203284d0d6ac8",
+      "bytes": 152690,
+      "status": "Created per explicit owner implementation brief; background only, no embedded text, UI or buttons. Desktop and mobile are independent generations."
+    },
+    {
+      "id": "HOME-CONTACT-VIDEO",
+      "source": "grok-video-b713a4ac-edbf-404f-b5f3-3c2e2cf22d76.mp4",
+      "sourceSha256": "01f69a4816a0e2f626e0809c706f78925c3c862111b1b6f0e4cade42ed1b3851",
+      "sourceBytes": 9834510,
+      "filename": "lassets/home/contact-animation.mp4",
+      "size": "992x912",
+      "duration": 10.041667,
+      "sha256": "1e9c9c1231c25694f81aa81a9cd7aba0636b804bddba3aeea4af9eb4b3594df6",
+      "bytes": 4330675,
+      "poster": "lassets/home/contact-animation-poster.webp",
+      "posterSha256": "f4d841919859539c9e88516e3f2b6536f61cdf67e919bbb57181dc5c17ee4398",
+      "processing": "User-provided video, H.264 CRF22 web rendition, original dimensions and frames, audio removed, MP4 faststart; poster is its first frame.",
+      "status": "Owner explicitly requested to replace homepage contact still artwork; existing original homepage Hero remains unchanged."
+    },
+    {
+      "id": "HOME-NEWSROOM",
+      "page": "首頁",
+      "section": "首頁 05 / NEWSROOM",
+      "filename": "lassets/home/newsroom-visual.webp",
+      "size": "1600x754",
+      "status": "user supplied and explicitly approved for homepage; integrated with real HTML text and CTA",
+      "source": "202610299.zip / 202610299.png",
+      "sourceSha256": "5507438348680c5827e329f34663883a7061ac57c2cdd2165e85d6b69f11a2da",
+      "sha256": "d9f4711b5c62fb34d0cbf9893789727864d2738d70f13787c9ccae7466cc328c",
+      "bytes": 186432,
+      "notes": "Proportional crop of image A; image B used only as layout reference. No generated image, equipment substitution or invented project claim."
+    },
+    {
+      "id": "HOME-PROJECTS",
+      "page": "首頁",
+      "section": "首頁 06 / SELECTED PROJECTS",
+      "filename": "lassets/home/projects-visual.webp",
+      "size": "1600x889",
+      "status": "user supplied and explicitly approved for homepage; integrated with real HTML text and CTA",
+      "source": "202610299.zip / 202610299.png",
+      "sourceSha256": "5507438348680c5827e329f34663883a7061ac57c2cdd2165e85d6b69f11a2da",
+      "sha256": "d50a2eb37750d342d20051d2ebb85e0891fbe1d9110a0f980d52edea2a210f99",
+      "bytes": 149782,
+      "notes": "Proportional crop of image A; image B used only as layout reference. No generated image, equipment substitution or invented project claim."
+    },
+    {
+      "id": "BRAND-MISSION",
+      "page": "品牌介紹",
+      "section": "about.html#brand-mission-title",
+      "filename": "lassets/about/equipment-integration-brands.webp",
+      "size": "1774x887",
+      "status": "user-supplied exact original approved and integrated; no generation",
+      "source": "設備整合品牌展示 英文版.png",
+      "sourceSha256": "be97d254e7ca178ae6f284787a1da4c4a79f794647b08b78b581558257eff9e7",
+      "sha256": "0ecb696fd3f44bd18dd44fe7e79815665a67818765358c9a3a9f2d5d47855ba2",
+      "bytes": 296724
+    },
+    {
+      "id": "PRODUCT-CHEMICALS-20L",
+      "page": "產品方案",
+      "section": "products.html#chemical-series",
+      "filename": "lassets/products/chemicals-20l.webp",
+      "size": "1672x941",
+      "status": "user-supplied exact original approved and integrated; no generation",
+      "source": "ShinoX未來感汽車美容化學品展示.png",
+      "sourceSha256": "d9093426d80a4a75347867e2c78308e02c770307361164c098e1ce49cbf0227a",
+      "sha256": "2e6fc0f9dcaa1c710a4a43292d5c92d8bd5e56c3a0f9cc5508930029c43e931e",
+      "bytes": 390374
+    }
+  ]
+}

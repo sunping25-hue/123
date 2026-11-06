@@ -1,0 +1,39 @@
+{
+  "baseCommit": "a69b05f1b52c4f9109c4cd6f9d00e97f49ec71df",
+  "upload": "新建壓縮包_3.zip",
+  "uploadSha256": "5dc7f09b28b2f904811c3e985a9682a0db9b2ff65e14a29d0f457d96b28e0f3f",
+  "files": [
+    {
+      "original": "ShinoX智慧洗車入口與車牌辨識 車尾版.png",
+      "sourceSha256": "fcc1f20ac12759b930ea3fbb113615e996a522c1077c2964c5bb230d9d8aa674",
+      "output": "shinox-v2-site/lassets/news/shinox-anpr-entrance.webp",
+      "width": 1376,
+      "height": 768,
+      "bytes": 223186,
+      "sha256": "efd3a31141ba34fef9e3ce02b81b772665407c7170847e1ba2e9332f2553ec79",
+      "conversion": {
+        "format": "WebP",
+        "quality": 88,
+        "method": 6,
+        "resized": false,
+        "cropped": false
+      }
+    },
+    {
+      "original": "智慧洗車支付亭 去除設備版.png",
+      "sourceSha256": "dae3023502adf7ca968156a8ab219b9dd4f77d1f1509c091973f3c047ce2f471",
+      "output": "shinox-v2-site/lassets/news/shinox-cloud-payment-kiosk.webp",
+      "width": 1264,
+      "height": 848,
+      "bytes": 201946,
+      "sha256": "9e8e5c26f06e6abd5b3630e22bb4a2c8e4e1c9e3565749396676a1bd63b09c67",
+      "conversion": {
+        "format": "WebP",
+        "quality": 88,
+        "method": 6,
+        "resized": false,
+        "cropped": false
+      }
+    }
+  ]
+}

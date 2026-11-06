@@ -1,0 +1,128 @@
+[
+  {
+    "language": "zh",
+    "width": 1440,
+    "state": {
+      "controls": false,
+      "muted": true,
+      "loop": true,
+      "playsInline": true,
+      "border": "0px",
+      "shadow": "none",
+      "radius": "0px",
+      "pointerEvents": "none",
+      "blend": "lighten",
+      "tabIndex": -1,
+      "width": 428.65625,
+      "height": 181.703125
+    },
+    "clickDoesNotPause": "PASS",
+    "actualLoopRestart": "PASS",
+    "reducedMotionPoster": "PASS"
+  },
+  {
+    "language": "zh",
+    "width": 768,
+    "state": {
+      "controls": false,
+      "muted": true,
+      "loop": true,
+      "playsInline": true,
+      "border": "0px",
+      "shadow": "none",
+      "radius": "0px",
+      "pointerEvents": "none",
+      "blend": "lighten",
+      "tabIndex": -1,
+      "width": 440,
+      "height": 186.515625
+    },
+    "clickDoesNotPause": "PASS",
+    "actualLoopRestart": "PASS",
+    "reducedMotionPoster": "PASS"
+  },
+  {
+    "language": "zh",
+    "width": 390,
+    "state": {
+      "controls": false,
+      "muted": true,
+      "loop": true,
+      "playsInline": true,
+      "border": "0px",
+      "shadow": "none",
+      "radius": "0px",
+      "pointerEvents": "none",
+      "blend": "lighten",
+      "tabIndex": -1,
+      "width": 343.21875,
+      "height": 145.484375
+    },
+    "clickDoesNotPause": "PASS",
+    "actualLoopRestart": "PASS",
+    "reducedMotionPoster": "PASS"
+  },
+  {
+    "language": "en",
+    "width": 1440,
+    "state": {
+      "controls": false,
+      "muted": true,
+      "loop": true,
+      "playsInline": true,
+      "border": "0px",
+      "shadow": "none",
+      "radius": "0px",
+      "pointerEvents": "none",
+      "blend": "lighten",
+      "tabIndex": -1,
+      "width": 428.65625,
+      "height": 181.703125
+    },
+    "clickDoesNotPause": "PASS",
+    "actualLoopRestart": "PASS",
+    "reducedMotionPoster": "PASS"
+  },
+  {
+    "language": "en",
+    "width": 768,
+    "state": {
+      "controls": false,
+      "muted": true,
+      "loop": true,
+      "playsInline": true,
+      "border": "0px",
+      "shadow": "none",
+      "radius": "0px",
+      "pointerEvents": "none",
+      "blend": "lighten",
+      "tabIndex": -1,
+      "width": 440,
+      "height": 186.515625
+    },
+    "clickDoesNotPause": "PASS",
+    "actualLoopRestart": "PASS",
+    "reducedMotionPoster": "PASS"
+  },
+  {
+    "language": "en",
+    "width": 390,
+    "state": {
+      "controls": false,
+      "muted": true,
+      "loop": true,
+      "playsInline": true,
+      "border": "0px",
+      "shadow": "none",
+      "radius": "0px",
+      "pointerEvents": "none",
+      "blend": "lighten",
+      "tabIndex": -1,
+      "width": 343.21875,
+      "height": 145.484375
+    },
+    "clickDoesNotPause": "PASS",
+    "actualLoopRestart": "PASS",
+    "reducedMotionPoster": "PASS"
+  }
+]

@@ -1,0 +1,449 @@
+{
+  "base": "http://127.0.0.1:3057",
+  "checks": [
+    {
+      "lang": "zh",
+      "width": 1440,
+      "newsStatus": 200,
+      "cards": [
+        {
+          "category": "brand",
+          "height": 433.25,
+          "width": 399.46875,
+          "imageWidth": 397.46875,
+          "imageHeight": 223.5625,
+          "imageRatio": 1.7778864970645794,
+          "imageSrc": null,
+          "imageLoaded": true,
+          "imageVisible": true,
+          "naturalWidth": null,
+          "naturalHeight": null,
+          "padding": [
+            "22px",
+            "22px",
+            "22px",
+            "22px"
+          ]
+        },
+        {
+          "category": "equipment",
+          "height": 433.25,
+          "width": 399.46875,
+          "imageWidth": 397.46875,
+          "imageHeight": 223.5625,
+          "imageRatio": 1.7778864970645794,
+          "imageSrc": "http://127.0.0.1:3057/lassets/news/shinox-vehicle-length-detection.webp",
+          "imageLoaded": true,
+          "imageVisible": true,
+          "naturalWidth": 2048,
+          "naturalHeight": 868,
+          "padding": [
+            "22px",
+            "22px",
+            "22px",
+            "22px"
+          ]
+        },
+        {
+          "category": "tech",
+          "height": 433.25,
+          "width": 399.46875,
+          "imageWidth": 397.46875,
+          "imageHeight": 223.5625,
+          "imageRatio": 1.7778864970645794,
+          "imageSrc": "http://127.0.0.1:3057/lassets/news/shinox-anpr-entrance.webp",
+          "imageLoaded": true,
+          "imageVisible": true,
+          "naturalWidth": 1376,
+          "naturalHeight": 768,
+          "padding": [
+            "22px",
+            "22px",
+            "22px",
+            "22px"
+          ]
+        }
+      ],
+      "newsOverflow": false,
+      "desktopCardsEqualHeight": true,
+      "desktopImageRatiosEqual": true,
+      "desktopEquipmentTechPaddingEqual": true,
+      "equipmentFilter": [
+        "equipment"
+      ],
+      "filterPressed": "true",
+      "keyboardArticleNavigation": true,
+      "articleImage": {
+        "src": "http://127.0.0.1:3057/lassets/news/shinox-vehicle-length-detection.webp",
+        "naturalWidth": 2048,
+        "naturalHeight": 868,
+        "width": 1016,
+        "height": 431.75,
+        "display": "block",
+        "objectFit": "contain",
+        "contentWidth": 1014,
+        "contentHeight": 429.75,
+        "ratio": 2.3595113438045376
+      },
+      "articleBannerNaturalAspect": true,
+      "articleOverflow": false,
+      "textOverflow": [],
+      "approvedCopyMissing": [],
+      "articleLanguageLinks": [
+        {
+          "lang": "en",
+          "url": "http://127.0.0.1:3057/en/news-vehicle-length.html"
+        },
+        {
+          "lang": "en",
+          "url": "http://127.0.0.1:3057/en/news-vehicle-length.html"
+        },
+        {
+          "lang": "en",
+          "url": "http://127.0.0.1:3057/en/news-vehicle-length.html"
+        }
+      ],
+      "languageLinksPreserveArticle": true,
+      "languageNavigationDestination": "http://127.0.0.1:3057/en/news-vehicle-length.html",
+      "languageNavigationCorrect": true,
+      "jsErrors": []
+    },
+    {
+      "lang": "zh",
+      "width": 390,
+      "newsStatus": 200,
+      "cards": [
+        {
+          "category": "brand",
+          "height": 349.96875,
+          "width": 343.21875,
+          "imageWidth": 341.21875,
+          "imageHeight": 191.921875,
+          "imageRatio": 1.777904420744118,
+          "imageSrc": null,
+          "imageLoaded": true,
+          "imageVisible": true,
+          "naturalWidth": null,
+          "naturalHeight": null,
+          "padding": [
+            "22px",
+            "22px",
+            "22px",
+            "22px"
+          ]
+        },
+        {
+          "category": "equipment",
+          "height": 393.609375,
+          "width": 343.21875,
+          "imageWidth": 341.21875,
+          "imageHeight": 191.921875,
+          "imageRatio": 1.777904420744118,
+          "imageSrc": "http://127.0.0.1:3057/lassets/news/shinox-vehicle-length-detection.webp",
+          "imageLoaded": true,
+          "imageVisible": true,
+          "naturalWidth": 2048,
+          "naturalHeight": 868,
+          "padding": [
+            "20px",
+            "20px",
+            "20px",
+            "20px"
+          ]
+        },
+        {
+          "category": "tech",
+          "height": 397.609375,
+          "width": 343.21875,
+          "imageWidth": 341.21875,
+          "imageHeight": 191.921875,
+          "imageRatio": 1.777904420744118,
+          "imageSrc": "http://127.0.0.1:3057/lassets/news/shinox-anpr-entrance.webp",
+          "imageLoaded": true,
+          "imageVisible": true,
+          "naturalWidth": 1376,
+          "naturalHeight": 768,
+          "padding": [
+            "20px",
+            "20px",
+            "20px",
+            "20px"
+          ]
+        }
+      ],
+      "newsOverflow": false,
+      "equipmentFilter": [
+        "equipment"
+      ],
+      "filterPressed": "true",
+      "keyboardArticleNavigation": true,
+      "articleImage": {
+        "src": "http://127.0.0.1:3057/lassets/news/shinox-vehicle-length-detection.webp",
+        "naturalWidth": 2048,
+        "naturalHeight": 868,
+        "width": 351,
+        "height": 149.90625,
+        "display": "block",
+        "objectFit": "contain",
+        "contentWidth": 349,
+        "contentHeight": 147.90625,
+        "ratio": 2.3596027889287976
+      },
+      "articleBannerNaturalAspect": true,
+      "articleOverflow": false,
+      "textOverflow": [],
+      "approvedCopyMissing": [],
+      "articleLanguageLinks": [
+        {
+          "lang": "en",
+          "url": "http://127.0.0.1:3057/en/news-vehicle-length.html"
+        },
+        {
+          "lang": "en",
+          "url": "http://127.0.0.1:3057/en/news-vehicle-length.html"
+        },
+        {
+          "lang": "en",
+          "url": "http://127.0.0.1:3057/en/news-vehicle-length.html"
+        }
+      ],
+      "languageLinksPreserveArticle": true,
+      "languageNavigationDestination": "http://127.0.0.1:3057/en/news-vehicle-length.html",
+      "languageNavigationCorrect": true,
+      "jsErrors": []
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "newsStatus": 200,
+      "cards": [
+        {
+          "category": "brand",
+          "height": 453.296875,
+          "width": 399.46875,
+          "imageWidth": 397.46875,
+          "imageHeight": 223.5625,
+          "imageRatio": 1.7778864970645794,
+          "imageSrc": null,
+          "imageLoaded": true,
+          "imageVisible": true,
+          "naturalWidth": null,
+          "naturalHeight": null,
+          "padding": [
+            "22px",
+            "22px",
+            "22px",
+            "22px"
+          ]
+        },
+        {
+          "category": "equipment",
+          "height": 453.296875,
+          "width": 399.46875,
+          "imageWidth": 397.46875,
+          "imageHeight": 223.5625,
+          "imageRatio": 1.7778864970645794,
+          "imageSrc": "http://127.0.0.1:3057/lassets/news/shinox-vehicle-length-detection.webp",
+          "imageLoaded": true,
+          "imageVisible": true,
+          "naturalWidth": 2048,
+          "naturalHeight": 868,
+          "padding": [
+            "22px",
+            "22px",
+            "22px",
+            "22px"
+          ]
+        },
+        {
+          "category": "tech",
+          "height": 453.296875,
+          "width": 399.46875,
+          "imageWidth": 397.46875,
+          "imageHeight": 223.5625,
+          "imageRatio": 1.7778864970645794,
+          "imageSrc": "http://127.0.0.1:3057/lassets/news/shinox-anpr-entrance.webp",
+          "imageLoaded": true,
+          "imageVisible": true,
+          "naturalWidth": 1376,
+          "naturalHeight": 768,
+          "padding": [
+            "22px",
+            "22px",
+            "22px",
+            "22px"
+          ]
+        }
+      ],
+      "newsOverflow": false,
+      "desktopCardsEqualHeight": true,
+      "desktopImageRatiosEqual": true,
+      "desktopEquipmentTechPaddingEqual": true,
+      "equipmentFilter": [
+        "equipment"
+      ],
+      "filterPressed": "true",
+      "keyboardArticleNavigation": true,
+      "articleImage": {
+        "src": "http://127.0.0.1:3057/lassets/news/shinox-vehicle-length-detection.webp",
+        "naturalWidth": 2048,
+        "naturalHeight": 868,
+        "width": 1016,
+        "height": 431.75,
+        "display": "block",
+        "objectFit": "contain",
+        "contentWidth": 1014,
+        "contentHeight": 429.75,
+        "ratio": 2.3595113438045376
+      },
+      "articleBannerNaturalAspect": true,
+      "articleOverflow": false,
+      "textOverflow": [],
+      "approvedCopyMissing": [],
+      "articleLanguageLinks": [
+        {
+          "lang": "zh-Hant",
+          "url": "http://127.0.0.1:3057/news-vehicle-length.html"
+        },
+        {
+          "lang": "zh-Hant",
+          "url": "http://127.0.0.1:3057/news-vehicle-length.html"
+        },
+        {
+          "lang": "zh-Hant",
+          "url": "http://127.0.0.1:3057/news-vehicle-length.html"
+        }
+      ],
+      "languageLinksPreserveArticle": true,
+      "languageNavigationDestination": "http://127.0.0.1:3057/news-vehicle-length.html",
+      "languageNavigationCorrect": true,
+      "jsErrors": []
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "newsStatus": 200,
+      "cards": [
+        {
+          "category": "brand",
+          "height": 339.96875,
+          "width": 343.21875,
+          "imageWidth": 341.21875,
+          "imageHeight": 191.921875,
+          "imageRatio": 1.777904420744118,
+          "imageSrc": null,
+          "imageLoaded": true,
+          "imageVisible": true,
+          "naturalWidth": null,
+          "naturalHeight": null,
+          "padding": [
+            "22px",
+            "22px",
+            "22px",
+            "22px"
+          ]
+        },
+        {
+          "category": "equipment",
+          "height": 443.65625,
+          "width": 343.21875,
+          "imageWidth": 341.21875,
+          "imageHeight": 191.921875,
+          "imageRatio": 1.777904420744118,
+          "imageSrc": "http://127.0.0.1:3057/lassets/news/shinox-vehicle-length-detection.webp",
+          "imageLoaded": true,
+          "imageVisible": true,
+          "naturalWidth": 2048,
+          "naturalHeight": 868,
+          "padding": [
+            "20px",
+            "20px",
+            "20px",
+            "20px"
+          ]
+        },
+        {
+          "category": "tech",
+          "height": 447.65625,
+          "width": 343.21875,
+          "imageWidth": 341.21875,
+          "imageHeight": 191.921875,
+          "imageRatio": 1.777904420744118,
+          "imageSrc": "http://127.0.0.1:3057/lassets/news/shinox-anpr-entrance.webp",
+          "imageLoaded": true,
+          "imageVisible": true,
+          "naturalWidth": 1376,
+          "naturalHeight": 768,
+          "padding": [
+            "20px",
+            "20px",
+            "20px",
+            "20px"
+          ]
+        }
+      ],
+      "newsOverflow": false,
+      "equipmentFilter": [
+        "equipment"
+      ],
+      "filterPressed": "true",
+      "keyboardArticleNavigation": true,
+      "articleImage": {
+        "src": "http://127.0.0.1:3057/lassets/news/shinox-vehicle-length-detection.webp",
+        "naturalWidth": 2048,
+        "naturalHeight": 868,
+        "width": 351,
+        "height": 149.90625,
+        "display": "block",
+        "objectFit": "contain",
+        "contentWidth": 349,
+        "contentHeight": 147.90625,
+        "ratio": 2.3596027889287976
+      },
+      "articleBannerNaturalAspect": true,
+      "articleOverflow": false,
+      "textOverflow": [],
+      "approvedCopyMissing": [],
+      "articleLanguageLinks": [
+        {
+          "lang": "zh-Hant",
+          "url": "http://127.0.0.1:3057/news-vehicle-length.html"
+        },
+        {
+          "lang": "zh-Hant",
+          "url": "http://127.0.0.1:3057/news-vehicle-length.html"
+        },
+        {
+          "lang": "zh-Hant",
+          "url": "http://127.0.0.1:3057/news-vehicle-length.html"
+        }
+      ],
+      "languageLinksPreserveArticle": true,
+      "languageNavigationDestination": "http://127.0.0.1:3057/news-vehicle-length.html",
+      "languageNavigationCorrect": true,
+      "jsErrors": []
+    }
+  ],
+  "defects": [],
+  "screenshots": [
+    "zh-cards-1440.webp",
+    "zh-article-1440.webp",
+    "zh-cards-390.webp",
+    "zh-article-390.webp",
+    "en-cards-1440.webp",
+    "en-article-1440.webp",
+    "en-cards-390.webp",
+    "en-article-390.webp"
+  ],
+  "asset": {
+    "status": 200,
+    "bytes": 157348,
+    "sha256": "4615860e33d9ef4c5cbc6c120db5a57af9f714a56fde85c4da19a5b85dc13c74"
+  },
+  "technologyPreservation": {
+    "zh": true,
+    "en": true,
+    "originalImageBytesUnchanged": true
+  },
+  "passed": true
+}

@@ -1,0 +1,5 @@
+/* Blend the dark video matte into the exact section background. */
+.elements{--element-backdrop:#0a1b2a;background:var(--element-backdrop)}
+.element-art{padding:0;background:var(--element-backdrop);isolation:isolate}
+.element-art .element-video{display:block;width:100%;height:auto;aspect-ratio:1;max-height:460px;object-fit:contain;background:transparent;mix-blend-mode:lighten}
+@media(max-width:600px){.element-art .element-video{max-height:350px}}

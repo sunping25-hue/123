@@ -1,0 +1,857 @@
+[
+  {
+    "overflow": false,
+    "heading": "64px",
+    "headingWeight": "800",
+    "headingColor": "rgb(255, 255, 255)",
+    "secondHeadingColor": "rgb(255, 255, 255)",
+    "bodyFont": "19px",
+    "artBorder": "0px",
+    "artRadius": "0px",
+    "artPadding": "0px",
+    "artPosition": "absolute",
+    "clipped": [],
+    "cards": [
+      {
+        "box": {
+          "x": 56,
+          "y": 3074.25,
+          "width": 589.328125,
+          "height": 320,
+          "top": 3074.25,
+          "right": 645.328125,
+          "bottom": 3394.25,
+          "left": 56
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/products.html#category-self"
+      },
+      {
+        "box": {
+          "x": 665.328125,
+          "y": 3074.25,
+          "width": 589.328125,
+          "height": 320,
+          "top": 3074.25,
+          "right": 1254.65625,
+          "bottom": 3394.25,
+          "left": 665.328125
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/business.html"
+      },
+      {
+        "box": {
+          "x": 1274.65625,
+          "y": 3074.25,
+          "width": 589.328125,
+          "height": 320,
+          "top": 3074.25,
+          "right": 1863.984375,
+          "bottom": 3394.25,
+          "left": 1274.65625
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/contact.html"
+      }
+    ],
+    "width": 1920,
+    "language": "zh",
+    "imagesLoaded": 4,
+    "formDisabled": true,
+    "errors": []
+  },
+  {
+    "overflow": false,
+    "heading": "64px",
+    "headingWeight": "800",
+    "headingColor": "rgb(255, 255, 255)",
+    "secondHeadingColor": "rgb(255, 255, 255)",
+    "bodyFont": "19px",
+    "artBorder": "0px",
+    "artRadius": "0px",
+    "artPadding": "0px",
+    "artPosition": "absolute",
+    "clipped": [],
+    "cards": [
+      {
+        "box": {
+          "x": 56,
+          "y": 3189.734375,
+          "width": 589.328125,
+          "height": 336.546875,
+          "top": 3189.734375,
+          "right": 645.328125,
+          "bottom": 3526.28125,
+          "left": 56
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/en/products.html#category-self"
+      },
+      {
+        "box": {
+          "x": 665.328125,
+          "y": 3189.734375,
+          "width": 589.328125,
+          "height": 336.546875,
+          "top": 3189.734375,
+          "right": 1254.65625,
+          "bottom": 3526.28125,
+          "left": 665.328125
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/en/business.html"
+      },
+      {
+        "box": {
+          "x": 1274.65625,
+          "y": 3189.734375,
+          "width": 589.328125,
+          "height": 336.546875,
+          "top": 3189.734375,
+          "right": 1863.984375,
+          "bottom": 3526.28125,
+          "left": 1274.65625
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/en/contact.html"
+      }
+    ],
+    "width": 1920,
+    "language": "en",
+    "imagesLoaded": 4,
+    "formDisabled": true,
+    "errors": []
+  },
+  {
+    "overflow": false,
+    "heading": "59.04px",
+    "headingWeight": "800",
+    "headingColor": "rgb(255, 255, 255)",
+    "secondHeadingColor": "rgb(255, 255, 255)",
+    "bodyFont": "19px",
+    "artBorder": "0px",
+    "artRadius": "0px",
+    "artPadding": "0px",
+    "artPosition": "absolute",
+    "clipped": [],
+    "cards": [
+      {
+        "box": {
+          "x": 43.1875,
+          "y": 3058.15625,
+          "width": 437.875,
+          "height": 320,
+          "top": 3058.15625,
+          "right": 481.0625,
+          "bottom": 3378.15625,
+          "left": 43.1875
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/products.html#category-self"
+      },
+      {
+        "box": {
+          "x": 501.0625,
+          "y": 3058.15625,
+          "width": 437.875,
+          "height": 320,
+          "top": 3058.15625,
+          "right": 938.9375,
+          "bottom": 3378.15625,
+          "left": 501.0625
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/business.html"
+      },
+      {
+        "box": {
+          "x": 958.9375,
+          "y": 3058.15625,
+          "width": 437.875,
+          "height": 320,
+          "top": 3058.15625,
+          "right": 1396.8125,
+          "bottom": 3378.15625,
+          "left": 958.9375
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/contact.html"
+      }
+    ],
+    "width": 1440,
+    "language": "zh",
+    "imagesLoaded": 4,
+    "formDisabled": true,
+    "errors": []
+  },
+  {
+    "overflow": false,
+    "heading": "59.04px",
+    "headingWeight": "800",
+    "headingColor": "rgb(255, 255, 255)",
+    "secondHeadingColor": "rgb(255, 255, 255)",
+    "bodyFont": "19px",
+    "artBorder": "0px",
+    "artRadius": "0px",
+    "artPadding": "0px",
+    "artPosition": "absolute",
+    "clipped": [],
+    "cards": [
+      {
+        "box": {
+          "x": 43.1875,
+          "y": 3196.6875,
+          "width": 437.875,
+          "height": 374.34375,
+          "top": 3196.6875,
+          "right": 481.0625,
+          "bottom": 3571.03125,
+          "left": 43.1875
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/en/products.html#category-self"
+      },
+      {
+        "box": {
+          "x": 501.0625,
+          "y": 3196.6875,
+          "width": 437.875,
+          "height": 374.34375,
+          "top": 3196.6875,
+          "right": 938.9375,
+          "bottom": 3571.03125,
+          "left": 501.0625
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/en/business.html"
+      },
+      {
+        "box": {
+          "x": 958.9375,
+          "y": 3196.6875,
+          "width": 437.875,
+          "height": 374.34375,
+          "top": 3196.6875,
+          "right": 1396.8125,
+          "bottom": 3571.03125,
+          "left": 958.9375
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/en/contact.html"
+      }
+    ],
+    "width": 1440,
+    "language": "en",
+    "imagesLoaded": 4,
+    "formDisabled": true,
+    "errors": []
+  },
+  {
+    "overflow": false,
+    "heading": "49.152px",
+    "headingWeight": "800",
+    "headingColor": "rgb(255, 255, 255)",
+    "secondHeadingColor": "rgb(255, 255, 255)",
+    "bodyFont": "18px",
+    "artBorder": "0px",
+    "artRadius": "0px",
+    "artPadding": "0px",
+    "artPosition": "absolute",
+    "clipped": [],
+    "cards": [
+      {
+        "box": {
+          "x": 30.71875,
+          "y": 3004.1875,
+          "width": 962.5625,
+          "height": 280,
+          "top": 3004.1875,
+          "right": 993.28125,
+          "bottom": 3284.1875,
+          "left": 30.71875
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/products.html#category-self"
+      },
+      {
+        "box": {
+          "x": 30.71875,
+          "y": 3304.1875,
+          "width": 962.5625,
+          "height": 280,
+          "top": 3304.1875,
+          "right": 993.28125,
+          "bottom": 3584.1875,
+          "left": 30.71875
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/business.html"
+      },
+      {
+        "box": {
+          "x": 30.71875,
+          "y": 3604.1875,
+          "width": 962.5625,
+          "height": 280,
+          "top": 3604.1875,
+          "right": 993.28125,
+          "bottom": 3884.1875,
+          "left": 30.71875
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/contact.html"
+      }
+    ],
+    "width": 1024,
+    "language": "zh",
+    "imagesLoaded": 4,
+    "formDisabled": true,
+    "errors": []
+  },
+  {
+    "overflow": false,
+    "heading": "49.152px",
+    "headingWeight": "800",
+    "headingColor": "rgb(255, 255, 255)",
+    "secondHeadingColor": "rgb(255, 255, 255)",
+    "bodyFont": "18px",
+    "artBorder": "0px",
+    "artRadius": "0px",
+    "artPadding": "0px",
+    "artPosition": "absolute",
+    "clipped": [],
+    "cards": [
+      {
+        "box": {
+          "x": 30.71875,
+          "y": 3045.328125,
+          "width": 962.5625,
+          "height": 302.046875,
+          "top": 3045.328125,
+          "right": 993.28125,
+          "bottom": 3347.375,
+          "left": 30.71875
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/en/products.html#category-self"
+      },
+      {
+        "box": {
+          "x": 30.71875,
+          "y": 3367.375,
+          "width": 962.5625,
+          "height": 302.046875,
+          "top": 3367.375,
+          "right": 993.28125,
+          "bottom": 3669.421875,
+          "left": 30.71875
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/en/business.html"
+      },
+      {
+        "box": {
+          "x": 30.71875,
+          "y": 3689.421875,
+          "width": 962.5625,
+          "height": 330.9375,
+          "top": 3689.421875,
+          "right": 993.28125,
+          "bottom": 4020.359375,
+          "left": 30.71875
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/en/contact.html"
+      }
+    ],
+    "width": 1024,
+    "language": "en",
+    "imagesLoaded": 4,
+    "formDisabled": true,
+    "errors": []
+  },
+  {
+    "overflow": false,
+    "heading": "40px",
+    "headingWeight": "800",
+    "headingColor": "rgb(255, 255, 255)",
+    "secondHeadingColor": "rgb(255, 255, 255)",
+    "bodyFont": "18px",
+    "artBorder": "0px",
+    "artRadius": "0px",
+    "artPadding": "0px",
+    "artPosition": "absolute",
+    "clipped": [],
+    "cards": [
+      {
+        "box": {
+          "x": 28,
+          "y": 2940.59375,
+          "width": 712,
+          "height": 280,
+          "top": 2940.59375,
+          "right": 740,
+          "bottom": 3220.59375,
+          "left": 28
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/products.html#category-self"
+      },
+      {
+        "box": {
+          "x": 28,
+          "y": 3240.59375,
+          "width": 712,
+          "height": 280,
+          "top": 3240.59375,
+          "right": 740,
+          "bottom": 3520.59375,
+          "left": 28
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/business.html"
+      },
+      {
+        "box": {
+          "x": 28,
+          "y": 3540.59375,
+          "width": 712,
+          "height": 280,
+          "top": 3540.59375,
+          "right": 740,
+          "bottom": 3820.59375,
+          "left": 28
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/contact.html"
+      }
+    ],
+    "width": 768,
+    "language": "zh",
+    "imagesLoaded": 4,
+    "formDisabled": true,
+    "errors": []
+  },
+  {
+    "overflow": false,
+    "heading": "40px",
+    "headingWeight": "800",
+    "headingColor": "rgb(255, 255, 255)",
+    "secondHeadingColor": "rgb(255, 255, 255)",
+    "bodyFont": "18px",
+    "artBorder": "0px",
+    "artRadius": "0px",
+    "artPadding": "0px",
+    "artPosition": "absolute",
+    "clipped": [],
+    "cards": [
+      {
+        "box": {
+          "x": 28,
+          "y": 3128.453125,
+          "width": 712,
+          "height": 302.046875,
+          "top": 3128.453125,
+          "right": 740,
+          "bottom": 3430.5,
+          "left": 28
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/en/products.html#category-self"
+      },
+      {
+        "box": {
+          "x": 28,
+          "y": 3450.5,
+          "width": 712,
+          "height": 302.046875,
+          "top": 3450.5,
+          "right": 740,
+          "bottom": 3752.546875,
+          "left": 28
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/en/business.html"
+      },
+      {
+        "box": {
+          "x": 28,
+          "y": 3772.546875,
+          "width": 712,
+          "height": 370.125,
+          "top": 3772.546875,
+          "right": 740,
+          "bottom": 4142.671875,
+          "left": 28
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/en/contact.html"
+      }
+    ],
+    "width": 768,
+    "language": "en",
+    "imagesLoaded": 4,
+    "formDisabled": true,
+    "errors": []
+  },
+  {
+    "overflow": false,
+    "heading": "31.2px",
+    "headingWeight": "800",
+    "headingColor": "rgb(255, 255, 255)",
+    "secondHeadingColor": "rgb(255, 255, 255)",
+    "bodyFont": "16px",
+    "artBorder": "0px",
+    "artRadius": "0px",
+    "artPadding": "0px",
+    "artPosition": "absolute",
+    "clipped": [],
+    "cards": [
+      {
+        "box": {
+          "x": 20,
+          "y": 3306.9375,
+          "width": 350,
+          "height": 320,
+          "top": 3306.9375,
+          "right": 370,
+          "bottom": 3626.9375,
+          "left": 20
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/products.html#category-self"
+      },
+      {
+        "box": {
+          "x": 20,
+          "y": 3646.9375,
+          "width": 350,
+          "height": 320,
+          "top": 3646.9375,
+          "right": 370,
+          "bottom": 3966.9375,
+          "left": 20
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/business.html"
+      },
+      {
+        "box": {
+          "x": 20,
+          "y": 3986.9375,
+          "width": 350,
+          "height": 320,
+          "top": 3986.9375,
+          "right": 370,
+          "bottom": 4306.9375,
+          "left": 20
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/contact.html"
+      }
+    ],
+    "width": 390,
+    "language": "zh",
+    "imagesLoaded": 4,
+    "formDisabled": true,
+    "errors": []
+  },
+  {
+    "overflow": false,
+    "heading": "31.2px",
+    "headingWeight": "800",
+    "headingColor": "rgb(255, 255, 255)",
+    "secondHeadingColor": "rgb(255, 255, 255)",
+    "bodyFont": "16px",
+    "artBorder": "0px",
+    "artRadius": "0px",
+    "artPadding": "0px",
+    "artPosition": "absolute",
+    "clipped": [],
+    "cards": [
+      {
+        "box": {
+          "x": 20,
+          "y": 3462.734375,
+          "width": 350,
+          "height": 328.65625,
+          "top": 3462.734375,
+          "right": 370,
+          "bottom": 3791.390625,
+          "left": 20
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/en/products.html#category-self"
+      },
+      {
+        "box": {
+          "x": 20,
+          "y": 3811.390625,
+          "width": 350,
+          "height": 320,
+          "top": 3811.390625,
+          "right": 370,
+          "bottom": 4131.390625,
+          "left": 20
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/en/business.html"
+      },
+      {
+        "box": {
+          "x": 20,
+          "y": 4151.390625,
+          "width": 350,
+          "height": 355.84375,
+          "top": 4151.390625,
+          "right": 370,
+          "bottom": 4507.234375,
+          "left": 20
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/en/contact.html"
+      }
+    ],
+    "width": 390,
+    "language": "en",
+    "imagesLoaded": 4,
+    "formDisabled": true,
+    "errors": []
+  },
+  {
+    "overflow": false,
+    "heading": "30px",
+    "headingWeight": "800",
+    "headingColor": "rgb(255, 255, 255)",
+    "secondHeadingColor": "rgb(255, 255, 255)",
+    "bodyFont": "16px",
+    "artBorder": "0px",
+    "artRadius": "0px",
+    "artPadding": "0px",
+    "artPosition": "absolute",
+    "clipped": [],
+    "cards": [
+      {
+        "box": {
+          "x": 20,
+          "y": 3290.5625,
+          "width": 335,
+          "height": 320,
+          "top": 3290.5625,
+          "right": 355,
+          "bottom": 3610.5625,
+          "left": 20
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/products.html#category-self"
+      },
+      {
+        "box": {
+          "x": 20,
+          "y": 3630.5625,
+          "width": 335,
+          "height": 320,
+          "top": 3630.5625,
+          "right": 355,
+          "bottom": 3950.5625,
+          "left": 20
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/business.html"
+      },
+      {
+        "box": {
+          "x": 20,
+          "y": 3970.5625,
+          "width": 335,
+          "height": 320,
+          "top": 3970.5625,
+          "right": 355,
+          "bottom": 4290.5625,
+          "left": 20
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/contact.html"
+      }
+    ],
+    "width": 375,
+    "language": "zh",
+    "imagesLoaded": 4,
+    "formDisabled": true,
+    "errors": []
+  },
+  {
+    "overflow": false,
+    "heading": "30px",
+    "headingWeight": "800",
+    "headingColor": "rgb(255, 255, 255)",
+    "secondHeadingColor": "rgb(255, 255, 255)",
+    "bodyFont": "16px",
+    "artBorder": "0px",
+    "artRadius": "0px",
+    "artPadding": "0px",
+    "artPosition": "absolute",
+    "clipped": [],
+    "cards": [
+      {
+        "box": {
+          "x": 20,
+          "y": 3471.8125,
+          "width": 335,
+          "height": 328.65625,
+          "top": 3471.8125,
+          "right": 355,
+          "bottom": 3800.46875,
+          "left": 20
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/en/products.html#category-self"
+      },
+      {
+        "box": {
+          "x": 20,
+          "y": 3820.46875,
+          "width": 335,
+          "height": 320,
+          "top": 3820.46875,
+          "right": 355,
+          "bottom": 4140.46875,
+          "left": 20
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/en/business.html"
+      },
+      {
+        "box": {
+          "x": 20,
+          "y": 4160.46875,
+          "width": 335,
+          "height": 355.84375,
+          "top": 4160.46875,
+          "right": 355,
+          "bottom": 4516.3125,
+          "left": 20
+        },
+        "radius": "24px",
+        "mediaPosition": "absolute",
+        "mediaPadding": "0px",
+        "textPosition": "relative",
+        "link": "http://127.0.0.1:3033/en/contact.html"
+      }
+    ],
+    "width": 375,
+    "language": "en",
+    "imagesLoaded": 4,
+    "formDisabled": true,
+    "errors": []
+  },
+  {
+    "interaction": "Primary/secondary CTA, three card links, hover, keyboard focus, YouTube separate tab and reduced motion PASS"
+  }
+]
