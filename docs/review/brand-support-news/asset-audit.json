@@ -1,0 +1,84 @@
+{
+  "archive": "/workspace/attachments/908eab5b-81ff-4869-9f49-32e263f84812/科技工業遠端支援協作平台主管oly.png.rar",
+  "archiveBytes": 9364014,
+  "archiveSha256": "a78db573b0043ae8b78f95052285870260290d29ca73e3f2282376102240f7b7",
+  "members": [
+    {
+      "name": "shinox_智慧洗車支援展示.png.png",
+      "bytes": 2240759,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "b4ded463796224d1642649152e9c115c2d279e1f9633a54e2b07d52e13ebea5f",
+      "previousSha256": "be2085427cb87eeae9a45680316180c167dfbb9e28944a58d3f4dfe730f9e585",
+      "sameAsPrevious": false,
+      "outputPath": "lassets/news/brand-support/thumb-support.webp",
+      "outputDimensions": [
+        1200,
+        675
+      ],
+      "outputBytes": 136294,
+      "outputSha256": "0925a9acd9df5ad193d8fa99d575c8830ba40a70fc2634c1545298c788183758",
+      "outputChanged": true
+    },
+    {
+      "name": "shinox_智慧洗車營運藍圖.png.png",
+      "bytes": 2569819,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "be2085427cb87eeae9a45680316180c167dfbb9e28944a58d3f4dfe730f9e585",
+      "previousSha256": "6298ca1b8da4c1d5cc8cee34315347d24d454b87fa1fed0ecbbf10611994d84d",
+      "sameAsPrevious": false,
+      "outputPath": "lassets/news/brand-support/business-guide.webp",
+      "outputDimensions": [
+        1672,
+        941
+      ],
+      "outputBytes": 302320,
+      "outputSha256": "7a1a62ae2cb52fcd630b54178f878ad0e64865b3818701eef8d5a6f04b164f02",
+      "outputChanged": true
+    },
+    {
+      "name": "shinox_科技服務生態系統.png.png",
+      "bytes": 2664045,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "6298ca1b8da4c1d5cc8cee34315347d24d454b87fa1fed0ecbbf10611994d84d",
+      "previousSha256": "b4ded463796224d1642649152e9c115c2d279e1f9633a54e2b07d52e13ebea5f",
+      "sameAsPrevious": false,
+      "outputPath": "lassets/news/brand-support/service-ecosystem.webp",
+      "outputDimensions": [
+        1672,
+        941
+      ],
+      "outputBytes": 263786,
+      "outputSha256": "183769d96b819da869a001f0086928703863aa985b4c6891c285222904812b13",
+      "outputChanged": true
+    },
+    {
+      "name": "科技工業遠端支援協作平台主管oly.png.png",
+      "bytes": 2169316,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "1e3c691231e6833b40605fc690b84b2b97f8f015e4befa10c5c3d0d5f84f0a68",
+      "previousSha256": "1e3c691231e6833b40605fc690b84b2b97f8f015e4befa10c5c3d0d5f84f0a68",
+      "sameAsPrevious": true,
+      "outputPath": "lassets/news/brand-support/technical-community.webp",
+      "outputDimensions": [
+        1672,
+        941
+      ],
+      "outputBytes": 179020,
+      "outputSha256": "eaf62653bab9b823385ff99217b3bc9455750a7f028fbc7a9b03091346d3168d",
+      "outputChanged": false
+    }
+  ],
+  "processing": "Latest formal RAR filenames map to owner-assigned thumbnail, technical community, business guide, ecosystem roles. Full-frame preserved; WebP quality84, thumbnail proportional resize only. No crop/regeneration/additional text."
+}

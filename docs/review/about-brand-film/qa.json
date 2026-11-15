@@ -1,0 +1,609 @@
+[
+  {
+    "language": "zh",
+    "width": 1440,
+    "profile": "normal",
+    "geometry": {
+      "x": 100.796875,
+      "y": 756.15625,
+      "width": 428.65625,
+      "height": 181.703125
+    },
+    "state": {
+      "muted": true,
+      "defaultMuted": true,
+      "playsInline": true,
+      "controls": true,
+      "loop": true,
+      "preload": "none",
+      "src": "http://127.0.0.1:3044/lassets/about/shinox-brand-film.mp4",
+      "duration": 6.041667,
+      "objectFit": "contain"
+    },
+    "requestsBeforeManualPlay": [
+      "http://127.0.0.1:3044/lassets/about/shinox-brand-film.mp4"
+    ],
+    "keyboardPlayback": "PASS",
+    "userPausePreserved": "PASS",
+    "offscreenPauseAndResume": "PASS",
+    "reducedMotionChangePauses": "PASS",
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "language": "zh",
+    "width": 768,
+    "profile": "normal",
+    "geometry": {
+      "x": 53.75,
+      "y": 712.5,
+      "width": 440,
+      "height": 186.515625
+    },
+    "state": {
+      "muted": true,
+      "defaultMuted": true,
+      "playsInline": true,
+      "controls": true,
+      "loop": true,
+      "preload": "none",
+      "src": "http://127.0.0.1:3044/lassets/about/shinox-brand-film.mp4",
+      "duration": 6.041667,
+      "objectFit": "contain"
+    },
+    "requestsBeforeManualPlay": [
+      "http://127.0.0.1:3044/lassets/about/shinox-brand-film.mp4"
+    ],
+    "keyboardPlayback": "PASS",
+    "userPausePreserved": "PASS",
+    "offscreenPauseAndResume": "PASS",
+    "reducedMotionChangePauses": "PASS",
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "language": "zh",
+    "width": 390,
+    "profile": "normal",
+    "geometry": {
+      "x": 23.390625,
+      "y": 749.1875,
+      "width": 343.21875,
+      "height": 145.484375
+    },
+    "state": {
+      "muted": true,
+      "defaultMuted": true,
+      "playsInline": true,
+      "controls": true,
+      "loop": true,
+      "preload": "none",
+      "src": "http://127.0.0.1:3044/lassets/about/shinox-brand-film.mp4",
+      "duration": 6.041667,
+      "objectFit": "contain"
+    },
+    "requestsBeforeManualPlay": [
+      "http://127.0.0.1:3044/lassets/about/shinox-brand-film.mp4"
+    ],
+    "keyboardPlayback": "PASS",
+    "userPausePreserved": "PASS",
+    "offscreenPauseAndResume": "PASS",
+    "reducedMotionChangePauses": "PASS",
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "language": "zh",
+    "width": 375,
+    "profile": "normal",
+    "geometry": {
+      "x": 22.5,
+      "y": 751.1875,
+      "width": 330,
+      "height": 139.890625
+    },
+    "state": {
+      "muted": true,
+      "defaultMuted": true,
+      "playsInline": true,
+      "controls": true,
+      "loop": true,
+      "preload": "none",
+      "src": "http://127.0.0.1:3044/lassets/about/shinox-brand-film.mp4",
+      "duration": 6.041667,
+      "objectFit": "contain"
+    },
+    "requestsBeforeManualPlay": [
+      "http://127.0.0.1:3044/lassets/about/shinox-brand-film.mp4"
+    ],
+    "keyboardPlayback": "PASS",
+    "userPausePreserved": "PASS",
+    "offscreenPauseAndResume": "PASS",
+    "reducedMotionChangePauses": "PASS",
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "language": "en",
+    "width": 1440,
+    "profile": "normal",
+    "geometry": {
+      "x": 100.796875,
+      "y": 933.078125,
+      "width": 428.65625,
+      "height": 181.703125
+    },
+    "state": {
+      "muted": true,
+      "defaultMuted": true,
+      "playsInline": true,
+      "controls": true,
+      "loop": true,
+      "preload": "none",
+      "src": "http://127.0.0.1:3044/lassets/about/shinox-brand-film.mp4",
+      "duration": 6.041667,
+      "objectFit": "contain"
+    },
+    "requestsBeforeManualPlay": [
+      "http://127.0.0.1:3044/lassets/about/shinox-brand-film.mp4"
+    ],
+    "keyboardPlayback": "PASS",
+    "userPausePreserved": "PASS",
+    "offscreenPauseAndResume": "PASS",
+    "reducedMotionChangePauses": "PASS",
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "language": "en",
+    "width": 768,
+    "profile": "normal",
+    "geometry": {
+      "x": 53.75,
+      "y": 749.5,
+      "width": 440,
+      "height": 186.515625
+    },
+    "state": {
+      "muted": true,
+      "defaultMuted": true,
+      "playsInline": true,
+      "controls": true,
+      "loop": true,
+      "preload": "none",
+      "src": "http://127.0.0.1:3044/lassets/about/shinox-brand-film.mp4",
+      "duration": 6.041667,
+      "objectFit": "contain"
+    },
+    "requestsBeforeManualPlay": [
+      "http://127.0.0.1:3044/lassets/about/shinox-brand-film.mp4"
+    ],
+    "keyboardPlayback": "PASS",
+    "userPausePreserved": "PASS",
+    "offscreenPauseAndResume": "PASS",
+    "reducedMotionChangePauses": "PASS",
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "language": "en",
+    "width": 390,
+    "profile": "normal",
+    "geometry": {
+      "x": 23.390625,
+      "y": 775.9375,
+      "width": 343.21875,
+      "height": 145.484375
+    },
+    "state": {
+      "muted": true,
+      "defaultMuted": true,
+      "playsInline": true,
+      "controls": true,
+      "loop": true,
+      "preload": "none",
+      "src": "http://127.0.0.1:3044/lassets/about/shinox-brand-film.mp4",
+      "duration": 6.041667,
+      "objectFit": "contain"
+    },
+    "requestsBeforeManualPlay": [
+      "http://127.0.0.1:3044/lassets/about/shinox-brand-film.mp4"
+    ],
+    "keyboardPlayback": "PASS",
+    "userPausePreserved": "PASS",
+    "offscreenPauseAndResume": "PASS",
+    "reducedMotionChangePauses": "PASS",
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "language": "en",
+    "width": 375,
+    "profile": "normal",
+    "geometry": {
+      "x": 22.5,
+      "y": 412.4375,
+      "width": 330,
+      "height": 139.890625
+    },
+    "state": {
+      "muted": true,
+      "defaultMuted": true,
+      "playsInline": true,
+      "controls": true,
+      "loop": true,
+      "preload": "none",
+      "src": "http://127.0.0.1:3044/lassets/about/shinox-brand-film.mp4",
+      "duration": 6.041667,
+      "objectFit": "contain"
+    },
+    "requestsBeforeManualPlay": [
+      "http://127.0.0.1:3044/lassets/about/shinox-brand-film.mp4"
+    ],
+    "keyboardPlayback": "PASS",
+    "userPausePreserved": "PASS",
+    "offscreenPauseAndResume": "PASS",
+    "reducedMotionChangePauses": "PASS",
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "language": "zh",
+    "width": 1440,
+    "profile": "reduced",
+    "geometry": {
+      "x": 100.796875,
+      "y": 424.15625,
+      "width": 428.65625,
+      "height": 181.703125
+    },
+    "state": {
+      "muted": true,
+      "defaultMuted": true,
+      "playsInline": true,
+      "controls": true,
+      "loop": true,
+      "preload": "none",
+      "src": "http://127.0.0.1:3044/lassets/about/shinox-brand-film.mp4",
+      "duration": null,
+      "objectFit": "contain"
+    },
+    "requestsBeforeManualPlay": [],
+    "keyboardPlayback": "PASS",
+    "userPausePreserved": "not applicable",
+    "offscreenPauseAndResume": "not applicable",
+    "reducedMotionChangePauses": "not applicable",
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "language": "zh",
+    "width": 1440,
+    "profile": "save-data",
+    "geometry": {
+      "x": 100.796875,
+      "y": 436.15625,
+      "width": 428.65625,
+      "height": 181.703125
+    },
+    "state": {
+      "muted": true,
+      "defaultMuted": true,
+      "playsInline": true,
+      "controls": true,
+      "loop": true,
+      "preload": "none",
+      "src": "http://127.0.0.1:3044/lassets/about/shinox-brand-film.mp4",
+      "duration": null,
+      "objectFit": "contain"
+    },
+    "requestsBeforeManualPlay": [],
+    "keyboardPlayback": "PASS",
+    "userPausePreserved": "not applicable",
+    "offscreenPauseAndResume": "not applicable",
+    "reducedMotionChangePauses": "not applicable",
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "language": "zh",
+    "width": 1440,
+    "profile": "2g",
+    "geometry": {
+      "x": 100.796875,
+      "y": 424.15625,
+      "width": 428.65625,
+      "height": 181.703125
+    },
+    "state": {
+      "muted": true,
+      "defaultMuted": true,
+      "playsInline": true,
+      "controls": true,
+      "loop": true,
+      "preload": "none",
+      "src": "http://127.0.0.1:3044/lassets/about/shinox-brand-film.mp4",
+      "duration": null,
+      "objectFit": "contain"
+    },
+    "requestsBeforeManualPlay": [],
+    "keyboardPlayback": "PASS",
+    "userPausePreserved": "not applicable",
+    "offscreenPauseAndResume": "not applicable",
+    "reducedMotionChangePauses": "not applicable",
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "language": "zh",
+    "width": 390,
+    "profile": "reduced",
+    "geometry": {
+      "x": 23.390625,
+      "y": 364.1875,
+      "width": 343.21875,
+      "height": 145.484375
+    },
+    "state": {
+      "muted": true,
+      "defaultMuted": true,
+      "playsInline": true,
+      "controls": true,
+      "loop": true,
+      "preload": "none",
+      "src": "http://127.0.0.1:3044/lassets/about/shinox-brand-film.mp4",
+      "duration": null,
+      "objectFit": "contain"
+    },
+    "requestsBeforeManualPlay": [],
+    "keyboardPlayback": "PASS",
+    "userPausePreserved": "not applicable",
+    "offscreenPauseAndResume": "not applicable",
+    "reducedMotionChangePauses": "not applicable",
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "language": "zh",
+    "width": 390,
+    "profile": "save-data",
+    "geometry": {
+      "x": 23.390625,
+      "y": 367.1875,
+      "width": 343.21875,
+      "height": 145.484375
+    },
+    "state": {
+      "muted": true,
+      "defaultMuted": true,
+      "playsInline": true,
+      "controls": true,
+      "loop": true,
+      "preload": "none",
+      "src": "http://127.0.0.1:3044/lassets/about/shinox-brand-film.mp4",
+      "duration": null,
+      "objectFit": "contain"
+    },
+    "requestsBeforeManualPlay": [],
+    "keyboardPlayback": "PASS",
+    "userPausePreserved": "not applicable",
+    "offscreenPauseAndResume": "not applicable",
+    "reducedMotionChangePauses": "not applicable",
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "language": "zh",
+    "width": 390,
+    "profile": "2g",
+    "geometry": {
+      "x": 23.390625,
+      "y": 365.1875,
+      "width": 343.21875,
+      "height": 145.484375
+    },
+    "state": {
+      "muted": true,
+      "defaultMuted": true,
+      "playsInline": true,
+      "controls": true,
+      "loop": true,
+      "preload": "none",
+      "src": "http://127.0.0.1:3044/lassets/about/shinox-brand-film.mp4",
+      "duration": null,
+      "objectFit": "contain"
+    },
+    "requestsBeforeManualPlay": [],
+    "keyboardPlayback": "PASS",
+    "userPausePreserved": "not applicable",
+    "offscreenPauseAndResume": "not applicable",
+    "reducedMotionChangePauses": "not applicable",
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "language": "en",
+    "width": 1440,
+    "profile": "reduced",
+    "geometry": {
+      "x": 100.796875,
+      "y": 424.078125,
+      "width": 428.65625,
+      "height": 181.703125
+    },
+    "state": {
+      "muted": true,
+      "defaultMuted": true,
+      "playsInline": true,
+      "controls": true,
+      "loop": true,
+      "preload": "none",
+      "src": "http://127.0.0.1:3044/lassets/about/shinox-brand-film.mp4",
+      "duration": null,
+      "objectFit": "contain"
+    },
+    "requestsBeforeManualPlay": [],
+    "keyboardPlayback": "PASS",
+    "userPausePreserved": "not applicable",
+    "offscreenPauseAndResume": "not applicable",
+    "reducedMotionChangePauses": "not applicable",
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "language": "en",
+    "width": 1440,
+    "profile": "save-data",
+    "geometry": {
+      "x": 100.796875,
+      "y": 424.078125,
+      "width": 428.65625,
+      "height": 181.703125
+    },
+    "state": {
+      "muted": true,
+      "defaultMuted": true,
+      "playsInline": true,
+      "controls": true,
+      "loop": true,
+      "preload": "none",
+      "src": "http://127.0.0.1:3044/lassets/about/shinox-brand-film.mp4",
+      "duration": null,
+      "objectFit": "contain"
+    },
+    "requestsBeforeManualPlay": [],
+    "keyboardPlayback": "PASS",
+    "userPausePreserved": "not applicable",
+    "offscreenPauseAndResume": "not applicable",
+    "reducedMotionChangePauses": "not applicable",
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "language": "en",
+    "width": 1440,
+    "profile": "2g",
+    "geometry": {
+      "x": 100.796875,
+      "y": 450.078125,
+      "width": 428.65625,
+      "height": 181.703125
+    },
+    "state": {
+      "muted": true,
+      "defaultMuted": true,
+      "playsInline": true,
+      "controls": true,
+      "loop": true,
+      "preload": "none",
+      "src": "http://127.0.0.1:3044/lassets/about/shinox-brand-film.mp4",
+      "duration": null,
+      "objectFit": "contain"
+    },
+    "requestsBeforeManualPlay": [],
+    "keyboardPlayback": "PASS",
+    "userPausePreserved": "not applicable",
+    "offscreenPauseAndResume": "not applicable",
+    "reducedMotionChangePauses": "not applicable",
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "language": "en",
+    "width": 390,
+    "profile": "reduced",
+    "geometry": {
+      "x": 23.390625,
+      "y": 363.9375,
+      "width": 343.21875,
+      "height": 145.484375
+    },
+    "state": {
+      "muted": true,
+      "defaultMuted": true,
+      "playsInline": true,
+      "controls": true,
+      "loop": true,
+      "preload": "none",
+      "src": "http://127.0.0.1:3044/lassets/about/shinox-brand-film.mp4",
+      "duration": null,
+      "objectFit": "contain"
+    },
+    "requestsBeforeManualPlay": [],
+    "keyboardPlayback": "PASS",
+    "userPausePreserved": "not applicable",
+    "offscreenPauseAndResume": "not applicable",
+    "reducedMotionChangePauses": "not applicable",
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "language": "en",
+    "width": 390,
+    "profile": "save-data",
+    "geometry": {
+      "x": 23.390625,
+      "y": 382.9375,
+      "width": 343.21875,
+      "height": 145.484375
+    },
+    "state": {
+      "muted": true,
+      "defaultMuted": true,
+      "playsInline": true,
+      "controls": true,
+      "loop": true,
+      "preload": "none",
+      "src": "http://127.0.0.1:3044/lassets/about/shinox-brand-film.mp4",
+      "duration": null,
+      "objectFit": "contain"
+    },
+    "requestsBeforeManualPlay": [],
+    "keyboardPlayback": "PASS",
+    "userPausePreserved": "not applicable",
+    "offscreenPauseAndResume": "not applicable",
+    "reducedMotionChangePauses": "not applicable",
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "language": "en",
+    "width": 390,
+    "profile": "2g",
+    "geometry": {
+      "x": 23.390625,
+      "y": 382.9375,
+      "width": 343.21875,
+      "height": 145.484375
+    },
+    "state": {
+      "muted": true,
+      "defaultMuted": true,
+      "playsInline": true,
+      "controls": true,
+      "loop": true,
+      "preload": "none",
+      "src": "http://127.0.0.1:3044/lassets/about/shinox-brand-film.mp4",
+      "duration": null,
+      "objectFit": "contain"
+    },
+    "requestsBeforeManualPlay": [],
+    "keyboardPlayback": "PASS",
+    "userPausePreserved": "not applicable",
+    "offscreenPauseAndResume": "not applicable",
+    "reducedMotionChangePauses": "not applicable",
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "actualLoopRestart": "PASS"
+  },
+  {
+    "failureFallbackLink": "PASS"
+  },
+  {
+    "byteRange": "PASS",
+    "status": 206,
+    "contentRange": "bytes 0-1023/1543266"
+  }
+]

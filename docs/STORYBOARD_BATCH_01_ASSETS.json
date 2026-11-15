@@ -1,0 +1,24 @@
+[
+  {
+    "id": "A01",
+    "filename": "lassets/about/hero-building.webp",
+    "width": 1920,
+    "height": 1200,
+    "status": "owner-approved in conversation",
+    "sha256": "b12576842db900df5075996b512e9fb9cfaf17c37fcaac35dadfc6c147397959",
+    "bytes": 300786,
+    "source": "exec-01d4a084-4823-4d3f-93c5-04214a67d4d9.png",
+    "conceptual": true
+  },
+  {
+    "id": "B01",
+    "filename": "lassets/business/hero-carwash.webp",
+    "width": 1920,
+    "height": 1080,
+    "status": "owner-approved in conversation",
+    "sha256": "f31fefbfa425bb2992ad2e69f21cd99a2cc147c5df7d97083d73451e9ed4476a",
+    "bytes": 279726,
+    "source": "exec-a8e31f4b-45d7-4f75-be12-ccd821f970ed.png",
+    "conceptual": true
+  }
+]

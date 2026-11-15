@@ -1,0 +1,108 @@
+{
+  "archive": "設備整合品牌展示 英文版.zip",
+  "entries": [
+    {
+      "source": "設備整合品牌展示 英文版.png",
+      "sourceSize": [
+        1774,
+        887
+      ],
+      "sourceSha256": "be97d254e7ca178ae6f284787a1da4c4a79f794647b08b78b581558257eff9e7",
+      "approval": "User supplied the exact original after requesting this use; visually verified against the corresponding inline image.",
+      "processing": "Entire frame preserved; WebP conversion and proportional responsive resize only. No regeneration, object substitution, label editing or cropping.",
+      "uses": [
+        "about.html#brand-mission-title",
+        "en/about.html#brand-mission-title"
+      ],
+      "assets": [
+        {
+          "filename": "lassets/about/equipment-integration-brands.webp",
+          "size": [
+            1774,
+            887
+          ],
+          "bytes": 296724,
+          "sha256": "0ecb696fd3f44bd18dd44fe7e79815665a67818765358c9a3a9f2d5d47855ba2"
+        },
+        {
+          "filename": "lassets/about/equipment-integration-brands-small.webp",
+          "size": [
+            1000,
+            500
+          ],
+          "bytes": 138990,
+          "sha256": "b76916d973769339ecfc287f5a7dc600f266d673b09e66efb7ba44ee223ffaa6"
+        }
+      ]
+    },
+    {
+      "source": "未來感純水洗車隧道.png",
+      "sourceSize": [
+        1672,
+        941
+      ],
+      "sourceSha256": "94f74f79c2480a54fee583e89b689ea6dd690412a9df572c9da75db8407a37e9",
+      "approval": "User supplied the exact original after requesting this use; visually verified against the corresponding inline image.",
+      "processing": "Entire frame preserved; WebP conversion and proportional responsive resize only. No regeneration, object substitution, label editing or cropping.",
+      "uses": [
+        "products.html#product-m9",
+        "products/wash-2.html",
+        "English counterparts"
+      ],
+      "assets": [
+        {
+          "filename": "lassets/products/m9.webp",
+          "size": [
+            1672,
+            941
+          ],
+          "bytes": 311368,
+          "sha256": "60fc861a876d3d3006d95cfa32dc19cd53a78e11aa6926d0b9d85db68822e572"
+        },
+        {
+          "filename": "lassets/products/m9-small.webp",
+          "size": [
+            836,
+            471
+          ],
+          "bytes": 93938,
+          "sha256": "88eecad1455bbd313785006d4d228c6e39e4d33ce3ab75de5b032a65150f50da"
+        }
+      ]
+    },
+    {
+      "source": "ShinoX未來感汽車美容化學品展示.png",
+      "sourceSize": [
+        1672,
+        941
+      ],
+      "sourceSha256": "d9093426d80a4a75347867e2c78308e02c770307361164c098e1ce49cbf0227a",
+      "approval": "User supplied the exact original after requesting this use; visually verified against the corresponding inline image.",
+      "processing": "Entire frame preserved; WebP conversion and proportional responsive resize only. No regeneration, object substitution, label editing or cropping.",
+      "uses": [
+        "products.html#chemical-series",
+        "en/products.html#chemical-series"
+      ],
+      "assets": [
+        {
+          "filename": "lassets/products/chemicals-20l.webp",
+          "size": [
+            1672,
+            941
+          ],
+          "bytes": 390374,
+          "sha256": "2e6fc0f9dcaa1c710a4a43292d5c92d8bd5e56c3a0f9cc5508930029c43e931e"
+        },
+        {
+          "filename": "lassets/products/chemicals-20l-small.webp",
+          "size": [
+            960,
+            540
+          ],
+          "bytes": 158348,
+          "sha256": "6821f5bc70e8b054596f6917c8c72bf953be7d1582eec472a4973d3dde4935c8"
+        }
+      ]
+    }
+  ]
+}

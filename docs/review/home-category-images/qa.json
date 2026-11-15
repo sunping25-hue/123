@@ -1,0 +1,116 @@
+[
+  {
+    "width": 1440,
+    "images": [
+      {
+        "title": "自助洗車設備",
+        "url": "lassets/home/category-self-service.webp",
+        "size": [
+          1280,
+          800
+        ],
+        "fit": "contain",
+        "href": "products.html#category-self"
+      },
+      {
+        "title": "水刀洗車設備",
+        "url": "lassets/home/category-automatic.webp",
+        "size": [
+          1280,
+          800
+        ],
+        "fit": "contain",
+        "href": "products.html#category-wash"
+      },
+      {
+        "title": "洗車場周邊設備",
+        "url": "lassets/home/category-accessories.webp",
+        "size": [
+          1280,
+          800
+        ],
+        "fit": "contain",
+        "href": "products.html#category-peripheral"
+      }
+    ],
+    "overflow": false,
+    "removedGrids": 0,
+    "errors": []
+  },
+  {
+    "width": 768,
+    "images": [
+      {
+        "title": "自助洗車設備",
+        "url": "lassets/home/category-self-service.webp",
+        "size": [
+          1280,
+          800
+        ],
+        "fit": "contain",
+        "href": "products.html#category-self"
+      },
+      {
+        "title": "水刀洗車設備",
+        "url": "lassets/home/category-automatic.webp",
+        "size": [
+          1280,
+          800
+        ],
+        "fit": "contain",
+        "href": "products.html#category-wash"
+      },
+      {
+        "title": "洗車場周邊設備",
+        "url": "lassets/home/category-accessories.webp",
+        "size": [
+          1280,
+          800
+        ],
+        "fit": "contain",
+        "href": "products.html#category-peripheral"
+      }
+    ],
+    "overflow": false,
+    "removedGrids": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "images": [
+      {
+        "title": "自助洗車設備",
+        "url": "lassets/home/category-self-service.webp",
+        "size": [
+          1280,
+          800
+        ],
+        "fit": "contain",
+        "href": "products.html#category-self"
+      },
+      {
+        "title": "水刀洗車設備",
+        "url": "lassets/home/category-automatic.webp",
+        "size": [
+          1280,
+          800
+        ],
+        "fit": "contain",
+        "href": "products.html#category-wash"
+      },
+      {
+        "title": "洗車場周邊設備",
+        "url": "lassets/home/category-accessories.webp",
+        "size": [
+          1280,
+          800
+        ],
+        "fit": "contain",
+        "href": "products.html#category-peripheral"
+      }
+    ],
+    "overflow": false,
+    "removedGrids": 0,
+    "errors": []
+  }
+]

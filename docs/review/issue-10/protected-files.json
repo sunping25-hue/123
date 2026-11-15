@@ -1,0 +1,65 @@
+{
+  "base": "2e53da10aeeef1ff7183e62a26b00c1758bb86fc",
+  "files": {
+    "shinox-v2-site/index.html": {
+      "sha256": "770fe529263033987c354177b5da70c3979ceea268ebe7d4413fb4f16698c52d",
+      "unchanged": true
+    },
+    "shinox-v2-site/en/index.html": {
+      "sha256": "d4c34772c73980280233e3e4e592ce4a9c5878e6dcd84a63f48c1018a2a19091",
+      "unchanged": true
+    },
+    "shinox-v2-site/products.html": {
+      "sha256": "33fa446137a883fa086be26881af3a038b8d5d2b91c464bc1672b59fc774eb4d",
+      "unchanged": true
+    },
+    "shinox-v2-site/en/products.html": {
+      "sha256": "931149857008d281da42b83b914be226bd19e003222adfc6c14d34ea663296f3",
+      "unchanged": true
+    },
+    "shinox-v2-site/site.js": {
+      "sha256": "2c6325920bebae0afd4c642ba2ba224edfb80ebb9ae842df9299f3399c018627",
+      "unchanged": true
+    },
+    "shinox-v2-site/contact.html": {
+      "sha256": "caee5de136495d04b8be850e8f083332c32e9ceba8c28007c885f8adedb723df",
+      "unchanged": true
+    },
+    "shinox-v2-site/en/contact.html": {
+      "sha256": "c0fc33072c753d25b9d55f1eec69fdf631aefddb788342ccaf2d461ddf0f9bff",
+      "unchanged": true
+    },
+    "shinox-v2-site/news.html": {
+      "sha256": "7f89a573621dc5d4e7543c98a78881c2775c4327a2de102bce40a1f675ee4f70",
+      "unchanged": true
+    },
+    "shinox-v2-site/en/news.html": {
+      "sha256": "ec59a0652ea2b5ce48a2a0fb32df6805618bb7db6112ee65a7ada94ffb1654f1",
+      "unchanged": true
+    },
+    "shinox-v2-site/news-smart-wash.html": {
+      "sha256": "d03d158d338748c2a6260e883d3611889dab26407fa539772f887179ea428439",
+      "unchanged": true
+    },
+    "shinox-v2-site/news-vehicle-length.html": {
+      "sha256": "238ebf888d3f84069658b2fedc222b2657ef9245a97d336bf696184a5057ec3b",
+      "unchanged": true
+    },
+    "server.py": {
+      "sha256": "1d6e45bffb1fa8a07422197f076c7f78cce7a4ef116837d763c618bc5a17ca2e",
+      "unchanged": true
+    },
+    "production_api.py": {
+      "sha256": "513bb131e7d239b5ab1976c30dce95199cd61c8cac600fd04390e844992eb253",
+      "unchanged": true
+    },
+    "render.yaml": {
+      "sha256": "04a7b1474b82a9af81bb045fb99ac4f01e12c428d12a4272834e8177f731eb70",
+      "unchanged": true
+    },
+    "shinox-v2-site/legal-config.json": {
+      "sha256": "9a20b0bb6c5d80ba0d624eecbb649bf23f5ec6bc51f2465241eb790f22baa95c",
+      "unchanged": true
+    }
+  }
+}

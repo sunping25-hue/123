@@ -1,0 +1,30 @@
+# ShinoX website-only launch blueprint; no real personal-data intake.
+# Importing this blueprint may incur Render charges. Owner must approve.
+services:
+  - type: web
+    name: shinox-official-site
+    runtime: python
+    plan: starter
+    region: singapore
+    repo: https://github.com/sunping25-hue/123
+    branch: shinox-v2-hero
+    autoDeployTrigger: off
+    buildCommand: python -m compileall -q server.py production_api.py legal_policy.py
+    startCommand: python scripts/start_render.py
+    healthCheckPath: /api/status
+    disk:
+      name: shinox-private-leads
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: SHINOX_DB_PATH
+        value: /var/data/requests.sqlite3
+      - key: SHINOX_DEPLOY_STAGE
+        value: "preview"
+      - key: SHINOX_FORM_LIVE
+        value: "0"
+# For future, reviewed intake deployment, set SHINOX_DEPLOY_STAGE=production
+# and configure HTTPS origin, verified SMTP and admin secrets privately.
+# Do NOT change these settings without privacy and E2E acceptance.

@@ -1,0 +1,20 @@
+[
+  {
+    "path": "shinox-v2-site/products/self-3.html",
+    "base": "05e17d865e3dcb04697bc385cbd786a26247afd0",
+    "newMainExact": true,
+    "latestHeaderFooterExact": true,
+    "shareImageFromLatest": true,
+    "h1": "ShinoX 9合1 洗車控制箱",
+    "sha256": "b8cc1979a641ce698079b948be60932a4abe2d4380de9976e6b8948d7b391704"
+  },
+  {
+    "path": "shinox-v2-site/en/products/self-3.html",
+    "base": "05e17d865e3dcb04697bc385cbd786a26247afd0",
+    "newMainExact": true,
+    "latestHeaderFooterExact": true,
+    "shareImageFromLatest": true,
+    "h1": "ShinoX 9-in-1 Car Wash Control Box",
+    "sha256": "a773f45ce6cfa960a8533be7e6884171bf74b1e3beebbc2552eb05d920bb2212"
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "coreMatrix": [
+    {
+      "width": 1440,
+      "language": "zh",
+      "result": "PASS"
+    },
+    {
+      "width": 1440,
+      "language": "en",
+      "result": "PASS"
+    },
+    {
+      "width": 768,
+      "language": "zh",
+      "result": "PASS"
+    },
+    {
+      "width": 768,
+      "language": "en",
+      "result": "PASS"
+    },
+    {
+      "width": 390,
+      "language": "zh",
+      "result": "PASS"
+    },
+    {
+      "width": 390,
+      "language": "en",
+      "result": "PASS"
+    },
+    {
+      "width": 375,
+      "language": "zh",
+      "result": "PASS"
+    },
+    {
+      "width": 375,
+      "language": "en",
+      "result": "PASS"
+    }
+  ],
+  "coreChecks": [
+    "Six stage tabs and one selected detail",
+    "Previous/next and disabled boundaries",
+    "Arrow keys, Home and End",
+    "Mobile horizontal scroller and no page overflow",
+    "Explicit 6-second auto mode and offscreen pause",
+    "White process heading",
+    "Official YouTube URL opens separate tab with no opener",
+    "Exactly one official footer entry",
+    "Keyboard focus, 44px minimum targets, reduced-motion styling",
+    "Corresponding language/product route",
+    "Calculator prompt, invalid entry, Escape and English dynamic text",
+    "Original LINE/WhatsApp URLs and non-overlapping controls",
+    "Home brand YouTube and campaign image/English CTA",
+    "Back-to-top and responsive menu",
+    "No unconfirmed product videos",
+    "No browser JavaScript errors"
+  ],
+  "normalMotionRecheck": {
+    "buttonTransform": "matrix(1, 0, 0, 1, 0, -2)",
+    "arrowTransform": "matrix(1, 0, 0, 1, 3, -3)",
+    "reducedMotionChangeStopsAuto": "PASS",
+    "verification": "Focused native-media-event recheck; waits for the actual aria-pressed state, not a fixed 50ms delay."
+  },
+  "externalRequests": "YouTube new-tab target intercepted locally. No live form submission."
+}

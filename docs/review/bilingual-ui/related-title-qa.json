@@ -1,0 +1,53 @@
+[
+  {
+    "width": 1440,
+    "relatedCardTitleAndArrow": [
+      {
+        "text": "Water softening & filtration",
+        "clear": true
+      },
+      {
+        "text": "Wastewater recycling",
+        "clear": true
+      },
+      {
+        "text": "Card sales & recharge machine",
+        "clear": true
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "relatedCardTitleAndArrow": [
+      {
+        "text": "Water softening & filtration",
+        "clear": true
+      },
+      {
+        "text": "Wastewater recycling",
+        "clear": true
+      },
+      {
+        "text": "Card sales & recharge machine",
+        "clear": true
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "relatedCardTitleAndArrow": [
+      {
+        "text": "Water softening & filtration",
+        "clear": true
+      },
+      {
+        "text": "Wastewater recycling",
+        "clear": true
+      },
+      {
+        "text": "Card sales & recharge machine",
+        "clear": true
+      }
+    ]
+  }
+]

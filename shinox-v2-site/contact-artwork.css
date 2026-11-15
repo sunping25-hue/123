@@ -1,0 +1,13 @@
+/* Owner-supplied K01 background and K02 showroom banner. */
+.contact-details{position:relative;isolation:isolate;overflow:hidden;padding:28px 24px;border:1px solid #23516a;border-radius:8px;background:#061322}
+.contact-global-background{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover;object-position:70% center;opacity:.62}
+.contact-details:after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(90deg,#061322d9,#06132275),linear-gradient(0deg,#061322c4,transparent)}
+.contact-details .contact-intro,.contact-details p,.contact-details .muted{color:#bad5e3}.contact-details h1{color:white;text-shadow:0 2px 20px #0008}
+.route-main .showroom-banner{position:relative;isolation:isolate;display:flex;align-items:center;aspect-ratio:1920/650;min-height:280px;overflow:hidden;padding:36px 32px;gap:0;background:#061322}
+.showroom-banner>.board-visual{position:absolute;inset:0;z-index:-2;margin:0}
+.showroom-banner .board-visual img{display:block;width:100%;height:100%;aspect-ratio:auto;object-fit:cover;object-position:center}
+.showroom-banner:after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(90deg,#061322e6,#0613229c 36%,transparent 80%)}
+.showroom-banner>div:first-child{max-width:390px}.showroom-banner .board-visual figcaption{position:absolute;right:12px;bottom:8px;padding:4px 8px;background:#061322b8;color:#c6dce8;font-size:10px}.showroom-banner h2{color:white}.showroom-banner>div>p:not(.eyebrow){color:#bbd3df}
+@media(max-width:600px){.contact-details{padding:23px 18px}.route-main #contact .contact-details h1{font-size:29px}.contact-global-background{object-position:68% center}.route-main .showroom-banner{display:flex;flex-direction:column;align-items:stretch;aspect-ratio:auto;min-height:0;padding:0;gap:0}.showroom-banner>.board-visual{position:relative;inset:auto;z-index:auto;order:0}.showroom-banner .board-visual img{height:auto;aspect-ratio:1920/650;object-fit:contain}.showroom-banner .board-visual figcaption{position:static;text-align:right;font-size:9px;padding:5px 10px;background:#081c2b}.showroom-banner>div:first-child{order:1;max-width:none;padding:22px}.showroom-banner:after{display:none}.showroom-banner h2{font-size:24px!important}}
+/* Keep the wide-ratio banner constrained inside the tablet content column. */
+.route-main .showroom-banner{width:100%;max-width:100%;min-width:0}.showroom-banner>.board-visual{min-width:0}

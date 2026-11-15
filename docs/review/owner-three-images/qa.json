@@ -1,0 +1,1349 @@
+[
+  {
+    "width": 1920,
+    "language": "zh",
+    "section": "brand",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/about/equipment-integration-brands-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 794.875,
+          "y": 2313.6875,
+          "width": 990.734375,
+          "height": 495.359375,
+          "top": 2313.6875,
+          "right": 1785.609375,
+          "bottom": 2809.046875,
+          "left": 794.875
+        }
+      }
+    ],
+    "layout": {
+      "grid": "660.484px 990.734px",
+      "bg": "rgb(6, 22, 38)",
+      "border": "0px",
+      "frameBorder": "0px",
+      "framePadding": "0px",
+      "text": {
+        "x": 134.390625,
+        "y": 2338.984375,
+        "width": 660.484375,
+        "height": 444.75,
+        "top": 2338.984375,
+        "right": 794.875,
+        "bottom": 2783.734375,
+        "left": 134.390625
+      },
+      "image": {
+        "x": 794.875,
+        "y": 2313.6875,
+        "width": 990.734375,
+        "height": 495.359375,
+        "top": 2313.6875,
+        "right": 1785.609375,
+        "bottom": 2809.046875,
+        "left": 794.875
+      },
+      "extraCaption": false
+    },
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 1920,
+    "language": "zh",
+    "section": "chemicals",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/products/chemicals-20l.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 115.1875,
+          "y": 2847.1875,
+          "width": 1689.625,
+          "height": 950.90625,
+          "top": 2847.1875,
+          "right": 1804.8125,
+          "bottom": 3798.09375,
+          "left": 115.1875
+        }
+      }
+    ],
+    "inquirySubjects": [
+      "ShinoX Coating Protection 20L",
+      "ShinoX Deep Cleaner 20L",
+      "ShinoX High Foam Shampoo 20L"
+    ],
+    "filters": "PASS all/self/wash/peripheral; chemicals only all/peripheral, M9 only all/wash",
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 1920,
+    "language": "zh",
+    "section": "m9",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/products/m9-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 1009,
+          "y": 242.296875,
+          "width": 515.609375,
+          "height": 290.171875,
+          "top": 242.296875,
+          "right": 1524.609375,
+          "bottom": 532.46875,
+          "left": 1009
+        }
+      }
+    ],
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 1920,
+    "language": "en",
+    "section": "brand",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/about/equipment-integration-brands-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 794.875,
+          "y": 2578.0625,
+          "width": 990.734375,
+          "height": 495.359375,
+          "top": 2578.0625,
+          "right": 1785.609375,
+          "bottom": 3073.421875,
+          "left": 794.875
+        }
+      }
+    ],
+    "layout": {
+      "grid": "660.484px 990.734px",
+      "bg": "rgb(6, 22, 38)",
+      "border": "0px",
+      "frameBorder": "0px",
+      "framePadding": "0px",
+      "text": {
+        "x": 134.390625,
+        "y": 2557.25,
+        "width": 660.484375,
+        "height": 537,
+        "top": 2557.25,
+        "right": 794.875,
+        "bottom": 3094.25,
+        "left": 134.390625
+      },
+      "image": {
+        "x": 794.875,
+        "y": 2578.0625,
+        "width": 990.734375,
+        "height": 495.359375,
+        "top": 2578.0625,
+        "right": 1785.609375,
+        "bottom": 3073.421875,
+        "left": 794.875
+      },
+      "extraCaption": false
+    },
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 1920,
+    "language": "en",
+    "section": "chemicals",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/products/chemicals-20l.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 115.1875,
+          "y": 2839.1875,
+          "width": 1689.625,
+          "height": 950.90625,
+          "top": 2839.1875,
+          "right": 1804.8125,
+          "bottom": 3790.09375,
+          "left": 115.1875
+        }
+      }
+    ],
+    "inquirySubjects": [
+      "ShinoX Coating Protection 20L",
+      "ShinoX Deep Cleaner 20L",
+      "ShinoX High Foam Shampoo 20L"
+    ],
+    "filters": "PASS all/self/wash/peripheral; chemicals only all/peripheral, M9 only all/wash",
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 1920,
+    "language": "en",
+    "section": "m9",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/products/m9-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 1009,
+          "y": 242.296875,
+          "width": 515.609375,
+          "height": 290.171875,
+          "top": 242.296875,
+          "right": 1524.609375,
+          "bottom": 532.46875,
+          "left": 1009
+        }
+      }
+    ],
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 1440,
+    "language": "zh",
+    "section": "brand",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/about/equipment-integration-brands-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 596.15625,
+          "y": 2556.546875,
+          "width": 743.046875,
+          "height": 371.515625,
+          "top": 2556.546875,
+          "right": 1339.203125,
+          "bottom": 2928.0625,
+          "left": 596.15625
+        }
+      }
+    ],
+    "layout": {
+      "grid": "495.359px 743.047px",
+      "bg": "rgb(6, 22, 38)",
+      "border": "0px",
+      "frameBorder": "0px",
+      "framePadding": "0px",
+      "text": {
+        "x": 100.796875,
+        "y": 2492.1875,
+        "width": 495.359375,
+        "height": 500.25,
+        "top": 2492.1875,
+        "right": 596.15625,
+        "bottom": 2992.4375,
+        "left": 100.796875
+      },
+      "image": {
+        "x": 596.15625,
+        "y": 2556.546875,
+        "width": 743.046875,
+        "height": 371.515625,
+        "top": 2556.546875,
+        "right": 1339.203125,
+        "bottom": 2928.0625,
+        "left": 596.15625
+      },
+      "extraCaption": false
+    },
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 1440,
+    "language": "zh",
+    "section": "chemicals",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/products/chemicals-20l.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 86.390625,
+          "y": 2588.078125,
+          "width": 1267.21875,
+          "height": 713.1875,
+          "top": 2588.078125,
+          "right": 1353.609375,
+          "bottom": 3301.265625,
+          "left": 86.390625
+        }
+      }
+    ],
+    "inquirySubjects": [
+      "ShinoX Coating Protection 20L",
+      "ShinoX Deep Cleaner 20L",
+      "ShinoX High Foam Shampoo 20L"
+    ],
+    "filters": "PASS all/self/wash/peripheral; chemicals only all/peripheral, M9 only all/wash",
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 1440,
+    "language": "zh",
+    "section": "m9",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/products/m9-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 757,
+          "y": 242.296875,
+          "width": 561.203125,
+          "height": 315.84375,
+          "top": 242.296875,
+          "right": 1318.203125,
+          "bottom": 558.140625,
+          "left": 757
+        }
+      }
+    ],
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 1440,
+    "language": "en",
+    "section": "brand",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/about/equipment-integration-brands-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 596.15625,
+          "y": 2869.484375,
+          "width": 743.046875,
+          "height": 371.515625,
+          "top": 2869.484375,
+          "right": 1339.203125,
+          "bottom": 3241,
+          "left": 596.15625
+        }
+      }
+    ],
+    "layout": {
+      "grid": "495.359px 743.047px",
+      "bg": "rgb(6, 22, 38)",
+      "border": "0px",
+      "frameBorder": "0px",
+      "framePadding": "0px",
+      "text": {
+        "x": 100.796875,
+        "y": 2705,
+        "width": 495.359375,
+        "height": 700.5,
+        "top": 2705,
+        "right": 596.15625,
+        "bottom": 3405.5,
+        "left": 100.796875
+      },
+      "image": {
+        "x": 596.15625,
+        "y": 2869.484375,
+        "width": 743.046875,
+        "height": 371.515625,
+        "top": 2869.484375,
+        "right": 1339.203125,
+        "bottom": 3241,
+        "left": 596.15625
+      },
+      "extraCaption": false
+    },
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 1440,
+    "language": "en",
+    "section": "chemicals",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/products/chemicals-20l.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 86.390625,
+          "y": 2610.078125,
+          "width": 1267.21875,
+          "height": 713.1875,
+          "top": 2610.078125,
+          "right": 1353.609375,
+          "bottom": 3323.265625,
+          "left": 86.390625
+        }
+      }
+    ],
+    "inquirySubjects": [
+      "ShinoX Coating Protection 20L",
+      "ShinoX Deep Cleaner 20L",
+      "ShinoX High Foam Shampoo 20L"
+    ],
+    "filters": "PASS all/self/wash/peripheral; chemicals only all/peripheral, M9 only all/wash",
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 1440,
+    "language": "en",
+    "section": "m9",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/products/m9-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 757,
+          "y": 242.296875,
+          "width": 561.203125,
+          "height": 315.84375,
+          "top": 242.296875,
+          "right": 1318.203125,
+          "bottom": 558.140625,
+          "left": 757
+        }
+      }
+    ],
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 1024,
+    "language": "zh",
+    "section": "brand",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/about/equipment-integration-brands-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 423.921875,
+          "y": 2721.015625,
+          "width": 528.40625,
+          "height": 264.203125,
+          "top": 2721.015625,
+          "right": 952.328125,
+          "bottom": 2985.21875,
+          "left": 423.921875
+        }
+      }
+    ],
+    "layout": {
+      "grid": "352.25px 528.406px",
+      "bg": "rgb(6, 22, 38)",
+      "border": "0px",
+      "frameBorder": "0px",
+      "framePadding": "0px",
+      "text": {
+        "x": 71.671875,
+        "y": 2585.75,
+        "width": 352.25,
+        "height": 534.75,
+        "top": 2585.75,
+        "right": 423.921875,
+        "bottom": 3120.5,
+        "left": 71.671875
+      },
+      "image": {
+        "x": 423.921875,
+        "y": 2721.015625,
+        "width": 528.40625,
+        "height": 264.203125,
+        "top": 2721.015625,
+        "right": 952.328125,
+        "bottom": 2985.21875,
+        "left": 423.921875
+      },
+      "extraCaption": false
+    },
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 1024,
+    "language": "zh",
+    "section": "chemicals",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/products/chemicals-20l-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 61.4375,
+          "y": 2347,
+          "width": 901.125,
+          "height": 506.875,
+          "top": 2347,
+          "right": 962.5625,
+          "bottom": 2853.875,
+          "left": 61.4375
+        }
+      }
+    ],
+    "inquirySubjects": [
+      "ShinoX Coating Protection 20L",
+      "ShinoX Deep Cleaner 20L",
+      "ShinoX High Foam Shampoo 20L"
+    ],
+    "filters": "PASS all/self/wash/peripheral; chemicals only all/peripheral, M9 only all/wash",
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 1024,
+    "language": "zh",
+    "section": "m9",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/products/m9-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 538.59375,
+          "y": 240.796875,
+          "width": 412.734375,
+          "height": 232.28125,
+          "top": 240.796875,
+          "right": 951.328125,
+          "bottom": 473.078125,
+          "left": 538.59375
+        }
+      }
+    ],
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 1024,
+    "language": "en",
+    "section": "brand",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/about/equipment-integration-brands-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 423.921875,
+          "y": 3238.140625,
+          "width": 528.40625,
+          "height": 264.203125,
+          "top": 3238.140625,
+          "right": 952.328125,
+          "bottom": 3502.34375,
+          "left": 423.921875
+        }
+      }
+    ],
+    "layout": {
+      "grid": "352.25px 528.406px",
+      "bg": "rgb(6, 22, 38)",
+      "border": "0px",
+      "frameBorder": "0px",
+      "framePadding": "0px",
+      "text": {
+        "x": 71.671875,
+        "y": 2985.5,
+        "width": 352.25,
+        "height": 769.5,
+        "top": 2985.5,
+        "right": 423.921875,
+        "bottom": 3755,
+        "left": 71.671875
+      },
+      "image": {
+        "x": 423.921875,
+        "y": 3238.140625,
+        "width": 528.40625,
+        "height": 264.203125,
+        "top": 3238.140625,
+        "right": 952.328125,
+        "bottom": 3502.34375,
+        "left": 423.921875
+      },
+      "extraCaption": false
+    },
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 1024,
+    "language": "en",
+    "section": "chemicals",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/products/chemicals-20l-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 61.4375,
+          "y": 2534.65625,
+          "width": 901.125,
+          "height": 506.875,
+          "top": 2534.65625,
+          "right": 962.5625,
+          "bottom": 3041.53125,
+          "left": 61.4375
+        }
+      }
+    ],
+    "inquirySubjects": [
+      "ShinoX Coating Protection 20L",
+      "ShinoX Deep Cleaner 20L",
+      "ShinoX High Foam Shampoo 20L"
+    ],
+    "filters": "PASS all/self/wash/peripheral; chemicals only all/peripheral, M9 only all/wash",
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 1024,
+    "language": "en",
+    "section": "m9",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/products/m9-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 538.59375,
+          "y": 240.796875,
+          "width": 412.734375,
+          "height": 232.28125,
+          "top": 240.796875,
+          "right": 951.328125,
+          "bottom": 473.078125,
+          "left": 538.59375
+        }
+      }
+    ],
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 768,
+    "language": "zh",
+    "section": "brand",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/about/equipment-integration-brands-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 53.75,
+          "y": 3171,
+          "width": 660.5,
+          "height": 330.25,
+          "top": 3171,
+          "right": 714.25,
+          "bottom": 3501.25,
+          "left": 53.75
+        }
+      }
+    ],
+    "layout": {
+      "grid": "660.5px",
+      "bg": "rgb(6, 22, 38)",
+      "border": "0px",
+      "frameBorder": "0px",
+      "framePadding": "0px",
+      "text": {
+        "x": 53.75,
+        "y": 2771.75,
+        "width": 660.5,
+        "height": 371.25,
+        "top": 2771.75,
+        "right": 714.25,
+        "bottom": 3143,
+        "left": 53.75
+      },
+      "image": {
+        "x": 53.75,
+        "y": 3171,
+        "width": 660.5,
+        "height": 330.25,
+        "top": 3171,
+        "right": 714.25,
+        "bottom": 3501.25,
+        "left": 53.75
+      },
+      "extraCaption": false
+    },
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 768,
+    "language": "zh",
+    "section": "chemicals",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/products/chemicals-20l-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 46.078125,
+          "y": 2521.59375,
+          "width": 675.84375,
+          "height": 380.15625,
+          "top": 2521.59375,
+          "right": 721.921875,
+          "bottom": 2901.75,
+          "left": 46.078125
+        }
+      }
+    ],
+    "inquirySubjects": [
+      "ShinoX Coating Protection 20L",
+      "ShinoX Deep Cleaner 20L",
+      "ShinoX High Foam Shampoo 20L"
+    ],
+    "filters": "PASS all/self/wash/peripheral; chemicals only all/peripheral, M9 only all/wash",
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 768,
+    "language": "zh",
+    "section": "m9",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/products/m9-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 404.1875,
+          "y": 215.796875,
+          "width": 309.0625,
+          "height": 173.9375,
+          "top": 215.796875,
+          "right": 713.25,
+          "bottom": 389.734375,
+          "left": 404.1875
+        }
+      }
+    ],
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 768,
+    "language": "en",
+    "section": "brand",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/about/equipment-integration-brands-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 53.75,
+          "y": 3738.5,
+          "width": 660.5,
+          "height": 330.25,
+          "top": 3738.5,
+          "right": 714.25,
+          "bottom": 4068.75,
+          "left": 53.75
+        }
+      }
+    ],
+    "layout": {
+      "grid": "660.5px",
+      "bg": "rgb(6, 22, 38)",
+      "border": "0px",
+      "frameBorder": "0px",
+      "framePadding": "0px",
+      "text": {
+        "x": 53.75,
+        "y": 3206.5,
+        "width": 660.5,
+        "height": 504,
+        "top": 3206.5,
+        "right": 714.25,
+        "bottom": 3710.5,
+        "left": 53.75
+      },
+      "image": {
+        "x": 53.75,
+        "y": 3738.5,
+        "width": 660.5,
+        "height": 330.25,
+        "top": 3738.5,
+        "right": 714.25,
+        "bottom": 4068.75,
+        "left": 53.75
+      },
+      "extraCaption": false
+    },
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 768,
+    "language": "en",
+    "section": "chemicals",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/products/chemicals-20l-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 46.078125,
+          "y": 2789.84375,
+          "width": 675.84375,
+          "height": 380.15625,
+          "top": 2789.84375,
+          "right": 721.921875,
+          "bottom": 3170,
+          "left": 46.078125
+        }
+      }
+    ],
+    "inquirySubjects": [
+      "ShinoX Coating Protection 20L",
+      "ShinoX Deep Cleaner 20L",
+      "ShinoX High Foam Shampoo 20L"
+    ],
+    "filters": "PASS all/self/wash/peripheral; chemicals only all/peripheral, M9 only all/wash",
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 768,
+    "language": "en",
+    "section": "m9",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/products/m9-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 404.1875,
+          "y": 215.796875,
+          "width": 309.0625,
+          "height": 173.9375,
+          "top": 215.796875,
+          "right": 713.25,
+          "bottom": 389.734375,
+          "left": 404.1875
+        }
+      }
+    ],
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 390,
+    "language": "zh",
+    "section": "brand",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/about/equipment-integration-brands-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 23.390625,
+          "y": 3988.6875,
+          "width": 291.21875,
+          "height": 145.609375,
+          "top": 3988.6875,
+          "right": 314.609375,
+          "bottom": 4134.296875,
+          "left": 23.390625
+        }
+      }
+    ],
+    "layout": {
+      "grid": "343.219px",
+      "bg": "rgb(6, 22, 38)",
+      "border": "0px",
+      "frameBorder": "0px",
+      "framePadding": "0px",
+      "text": {
+        "x": 23.390625,
+        "y": 3456.6875,
+        "width": 343.21875,
+        "height": 504,
+        "top": 3456.6875,
+        "right": 366.609375,
+        "bottom": 3960.6875,
+        "left": 23.390625
+      },
+      "image": {
+        "x": 23.390625,
+        "y": 3988.6875,
+        "width": 291.21875,
+        "height": 145.609375,
+        "top": 3988.6875,
+        "right": 314.609375,
+        "bottom": 4134.296875,
+        "left": 23.390625
+      },
+      "extraCaption": false
+    },
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 390,
+    "language": "zh",
+    "section": "chemicals",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/products/chemicals-20l-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 8,
+          "y": 2468.75,
+          "width": 374,
+          "height": 210.375,
+          "top": 2468.75,
+          "right": 382,
+          "bottom": 2679.125,
+          "left": 8
+        }
+      }
+    ],
+    "inquirySubjects": [
+      "ShinoX Coating Protection 20L",
+      "ShinoX Deep Cleaner 20L",
+      "ShinoX High Foam Shampoo 20L"
+    ],
+    "filters": "PASS all/self/wash/peripheral; chemicals only all/peripheral, M9 only all/wash",
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 390,
+    "language": "zh",
+    "section": "m9",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/products/m9-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 24.390625,
+          "y": 525.015625,
+          "width": 341.21875,
+          "height": 192.03125,
+          "top": 525.015625,
+          "right": 365.609375,
+          "bottom": 717.046875,
+          "left": 24.390625
+        }
+      }
+    ],
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 390,
+    "language": "en",
+    "section": "brand",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/about/equipment-integration-brands-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 23.390625,
+          "y": 4871.4375,
+          "width": 291.21875,
+          "height": 145.609375,
+          "top": 4871.4375,
+          "right": 314.609375,
+          "bottom": 5017.046875,
+          "left": 23.390625
+        }
+      }
+    ],
+    "layout": {
+      "grid": "343.219px",
+      "bg": "rgb(6, 22, 38)",
+      "border": "0px",
+      "frameBorder": "0px",
+      "framePadding": "0px",
+      "text": {
+        "x": 23.390625,
+        "y": 4174.4375,
+        "width": 343.21875,
+        "height": 669,
+        "top": 4174.4375,
+        "right": 366.609375,
+        "bottom": 4843.4375,
+        "left": 23.390625
+      },
+      "image": {
+        "x": 23.390625,
+        "y": 4871.4375,
+        "width": 291.21875,
+        "height": 145.609375,
+        "top": 4871.4375,
+        "right": 314.609375,
+        "bottom": 5017.046875,
+        "left": 23.390625
+      },
+      "extraCaption": false
+    },
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 390,
+    "language": "en",
+    "section": "chemicals",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/products/chemicals-20l-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 8,
+          "y": 2779.8125,
+          "width": 374,
+          "height": 210.375,
+          "top": 2779.8125,
+          "right": 382,
+          "bottom": 2990.1875,
+          "left": 8
+        }
+      }
+    ],
+    "inquirySubjects": [
+      "ShinoX Coating Protection 20L",
+      "ShinoX Deep Cleaner 20L",
+      "ShinoX High Foam Shampoo 20L"
+    ],
+    "filters": "PASS all/self/wash/peripheral; chemicals only all/peripheral, M9 only all/wash",
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 390,
+    "language": "en",
+    "section": "m9",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/products/m9-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 24.390625,
+          "y": 723.734375,
+          "width": 341.21875,
+          "height": 192.03125,
+          "top": 723.734375,
+          "right": 365.609375,
+          "bottom": 915.765625,
+          "left": 24.390625
+        }
+      }
+    ],
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 375,
+    "language": "zh",
+    "section": "brand",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/about/equipment-integration-brands-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 22.5,
+          "y": 4016.6875,
+          "width": 278,
+          "height": 139,
+          "top": 4016.6875,
+          "right": 300.5,
+          "bottom": 4155.6875,
+          "left": 22.5
+        }
+      }
+    ],
+    "layout": {
+      "grid": "330px",
+      "bg": "rgb(6, 22, 38)",
+      "border": "0px",
+      "frameBorder": "0px",
+      "framePadding": "0px",
+      "text": {
+        "x": 22.5,
+        "y": 3484.6875,
+        "width": 330,
+        "height": 504,
+        "top": 3484.6875,
+        "right": 352.5,
+        "bottom": 3988.6875,
+        "left": 22.5
+      },
+      "image": {
+        "x": 22.5,
+        "y": 4016.6875,
+        "width": 278,
+        "height": 139,
+        "top": 4016.6875,
+        "right": 300.5,
+        "bottom": 4155.6875,
+        "left": 22.5
+      },
+      "extraCaption": false
+    },
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 375,
+    "language": "zh",
+    "section": "chemicals",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/products/chemicals-20l-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 8,
+          "y": 2455.53125,
+          "width": 359,
+          "height": 201.9375,
+          "top": 2455.53125,
+          "right": 367,
+          "bottom": 2657.46875,
+          "left": 8
+        }
+      }
+    ],
+    "inquirySubjects": [
+      "ShinoX Coating Protection 20L",
+      "ShinoX Deep Cleaner 20L",
+      "ShinoX High Foam Shampoo 20L"
+    ],
+    "filters": "PASS all/self/wash/peripheral; chemicals only all/peripheral, M9 only all/wash",
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 375,
+    "language": "zh",
+    "section": "m9",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/products/m9-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 23.5,
+          "y": 525.015625,
+          "width": 328,
+          "height": 184.59375,
+          "top": 525.015625,
+          "right": 351.5,
+          "bottom": 709.609375,
+          "left": 23.5
+        }
+      }
+    ],
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 375,
+    "language": "en",
+    "section": "brand",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/about/equipment-integration-brands-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 22.5,
+          "y": 5055.4375,
+          "width": 278,
+          "height": 139,
+          "top": 5055.4375,
+          "right": 300.5,
+          "bottom": 5194.4375,
+          "left": 22.5
+        }
+      }
+    ],
+    "layout": {
+      "grid": "330px",
+      "bg": "rgb(6, 22, 38)",
+      "border": "0px",
+      "frameBorder": "0px",
+      "framePadding": "0px",
+      "text": {
+        "x": 22.5,
+        "y": 4330.4375,
+        "width": 330,
+        "height": 697,
+        "top": 4330.4375,
+        "right": 352.5,
+        "bottom": 5027.4375,
+        "left": 22.5
+      },
+      "image": {
+        "x": 22.5,
+        "y": 5055.4375,
+        "width": 278,
+        "height": 139,
+        "top": 5055.4375,
+        "right": 300.5,
+        "bottom": 5194.4375,
+        "left": 22.5
+      },
+      "extraCaption": false
+    },
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 375,
+    "language": "en",
+    "section": "chemicals",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/products/chemicals-20l-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 8,
+          "y": 2826.59375,
+          "width": 359,
+          "height": 201.9375,
+          "top": 2826.59375,
+          "right": 367,
+          "bottom": 3028.53125,
+          "left": 8
+        }
+      }
+    ],
+    "inquirySubjects": [
+      "ShinoX Coating Protection 20L",
+      "ShinoX Deep Cleaner 20L",
+      "ShinoX High Foam Shampoo 20L"
+    ],
+    "filters": "PASS all/self/wash/peripheral; chemicals only all/peripheral, M9 only all/wash",
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 375,
+    "language": "en",
+    "section": "m9",
+    "overflow": false,
+    "clipped": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:3033/lassets/products/m9-small.webp",
+        "loaded": true,
+        "fit": "contain",
+        "box": {
+          "x": 23.5,
+          "y": 723.734375,
+          "width": 328,
+          "height": 184.59375,
+          "top": 723.734375,
+          "right": 351.5,
+          "bottom": 908.328125,
+          "left": 23.5
+        }
+      }
+    ],
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "interaction": "PASS both-language brand CTA navigation, six chemical draft link click targets and keyboard focus, full-image new tabs/noopener, fade-in/reduced motion, both-language contact form remains disabled. Email draft clicks intercepted; no messages sent and no live SMTP delivery claimed."
+  }
+]

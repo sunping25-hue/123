@@ -1,0 +1,9 @@
+/* Scoped presentation of the owner's complete equipment-tool composition. */
+.business-equipment-visual{margin:40px 0 52px;width:100%;min-width:0}
+.business-equipment-visual>a{display:block;overflow:hidden;border:1px solid #446d805c;border-radius:16px;background:#061626;color:#c5dce5;text-decoration:none;transition:border-color .24s ease,box-shadow .24s ease}
+.business-equipment-visual>a:hover{border-color:#58d6e0a6;box-shadow:0 14px 42px #0004,0 0 24px #17ddc70a}
+.business-equipment-visual>a:focus-visible{outline:2px solid #17ddc7;outline-offset:5px}
+.business-equipment-visual img{display:block;width:100%;height:auto;object-fit:contain}
+.business-equipment-visual figcaption{display:flex;align-items:center;min-height:54px;padding:14px 20px;font-size:16px;line-height:1.65;border-top:1px solid #c8d7e61a}
+@media(max-width:700px){.business-equipment-visual{margin:28px 0 36px}.business-equipment-visual>a{border-radius:12px}.business-equipment-visual figcaption{padding:12px 16px}}
+@media(prefers-reduced-motion:reduce){.business-equipment-visual>a{transition:none}}

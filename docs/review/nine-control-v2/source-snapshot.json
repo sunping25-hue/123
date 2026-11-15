@@ -1,0 +1,13 @@
+{
+  "base": "1f09bd062dd51926a3f4e06190bd65194379881a",
+  "files": {
+    "products/self-3.html": "870a74e16c3ef67051a4581b775d03fa0225cc4c5bf28558bc73463e2552160f",
+    "en/products/self-3.html": "20f2323b892d1007bc959a785b480901794c23126e4f78584a37d0ffa6551c62",
+    "products/nine-control.css": "fe160709a182c9866f262c4df1c9cd5cf1e92958ad835f525a7183b614652f00",
+    "products/nine-control.js": "e7d3c349360dddd849867c08ecbcb54f389266c06dd4990c2b08d2d30d4e76b1"
+  },
+  "imagesModified": false,
+  "postMergeMainExact": true,
+  "productImagesMatchActualHero": true,
+  "productPagesUnchangedBetweenValidatedBaseAndLatest": true
+}

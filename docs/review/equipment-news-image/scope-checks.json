@@ -1,0 +1,41 @@
+{
+  "news.html": {
+    "technologyAndBrandCardsUnchanged": true
+  },
+  "en/news.html": {
+    "technologyAndBrandCardsUnchanged": true
+  },
+  "shinox-v2-site/lassets/news/shinox-anpr-entrance.webp": {
+    "byteIdentical": true
+  },
+  "shinox-v2-site/lassets/news/shinox-cloud-payment-kiosk.webp": {
+    "byteIdentical": true
+  },
+  "shinox-v2-site/news-smart-wash.html": {
+    "byteIdentical": true
+  },
+  "shinox-v2-site/en/news-smart-wash.html": {
+    "byteIdentical": true
+  },
+  "shinox-v2-site/site.js": {
+    "byteIdentical": true
+  },
+  "shinox-v2-site/index.html": {
+    "byteIdentical": true
+  },
+  "shinox-v2-site/en/index.html": {
+    "byteIdentical": true
+  },
+  "render.yaml": {
+    "byteIdentical": true
+  },
+  "server.py": {
+    "byteIdentical": true
+  },
+  "production_api.py": {
+    "byteIdentical": true
+  },
+  "shinox-v2-site/legal-config.json": {
+    "byteIdentical": true
+  }
+}

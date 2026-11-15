@@ -1,0 +1,483 @@
+{
+  "checks": [
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/b2-wash-action-small.webp",
+          "objectFit": "contain"
+        }
+      ],
+      "page": "products/wash-1.html",
+      "width": 768,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/b2-wash-action-small.webp",
+          "objectFit": "contain"
+        }
+      ],
+      "page": "products/wash-1.html",
+      "width": 390,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/b2-wash-action-small.webp",
+          "objectFit": "contain"
+        }
+      ],
+      "page": "products/wash-1.html",
+      "width": 1440,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/b2-wash-action-small.webp",
+          "objectFit": "contain"
+        }
+      ],
+      "page": "en/products/wash-1.html",
+      "width": 768,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/b2-wash-action-small.webp",
+          "objectFit": "contain"
+        }
+      ],
+      "page": "en/products/wash-1.html",
+      "width": 390,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/b2-wash-action-small.webp",
+          "objectFit": "contain"
+        }
+      ],
+      "page": "en/products/wash-1.html",
+      "width": 1440,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [],
+      "page": "products/wash-2.html",
+      "width": 768,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [],
+      "page": "products/wash-2.html",
+      "width": 390,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [],
+      "page": "products/wash-2.html",
+      "width": 1440,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [],
+      "page": "en/products/wash-2.html",
+      "width": 768,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [],
+      "page": "en/products/wash-2.html",
+      "width": 1440,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [],
+      "page": "en/products/wash-2.html",
+      "width": 390,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/cloud-recharge-owner-small.webp",
+          "objectFit": "contain"
+        }
+      ],
+      "page": "products/self-5.html",
+      "width": 1440,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/cloud-recharge-owner-small.webp",
+          "objectFit": "contain"
+        }
+      ],
+      "page": "products/self-5.html",
+      "width": 768,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/cloud-recharge-owner-small.webp",
+          "objectFit": "contain"
+        }
+      ],
+      "page": "products/self-5.html",
+      "width": 390,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/cloud-recharge-owner-small.webp",
+          "objectFit": "contain"
+        }
+      ],
+      "page": "en/products/self-5.html",
+      "width": 1440,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/cloud-recharge-owner-small.webp",
+          "objectFit": "contain"
+        }
+      ],
+      "page": "en/products/self-5.html",
+      "width": 768,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/cloud-recharge-owner-small.webp",
+          "objectFit": "contain"
+        }
+      ],
+      "page": "en/products/self-5.html",
+      "width": 390,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3042/lassets/business/five-tools-owner.webp",
+          "objectFit": "contain"
+        }
+      ],
+      "page": "business.html",
+      "width": 1440,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3042/lassets/business/five-tools-owner-small.webp",
+          "objectFit": "contain"
+        }
+      ],
+      "page": "business.html",
+      "width": 768,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3042/lassets/business/five-tools-owner-small.webp",
+          "objectFit": "contain"
+        }
+      ],
+      "page": "business.html",
+      "width": 390,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3042/lassets/business/five-tools-owner.webp",
+          "objectFit": "contain"
+        }
+      ],
+      "page": "en/business.html",
+      "width": 1440,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3042/lassets/business/five-tools-owner-small.webp",
+          "objectFit": "contain"
+        }
+      ],
+      "page": "en/business.html",
+      "width": 768,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3042/lassets/business/five-tools-owner-small.webp",
+          "objectFit": "contain"
+        }
+      ],
+      "page": "en/business.html",
+      "width": 390,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/cloud-recharge-owner-small.webp",
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/b2-wash-action-small.webp",
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/m9-owner-showcase-small.webp",
+          "objectFit": "contain"
+        }
+      ],
+      "page": "products.html",
+      "width": 1440,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/cloud-recharge-owner-small.webp",
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/b2-wash-action-small.webp",
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/m9-owner-showcase-small.webp",
+          "objectFit": "contain"
+        }
+      ],
+      "page": "products.html",
+      "width": 768,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/cloud-recharge-owner-small.webp",
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/b2-wash-action-small.webp",
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/m9-owner-showcase-small.webp",
+          "objectFit": "contain"
+        }
+      ],
+      "page": "en/products.html",
+      "width": 1440,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/cloud-recharge-owner-small.webp",
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/b2-wash-action-small.webp",
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/m9-owner-showcase-small.webp",
+          "objectFit": "contain"
+        }
+      ],
+      "page": "en/products.html",
+      "width": 768,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/cloud-recharge-owner-small.webp",
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/b2-wash-action-small.webp",
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/m9-owner-showcase-small.webp",
+          "objectFit": "contain"
+        }
+      ],
+      "page": "products.html",
+      "width": 390,
+      "errors": [],
+      "badResponses": []
+    },
+    {
+      "overflow": false,
+      "broken": [],
+      "duplicateIds": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/cloud-recharge-owner-small.webp",
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/b2-wash-action-small.webp",
+          "objectFit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:3042/lassets/products/m9-owner-showcase-small.webp",
+          "objectFit": "contain"
+        }
+      ],
+      "page": "en/products.html",
+      "width": 390,
+      "errors": [],
+      "badResponses": []
+    }
+  ],
+  "intake": {
+    "mode": "local-preview",
+    "persistence": true,
+    "emailConfigured": false,
+    "acceptingLeads": false,
+    "bookingConfirmation": false,
+    "legalReviewAccepted": false,
+    "privacyPolicyVersion": "2026-10-29.1",
+    "retentionDays": 30,
+    "retentionPurge": "on_startup"
+  }
+}

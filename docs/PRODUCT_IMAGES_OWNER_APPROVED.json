@@ -1,0 +1,35 @@
+{
+  "product": "九合一洗車控制箱",
+  "detail": "products/self-3.html",
+  "asset": "lassets/home/about/home-about-equipment.webp",
+  "source": "about-hero.webp.zip / about-equipment.webp.png",
+  "approval": "User explicitly supplied the matching image as 九合一洗車控制箱影像. Existing archive source was visually verified against the attachment; reused without regeneration.",
+  "uses": [
+    "index.html#about",
+    "products.html#category-self",
+    "products/self-3.html",
+    "English counterparts"
+  ],
+  "sha256": "ba79ceb32f4a9beae8285bc521c38dcff77c7f9c8f38d6faaea89be440db3c1f",
+  "pending": [],
+  "additionalApprovedProducts": [
+    {
+      "product": "M9 洗車機",
+      "detail": "products/wash-2.html",
+      "asset": "lassets/products/m9.webp",
+      "source": "設備整合品牌展示 英文版.zip / 未來感純水洗車隧道.png",
+      "sourceSize": [
+        1672,
+        941
+      ],
+      "sourceSha256": "94f74f79c2480a54fee583e89b689ea6dd690412a9df572c9da75db8407a37e9",
+      "sha256": "60fc861a876d3d3006d95cfa32dc19cd53a78e11aa6926d0b9d85db68822e572",
+      "uses": [
+        "products.html#product-m9",
+        "products/wash-2.html",
+        "English counterparts"
+      ],
+      "processing": "Full frame retained, contain in product card and detail; no regeneration or claimed new specification."
+    }
+  ]
+}

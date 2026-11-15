@@ -1,0 +1,5 @@
+.download-grid article.resource-card{padding:0;display:flex;flex-direction:column;min-width:0;overflow:hidden;border:1px solid #7695a34f;border-radius:12px;background:#0a1e30;box-shadow:inset 0 1px 0 #c8d7e61a}
+.resource-cover{margin:0;aspect-ratio:2528/1696;overflow:hidden;background:#061322;border-bottom:1px solid #779eb13d}
+.resource-cover img{display:block;width:100%;height:100%;object-fit:contain;max-width:none}
+.resource-copy{padding:27px 30px 30px}.resource-copy h3{color:#eff8fc;line-height:1.6}.resource-copy>p{color:#bdcfdc;line-height:1.9}.resource-copy .badge{white-space:normal;line-height:1.65}
+@media(max-width:600px){.resource-copy{padding:24px 21px}.download-grid .resource-card h3{font-size:21px}.resource-copy>p{font-size:13px}}

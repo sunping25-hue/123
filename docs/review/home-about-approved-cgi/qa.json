@@ -1,0 +1,403 @@
+[
+  {
+    "width": 1920,
+    "language": "zh",
+    "fourApprovedImages": [
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-hero.webp",
+        "width": 902,
+        "height": 503
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-equipment-small.webp",
+        "width": 537,
+        "height": 360
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-integration-small.webp",
+        "width": 537,
+        "height": 299
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-conversation-small.webp",
+        "width": 537,
+        "height": 255
+      }
+    ],
+    "responsiveOrderAndColumns": "PASS",
+    "ctaLinks": "PASS",
+    "reducedMotion": "PASS",
+    "formDisabled": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 1920,
+    "language": "en",
+    "fourApprovedImages": [
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-hero.webp",
+        "width": 902,
+        "height": 503
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-equipment-small.webp",
+        "width": 537,
+        "height": 360
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-integration-small.webp",
+        "width": 537,
+        "height": 299
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-conversation-small.webp",
+        "width": 537,
+        "height": 255
+      }
+    ],
+    "responsiveOrderAndColumns": "PASS",
+    "ctaLinks": "PASS",
+    "reducedMotion": "PASS",
+    "formDisabled": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "language": "zh",
+    "fourApprovedImages": [
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-hero-small.webp",
+        "width": 676,
+        "height": 378
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-equipment-small.webp",
+        "width": 403,
+        "height": 270
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-integration-small.webp",
+        "width": 403,
+        "height": 224
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-conversation-small.webp",
+        "width": 403,
+        "height": 191
+      }
+    ],
+    "responsiveOrderAndColumns": "PASS",
+    "ctaLinks": "PASS",
+    "reducedMotion": "PASS",
+    "formDisabled": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "language": "en",
+    "fourApprovedImages": [
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-hero-small.webp",
+        "width": 676,
+        "height": 378
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-equipment-small.webp",
+        "width": 403,
+        "height": 270
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-integration-small.webp",
+        "width": 403,
+        "height": 224
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-conversation-small.webp",
+        "width": 403,
+        "height": 191
+      }
+    ],
+    "responsiveOrderAndColumns": "PASS",
+    "ctaLinks": "PASS",
+    "reducedMotion": "PASS",
+    "formDisabled": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 1024,
+    "language": "zh",
+    "fourApprovedImages": [
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-hero-small.webp",
+        "width": 481,
+        "height": 268
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-equipment-small.webp",
+        "width": 286,
+        "height": 192
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-integration-small.webp",
+        "width": 286,
+        "height": 159
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-conversation-small.webp",
+        "width": 286,
+        "height": 136
+      }
+    ],
+    "responsiveOrderAndColumns": "PASS",
+    "ctaLinks": "PASS",
+    "reducedMotion": "PASS",
+    "formDisabled": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 1024,
+    "language": "en",
+    "fourApprovedImages": [
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-hero-small.webp",
+        "width": 481,
+        "height": 268
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-equipment-small.webp",
+        "width": 286,
+        "height": 192
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-integration-small.webp",
+        "width": 286,
+        "height": 159
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-conversation-small.webp",
+        "width": 286,
+        "height": 136
+      }
+    ],
+    "responsiveOrderAndColumns": "PASS",
+    "ctaLinks": "PASS",
+    "reducedMotion": "PASS",
+    "formDisabled": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 768,
+    "language": "zh",
+    "fourApprovedImages": [
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-hero-small.webp",
+        "width": 660,
+        "height": 368
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-equipment-small.webp",
+        "width": 215,
+        "height": 144
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-integration-small.webp",
+        "width": 215,
+        "height": 119
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-conversation-small.webp",
+        "width": 215,
+        "height": 102
+      }
+    ],
+    "responsiveOrderAndColumns": "PASS",
+    "ctaLinks": "PASS",
+    "reducedMotion": "PASS",
+    "formDisabled": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 768,
+    "language": "en",
+    "fourApprovedImages": [
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-hero-small.webp",
+        "width": 660,
+        "height": 368
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-equipment-small.webp",
+        "width": 215,
+        "height": 144
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-integration-small.webp",
+        "width": 215,
+        "height": 119
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-conversation-small.webp",
+        "width": 215,
+        "height": 102
+      }
+    ],
+    "responsiveOrderAndColumns": "PASS",
+    "ctaLinks": "PASS",
+    "reducedMotion": "PASS",
+    "formDisabled": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "language": "zh",
+    "fourApprovedImages": [
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-hero-small.webp",
+        "width": 335,
+        "height": 187
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-equipment-small.webp",
+        "width": 335,
+        "height": 224
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-integration-small.webp",
+        "width": 335,
+        "height": 187
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-conversation-small.webp",
+        "width": 335,
+        "height": 159
+      }
+    ],
+    "responsiveOrderAndColumns": "PASS",
+    "ctaLinks": "PASS",
+    "reducedMotion": "PASS",
+    "formDisabled": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "language": "en",
+    "fourApprovedImages": [
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-hero-small.webp",
+        "width": 335,
+        "height": 187
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-equipment-small.webp",
+        "width": 335,
+        "height": 224
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-integration-small.webp",
+        "width": 335,
+        "height": 187
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-conversation-small.webp",
+        "width": 335,
+        "height": 159
+      }
+    ],
+    "responsiveOrderAndColumns": "PASS",
+    "ctaLinks": "PASS",
+    "reducedMotion": "PASS",
+    "formDisabled": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 375,
+    "language": "zh",
+    "fourApprovedImages": [
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-hero-small.webp",
+        "width": 322,
+        "height": 180
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-equipment-small.webp",
+        "width": 322,
+        "height": 216
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-integration-small.webp",
+        "width": 322,
+        "height": 179
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-conversation-small.webp",
+        "width": 322,
+        "height": 153
+      }
+    ],
+    "responsiveOrderAndColumns": "PASS",
+    "ctaLinks": "PASS",
+    "reducedMotion": "PASS",
+    "formDisabled": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 375,
+    "language": "en",
+    "fourApprovedImages": [
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-hero-small.webp",
+        "width": 322,
+        "height": 180
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-equipment-small.webp",
+        "width": 322,
+        "height": 216
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-integration-small.webp",
+        "width": 322,
+        "height": 179
+      },
+      {
+        "src": "http://127.0.0.1:3032/lassets/home/about/home-about-conversation-small.webp",
+        "width": 322,
+        "height": 153
+      }
+    ],
+    "responsiveOrderAndColumns": "PASS",
+    "ctaLinks": "PASS",
+    "reducedMotion": "PASS",
+    "formDisabled": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "normalMotion": {
+      "reveal": "PASS",
+      "cardStagger": [
+        "0ms",
+        "90ms",
+        "180ms"
+      ],
+      "boundedParallax": [
+        "-2.35px",
+        "-0.75px"
+      ],
+      "hoverScale": "matrix(1.035, 0, 0, 1.035, 0, 0)",
+      "reducedMotionReset": "PASS"
+    },
+    "clicks": "Business page and official YouTube separate tab PASS"
+  }
+]
