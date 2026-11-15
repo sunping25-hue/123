@@ -44,7 +44,7 @@
   const bytes=new TextEncoder().encode(input.value);
   const d=await crypto.subtle.digest('SHA-256',bytes);
   const hash=Array.from(new Uint8Array(d),b=>b.toString(16).padStart(2,'0')).join('');
-  if(hash!=='6f47ec7e8dc1ee807d732e52523f39809208d0997eb943fa9ac733e9cfa5693b'){
+  if(hash!=='e85ac2da75d98222b155a12deb7005520c0555f0446f899184ca09a975dc9b6c'){
     error.textContent='密碼不正確，請聯絡業務';input.select();return
   }
   const url=target;close();location.assign(url);
