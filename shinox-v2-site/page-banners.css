@@ -1,0 +1,12 @@
+/* Owner-supplied banners: preserve left-hand reading space and right-hand subject. */
+.banner-about:before{background-position:65% center}
+.banner-news:before{background-position:65% center}
+.banner-products:before{background-position:70% center}
+.banner-business:before{background-position:65% center}
+@media(max-width:600px){
+ .board-banner.banner-about:before{background-position:69% center}
+ .board-banner.banner-news:before{background-position:72% center}
+ .board-banner.banner-products:before{background-position:76% center}
+ .board-banner.banner-business:before{background-position:67% center}
+ .board-banner[class*=banner-]:after{background:linear-gradient(90deg,#041220e8,#0412209c 65%,#04122040),linear-gradient(0deg,#061322,transparent 50%)}
+}

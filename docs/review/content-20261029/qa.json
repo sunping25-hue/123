@@ -1,0 +1,402 @@
+[
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "about.html",
+    "width": 768,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "about.html",
+    "width": 1440,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "en/about.html",
+    "width": 1440,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "en/about.html",
+    "width": 768,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "about.html",
+    "width": 390,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "en/about.html",
+    "width": 390,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "about.html",
+    "width": 375,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "en/about.html",
+    "width": 375,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 1,
+    "route": "business.html",
+    "width": 768,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 1,
+    "route": "business.html",
+    "width": 1440,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 1,
+    "route": "en/business.html",
+    "width": 1440,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 1,
+    "route": "en/business.html",
+    "width": 768,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 1,
+    "route": "en/business.html",
+    "width": 390,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 1,
+    "route": "business.html",
+    "width": 390,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 1,
+    "route": "business.html",
+    "width": 375,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 1,
+    "route": "en/business.html",
+    "width": 375,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "products.html",
+    "width": 1440,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "products.html",
+    "width": 768,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "en/products.html",
+    "width": 1440,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "en/products.html",
+    "width": 768,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "products.html",
+    "width": 390,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "en/products.html",
+    "width": 390,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "products.html",
+    "width": 375,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "en/products.html",
+    "width": 375,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "en/projects.html",
+    "width": 1440,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "projects.html",
+    "width": 768,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "projects.html",
+    "width": 1440,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "en/projects.html",
+    "width": 768,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "projects.html",
+    "width": 390,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "en/projects.html",
+    "width": 390,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "projects.html",
+    "width": 375,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "en/projects.html",
+    "width": 375,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "index.html",
+    "width": 768,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "en/index.html",
+    "width": 768,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "index.html",
+    "width": 1440,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "en/index.html",
+    "width": 1440,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "index.html",
+    "width": 375,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "index.html",
+    "width": 390,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "en/index.html",
+    "width": 390,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clippedText": [],
+    "brokenImages": [],
+    "processCount": 0,
+    "route": "en/index.html",
+    "width": 375,
+    "errors": [],
+    "badResponses": []
+  }
+]

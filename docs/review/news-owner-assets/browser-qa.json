@@ -1,0 +1,238 @@
+[
+  {
+    "lang": "zh",
+    "width": 1440,
+    "cards": [
+      {
+        "category": "brand",
+        "width": 399.46875,
+        "height": 433.25,
+        "imageRatio": 1.7778864970645794,
+        "padding": "22px",
+        "source": null,
+        "naturalWidth": null
+      },
+      {
+        "category": "equipment",
+        "width": 399.46875,
+        "height": 433.25,
+        "imageRatio": 1.7778864970645794,
+        "padding": "22px",
+        "source": null,
+        "naturalWidth": null
+      },
+      {
+        "category": "tech",
+        "width": 399.46875,
+        "height": 433.25,
+        "imageRatio": 1.7778864970645794,
+        "padding": "22px",
+        "source": "http://127.0.0.1:3056/lassets/news/shinox-anpr-entrance.webp",
+        "naturalWidth": 1376
+      }
+    ],
+    "articleImages": [
+      {
+        "source": "http://127.0.0.1:3056/lassets/news/shinox-anpr-entrance.webp",
+        "width": 1016,
+        "height": 571.5,
+        "naturalWidth": 1376,
+        "naturalHeight": 768,
+        "display": "block",
+        "objectFit": "cover"
+      },
+      {
+        "source": "http://127.0.0.1:3056/lassets/news/shinox-cloud-payment-kiosk.webp",
+        "width": 1016,
+        "height": 682.265625,
+        "naturalWidth": 1264,
+        "naturalHeight": 848,
+        "display": "block",
+        "objectFit": "contain"
+      }
+    ],
+    "filters": "PASS",
+    "keyboardCardLink": "PASS",
+    "languageSwitchSameArticle": "PASS",
+    "overflow": "NONE",
+    "httpFailures": [],
+    "pageErrors": []
+  },
+  {
+    "lang": "zh",
+    "width": 390,
+    "cards": [
+      {
+        "category": "brand",
+        "width": 343.21875,
+        "height": 349.96875,
+        "imageRatio": 1.777904420744118,
+        "padding": "22px",
+        "source": null,
+        "naturalWidth": null
+      },
+      {
+        "category": "equipment",
+        "width": 343.21875,
+        "height": 349.96875,
+        "imageRatio": 1.777904420744118,
+        "padding": "22px",
+        "source": null,
+        "naturalWidth": null
+      },
+      {
+        "category": "tech",
+        "width": 343.21875,
+        "height": 397.609375,
+        "imageRatio": 1.777904420744118,
+        "padding": "20px",
+        "source": "http://127.0.0.1:3056/lassets/news/shinox-anpr-entrance.webp",
+        "naturalWidth": 1376
+      }
+    ],
+    "articleImages": [
+      {
+        "source": "http://127.0.0.1:3056/lassets/news/shinox-anpr-entrance.webp",
+        "width": 351,
+        "height": 197.4375,
+        "naturalWidth": 1376,
+        "naturalHeight": 768,
+        "display": "block",
+        "objectFit": "cover"
+      },
+      {
+        "source": "http://127.0.0.1:3056/lassets/news/shinox-cloud-payment-kiosk.webp",
+        "width": 351,
+        "height": 236.125,
+        "naturalWidth": 1264,
+        "naturalHeight": 848,
+        "display": "block",
+        "objectFit": "contain"
+      }
+    ],
+    "filters": "PASS",
+    "keyboardCardLink": "PASS",
+    "languageSwitchSameArticle": "PASS",
+    "overflow": "NONE",
+    "httpFailures": [],
+    "pageErrors": []
+  },
+  {
+    "lang": "en",
+    "width": 1440,
+    "cards": [
+      {
+        "category": "brand",
+        "width": 399.46875,
+        "height": 453.296875,
+        "imageRatio": 1.7778864970645794,
+        "padding": "22px",
+        "source": null,
+        "naturalWidth": null
+      },
+      {
+        "category": "equipment",
+        "width": 399.46875,
+        "height": 453.296875,
+        "imageRatio": 1.7778864970645794,
+        "padding": "22px",
+        "source": null,
+        "naturalWidth": null
+      },
+      {
+        "category": "tech",
+        "width": 399.46875,
+        "height": 453.296875,
+        "imageRatio": 1.7778864970645794,
+        "padding": "22px",
+        "source": "http://127.0.0.1:3056/lassets/news/shinox-anpr-entrance.webp",
+        "naturalWidth": 1376
+      }
+    ],
+    "articleImages": [
+      {
+        "source": "http://127.0.0.1:3056/lassets/news/shinox-anpr-entrance.webp",
+        "width": 1016,
+        "height": 571.5,
+        "naturalWidth": 1376,
+        "naturalHeight": 768,
+        "display": "block",
+        "objectFit": "cover"
+      },
+      {
+        "source": "http://127.0.0.1:3056/lassets/news/shinox-cloud-payment-kiosk.webp",
+        "width": 1016,
+        "height": 682.265625,
+        "naturalWidth": 1264,
+        "naturalHeight": 848,
+        "display": "block",
+        "objectFit": "contain"
+      }
+    ],
+    "filters": "PASS",
+    "keyboardCardLink": "PASS",
+    "languageSwitchSameArticle": "PASS",
+    "overflow": "NONE",
+    "httpFailures": [],
+    "pageErrors": []
+  },
+  {
+    "lang": "en",
+    "width": 390,
+    "cards": [
+      {
+        "category": "brand",
+        "width": 343.21875,
+        "height": 339.96875,
+        "imageRatio": 1.777904420744118,
+        "padding": "22px",
+        "source": null,
+        "naturalWidth": null
+      },
+      {
+        "category": "equipment",
+        "width": 343.21875,
+        "height": 364.015625,
+        "imageRatio": 1.777904420744118,
+        "padding": "22px",
+        "source": null,
+        "naturalWidth": null
+      },
+      {
+        "category": "tech",
+        "width": 343.21875,
+        "height": 447.65625,
+        "imageRatio": 1.777904420744118,
+        "padding": "20px",
+        "source": "http://127.0.0.1:3056/lassets/news/shinox-anpr-entrance.webp",
+        "naturalWidth": 1376
+      }
+    ],
+    "articleImages": [
+      {
+        "source": "http://127.0.0.1:3056/lassets/news/shinox-anpr-entrance.webp",
+        "width": 351,
+        "height": 197.4375,
+        "naturalWidth": 1376,
+        "naturalHeight": 768,
+        "display": "block",
+        "objectFit": "cover"
+      },
+      {
+        "source": "http://127.0.0.1:3056/lassets/news/shinox-cloud-payment-kiosk.webp",
+        "width": 351,
+        "height": 236.125,
+        "naturalWidth": 1264,
+        "naturalHeight": 848,
+        "display": "block",
+        "objectFit": "contain"
+      }
+    ],
+    "filters": "PASS",
+    "keyboardCardLink": "PASS",
+    "languageSwitchSameArticle": "PASS",
+    "overflow": "NONE",
+    "httpFailures": [],
+    "pageErrors": []
+  }
+]

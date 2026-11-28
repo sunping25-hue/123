@@ -1,0 +1,150 @@
+[
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy",
+      "http://127.0.0.1:3031/terms"
+    ],
+    "sharedContentAndIndependentInteractions": "PASS",
+    "route": "business.html",
+    "width": 768,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy",
+      "http://127.0.0.1:3031/terms"
+    ],
+    "sharedContentAndIndependentInteractions": "PASS",
+    "route": "business.html",
+    "width": 1440,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy",
+      "http://127.0.0.1:3031/terms"
+    ],
+    "sharedContentAndIndependentInteractions": "PASS",
+    "route": "business.html",
+    "width": 390,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/privacy",
+      "http://127.0.0.1:3031/terms"
+    ],
+    "sharedContentAndIndependentInteractions": "PASS",
+    "route": "business.html",
+    "width": 375,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy",
+      "http://127.0.0.1:3031/en/terms"
+    ],
+    "sharedContentAndIndependentInteractions": "PASS",
+    "route": "en/business.html",
+    "width": 768,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy",
+      "http://127.0.0.1:3031/en/terms"
+    ],
+    "sharedContentAndIndependentInteractions": "PASS",
+    "route": "en/business.html",
+    "width": 1440,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy",
+      "http://127.0.0.1:3031/en/terms"
+    ],
+    "sharedContentAndIndependentInteractions": "PASS",
+    "route": "en/business.html",
+    "width": 390,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "overflow": false,
+    "clipped": [],
+    "badImages": [],
+    "duplicateIds": [],
+    "footerLegal": [
+      "http://127.0.0.1:3031/en/privacy",
+      "http://127.0.0.1:3031/en/terms"
+    ],
+    "sharedContentAndIndependentInteractions": "PASS",
+    "route": "en/business.html",
+    "width": 375,
+    "errors": [],
+    "badResponses": []
+  },
+  {
+    "policyGateMock": {
+      "accepted": false,
+      "version": "2026-10-29.1",
+      "formEnabled": false
+    },
+    "syntheticInterceptOnly": true
+  },
+  {
+    "policyGateMock": {
+      "accepted": true,
+      "version": "old",
+      "formEnabled": false
+    },
+    "syntheticInterceptOnly": true
+  },
+  {
+    "policyGateMock": {
+      "accepted": true,
+      "version": "2026-10-29.1",
+      "formEnabled": true
+    },
+    "syntheticInterceptOnly": true
+  },
+  {
+    "compactSixSecondAuto": "PASS",
+    "reducedMotionStopsAuto": "PASS"
+  }
+]

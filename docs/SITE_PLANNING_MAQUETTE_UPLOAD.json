@@ -1,0 +1,12 @@
+{
+  "source": "夜間工作室的洗車場模型 maquette.zip",
+  "image": "夜間工作室的洗車場模型 maquette.png",
+  "sourceSha256": "97490eec16a7bb6670899373485e40a9bfe337e901e721c89f63adb95fa195b4",
+  "path": "lassets/business/site-planning-maquette.webp",
+  "width": 1536,
+  "height": 1024,
+  "bytes": 355368,
+  "sha256": "f97492cb42a8d2f5f5f2b3c0ed820f409efd297eba8ad50d2175b444101302c4",
+  "placement": "business.html .bay-planning; English shares the same asset",
+  "caption": "規劃概念示意"
+}

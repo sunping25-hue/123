@@ -1,0 +1,56 @@
+[
+  {
+    "muted": true,
+    "loop": true,
+    "inline": true,
+    "size": [
+      992,
+      912
+    ],
+    "duration": 10.041667,
+    "src": "lassets/home/contact-animation.mp4",
+    "paused": false,
+    "width": 1440,
+    "playbackAdvances": true,
+    "loopWraps": true,
+    "offscreenPaused": true,
+    "reducedMotionPaused": true,
+    "errors": []
+  },
+  {
+    "muted": true,
+    "loop": true,
+    "inline": true,
+    "size": [
+      992,
+      912
+    ],
+    "duration": 10.041667,
+    "src": "lassets/home/contact-animation.mp4",
+    "paused": false,
+    "width": 390,
+    "playbackAdvances": true,
+    "loopWraps": true,
+    "offscreenPaused": true,
+    "reducedMotionPaused": true,
+    "errors": []
+  },
+  {
+    "muted": true,
+    "loop": true,
+    "inline": true,
+    "size": [
+      992,
+      912
+    ],
+    "duration": 10.041667,
+    "src": "lassets/home/contact-animation.mp4",
+    "paused": false,
+    "width": 375,
+    "playbackAdvances": true,
+    "loopWraps": true,
+    "offscreenPaused": true,
+    "reducedMotionPaused": true,
+    "errors": []
+  }
+]

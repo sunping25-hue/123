@@ -1,0 +1,178 @@
+[
+  {
+    "width": 1440,
+    "lang": "zh",
+    "route": "products.html",
+    "src": "http://127.0.0.1:3033/lassets/home/about/home-about-equipment-small.webp",
+    "loaded": true,
+    "overflow": false,
+    "fit": "cover",
+    "position": "100% 50%",
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "lang": "zh",
+    "route": "products/self-3.html",
+    "src": "http://127.0.0.1:3033/lassets/home/about/home-about-equipment-small.webp",
+    "loaded": true,
+    "overflow": false,
+    "fit": "cover",
+    "position": "100% 50%",
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "lang": "en",
+    "route": "products.html",
+    "src": "http://127.0.0.1:3033/lassets/home/about/home-about-equipment-small.webp",
+    "loaded": true,
+    "overflow": false,
+    "fit": "cover",
+    "position": "100% 50%",
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "lang": "en",
+    "route": "products/self-3.html",
+    "src": "http://127.0.0.1:3033/lassets/home/about/home-about-equipment-small.webp",
+    "loaded": true,
+    "overflow": false,
+    "fit": "cover",
+    "position": "100% 50%",
+    "errors": []
+  },
+  {
+    "width": 768,
+    "lang": "zh",
+    "route": "products.html",
+    "src": "http://127.0.0.1:3033/lassets/home/about/home-about-equipment-small.webp",
+    "loaded": true,
+    "overflow": false,
+    "fit": "cover",
+    "position": "100% 50%",
+    "errors": []
+  },
+  {
+    "width": 768,
+    "lang": "zh",
+    "route": "products/self-3.html",
+    "src": "http://127.0.0.1:3033/lassets/home/about/home-about-equipment-small.webp",
+    "loaded": true,
+    "overflow": false,
+    "fit": "cover",
+    "position": "100% 50%",
+    "errors": []
+  },
+  {
+    "width": 768,
+    "lang": "en",
+    "route": "products.html",
+    "src": "http://127.0.0.1:3033/lassets/home/about/home-about-equipment-small.webp",
+    "loaded": true,
+    "overflow": false,
+    "fit": "cover",
+    "position": "100% 50%",
+    "errors": []
+  },
+  {
+    "width": 768,
+    "lang": "en",
+    "route": "products/self-3.html",
+    "src": "http://127.0.0.1:3033/lassets/home/about/home-about-equipment-small.webp",
+    "loaded": true,
+    "overflow": false,
+    "fit": "cover",
+    "position": "100% 50%",
+    "errors": []
+  },
+  {
+    "width": 390,
+    "lang": "zh",
+    "route": "products.html",
+    "src": "http://127.0.0.1:3033/lassets/home/about/home-about-equipment-small.webp",
+    "loaded": true,
+    "overflow": false,
+    "fit": "cover",
+    "position": "100% 50%",
+    "errors": []
+  },
+  {
+    "width": 390,
+    "lang": "zh",
+    "route": "products/self-3.html",
+    "src": "http://127.0.0.1:3033/lassets/home/about/home-about-equipment-small.webp",
+    "loaded": true,
+    "overflow": false,
+    "fit": "cover",
+    "position": "100% 50%",
+    "errors": []
+  },
+  {
+    "width": 390,
+    "lang": "en",
+    "route": "products.html",
+    "src": "http://127.0.0.1:3033/lassets/home/about/home-about-equipment-small.webp",
+    "loaded": true,
+    "overflow": false,
+    "fit": "cover",
+    "position": "100% 50%",
+    "errors": []
+  },
+  {
+    "width": 390,
+    "lang": "en",
+    "route": "products/self-3.html",
+    "src": "http://127.0.0.1:3033/lassets/home/about/home-about-equipment-small.webp",
+    "loaded": true,
+    "overflow": false,
+    "fit": "cover",
+    "position": "100% 50%",
+    "errors": []
+  },
+  {
+    "width": 375,
+    "lang": "zh",
+    "route": "products.html",
+    "src": "http://127.0.0.1:3033/lassets/home/about/home-about-equipment-small.webp",
+    "loaded": true,
+    "overflow": false,
+    "fit": "cover",
+    "position": "100% 50%",
+    "errors": []
+  },
+  {
+    "width": 375,
+    "lang": "zh",
+    "route": "products/self-3.html",
+    "src": "http://127.0.0.1:3033/lassets/home/about/home-about-equipment-small.webp",
+    "loaded": true,
+    "overflow": false,
+    "fit": "cover",
+    "position": "100% 50%",
+    "errors": []
+  },
+  {
+    "width": 375,
+    "lang": "en",
+    "route": "products.html",
+    "src": "http://127.0.0.1:3033/lassets/home/about/home-about-equipment-small.webp",
+    "loaded": true,
+    "overflow": false,
+    "fit": "cover",
+    "position": "100% 50%",
+    "errors": []
+  },
+  {
+    "width": 375,
+    "lang": "en",
+    "route": "products/self-3.html",
+    "src": "http://127.0.0.1:3033/lassets/home/about/home-about-equipment-small.webp",
+    "loaded": true,
+    "overflow": false,
+    "fit": "cover",
+    "position": "100% 50%",
+    "errors": []
+  }
+]

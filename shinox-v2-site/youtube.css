@@ -1,0 +1,13 @@
+/* Official YouTube red within the shared ShinoX titanium / dark-glass controls. */
+.ui-youtube.ui-control{display:inline-flex;align-items:center;justify-content:center;gap:12px;max-width:100%;min-height:46px;padding:12px 20px;border-radius:28px;text-align:center;white-space:normal}
+.ui-youtube .youtube-icon{display:block;flex:0 0 25px;width:25px;height:19px;filter:drop-shadow(0 1px 3px #0005)}
+.ui-youtube .youtube-label{min-width:0;line-height:1.55}
+.ui-youtube .ui-arrow{flex:0 0 auto;color:#a0f0e5}
+.shinox-youtube-footer{flex:0 0 100%;display:flex;align-items:center;flex-wrap:wrap;gap:12px;padding:15px 0 0;min-width:0}
+.brand-video-action{margin-top:16px}.brand-video-action .ui-youtube{margin:0}
+.biz-process-videos{display:flex;justify-content:center;margin-top:24px}
+.product-video-action{margin-top:18px}
+@media(hover:hover) and (pointer:fine){.ui-youtube.ui-control:hover{border-color:#a2ddd4;box-shadow:inset 0 1px 0 #e6faff55,0 7px 20px #0005,0 0 17px #17ddc725}.ui-youtube:hover .ui-arrow{transform:translate(3px,-3px)}}
+.ui-youtube:focus-visible .ui-arrow{transform:translate(3px,-3px)}
+@media(max-width:600px){.ui-youtube.ui-control{min-height:48px;gap:10px;padding:12px 16px;font-size:12px}.shinox-youtube-footer{padding-top:12px}.shinox-youtube-footer .ui-youtube{width:100%}.biz-process-videos .ui-youtube{width:100%}}
+@media(prefers-reduced-motion:reduce){.ui-youtube .ui-arrow{transform:none!important}.ui-youtube.ui-control{transition:none!important}}

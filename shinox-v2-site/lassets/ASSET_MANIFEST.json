@@ -1,0 +1,89 @@
+{
+  "purpose": "User-uploaded five-element animations and their matching poster frames. Conceptual visuals, not actual equipment.",
+  "updated_at": "2026-10-29",
+  "source": "User-provided MP4 files, mapped by visual review. Source filenames and hashes recorded in elements/USER_VIDEO_MANIFEST.json.",
+  "hero_modified": false,
+  "assets": [
+    {
+      "path": "elements/metal.mp4",
+      "type": "video",
+      "element": "metal",
+      "width": 720,
+      "height": 720,
+      "bytes": 1326389
+    },
+    {
+      "path": "elements/metal.webp",
+      "type": "poster",
+      "element": "metal",
+      "width": 720,
+      "height": 720,
+      "bytes": 61294
+    },
+    {
+      "path": "elements/water.mp4",
+      "type": "video",
+      "element": "water",
+      "width": 720,
+      "height": 720,
+      "bytes": 3878283
+    },
+    {
+      "path": "elements/water.webp",
+      "type": "poster",
+      "element": "water",
+      "width": 720,
+      "height": 720,
+      "bytes": 94542
+    },
+    {
+      "path": "elements/fluid.mp4",
+      "type": "video",
+      "element": "fluid",
+      "width": 720,
+      "height": 720,
+      "bytes": 1326170
+    },
+    {
+      "path": "elements/fluid.webp",
+      "type": "poster",
+      "element": "fluid",
+      "width": 720,
+      "height": 720,
+      "bytes": 69866
+    },
+    {
+      "path": "elements/air.mp4",
+      "type": "video",
+      "element": "air",
+      "width": 720,
+      "height": 720,
+      "bytes": 990848
+    },
+    {
+      "path": "elements/air.webp",
+      "type": "poster",
+      "element": "air",
+      "width": 720,
+      "height": 720,
+      "bytes": 50638
+    },
+    {
+      "path": "elements/energy.mp4",
+      "type": "video",
+      "element": "energy",
+      "width": 720,
+      "height": 720,
+      "bytes": 1579580
+    },
+    {
+      "path": "elements/energy.webp",
+      "type": "poster",
+      "element": "energy",
+      "width": 720,
+      "height": 720,
+      "bytes": 81834
+    }
+  ],
+  "display_guidance": "Square 720px clips. Load only selected visible clip; mute, loop and playsinline. Reduced-motion/data-saving use matching poster with manual play control."
+}

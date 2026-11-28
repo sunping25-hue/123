@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="自動水刀洗車機環形鋼構 CGI 概念示意">
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#071B2A"/><stop offset=".52" stop-color="#11384B"/><stop offset="1" stop-color="#030B15"/></linearGradient>
+<linearGradient id="metal" x1="0" x2="1"><stop stop-color="#3E5D70"/><stop offset=".2" stop-color="#E7F5FC"/><stop offset=".39" stop-color="#8EA8BA"/><stop offset=".65" stop-color="#F9FFFF"/><stop offset="1" stop-color="#35546B"/></linearGradient>
+<linearGradient id="screen" x1="0" x2="1" y1="1" y2="0"><stop stop-color="#041321"/><stop offset=".56" stop-color="#064C71"/><stop offset="1" stop-color="#1BE7DA"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#19EFDD" stop-opacity=".48"/><stop offset="1" stop-color="#087CFF" stop-opacity="0"/></radialGradient>
+<filter id="blur"><feGaussianBlur stdDeviation="15"/></filter>
+<filter id="shadow"><feDropShadow dx="0" dy="17" stdDeviation="22" flood-color="#00050D" flood-opacity=".78"/></filter>
+<pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse"><path d="M54 0H0V54" fill="none" stroke="#7FD8E8" stroke-opacity=".07"/></pattern>
+</defs><rect width="1200" height="760" fill="url(#bg)"/><rect width="1200" height="760" fill="url(#grid)"/><ellipse cx="675" cy="530" rx="520" ry="290" fill="url(#glow)"/>
+<path d="M0 655L1200 560V760H0Z" fill="#051420"/><g opacity=".2" stroke="#57BAED" fill="none"><path d="M0 655L1200 560M100 760L500 595M400 760L670 585M720 760L820 580M1100 760L1000 575"/></g>
+<g filter="url(#shadow)" transform="translate(115 20)">
+<path d="M210 570V170Q210 74 317 74H728Q840 74 840 180V570" fill="none" stroke="#2C475B" stroke-width="122" stroke-linejoin="round"/>
+<path d="M210 570V170Q210 74 317 74H728Q840 74 840 180V570" fill="none" stroke="url(#metal)" stroke-width="100" stroke-linejoin="round"/>
+<path d="M210 530V170Q210 74 317 74H728Q840 74 840 180V530" fill="none" stroke="#D7F6FC" stroke-opacity=".75" stroke-width="8"/>
+<path d="M283 540V180Q283 145 320 145H730Q770 145 770 187V540" fill="none" stroke="#22BDE5" stroke-width="12" opacity=".9"/>
+<g stroke="#52E8FC" stroke-width="5" opacity=".72"><path d="M302 208H732M302 235H732M302 260H732"/></g>
+<path d="M330 516L420 398H627L723 516Z" fill="#061624" stroke="#8EBBCB" stroke-width="5"/>
+<path d="M432 392L475 335H568L619 392Z" fill="#81D4E9" opacity=".38"/><path d="M333 516H723" stroke="#D5F9FF" stroke-width="6"/>
+<path d="M312 510H430M621 510H742" stroke="#00E0D9" stroke-width="16" stroke-linecap="round"/>
+<circle cx="412" cy="523" r="36" fill="#010B13" stroke="#8097A7" stroke-width="8"/><circle cx="646" cy="523" r="36" fill="#010B13" stroke="#8097A7" stroke-width="8"/>
+</g><g fill="none" stroke="#47DDF2" opacity=".35" stroke-width="3"><path d="M435 160C450 270 510 300 560 370"/><path d="M545 155C568 262 650 315 723 370"/><path d="M680 160C650 276 590 306 520 360"/></g><path d="M0 758H1200" stroke="#20DCCB" stroke-opacity=".44" stroke-width="3"/></svg>

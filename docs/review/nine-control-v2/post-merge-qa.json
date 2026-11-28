@@ -1,0 +1,290 @@
+{
+  "base": "05e17d865e3dcb04697bc385cbd786a26247afd0",
+  "static": [
+    {
+      "route": "products/self-3.html",
+      "newMainExact": true,
+      "headerFooterLatestExact": true,
+      "sections": 14,
+      "jsonLdParsed": 4,
+      "productBreadcrumbH1Match": true,
+      "ogImageLatestExact": true,
+      "headerFooterSourceByteExact": true
+    },
+    {
+      "route": "en/products/self-3.html",
+      "newMainExact": true,
+      "headerFooterLatestExact": true,
+      "sections": 14,
+      "jsonLdParsed": 4,
+      "productBreadcrumbH1Match": true,
+      "ogImageLatestExact": true,
+      "headerFooterSourceByteExact": true
+    }
+  ],
+  "browser": [
+    {
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "overflow": false,
+      "images": [
+        {
+          "src": "../media/LOGO-01.png",
+          "loaded": true
+        },
+        {
+          "src": "../lassets/campaign/9-in-1-new-product-launch.jpg",
+          "loaded": true
+        },
+        {
+          "src": "../lassets/campaign/9-in-1-new-product-launch.jpg",
+          "loaded": true
+        },
+        {
+          "src": "../lassets/home/about/home-about-equipment.webp",
+          "loaded": true
+        },
+        {
+          "src": "../lassets/home/category-self-service.webp",
+          "loaded": true
+        },
+        {
+          "src": "../lassets/business/hero-carwash.webp",
+          "loaded": true
+        },
+        {
+          "src": "../lassets/business/five-tools-owner.webp",
+          "loaded": true
+        },
+        {
+          "src": "../lassets/campaign/9-in-1-new-product-launch.jpg",
+          "loaded": true
+        },
+        {
+          "src": "../lassets/campaign/9-in-1-new-product-launch.jpg",
+          "loaded": true
+        },
+        {
+          "src": "../lassets/campaign/9-in-1-new-product-launch.jpg",
+          "loaded": true
+        },
+        {
+          "src": "../lassets/campaign/9-in-1-new-product-launch.jpg",
+          "loaded": true
+        },
+        {
+          "src": "../lassets/campaign/9-in-1-new-product-launch.jpg",
+          "loaded": true
+        },
+        {
+          "src": "../lassets/brand/line.svg",
+          "loaded": true
+        }
+      ],
+      "styles": [
+        {
+          "href": "products.css",
+          "loaded": true
+        },
+        {
+          "href": "../whatsapp.css?v=line-side-glass",
+          "loaded": true
+        },
+        {
+          "href": "../calculator-gate.css",
+          "loaded": true
+        },
+        {
+          "href": "../ui-controls.css?v=1",
+          "loaded": true
+        },
+        {
+          "href": "../youtube.css?v=1",
+          "loaded": true
+        },
+        {
+          "href": "../product-imagery.css?v=owner-approved-1",
+          "loaded": true
+        },
+        {
+          "href": "nine-control.css?v=14-sections-202610304-sections-202610304-sections-202610304-sections-20261030",
+          "loaded": true
+        }
+      ],
+      "contact": [
+        {
+          "text": "官方 LINE @shinox ↗",
+          "href": "https://line.me/R/ti/p/%40shinox"
+        },
+        {
+          "text": "電話 0979-666-302",
+          "href": "tel:+886979666302"
+        },
+        {
+          "text": "聯絡我們 ↗",
+          "href": "../contact.html"
+        }
+      ],
+      "route": "products/self-3.html",
+      "width": 1440,
+      "jsErrors": [],
+      "httpErrors": [],
+      "status": "pass"
+    },
+    {
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "overflow": false,
+      "images": [
+        {
+          "src": "../../media/LOGO-01.png",
+          "loaded": true
+        },
+        {
+          "src": "../../lassets/campaign/9-in-1-new-product-launch.jpg",
+          "loaded": true
+        },
+        {
+          "src": "../../lassets/campaign/9-in-1-new-product-launch.jpg",
+          "loaded": true
+        },
+        {
+          "src": "../../lassets/home/about/home-about-equipment.webp",
+          "loaded": true
+        },
+        {
+          "src": "../../lassets/home/category-self-service.webp",
+          "loaded": true
+        },
+        {
+          "src": "../../lassets/business/hero-carwash.webp",
+          "loaded": true
+        },
+        {
+          "src": "../../lassets/business/five-tools-owner.webp",
+          "loaded": true
+        },
+        {
+          "src": "../../lassets/campaign/9-in-1-new-product-launch.jpg",
+          "loaded": true
+        },
+        {
+          "src": "../../lassets/campaign/9-in-1-new-product-launch.jpg",
+          "loaded": true
+        },
+        {
+          "src": "../../lassets/campaign/9-in-1-new-product-launch.jpg",
+          "loaded": true
+        },
+        {
+          "src": "../../lassets/campaign/9-in-1-new-product-launch.jpg",
+          "loaded": true
+        },
+        {
+          "src": "../../lassets/campaign/9-in-1-new-product-launch.jpg",
+          "loaded": true
+        },
+        {
+          "src": "../../lassets/brand/line.svg",
+          "loaded": true
+        }
+      ],
+      "styles": [
+        {
+          "href": "../../products/products.css",
+          "loaded": true
+        },
+        {
+          "href": "../../whatsapp.css?v=line-side-glass",
+          "loaded": true
+        },
+        {
+          "href": "../../calculator-gate.css",
+          "loaded": true
+        },
+        {
+          "href": "../../ui-controls.css?v=1",
+          "loaded": true
+        },
+        {
+          "href": "../../youtube.css?v=1",
+          "loaded": true
+        },
+        {
+          "href": "../../product-imagery.css?v=owner-approved-1",
+          "loaded": true
+        },
+        {
+          "href": "../../products/nine-control.css?v=14-sections-202610304-sections-202610304-sections-202610304-sections-20261030",
+          "loaded": true
+        }
+      ],
+      "contact": [
+        {
+          "text": "Official LINE @shinox ↗",
+          "href": "https://line.me/R/ti/p/%40shinox"
+        },
+        {
+          "text": "Call +886 979-666-302",
+          "href": "tel:+886979666302"
+        },
+        {
+          "text": "Contact us ↗",
+          "href": "../contact.html"
+        }
+      ],
+      "route": "en/products/self-3.html",
+      "width": 390,
+      "jsErrors": [],
+      "httpErrors": [],
+      "status": "pass"
+    }
+  ],
+  "changedFiles": [
+    "shinox-v2-site/en/products/self-3.html",
+    "shinox-v2-site/products/nine-control.css",
+    "shinox-v2-site/products/nine-control.js",
+    "shinox-v2-site/products/self-3.html"
+  ],
+  "agentFinalHashes": {
+    "products/nine-control.js": "e7d3c349360dddd849867c08ecbcb54f389266c06dd4990c2b08d2d30d4e76b1",
+    "products/nine-control.css": "fe160709a182c9866f262c4df1c9cd5cf1e92958ad835f525a7183b614652f00"
+  },
+  "cssJsAgentFinalExact": {
+    "shinox-v2-site/products/nine-control.css": "fe160709a182c9866f262c4df1c9cd5cf1e92958ad835f525a7183b614652f00",
+    "shinox-v2-site/products/nine-control.js": "e7d3c349360dddd849867c08ecbcb54f389266c06dd4990c2b08d2d30d4e76b1"
+  },
+  "status": "pass",
+  "screenshots": [
+    "post-merge-zh-1440-hero.jpg",
+    "post-merge-en-390-hero.jpg"
+  ]
+}

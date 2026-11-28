@@ -1,0 +1,114 @@
+[
+  {
+    "width": 1440,
+    "language": "zh",
+    "imageLoads": true,
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "duplicatePlanningProcessAbsent": true,
+    "originalProcessRetained": true,
+    "planningButtonsRetained": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "language": "en",
+    "imageLoads": true,
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "duplicatePlanningProcessAbsent": true,
+    "originalProcessRetained": true,
+    "planningButtonsRetained": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 768,
+    "language": "zh",
+    "imageLoads": true,
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "duplicatePlanningProcessAbsent": true,
+    "originalProcessRetained": true,
+    "planningButtonsRetained": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 768,
+    "language": "en",
+    "imageLoads": true,
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "duplicatePlanningProcessAbsent": true,
+    "originalProcessRetained": true,
+    "planningButtonsRetained": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "language": "zh",
+    "imageLoads": true,
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "duplicatePlanningProcessAbsent": true,
+    "originalProcessRetained": true,
+    "planningButtonsRetained": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "language": "en",
+    "imageLoads": true,
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "duplicatePlanningProcessAbsent": true,
+    "originalProcessRetained": true,
+    "planningButtonsRetained": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 375,
+    "language": "zh",
+    "imageLoads": true,
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "duplicatePlanningProcessAbsent": true,
+    "originalProcessRetained": true,
+    "planningButtonsRetained": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 375,
+    "language": "en",
+    "imageLoads": true,
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "duplicatePlanningProcessAbsent": true,
+    "originalProcessRetained": true,
+    "planningButtonsRetained": true,
+    "overflow": false,
+    "errors": []
+  }
+]

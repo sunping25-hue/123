@@ -1,0 +1,62 @@
+[
+  {
+    "element": "metal",
+    "sourceFilename": "grok-video-263cc4cd-6ab0-4044-a8f0-8552547c6528.mp4",
+    "sourceSha256": "ec42aba429fdc18fb4fec96b6db49af09e22d389a9eaaef68b2525a038bec9a0",
+    "video": "metal.mp4",
+    "poster": "metal.webp",
+    "videoBytes": 1326389,
+    "width": 720,
+    "height": 720,
+    "audio": false,
+    "derivedFromUserUpload": true
+  },
+  {
+    "element": "water",
+    "sourceFilename": "grok-video-f013e283-55c0-4f5f-945c-a4e6613ab929.mp4",
+    "sourceSha256": "bb6bdb1d0de409d2a3490919c83caae61590bd1dcabe607f78951225ebd6dd61",
+    "video": "water.mp4",
+    "poster": "water.webp",
+    "videoBytes": 3878283,
+    "width": 720,
+    "height": 720,
+    "audio": false,
+    "derivedFromUserUpload": true
+  },
+  {
+    "element": "fluid",
+    "sourceFilename": "grok-video-1779e118-42ac-44ef-a6e1-c53a6d28b60d.mp4",
+    "sourceSha256": "ded9f39515f2516155696b407d875d15e68d1c6e46206e4c4014b47ccdb42ec4",
+    "video": "fluid.mp4",
+    "poster": "fluid.webp",
+    "videoBytes": 1326170,
+    "width": 720,
+    "height": 720,
+    "audio": false,
+    "derivedFromUserUpload": true
+  },
+  {
+    "element": "air",
+    "sourceFilename": "grok-video-b8565e1a-411f-4700-b8d7-5ffc8bef1ae8.mp4",
+    "sourceSha256": "374d4f172dab911e211f8b1d2f643f4117629deba91390fff05b31e9e44bb293",
+    "video": "air.mp4",
+    "poster": "air.webp",
+    "videoBytes": 990848,
+    "width": 720,
+    "height": 720,
+    "audio": false,
+    "derivedFromUserUpload": true
+  },
+  {
+    "element": "energy",
+    "sourceFilename": "grok-video-48fb8664-f2ee-4680-98da-fd9d7aa7eb28.mp4",
+    "sourceSha256": "f4bfbcd7422318eb294e65e44824b75510eb537002701301b9c46758c39f0743",
+    "video": "energy.mp4",
+    "poster": "energy.webp",
+    "videoBytes": 1579580,
+    "width": 720,
+    "height": 720,
+    "audio": false,
+    "derivedFromUserUpload": true
+  }
+]
